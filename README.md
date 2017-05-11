@@ -47,12 +47,12 @@ A phylogenetic tree was generated using NB domains derived from <i>Hordeum vulga
 * 2312|m.12779 (<i>RGH2</i> in Morex)
 
 <i>Brachypodium distachyon</i>
-* Bradi4g13987
-* Bradi4g10450
+* Bradi4g13987 (CC-NB-LRR-Lectin-Lectin-Lectin)
+* Bradi4g10450 (CC-NB-LRR-Pkinase)
 
 <i>Oryza sativa</i>
-* Os11g38000
-* Os12g18360
+* Os11g38000 (NB)
+* Os12g18360 (CC-NB-LRR-TRX)
 
 Additional work is required to assess the bootstrap support that differentiates these NB domains based on an alignment of NB domains from genes only within this clade and with an appropriate outgroup.
 
