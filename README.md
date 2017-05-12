@@ -54,7 +54,13 @@ A phylogenetic tree was generated using NB domains derived from <i>Hordeum vulga
 * Os11g38000 (NB)
 * Os12g18360 (CC-NB-LRR-TRX)
 
+Protein sequence for these genes can be found in the file [RGH2_phylogenetic_neighbors.fa](data/RGH2_phylogenetic_neighbors.fa)
+
 Additional work is required to assess the bootstrap support that differentiates these NB domains based on an alignment of NB domains from genes only within this clade and with an appropriate outgroup.
 
 ### BLAST analysis of RGH2-Exo70 (Baronesse) on <i>Aegilops sharonensis</i>
 BLAST of RGH2-Exo70 (Baronesse) on <i>Aegilops sharonensis</i> accession 1644 found that the RGH2 homolog mapped to a different genomic contig (contig_545984) compared to the Exo70 domain (contig_71920).
+
+```bash
+blastall -p tblastn -i RGH2_Baronesse.fa -d ~/Research/sequences/aegilops_sharonensis_WGS/assembly1_1644_IUPAC2189.fasta -o RGH2_Baronesse_assembly1_1644_IUPAC2189_tblastn.txt -a 4 -F F -v 10 -b 10
+```
