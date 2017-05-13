@@ -67,4 +67,7 @@ blastall -p tblastn -i RGH2_Baronesse.fa -d ~/Research/sequences/aegilops_sharon
 
 ### Molecular resources for analyzing the integrated Exo70 domain in RGH2
 
-![pDONR221_Exo70_C_C119][https://github.com/matthewmoscou/Exo70/raw/master/figures/pDONR221_Exo70_C_C119.png]
+![alt text](https://github.com/matthewmoscou/Exo70/raw/master/figures/pDONR221_Exo70_C_C119.png "pDONR221_Exo70_C_C119")
+
+
+![alt text](figures/pDONR221_Exo70_C_C119.png "pDONR221_Exo70_C_C119")
