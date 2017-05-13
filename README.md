@@ -64,3 +64,7 @@ BLAST of RGH2-Exo70 (Baronesse) on <i>Aegilops sharonensis</i> accession 1644 fo
 ```bash
 blastall -p tblastn -i RGH2_Baronesse.fa -d ~/Research/sequences/aegilops_sharonensis_WGS/assembly1_1644_IUPAC2189.fasta -o RGH2_Baronesse_assembly1_1644_IUPAC2189_tblastn.txt -a 4 -F F -v 10 -b 10
 ```
+
+### Molecular resources for analyzing the integrated Exo70 domain in RGH2
+
+![pDONR221_Exo70_C_C119][figures/pDONR221_Exo70_C_C119.png]
