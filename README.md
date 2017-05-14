@@ -59,6 +59,7 @@ Alignment of RGH2 (Morex), RGH2 (Baronesse), and RGH2 (*Aegilops tauschii*) foun
 * RGH2 (*Aegilops tauschii*) at 961 aa
 
 **Table 1.** Pairwise nucleotide/protein identity of RGH2 from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
+
 |              |RGH2 Ta|RGH2 Morex|RGH2 Baronesse|
 |:-------------|:-----:|:--------:|:------------:|
 |RGH2 Ta       |    -  |   91.9   |     92.2     |
@@ -75,6 +76,7 @@ Alignment of HvExo70F1 (HORVU3Hr1G094570.3; Morex), Exo70F-ID (RGH2; Baronesse),
 * Exo70F1 (Os01g69230.1; *Oryza sativa*) at 75 aa
 
 **Table 2.** Pairwise nucleotide/protein identity of Exo70F1 from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa* including the *RGH2* region encoding the Exo70 integrated domains from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
+
 |              |OsExo70F1|BdExo70F1|HvExo70F1|RGH2 Ta|RGH2 Baronesse|
 |:-------------|:-------:|:-------:|:-------:|:-----:|:------------:|
 |OsExo70F1     |     -   |  85.3   |  84.1   |  72.5 |    72.3      |
@@ -90,6 +92,7 @@ Alignment of HvExo70F1 (HORVU3Hr1G094570.3; Morex), Exo70F-ID (RGH2; Baronesse),
 This is a striking result, as it suggests that the integrated Exo70F1 shares the same identity 
 
 **Table 3.** Synonymous, non-synonymous, and Ka/Ks ratio for pairwise analysis of *RGH2* from *Hordeum vulgare* and *Aegilops tauschii*.
+
 |Protein 1      |Protein 2    |dS-yn|dN-yn|dS-ng|dN-ng|dN/dS-yn|
 |:--------------|:------------|:---:|:---:|:---:|:---:|:------:|
 |2312 m.12779   |RGH2 Ta      |0.12 |0.05 |0.15 |0.05 |  0.42  |
@@ -97,6 +100,7 @@ This is a striking result, as it suggests that the integrated Exo70F1 shares the
 |RGH2 Baronesse |2312 m.12779 |0.07 |0.04 |0.09 |0.04 |  0.56  |
 
 **Table 4.** Synonymous, non-synonymous, and Ka/Ks ratio for pairwise analysis of *Exo70F1* from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa* including the *RGH2* region encoding the Exo70 integrated domains from *Hordeum vulgare* and *Aegilops tauschii*.
+
 |Protein 1     |Protein 2            |dS-yn|dN-yn|dS-ng|dN-ng|Ka/Ks-yn|
 |:-------------|:--------------------|:---:|:---:|:---:|:---:|:------:|
 |BdExo70F1     |RGH2-Exo70 Ta        |0.44 |0.13 |0.43 |0.13 |  0.31  |
@@ -115,7 +119,6 @@ Note: OsExo70F1 has less conserved sequence with the integrated Exo70 (4 additio
 
 Comment to self: Need to check whether the residues present in barley and wheat variants are variable among Exo70F proteins... (or Exo70 more generally...)
 Comment to self 2: RGH2 (Baronesse) has an extra 15 amino acids at the end of the protein compared to other sequences
-<START HERE> Continue on dN/dS analysis of NB-LRR and Exo70 domains
 
 **Question:** Are exposed residues under positive selection and buried residues under purifying selection?
 PAML can be used to separate these two groups of residues and make this analysis (use the alignment to AtExo70A1 to infer structure).
