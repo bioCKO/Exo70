@@ -3,7 +3,99 @@
 ## Introduction
 We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR) proteins.
 
-## Analysis of Exo70 integrations within NLRs
+## Exo70 gene family in *Hordeum vulgare*
+During the course of this analysis, two different genome annotations of barley were used. Initially, the annotation from the IBGSC (2012) *Nature* paper identified 35 proteins containing an Exo70 domain (Pfam PF03081). Lter, the annotation from the Mascher *et al.* (2017) *Nature* identified 33 proteins containing an Exo70 domain. Multiple sequence alignment of the protein sequence from the 2012 and 2017 genomes found that the majority of genes were present in both annotations, with the exception of of MLOC_11137.3, MLOC_22709.1, and MLOC_45983.4 in the 2012 annotation and HORVU2Hr1G118460.1, HORVU2Hr1G118490.1 in the 2017 annotation.
+
+**Table 1.** Inconsistent gene models between barley genome annotations from 2012 and 2017.
+
+|Gene              |Issue                     |Reason                                               |
+|:-----------------|:-------------------------|:----------------------------------------------------|
+|MLOC_11137.3      |Missing in 2017 annotation|Present in genome sequence (2012), contig_1560470    |
+|MLOC_22709.1      |Missing in 2017 annotation|Truncated gene model, part of HORVU5Hr1G040140.3     |
+|MLOC_45983.4      |Missing in 2017 annotation|Present in genome sequence (2012), contig_283847     |
+|HORVU2Hr1G118460.1|Missing in 2012 annotation|Present in genome sequence (2012), missed previously?|
+|HORVU2Hr1G118490.1|Missing in 2012 annotation|Present in genome sequence (2012), missed previously?|
+
+MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present in the 2017 annotation of the barley genome, although as an alternative gene model from the reference set (HORVU3Hr1G094660). Two genes in barley, HORVU5Hr1G039240.1 and HORVU7Hr1G082050.1, had substantial missing data for the open reading frame due to ambiguous bases within the gene model.
+
+## Exo70 gene family in *Brachypodium distachyon*
+In total, 34 proteins with Exo70 domains were extracted from the *Brachypodium distachyon* genome version 3.1 from the Department of Energy-Joint Genome Institute. 
+
+## Exo70 gene family in *Oryza sativa*
+In total, 66 proteins with Exo70 domains were extracted from the *Oryza sativa* genome version 7 from Michigan State University Rice Genome Annotation Project. 
+
+## Exo70 gene family in *Arabidopsis thaliana*
+In total, 23 proteins with Exo70 domains were extracted from the *Arabidopsis thaliana* genome version 10 from TAIR.
+
+## Phylogenetic tree of the Exo70 gene family
+InterProScan was used to assess all putative Exo70 domain containing proteins to define the Exo70 domain region and additional domains associated with Exo70 domains. To assess the domain architecture of Exo70 proteins, we used the [QKdomain](https://github.com/matthewmoscou/QKdomain) (v1.0) suite of scripts to identify the diversity of domains. 
+
+```bash
+python QKdomain_preprocess.py Exo70_v3_all.fa.tsv Exo70_v3_all_preprocess_summary.txt Exo70_abbreviations.txt
+```
+
+**Table 2.** Protein domains associated with the Exo70 gene family in *Arabidopsis thaliana*, *Brachypodium distachyon*, *Hordeum vulgare*, and *Oryza sativa*.
+
+|Domain identifier|Software       |Domain type                                        |Genes with domain|Total observed domains|Average domain length|Abbreviation|
+|:---------------:|:-------------:|:--------------------------------------------------|:---------------:|:--------------------:|:-------------------:|:----------:|
+|PF00931          |Pfam           |NB-ARC                                             |         1       |           2          |         147.0       |      NB    |
+|SSF74788         |SUPERFAMILY    |Cullin repeat-like-containing domain               |       141       |         216          |         285.0       |   Exo70    |
+|Coil             |Coils          |Coiled coil                                        |        22       |          23          |          19.7       |      CC    |
+|PS50077          |ProSiteProfiles|HEAT, type 2                                       |         1       |           1          |          40.0       |    HEAT    |
+|SSF52058         |SUPERFAMILY    |Leucine-rich repeat domain, L domain-like          |         1       |           1          |         317.0       |     LRR    |
+|SSF53098         |SUPERFAMILY    |Ribonuclease H-like domain                         |         1       |           1          |         112.0       |   RiboH    |
+|SSF53756         |SUPERFAMILY    |                                                   |         2       |           2          |          60.0       |     UGP    |
+|SSF52540         |SUPERFAMILY    |P-loop containing nucleoside triphosphate hydrolase|         1       |           1          |         219.0       |      NB    |
+|SSF52402         |SUPERFAMILY    |                                                   |         4       |           4          |         104.8       |      NB    |
+|PF03081          |Pfam           |Exocyst complex component Exo70                    |       141       |         144          |         309.4       |   Exo70    |
+|PF01612          |Pfam           |3'-5' exonuclease domain                           |         1       |           1          |         104.0       |    ExoI    |
+
+The association of NB and LRR domains is due to the integration of several Exo70 from grasses into NB-LRR genes.
+
+|Gene               |Domain architecture|
+|LOC_Os07g10940.1   |       NB-Exo70    |
+|MLOC_11137.3       |    NB-CC-Exo70    |
+|HORVU2Hr1G003540.3 |   NB-LRR-Exo70    |
+|LOC_Os07g10910.1   |       NB-Exo70    |
+|LOC_Os07g10910.2   |       NB-Exo70    |
+
+Where are these genes on the HOB tree?
+
+
+
+This will be discussed in more detail below. We extracted Exo70 domain using `QKdomain_process.py` using default parameters.
+
+```bash
+python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
+```
+
+Multiple sequence alignment of Exo70
+Phylogenetic tree construction using maximum likelihood
+Bootstrap support
+
+```bash
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAAUTO -p 654967019
+```
+
+```bash
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAAUTO -p 654967019
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5247757188 -T 4
+```
+
+Visualization of phylogenetic tree using iTOL
+Topological features of Exo70 phylogenetic tree.
+
+## Nucleotide diversity in the Exo70 gene family
+Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
+Presence/absence variation relative to other sequenced genomes? (Confirm with BLAST)
+
+## Tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene family
+Alignment of RNAseq data from barley tissue data sets onto Exo70 gene families.
+Need to extract the genomic regions encompassing Exo70 genes with GFF files.
+Perform clustering analysis, look for general trends in tissue-specificity within each clade.
+Particular attention to the Exo70F and Exo70FX clades.
+
+## Exo70 integrations within NLRs
 An analysis that can occur would look across all plant species for the integration of Exo70 into NLRs. Questions include (1) are there intregrations in other species?, (2) do they all have the same orientation?, and (3) are all Exo70 derived from the same group? (we already know the answer is no, Exo70F and Exo70FX).
 
 ---
@@ -66,7 +158,7 @@ Alignment of RGH2 (Morex), RGH2 (Baronesse), and RGH2 (*Aegilops tauschii*) foun
 |RGH2 Morex    | 89.3  |      -   |     95.3     |
 |RGH2 Baronesse| 89.4  |   92.4   |        -     |
 
-**Conclusion:** Greater interspecific than intraspecific identity is observed in RGH2 at the nucleotide and protein level for the NB-LRR encoding region of *RGH2*. This observation does not specifically exclude the hypothesis that the integration preceded speciation, as gene conversion can contribute to higher interspecific gene identity.
+**Conclusion:** Greater intraspecific than interspecific identity is observed in RGH2 at the nucleotide and protein level for the NB-LRR encoding region of *RGH2*. This observation does not specifically exclude the hypothesis that the integration preceded speciation, as gene conversion can contribute to higher interspecific gene identity.
 
 Alignment of HvExo70F1 (HORVU3Hr1G094570.3; Morex), Exo70F-ID (RGH2; Baronesse), and Exo70-ID (RGH2; *Aegilops tauschii*) found that alignment starts at the following amino acid positions:
 * Exo70F1 (HORVU3Hr1G094570.3; Morex) at 98 aa
