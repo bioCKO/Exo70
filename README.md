@@ -38,52 +38,51 @@ python QKdomain_preprocess.py Exo70_v3_all.fa.tsv Exo70_v3_all_preprocess_summar
 
 |Domain identifier|Software       |Domain type                                        |Genes with domain|Total observed domains|Average domain length|Abbreviation|
 |:---------------:|:-------------:|:--------------------------------------------------|:---------------:|:--------------------:|:-------------------:|:----------:|
-|PF00931          |Pfam           |NB-ARC                                             |         1       |           2          |         147.0       |      NB    |
 |SSF74788         |SUPERFAMILY    |Cullin repeat-like-containing domain               |       141       |         216          |         285.0       |   Exo70    |
+|PF03081          |Pfam           |Exocyst complex component Exo70                    |       141       |         144          |         309.4       |   Exo70    |
 |Coil             |Coils          |Coiled coil                                        |        22       |          23          |          19.7       |      CC    |
+|SSF52402         |SUPERFAMILY    |                                                   |         4       |           4          |         104.8       |      NB    |
+|SSF53756         |SUPERFAMILY    |                                                   |         2       |           2          |          60.0       |     UGP    |
+|PF00931          |Pfam           |NB-ARC                                             |         1       |           2          |         147.0       |      NB    |
+|PF01612          |Pfam           |3'-5' exonuclease domain                           |         1       |           1          |         104.0       |    ExoI    |
 |PS50077          |ProSiteProfiles|HEAT, type 2                                       |         1       |           1          |          40.0       |    HEAT    |
 |SSF52058         |SUPERFAMILY    |Leucine-rich repeat domain, L domain-like          |         1       |           1          |         317.0       |     LRR    |
 |SSF53098         |SUPERFAMILY    |Ribonuclease H-like domain                         |         1       |           1          |         112.0       |   RiboH    |
-|SSF53756         |SUPERFAMILY    |                                                   |         2       |           2          |          60.0       |     UGP    |
 |SSF52540         |SUPERFAMILY    |P-loop containing nucleoside triphosphate hydrolase|         1       |           1          |         219.0       |      NB    |
-|SSF52402         |SUPERFAMILY    |                                                   |         4       |           4          |         104.8       |      NB    |
-|PF03081          |Pfam           |Exocyst complex component Exo70                    |       141       |         144          |         309.4       |   Exo70    |
-|PF01612          |Pfam           |3'-5' exonuclease domain                           |         1       |           1          |         104.0       |    ExoI    |
 
 The association of NB and LRR domains is due to the integration of several Exo70 from grasses into NB-LRR genes.
 
 |Gene               |Domain architecture|
+|:------------------|:-----------------:|
+|LOC_Os07g10910.1   |       NB-Exo70    |
+|LOC_Os07g10910.2   |       NB-Exo70    |
 |LOC_Os07g10940.1   |       NB-Exo70    |
 |MLOC_11137.3       |    NB-CC-Exo70    |
 |HORVU2Hr1G003540.3 |   NB-LRR-Exo70    |
-|LOC_Os07g10910.1   |       NB-Exo70    |
-|LOC_Os07g10910.2   |       NB-Exo70    |
 
-Where are these genes on the HOB tree?
-
-
-
-This will be discussed in more detail below. We extracted Exo70 domain using `QKdomain_process.py` using default parameters.
+The nucleotide binding (NB) exhibited in LOC_Os07g10910 (two alternate gene models), LOC_Os07g10940, and MLOC_11137.3 is more closely associated with serine/threonine protein kinases rather than NB-LRRs. HORVU2Hr1G003540.3 is a NB-LRR with an integrated Exo70, similar to others that have been observed. The identifier for HORVU2Hr1G003540.3 in the [barleyNLRome](https://github.com/matthewmoscou/barleyNLRome) analysis is 2097|m.19808. The implication of Exo70 integration in NB-LRRs will be discussed in more detail below. To generate a phylogenetic tree of the Exo70 gene family, we first extracted Exo70 domain using `QKdomain_process.py` using default parameters for proteins with non-Exo70 domain architecture. 
 
 ```bash
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-Multiple sequence alignment of Exo70
-Phylogenetic tree construction using maximum likelihood
-Bootstrap support
+A multiple sequence alignment of 140 Exo70 genes was performed using MUSCLE. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for use as an outgroup in subsequent analyses. The maximum likelihood phylogenetic tree was constructed using RAxML.
 
 ```bash
 raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAAUTO -p 654967019
 ```
 
+Bootstrap support was generated using XXX number of bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML.
+
 ```bash
-raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAAUTO -p 654967019
-raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5247757188 -T 4
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5247757188
+cat RAxML_parsimonyTree.EXO70_MULTIGAMMA_bootstrap_r* > allBootstraps
+raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
 ```
 
-Visualization of phylogenetic tree using iTOL
-Topological features of Exo70 phylogenetic tree.
+Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from Cvrčková *et al.* (2012) *Frontiers in Plant Science*. The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de). Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis* and bootstrap support within the phylogenetic tree.
+
+Insert tree, discuss the results of the tree itself (cannot perform this analysis until bootstraps are complete).
 
 ## Nucleotide diversity in the Exo70 gene family
 Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
