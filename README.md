@@ -52,6 +52,8 @@ python QKdomain_preprocess.py Exo70_v3_all.fa.tsv Exo70_v3_all_preprocess_summar
 
 The association of NB and LRR domains is due to the integration of several Exo70 from grasses into NB-LRR genes.
 
+**Table 3.** Domain architecture of genes containing a nucleotide binding (NB) domain.
+
 |Gene               |Domain architecture|
 |:------------------|:-----------------:|
 |LOC_Os07g10910.1   |       NB-Exo70    |
@@ -66,23 +68,39 @@ The nucleotide binding (NB) exhibited in LOC_Os07g10910 (two alternate gene mode
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-A multiple sequence alignment of 140 Exo70 genes was performed using MUSCLE. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for use as an outgroup in subsequent analyses. The maximum likelihood phylogenetic tree was constructed using RAxML.
+A multiple sequence alignment of 140 Exo70 genes was performed using MUSCLE. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for use as an outgroup in subsequent analyses. The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model.
 
 ```bash
-raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAAUTO -p 654967019
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAJTT -p 654967019
 ```
 
-Bootstrap support was generated using XXX number of bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML.
+Bootstrap support was generated using 100 bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML. Lastly, we add the bootstrap values to the phylogenetic tree using the `-f b` command in RAxML.
 
 ```bash
-raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5247757188
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAJTT -N 100 -p 5247757188
+raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r2 -m PROTGAMMAJTT -N 100 -p 9236245951
 cat RAxML_parsimonyTree.EXO70_MULTIGAMMA_bootstrap_r* > allBootstraps
 raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
+raxml -f b -z allBootstraps -t RAxML_result.EXO70_MULTIGAMMA -m PROTGAMMAJTT -n RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP.txt
 ```
 
-Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from Cvrčková *et al.* (2012) *Frontiers in Plant Science*. The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de). Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis* and bootstrap support within the phylogenetic tree.
+All analyses can be found in the file `data\phylogenetic_analysis.tar.gz`. Next, we extract the node labels from the phylogenetic tree.
 
-Insert tree, discuss the results of the tree itself (cannot perform this analysis until bootstraps are complete).
+```bash
+python QKphylogeny_nodelabels.py -t RAxML_bipartitionsBranchLabels.RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP.txt -o RAxML_bipartitionsBranchLabels.RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP_nodelabels.txt
+```
+
+Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
+
+```bash
+python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP.txt -o RAxML_bipartitionsBranchLabels.RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP_renamed.txt -l Exo70_gene_identifiers.txt
+```
+
+The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis* and bootstrap support within the phylogenetic tree.
+
+![alt text](figures/Exo70_phylogeny_v1.png "Exo70 phylogenetic tree")
+
+In terms of next steps, we need to regenerate the tree with the inclusion of the integrated domain from RGH2, incorporate ScExo70 as an outgroup, and perform two different multiple sequence alignments to account for full length and Exo70 domain alignments.
 
 ## Nucleotide diversity in the Exo70 gene family
 Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
