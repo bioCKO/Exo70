@@ -68,7 +68,7 @@ The nucleotide binding (NB) exhibited in LOC_Os07g10910 (two alternate gene mode
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-Several multiple sequence alignments were performed on the 141 Exo70 genes including CLUSTALW2, MUSCLE, and MAFFT. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for subsequent use as an outgroup in phylogenetic analyses.
+Full length Exo70 genes were included in the multiple sequence alignment, except for genes listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on `QKdomain`. Several multiple sequence alignments were performed on the 139 Exo70 genes including CLUSTALW2, MUSCLE, and MAFFT. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for subsequent use as an outgroup in phylogenetic analyses.
 
 ```bash
 muscle -in Exo70_AtBdHvOs.fa -out Exo70_AtBdHvOs.aln -clwstrict
