@@ -68,7 +68,14 @@ The nucleotide binding (NB) exhibited in LOC_Os07g10910 (two alternate gene mode
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-A multiple sequence alignment of 140 Exo70 genes was performed using MUSCLE. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for use as an outgroup in subsequent analyses. The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model.
+Several multiple sequence alignments were performed on the 141 Exo70 genes including CLUSTALW2, MUSCLE, and MAFFT. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for subsequent use as an outgroup in phylogenetic analyses.
+
+```bash
+muscle -in Exo70_AtBdHvOs.fa -out Exo70_AtBdHvOs.aln -clwstrict
+mafft --clustalout --thread 4 Exo70_AtBdHvOs.fa > Exo70_AtBdHvOs_MAFFT.aln
+```
+
+CLUSTALW2 and MUSCLE gave alignments that were similar in length (1,108 and 1,199, respectively), whereas MAFFT gave an alignment length of 1,877 aa. The topology of the neighbor joining phylogenetic trees for MUSCLE and MAFFT were similar, whereas CLUSTALW2 created aberrant branch lengths. The MUSCLE alignment was selected for subsequent analyses. The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model.
 
 ```bash
 raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAJTT -p 654967019
@@ -101,6 +108,12 @@ The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as s
 ![alt text](figures/Exo70_phylogeny_v1.png "Exo70 phylogenetic tree")
 
 In terms of next steps, we need to regenerate the tree with the inclusion of the integrated domain from RGH2, incorporate ScExo70 as an outgroup, and perform two different multiple sequence alignments to account for full length and Exo70 domain alignments.
+
+
+## Assessment of positions within the multiple sequence alignment using GUIDANCE
+```bash
+~/src/guidance.v2.02/www/Guidance/guidance.pl --seqFile Exo70_AtBdHvOs.fa --msaProgram MAFFT --seqType aa -outDir Exo70_AtBdHvOs_GUIDANCE --proc_num 4
+```
 
 ## Nucleotide diversity in the Exo70 gene family
 Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
@@ -140,6 +153,16 @@ Experimental approaches:
 * Design an approach to complement a deficient knockout of the origin of the integrated *Exo70F*.
 * Perform yeast 2-hybrid assays that demonstrate the ability to bind exocyst components, similar to the origin.
 * Show similar localization patterns of the origin and integrated *Exo70F*.
+
+---
+
+**Question:** Is the toplogy of all phylogenetic trees of orthologous Exo70 gene families identical to the species tree?
+
+---
+
+**Question:** Is the *Brachypodium distachyon* homolog of RGH2-Exo70 have allelic variation for integration other than a lectin domain?
+
+**Question:** Is their an *Mla* haplotype that has alternate haplotypes of RGH2 integrated domains other than Exo70?
 
 ---
 
