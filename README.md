@@ -3,7 +3,8 @@
 ## Introduction
 We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR) proteins.
 
-## Exo70 gene family in *Hordeum vulgare*
+## Annotation and phylogenetic tree of Exo70 from *Hordeum vulgare*, *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*
+### Exo70 gene family in *Hordeum vulgare*
 During the course of this analysis, two different genome annotations of barley were used. Initially, the annotation from the IBGSC (2012) *Nature* paper identified 35 proteins containing an Exo70 domain (Pfam PF03081). Later, the annotation from the Mascher *et al.* (2017) *Nature* identified 33 proteins containing an Exo70 domain. Multiple sequence alignment of the protein sequence from the 2012 and 2017 genomes found that the majority of genes were present in both annotations, with the exception of of MLOC_11137.3, MLOC_22709.1, and MLOC_45983.4 in the 2012 annotation and HORVU2Hr1G118460.1, HORVU2Hr1G118490.1 in the 2017 annotation.
 
 **Table 1.** Inconsistent gene models between barley genome annotations from 2012 and 2017.
@@ -18,16 +19,18 @@ During the course of this analysis, two different genome annotations of barley w
 
 MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present in the 2017 annotation of the barley genome, although as an alternative gene model from the reference set (HORVU3Hr1G094660). Two genes in barley, HORVU5Hr1G039240.1 and HORVU7Hr1G082050.1, had substantial missing data for the open reading frame due to ambiguous bases within the gene model.
 
-## Exo70 gene family in *Brachypodium distachyon*
+The final set of barley Exo70 includes 34 proteins (33 from 2017, 1 from 2012) with an additional sequence derived from the transcriptome of Baronesse (*RGH2*).
+
+### Exo70 gene family in *Brachypodium distachyon*
 In total, 34 proteins with Exo70 domains were extracted from the *Brachypodium distachyon* genome version 3.1 from the Department of Energy-Joint Genome Institute. 
 
-## Exo70 gene family in *Oryza sativa*
+### Exo70 gene family in *Oryza sativa*
 In total, 66 proteins with Exo70 domains were extracted from the *Oryza sativa* genome version 7 from Michigan State University Rice Genome Annotation Project. 
 
-## Exo70 gene family in *Arabidopsis thaliana*
+### Exo70 gene family in *Arabidopsis thaliana*
 In total, 23 proteins with Exo70 domains were extracted from the *Arabidopsis thaliana* genome version 10 from TAIR.
 
-## Phylogenetic tree of the Exo70 gene family
+### Phylogenetic tree of the Exo70 gene family
 InterProScan was used to assess all putative Exo70 domain containing proteins to define the Exo70 domain region and additional domains associated with Exo70 domains. To assess the domain architecture of Exo70 proteins, we used the [QKdomain](https://github.com/matthewmoscou/QKdomain) (v1.0) suite of scripts to identify the diversity of domains. 
 
 ```bash
@@ -81,13 +84,18 @@ CLUSTALW2 and MUSCLE gave alignments that were similar in length (1,108 and 1,19
 raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA -m PROTGAMMAJTT -p 654967019
 ```
 
-Bootstrap support was generated using 100 bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML. Lastly, we add the bootstrap values to the phylogenetic tree using the `-f b` command in RAxML.
+Bootstrap support was generated using 100 bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML. 
 
 ```bash
 raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAJTT -N 100 -p 5247757188
 raxml -s exo70_alignment.phy -n EXO70_MULTIGAMMA_bootstrap_r2 -m PROTGAMMAJTT -N 100 -p 9236245951
 cat RAxML_parsimonyTree.EXO70_MULTIGAMMA_bootstrap_r* > allBootstraps
 raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
+```
+
+We use the `-f b` command in RAxML to add the bootstrap values to the phylogenetic tree.
+
+```bash
 raxml -f b -z allBootstraps -t RAxML_result.EXO70_MULTIGAMMA -m PROTGAMMAJTT -n RAxML_result.EXO70_PROTGAMMAJTTandBOOTSTRAP.txt
 ```
 
@@ -109,23 +117,28 @@ The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as s
 
 In terms of next steps, we need to regenerate the tree with the inclusion of the integrated domain from RGH2, incorporate ScExo70 as an outgroup, and perform two different multiple sequence alignments to account for full length and Exo70 domain alignments.
 
-
-## Assessment of positions within the multiple sequence alignment using GUIDANCE
+### Assessment of positions within the multiple sequence alignment using GUIDANCE
 ```bash
 ~/src/guidance.v2.02/www/Guidance/guidance.pl --seqFile Exo70_AtBdHvOs.fa --msaProgram MAFFT --seqType aa -outDir Exo70_AtBdHvOs_GUIDANCE --proc_num 4
 ```
 
-## Nucleotide diversity in the Exo70 gene family
+### Identification of novel motifs within Exo70 genes
+Use the existing pipeline within QKdomain to identify all sequences not associated with Exo70 domains and identify additional conserved motifs.
+
+## Evolution of Exo70 genes
+### Nucleotide diversity in Exo70 genes
 Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
 Presence/absence variation relative to other sequenced genomes? (Confirm with BLAST)
 
-## Tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene family
+## Transcriptional dynamics of Exo70 genes
+### Tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene family
 Alignment of RNAseq data from barley tissue data sets onto Exo70 gene families.
 Need to extract the genomic regions encompassing Exo70 genes with GFF files.
 Perform clustering analysis, look for general trends in tissue-specificity within each clade.
 Particular attention to the Exo70F and Exo70FX clades.
 
-## Exo70 integrations within NLRs
+## Evolutionary history of NLR/Exo70 association
+### Exo70 integrations within NLRs
 An analysis that can occur would look across all plant species for the integration of Exo70 into NLRs. Questions include (1) are there intregrations in other species?, (2) do they all have the same orientation?, and (3) are all Exo70 derived from the same group? (we already know the answer is no, Exo70F and Exo70FX).
 
 ---
@@ -160,7 +173,7 @@ Experimental approaches:
 
 ---
 
-**Question:** Is the *Brachypodium distachyon* homolog of RGH2-Exo70 have allelic variation for integration other than a lectin domain?
+**Question:** Does the *Brachypodium distachyon* homolog of RGH2-Exo70 have allelic variation for integration other than a lectin domain?
 
 **Question:** Is their an *Mla* haplotype that has alternate haplotypes of RGH2 integrated domains other than Exo70?
 
