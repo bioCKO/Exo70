@@ -576,19 +576,20 @@ Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RG
 
 **Table Y.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly
 
-|Species                    |Accession|Type|Identifiers                       |Notes              |
-|*Achnatherum splendens*    |         | RNA|SRR3089957, SRR3089983, SRR3089986|Subset of data used|
-|*Agropyron cristatum*      |         | RNA|SRR3087732                        |                   |
-|*Agropyron desertorum*     |         | RNA|SRR3087737                        |                   |
-|*Agrostis stolonifera*     |         | RNA|SRR5309260, SRR5309261, SRR5309262|Subset of data used|
-|*Bromus inermis*           |         | RNA|SRR3087621                        |                   |
-|*Dactylis glomerata*       |         | RNA|ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Festuca pratensis*        |         | RNA|ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Holcus lanatus*           |         | RNA|ERR294007 to ERR294017            |Subset of data used|
-|*Melica nutans*            |         | RNA|ERR1744575 to ERR1744595          |                   |
-|*Nardus stricta*           |         | RNA|ERR1744596 to ERR1744603          |                   |
-|*Phalaris arundinacea*     |         | RNA|ERR1777669 to ERR1777676          |Subset of data used|
-|*Poa annua*                |         | RNA|SRR1633980                        |                   |
-|*Stipa lagascae*           |         | RNA|ERR1744604 to ERR1744610          |                   |
+|Species                    |Accession|Type |Identifiers                       |Notes              |
+|:--------------------------|:-------:|:---:|:---------------------------------|:------------------|
+|*Achnatherum splendens*    |         | RNA |SRR3089957, SRR3089983, SRR3089986|Subset of data used|
+|*Agropyron cristatum*      |         | RNA |SRR3087732                        |                   |
+|*Agropyron desertorum*     |         | RNA |SRR3087737                        |                   |
+|*Agrostis stolonifera*     |         | RNA |SRR5309260, SRR5309261, SRR5309262|Subset of data used|
+|*Bromus inermis*           |         | RNA |SRR3087621                        |                   |
+|*Dactylis glomerata*       |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
+|*Festuca pratensis*        |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
+|*Holcus lanatus*           |         | RNA |ERR294007 to ERR294017            |Subset of data used|
+|*Melica nutans*            |         | RNA |ERR1744575 to ERR1744595          |                   |
+|*Nardus stricta*           |         | RNA |ERR1744596 to ERR1744603          |                   |
+|*Phalaris arundinacea*     |         | RNA |ERR1777669 to ERR1777676          |Subset of data used|
+|*Poa annua*                |         | RNA |SRR1633980                        |                   |
+|*Stipa lagascae*           |         | RNA |ERR1744604 to ERR1744610          |                   |
 
 **Note** Check Zea mays information.
