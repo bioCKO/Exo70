@@ -499,6 +499,7 @@ Orthologs of *Exo70F1* were identified in all species analyzed. In addition, ort
 **Table X.** 
 
 |Species                    |Gene     |Identifier                        |Notes                           |
+|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
 |*Achnatherum splendens*    |*Exo70F1*|DN27349_c2_g1_i3                  |                                |
 |*Agropyron cristatum*      |*Exo70F1*|DN52368_c0_g1_i1                  |                                |
 |*Agropyron cristatum*      |*RGH2*   |DN41656_c2_g2_i5                  |Non-integrated, early stop codon|
