@@ -506,7 +506,7 @@ Orthologs of *Exo70F1* were identified in all species analyzed. In addition, ort
 |*Achnatherum splendens*    |*Exo70F1*|DN27349_c2_g1_i3                  |                                |
 |*Agropyron cristatum*      |*Exo70F1*|DN52368_c0_g1_i1                  |                                |
 |*Agropyron cristatum*      |*RGH2*   |DN41656_c2_g2_i5                  |Non-integrated, early stop codon|
-|*Agropyron desertorum*     |*Exo70F1*|DN73454_c1_g2_i1                  |                                |
+|*Agropyron desertorum*     |*Exo70F1*|DN73454_c1_g2_i1                  |Fragment, need to extend        |
 |*Agropyron desertorum*     |*RGH2*   |DN66057_c5_g2_i2                  |Non-integrated                  |
 |*Agrostis stolonifera*     |*Exo70F1*|DN14026_c1_g1_i3                  |                                |
 |*Agrostis stolonifera*     |*RGH2*   |DN10799_c1_g2_i1                  |Non-integrated                  |
@@ -514,7 +514,7 @@ Orthologs of *Exo70F1* were identified in all species analyzed. In addition, ort
 |*Avena sativa*             |*RGH2*   |TR23872_c0_g4_i7                  |Integrated, not in frame        |
 |*Bromus inermis*           |*Exo70F1*|DN316854_c0_g1_i1                 |                                |
 |*Dactylis glomerata*       |*Exo70F1*|DN30327_c2_g1_i1                  |                                |
-|*Dactylis glomerata*       |*RGH2*   |DN14829_c0_g1_i2                  |                                |
+|*Dactylis glomerata*       |*RGH2*   |DN14829_c0_g1_i2                  |Cannot assess integrated status |
 |*Festuca pratensis*        |*Exo70F1*|DN23806_c5_g2_i1                  |                                |
 |*Festuca pratensis*        |*RGH2*   |DN30046_c5_g1_i4                  |Non-integrated                  |
 |*Holcus lanatus*           |*Exo70F1*|DN73170_c0_g7_i1,DN73170_c0_g14_i1|Fragmented                      |
