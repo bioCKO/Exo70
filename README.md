@@ -211,8 +211,11 @@ raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot -m PROTGAMM
 Bootstrap support was generated using XXX bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML and was met after XXX bootstraps.
 
 ```bash
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5463297105643 -T 4
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r2 -m PROTGAMMAAUTO -N 100 -p 4236472395119 -T 14
+raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5463297105643 -T 32
+raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r2 -m PROTGAMMAAUTO -N 100 -p 4236472395119 -T 32
+raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r3 -m PROTGAMMAAUTO -N 100 -p 6574185469431 -T 32
+raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r4 -m PROTGAMMAAUTO -N 100 -p 6485921568143 -T 32
+raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r5 -m PROTGAMMAAUTO -N 100 -p 7857483295341 -T 32
 cat RAxML_parsimonyTree.Exo70_AtBdHvOs_monocot_bootstrap_r* > allBootstraps
 raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
 ```
@@ -528,7 +531,7 @@ Orthologs of *Exo70F1* were identified in all species analyzed. In addition, ort
 
 Our ability to assess the integration of *Exo70F1* was restricted by the quality of the transcriptome assembly. For *RGH2*, when a single contig was not formed, the N- and C-terminal fragments could be identified.
 
-In several instances the transcriptome sequence was incomplete for full length *RGH2* and/or *Exo70F1*. To address this, we performed a sequential overlap alignment to construct full length open reading frame. This involves using `bwa` to align RNAseq reads to an existing reference sequence, manually assessing the quality of reads flanking 5' and 3' regions, and adding this sequence to the reference. This process is iteratively performed until the complete ORF is identified. The parameters used in analysis for one round is shown below. For *Poa annua*, a total of 16 iterations were required to finish *RGH2*, whereas a contiguous *Exo70F1* could be formed by merging contigs. For *Holcus lanatus*, something happened. For *Phalaris arundinacea*, something else happened.
+In several instances the transcriptome sequence was incomplete for full length *RGH2* and/or *Exo70F1*. To address this, we performed a sequential overlap alignment to construct full length open reading frame. This involves using `bwa` to align RNAseq reads to an existing reference sequence, manually assessing the quality of reads flanking 5' and 3' regions, and adding this sequence to the reference. This process is iteratively performed until the complete ORF is identified. The parameters used in analysis for one round is shown below. For *Poa annua*, a total of 16 iterations were required to finish *RGH2*, whereas a contiguous *Exo70F1* could be formed by merging contigs. Assembly of contiguous *RGH2* and *Exo70F1* for *Holcus lanatus* and *Phalaris arundinacea* will require additional bioinformatic analysis.
 
 ```bash
 bwa index PoaExo70F1.fa
@@ -538,13 +541,35 @@ samtools sort PoaExo70F1_Poa.bam PoaExo70F1_Poa_sorted
 samtools rmdup PoaExo70F1_Poa_sorted.bam PoaExo70F1_Poa_sorted.rmdup.bam
 ```
 
-After obtaining sequence for *Exo70F1* from XX species and the integrated *Exo70F1* in XX species, multiple sequence alignment was generated using PRANK and phylogenetic tree constructed using RAxML.
+After obtaining sequence for *Exo70F1* from 17 species and the integrated *Exo70F1* in four species, multiple sequence alignment was generated using PRANK and phylogenetic tree constructed using RAxML. No outgroup is specified.
 
 ```bash
 prank -d=Exo70F1_grasses.fa -o=Exo70F1_extended.PRANK.phy -f=phylips -DNA -codon
 raxml -s Exo70F1_extended.PRANK.phy -m GTRGAMMA -n Exo70F1 -p 825684913254
+raxml -s Exo70F1_extended.PRANK.phy -n Exo70F1_bootstrap_r1 -m GTRGAMMA -N 100 -p 5247757188 -T 4
+raxml -s Exo70F1_extended.PRANK.phy -n Exo70F1_bootstrap_r2 -m GTRGAMMA -N 100 -p 4672394623 -T 4
+cat RAxML_parsimonyTree.Exo70F1_bootstrap_r* > allBootstraps
+raxml -z allBootstraps -m GTRGAMMA -I autoMRE -n TEST -p 8147553599
+raxml -f b -z allBootstraps -t RAxML_result.Exo70F1 -m GTRGAMMA -n Exo70F1_bootstraps
 ```
 
+Bootstraps results can be found [here](data\phylogenetic_analysis_Exo70F1_bootstrap.tar.gz).
+
+The phylogenetic tree has strong support for the presence of integrated *Exo70F1* within the *Exo70F1* clade. The topology suggests the integration occurred after speciation of *Brachypodium distachyon*, but before the radiation of the Poaceae. The *Poa annua* integrated *Exo70F1* had extensive sequence variation compared to all other sequence.
+
+![alt text](figures/Exo70F1_grasses_phylogeny_v2.png "Exo70F1_grasses_phylogeny_v2")
+
+Next, we specify the outgroup as the *Setaria italica* *Exo70F1*.
+
+```bash
+raxml -s Exo70F1_extended.PRANK.phy -m GTRGAMMA -n Exo70F1_Si_outgroup -o SiExo70F1 -p 825684913254
+raxml -s Exo70F1_extended.PRANK.phy -n Exo70F1_Si_outgroup_bootstrap_r1 -m GTRGAMMA -o SiExo70F1 -N 200 -p 5247757188 -T 4
+cat RAxML_parsimonyTree.Exo70F1_Si_outgroup_bootstrap_r* > allBootstraps
+raxml -z allBootstraps -m GTRCAT -I autoMRE -n TEST -p 8147553599
+raxml -f b -z allBootstraps -t RAxML_result.Exo70F1_Si_outgroup -m GTRGAMMA -p SiExo70F1 -n Exo70F1_SI_outgroup_bootstraps
+```
+
+Bootstraps results can be found [here](data\phylogenetic_analysis_Exo70F1_Si_outgroup_bootstrap.tar.gz).
 
 ### Molecular resources for analyzing the integrated Exo70 domain in RGH2
 Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RGH2 in Baronesse. The region selected for synthesis is just after the final Pfam annotation for the LRR region. Modifications to the sequence from the reference include changing the amino acid just after the LRR region to a ATG (Met) and the final stop codon to an in-frame open reading frame for the vector. This domain was introduced into the pDONR221 vector, which is developed for Gateway cloning with C-terminal fusion. Domestication for GoldenGate cloning would require the removal of a *Bpi*I and *Bsa*I site located in the 3' region of the insert.
@@ -556,40 +581,63 @@ Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RG
 
 **Table X.** Source repositories of genome and transcriptomes
 
-|Species                    | Accession|Type|Version|Source                     |
-|:--------------------------|:--------:|:--:|:-----:|:--------------------------|
-|*Aegilops sharonensis*     |     1644 |gDNA|   1   | John Innes Centre (Wulff) |
-|*Aegilops tauschii*        |          | RNA|       | NCBI                      |
-|*Annas comosus*            |          |gDNA|  321  | DOE-JGI Phytozome         |
-|*Arabidopsis thaliana*     |    Col-0 |gDNA|   10  | TAIR                      |
-|*Avena sativa*             | Victoria | RNA|   2   | TSL                       |
-|*Brachypodium distachyon*  |     Bd21 |gDNA|  3.1  | DOE-JGI Phytozome         |
-|*Hordeum vulgare*          |    Morex |gDNA|  2017 | IBGSC                     |
-|*Hordeum pubiflorum*       |  BCC2028 |gDNA|   1   | IPK via NCBI              |
-|*Musa acuminata*           |          |gDNA|  304  | DOE-JGI Phytozome         |
-|*Oryza sativa*             |Nipponbare|gDNA|  7.0  | Michigan State University |
-|*Secale cereale*           |          |gDNA|       | IPK via NCBI              |
-|*Setaria italica*          |          |gDNA|  2.2  | DOE-JGI Phytozome         |
-|*Sorghum bicolor*          |          |gDNA|3.1.1  | DOE-JGI Phytozome         |
-|*Spirodela polyrhiza*      |          |gDNA|    2  | DOE-JGI Phytozome         |
-|*Zea mays*                 |      B73 |gDNA|2010-01| DOE-JGI Phytozome         |
+|Species                    |Abbreviation| Accession|Type|Version|Source                     |
+|:--------------------------|:----------:|:--------:|:--:|:-----:|:--------------------------|
+|*Aegilops sharonensis*     |   *Aes*    |     1644 |gDNA|   1   | John Innes Centre (Wulff) |
+|*Aegilops tauschii*        |   *Aet*    |          | RNA|       | NCBI                      |
+|*Annas comosus*            |    *Ac*    |          |gDNA|  321  | DOE-JGI Phytozome         |
+|*Arabidopsis thaliana*     |    *At*    |    Col-0 |gDNA|   10  | TAIR                      |
+|*Avena sativa*             |   *Avs*    | Victoria | RNA|   2   | TSL                       |
+|*Brachypodium distachyon*  |    *Bd*    |     Bd21 |gDNA|  3.1  | DOE-JGI Phytozome         |
+|*Hordeum vulgare*          |    *Hv*    |    Morex |gDNA|  2017 | IBGSC                     |
+|*Hordeum pubiflorum*       |    *Hp*    |  BCC2028 |gDNA|   1   | IPK via NCBI              |
+|*Musa acuminata*           |    *Ma*    |          |gDNA|  304  | DOE-JGI Phytozome         |
+|*Oryza sativa*             |    *Os*    |Nipponbare|gDNA|  7.0  | Michigan State University |
+|*Secale cereale*           |    *Sc*    |          |gDNA|       | IPK via NCBI              |
+|*Setaria italica*          |    *Si*    |          |gDNA|  2.2  | DOE-JGI Phytozome         |
+|*Sorghum bicolor*          |    *Sb*    |          |gDNA|3.1.1  | DOE-JGI Phytozome         |
+|*Spirodela polyrhiza*      |    *Sp*    |          |gDNA|    2  | DOE-JGI Phytozome         |
+|*Zea mays*                 |    *Zm*    |      B73 |gDNA|2010-01| DOE-JGI Phytozome         |
 
 **Table Y.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly
 
-|Species                    |Accession|Type |Identifiers                       |Notes              |
-|:--------------------------|:-------:|:---:|:---------------------------------|:------------------|
-|*Achnatherum splendens*    |         | RNA |SRR3089957, SRR3089983, SRR3089986|Subset of data used|
-|*Agropyron cristatum*      |         | RNA |SRR3087732                        |                   |
-|*Agropyron desertorum*     |         | RNA |SRR3087737                        |                   |
-|*Agrostis stolonifera*     |         | RNA |SRR5309260, SRR5309261, SRR5309262|Subset of data used|
-|*Bromus inermis*           |         | RNA |SRR3087621                        |                   |
-|*Dactylis glomerata*       |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Festuca pratensis*        |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Holcus lanatus*           |         | RNA |ERR294007 to ERR294017            |Subset of data used|
-|*Melica nutans*            |         | RNA |ERR1744575 to ERR1744595          |                   |
-|*Nardus stricta*           |         | RNA |ERR1744596 to ERR1744603          |                   |
-|*Phalaris arundinacea*     |         | RNA |ERR1777669 to ERR1777676          |Subset of data used|
-|*Poa annua*                |         | RNA |SRR1633980                        |                   |
-|*Stipa lagascae*           |         | RNA |ERR1744604 to ERR1744610          |                   |
+|Species                    |Abbreviation|Accession|Type |Identifiers                       |Notes              |
+|:--------------------------|:----------:|:-------:|:---:|:---------------------------------|:------------------|
+|*Achnatherum splendens*    |    *As*    |         | RNA |SRR3089957, SRR3089983, SRR3089986|Subset of data used|
+|*Agropyron cristatum*      |   *Agc*    |         | RNA |SRR3087732                        |                   |
+|*Agropyron desertorum*     |   *Agd*    |         | RNA |SRR3087737                        |                   |
+|*Agrostis stolonifera*     |   *Ags*    |         | RNA |SRR5309260, SRR5309261, SRR5309262|Subset of data used|
+|*Bromus inermis*           |    *Bi*    |         | RNA |SRR3087621                        |                   |
+|*Dactylis glomerata*       |    *Dg*    |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
+|*Festuca pratensis*        |    *Fp*    |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
+|*Holcus lanatus*           |    *Hl*    |         | RNA |ERR294007 to ERR294017            |Subset of data used|
+|*Melica nutans*            |    *Mn*    |         | RNA |ERR1744575 to ERR1744595          |                   |
+|*Nardus stricta*           |    *Ns*    |         | RNA |ERR1744596 to ERR1744603          |                   |
+|*Phalaris arundinacea*     |    *Pa*    |         | RNA |ERR1777669 to ERR1777676          |Subset of data used|
+|*Poa annua*                |   *Poa*    |         | RNA |SRR1633980                        |                   |
+|*Poa pratensis*            |   *Pop*    |         | RNA |See table below.                  |                   |
+|*Stipa lagascae*           |    *Sl*    |         | RNA |ERR1744604 to ERR1744610          |                   |
+
+Poa pratensis
+
+SRR2984344
+SRR2984345
+SRR2984348
+SRR2984349
+SRR2984354
+SRR2984356
+SRR2984357
+SRR2984358
+SRR2984359
+SRR2984360
+SRR2984361
+SRR2984362
+SRR2984363
+SRR2984364
+SRR2984365
+SRR2984366
+SRR2988071
+SRR2988083
+SRR2989148
 
 **Note** Check Zea mays information.
