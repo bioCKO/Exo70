@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="78acc28aa87c107a366e859e693427f1">MGAPQGIEALQRRASFLRESLQKSQTNTDAMVSILGSFDHRLSALEAAMRPTQVRTHAIRRAHENIDKTLKSAAIILSQFDLSREAEAKILKGPHEDLESYLEAVEQLRSNVRFFSSNKSFKSSDGVLNHANNLLAKAILKLEEEFRQLLSNYSKPLESDSLFDCLPNSLRPSTDPQGNQGDPSLKASYTTNNSEHQNKSLEILTYKPLTLISPRILPLLHELAQQMVQAGHRQQCFKIYRESRVSVMEQTLRKLGVERLSKDDVQKMQWEILEAKIGNWTVYMRIAVVLLFSGERKVCDQIFEGMDSLRDQCFSEVTANSLAMLLSFGDAIAKSKRSPEKLFVLLDMYELMRELQPEIERIFSGKACSEMRDAALSLTRRLGQTAQDTFGDFEEAVEKDATKTTVSDGTVHPLTSYVINYVKFLFDYQSTFKLLFQELDNGSEPNSKFINMTMRIMNALLINLDGKARQYRDPALTYVFLMNNIHYMVRSVRRSEAKDLLGDDWVQRHRRVVQQNANQYRRVAWTKRDGRFKSFNAQFEELHQRQSQWSVPDLELRESLRLSIAEVLLPAYRSFIKRFGPLIESGKNPLKYFRYAPEDVDRLLGEFFEGKVWGELKR</sequence>
+        <xref id="Spipo21G0026200"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="7" end="27"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="1.2E-107" score="360.1">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="606" env-start="278" score="354.9" evalue="4.8E-106" hmm-start="2" hmm-end="372" hmm-length="0" start="279" end="605"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.8E-5" score="23.1">
+                <signature ac="G3DSA:1.10.357.10">
+                    <entry ac="IPR015893" desc="Tetracycline transcriptional regulator, TetR-like, C-terminal" name="Tet_transcr_reg_TetR-like_C" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+                    </entry>
+                    <models>
+                        <model ac="2id3A02"/>
+                        <model ac="3colB00"/>
+                        <model ac="3c07B00"/>
+                        <model ac="3g7rA00"/>
+                        <model ac="3crjC00"/>
+                        <model ac="3g1lA02"/>
+                        <model ac="2np5D00"/>
+                        <model ac="3ccyA02"/>
+                        <model ac="3b81A00"/>
+                        <model ac="3eupB00"/>
+                        <model ac="2qkoA00"/>
+                        <model ac="2o7tA00"/>
+                        <model ac="3f1bA00"/>
+                        <model ac="2hkuB00"/>
+                        <model ac="3bqzA02"/>
+                        <model ac="2fd5A02"/>
+                        <model ac="2vkeA02"/>
+                        <model ac="3bhqA00"/>
+                        <model ac="2q24A00"/>
+                        <model ac="2rasA01"/>
+                        <model ac="3bruB00"/>
+                        <model ac="1zk8B02"/>
+                        <model ac="3bjbD00"/>
+                        <model ac="2oi8A00"/>
+                        <model ac="2fbqA00"/>
+                        <model ac="3fiwA02"/>
+                        <model ac="2pz9A00"/>
+                        <model ac="2np3B02"/>
+                        <model ac="2hytA00"/>
+                        <model ac="3cjdA00"/>
+                        <model ac="3f0cA02"/>
+                        <model ac="1rktA02"/>
+                        <model ac="2id6A02"/>
+                        <model ac="2hyjA02"/>
+                        <model ac="2genA00"/>
+                        <model ac="3bniB00"/>
+                        <model ac="2yveB00"/>
+                        <model ac="1sgmA00"/>
+                        <model ac="2hxiB02"/>
+                        <model ac="2of7A02"/>
+                        <model ac="2np3A00"/>
+                        <model ac="2g7sA00"/>
+                        <model ac="1jusA02"/>
+                        <model ac="3bqyA02"/>
+                        <model ac="2i10B02"/>
+                        <model ac="2qwtA00"/>
+                        <model ac="3cwrB00"/>
+                        <model ac="2ibdA02"/>
+                        <model ac="1z0xA02"/>
+                        <model ac="2g7gA00"/>
+                        <model ac="2fq4A02"/>
+                        <model ac="3locA02"/>
+                        <model ac="2g3bA00"/>
+                        <model ac="2qtqB00"/>
+                        <model ac="3c2bA02"/>
+                        <model ac="2gfnA00"/>
+                        <model ac="3cdlB02"/>
+                        <model ac="3dpjF00"/>
+                        <model ac="1t33A02"/>
+                        <model ac="2raeA02"/>
+                        <model ac="2hxoA02"/>
+                        <model ac="3dewA02"/>
+                        <model ac="2qibB00"/>
+                        <model ac="2iaiA02"/>
+                        <model ac="1vi0A02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="518" env-start="131" score="19.7" evalue="5.3E-4" hmm-start="84" hmm-end="171" hmm-length="0" start="387" end="497"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="4.08E-155">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="205" end="609"/>
+                    <superfamilyhmmer3-location start="76" end="164"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="4f4f94c9a3b55cffb5a30846c930c288">MAVPALISTGGSGMENLLLACRLVMASLEKSCTIAAALCQWLPSIEAAVRPICAPKEALTVAGGHIDWAVGPATTVLKVFDAVHGLEPSLPSDPSKEDLTGYLSVLKQLEEALRFLSNNCSLTIQWLQDIIQYLEKNSVVDCRYLSALKASLLSLKGSKDSLDIGLLGTALECLEAEFRHILATTETTAPLPPPSSAAEKTHPILGRLSTNGQLENCIMIFVEVRMSNIQSIEGHISQWGKDLEFAVKHLFEAEYRLCCDIFKQCGPPERAGILTFLQFGRTAADSKDPIKLLKLLDIFASLNKLHLYFNCLFGCKPCEEIQNTTRNLIKKVIDGTCETF</sequence>
+        <xref id="Spipo0G0037700"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="99" end="119"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="2.4E-10" score="40.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="340" env-start="237" score="35.4" evalue="5.8E-9" hmm-start="2" hmm-end="116" hmm-length="0" start="238" end="340"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.57E-28">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="157" end="340"/>
+                    <superfamilyhmmer3-location start="76" end="129"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="8acabdcb2e03a9f665323458d4b3f225">MAPIASALTIEFSGERLAESMGIRDVEEWLDAVQEKILNWDSEGSLAWYSEPVETPEFLQAVDEVLCFTQSLEPALRRSADPQARQIQDQARCILEVAMERLEEEFVRILTQRRQSLDLGRVSFHSAEEDHADCSTYSSFNGESFAHRLHTESTRSSDRTLVELIEPGAISELKCIADLMFKSGYDRECCQAYVATRKGVLDEFFSAHDVEKLCTEELVALDSDSMGPKIKKWNQAMKAYTQVYLPSERKLCDLIFGDCPGPASSTCFSSISRGPFFQLLGFGEAIAISPPKPENLFCLLKMYEGLADLVPEVGGLFSPEGSAASITAECREILCKIGESVRASFSMFKTAVRKKTTTSPFPGGGPVHLTKYVMNYLSVIPDYRQTLCLLLEGQRDGEEEDDGGGEVASGDTSPLRRGLISVAVVLEENLRTRSLLYTDPALQHFFMMNNIHYMVKKVRDCELHELFGDDWVRAHSVQVQQHALNYQRNSWSSILTFFRDDGIFSRGSSHPSTTVLKEKFKSFNLAFEEIYRTQTGWLIPDDRLRDDVVIYISQNVLQAYRTFKGRYQPFLDGHRHRDKYIKFTVDDLQNYLLDLFLGSPKALHHPPRRA</sequence>
+        <xref id="Spipo2G0085500"/>
+        <matches>
+            <hmmer3-match evalue="1.7E-101" score="339.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="594" env-start="231" score="339.4" evalue="2.5E-101" hmm-start="1" hmm-end="372" hmm-length="0" start="231" end="593"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="6.8E-126">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="157" end="596"/>
+                    <superfamilyhmmer3-location start="24" end="123"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="3931b9e6155c34f7b0a6e853fcae837e">MKASVDGEERVIAAAQQIVRSLGTSKNMKEDMLLILSSFDNRFSNITDLVKGGGNARLAAAEEVIRRWGDSSSGTCRGFIPWEDSPDEVADYLAAVDDVISLTEGAGQESADDAEILDRAENVLQTAMDRLEEEFRRIMIQNTVPMDSARLYESSRSMSLSFASRASVGIDDYDIYVEDEQDAYADEGSVGGSLSEDLRVEMVRPEAVPHLQSIAERMIRARYEKECCQVYSSVRREVLDECVAALGLEKMSIEEVQKIAWTDLDGKMKKWAQAVKVVFQNLLLGEKKFCDQIFEISPIIGDVCFTETAKGCVMQLLNFAEAVAIAQRSPEKLFRVLDMYDALSNVMPELQAMFPEEPREFLCGEAELILRRLGDAAKDTLAQFENAIQNESSRKPMQFGDNHPLTRYVMNYLKLLMDYGSTLNEILGEGERDADNTPEVKNNEENQFGGSMSPLGRQVLSTISCLESNIEEKSRLYDDKGLQYVFLMNSIHYIVQKVKDSELRTVLGDDWVRKRRGQIRQYARSYLRASWSKILSYLRDEGMSGNGSAGNTFKVALKERFKNFNVAFEEIHRNQTTWNVTDAQLREELRISISDMVIPAYRSFTGRFGNYLEGGRNSAKYKKYTPEDLEKCILDLFEGSSGPSNHSRRKH</sequence>
+        <xref id="Spipo4G0052000"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="114" end="137"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="4.0E-125" score="417.7">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="635" env-start="269" score="416.5" evalue="9.4E-125" hmm-start="1" hmm-end="372" hmm-length="0" start="269" end="634"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.56E-155">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="86" end="152"/>
+                    <superfamilyhmmer3-location start="195" end="638"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="7717ef27d452c47cd9e10b5611b7e367">MKVPQGTETLKRRASFLRESLHKSQTVTEGMVSILGSFDQRLSSLETAMRPTQVRTHAIRRAHENIDKTLKSADVILVQFDLSREAEAKIQKGPHEDLDGFLEAVEQLRKNFSFFSSKKSLKSSDGVLNHVNDLLSQAILKLEDEFKQLLSSYSKPLEPDSIFECLPNTLQPSSEAQGNHSDANPKTATTHTEHHTKAADTAVYKLPVLIPPRILPVLHDLAEQMVQAGNGQDCIIVYRELRAPIMEQTLRKLGVEKLSKDDVQKMPWEALEAKIGNWIHFMRIAVKLLFAGEKKVCDQIFDGFESLKDQCFADVTASSVEMLLSFGDAVAKSKRSPEKLFVLLDMYEIMRELQPEIKTLFEGKPCSEMRESLLLLTRQLAKTAQETFGDFEEAVEKDVTRTTVADGTVHPLTSYVINYVKFLFDYQSTLDLLFQEFETGGKPENHLANVTMKIMNALQANLDVKSKQYKDPALTHIFLMNNIHYMVRSVRRSEAKNLLGDDWVQRHRRIVQQNANQYKRVAWNKIVQSLTIQVSGTTGSGGMGSEGGSSGVSRTTVKERFKSFNLQFEELHQRQSQWAVPDLELRESLRLSIAEILLPAYRSFIKRFGPLIDANKNPEKYRKYTPDDLDQMLGEXXXXXXXXXXXXX</sequence>
+        <xref id="Spipo13G0005900"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="629" end="635"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="4.1E-121" score="404.5">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="635" env-start="276" score="401.5" evalue="3.3E-120" hmm-start="2" hmm-end="372" hmm-length="0" start="277" end="634"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.13E-161">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="79" end="163"/>
+                    <superfamilyhmmer3-location start="203" end="635"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="cd16775243576381bb9179a8fdbde355">MENLVAAQRSLRAALERSQAVAVALDMAGSRLQETSRRLPSLEAALRPVRARKEALLAVGGHIDRAVGPAAAVLRVFDAVHGLEPLLLSDPRDDLSGYLSVLRRLEEALFFLAGNCNLAIQWLEDMVDHLEENSLADGGFLAILRGSLLSLKNSSSPLDGGLLGAALRRLESEFRRLLAENSVPLAMAPPSLAHHHLLPTSLVPAAVSQKLVLILERLAANGRLENCIKIYTAERVSVLRASLSALDLDYLEKTAITELDDVRSIEDSIARWREHLEFAVKHLFESEYKLCSDLLGACAPPEQWMGCFAEIASQAGIIGFLRFGMRVTESKKDPIKLLKLLDIFSTLDKLRVDFNRLFGGKPCGEIKNLTRDLIRRVVDGACDIFWELLAQVELQGQMPPPPRGSVPKLVTFITGYCNTLLGEEYRPVLTQVLKINHLWRREQFQEGLLAEAILNVVKALEENLDEWSRGYEDPAQASLFLMNAHWHFHKHLLETDLGELLGEDWLKGHRHYSDYYMELYLRQSWGRLPGLLSREGLALLANGGGGGGSGGGRSSGKALVKKRLRAFDEAFDEIYRRHSRWVIQEKDLREELCNLIVQKLVPRFRTFMKSCGPLVEQEEGLHNYSKYTVQSLESMLGSLFQDSPGRSSSFKHRPSNGKVNDVVSAARFHHPAPAVV</sequence>
+        <xref id="Spipo28G0021900"/>
+        <matches>
+            <hmmer3-match evalue="9.8E-77" score="258.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="638" env-start="270" score="257.6" evalue="1.8E-76" hmm-start="2" hmm-end="372" hmm-length="0" start="271" end="637"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="9.94E-113">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="73" end="125"/>
+                    <superfamilyhmmer3-location start="153" end="640"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="2d48c9325c259495bd210d7ffa25d85a">MAENGEDKLLAVVRHITKTLGKSDTMTDDILQIFSSFDDRLSREKLSERISRAAAAEEDGLAGSAEIKRALRSLDRQILRFVASERPIWSNSDESIAFLDAVDSLLSLIRDMDSVTSEDKMMLDHAEDLIQQAMLRLKDEFRALLDSQAGGRPSDPISSSFDSDGEDSEGDDQIPVAQPITDYDVVIDALPSGTVADLHDIAKRMVAAGFGKECAQSYSICRRDFLEESISRLGLRLRTTEEVHGMPWSDIEEEIGRWVKVINVAVRILFPSERRLCERVFAGYASVADLSLAEVCRGPAMQLLGFADAVAVGSRAPEKLFKALDLYEALRDLIPEIDLVFPDQYCSFIRFESATTCSRLGGAIRGIFTELENKIRRDPVRSAVQGGGGHHPITRYVLNYLRAACESRQALEEIMYEDEGGPVPVDQEILSSSLSVRISWTMDLLQENLDAKSRVYEAPGQNFVFLLNNGLYIIQKVKDSEVHLLLGEDWLRRQAARVRQWRNSYQKAAWGKVIEVLHIGGLSGLTSPLLARSLRDKLHMFNVYFEEIHRTQRGWVLVDEHLRADLRKSVMQAVVPAYQRFLERLMSSEAAKELEKHVKYSVQGVEACIGELFQGGPRT</sequence>
+        <xref id="Spipo6G0062400"/>
+        <matches>
+            <hmmer3-match evalue="2.6E-100" score="336.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="611" env-start="256" score="325.7" evalue="3.5E-97" hmm-start="2" hmm-end="372" hmm-length="0" start="257" end="610"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="8.37E-121">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="91" end="613"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="ed73d1c1d1d8506350375ded934c231f">MASLEKSRAVAAALGQAGPRLEEIQQRLPSVEAAVRPICAPKEALAAAGGHIDRAVGPAAAVLKVFDAVHGLEPSLLSDPSKEDLAGYLSVLKRLEEALRFLSDNCGLAIQWLEDIVEYLEENSVADRRYLSALKASLLSLRESKDPLDGGLLGAALERLEAEFRRLLAAADTTAPSPPPSSAAEKTHPILERLSANGRLENCIKIFVEVRASNIQASLNALDLQYLEISPAEFNDVQSIEGHISQWGKHLEFAVKHLFEAEYRLCCDVFEQCGPPEVWTGCFAEIAKRAGILAFLQFGRTVADSKKDPIKLLKLLDIFASLNKLRLDFNRLFGCKPCEEIQNATRDLIKKVIDGACEIFWELLVQVELQREMPPPADGNVPRLVSFMTDYCNRLLGEEYRTILTQVLIIHRSWKKQKFLERHLTEAVLDIIRALEQNLQVWSKAYEDATLSHVFLMNAHWHLYKHLKGTKVGELLGEAWLREHDQCKEFYAASYLKETWAKLPGLLSREGLILFSGGRATARDLVKKRLRAFNGAFDEMHRRQSGWVIPDKDLREKICHLAVQAIVPVYRSYMQNYGPLVEQDASAGKYAKYTAQSLEDLLGSLFQLRPGRSTSFKPRHSNGNLTGVVAASQYKFAPTVA</sequence>
+        <xref id="Spipo5G0003600"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="85" end="105"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="8.6E-89" score="298.1">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="604" env-start="245" score="293.1" evalue="2.9E-87" hmm-start="2" hmm-end="371" hmm-length="0" start="246" end="602"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.2E-123">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="62" end="115"/>
+                    <superfamilyhmmer3-location start="143" end="606"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="7ae859fe148d4e2bf322ea23815a826c">MERKPCLLPEKSGSFTCREEKKQQPETTRNLSMGALKARYGDREERERPDQVQEEGEKKQDEEGEDTEDPIPGEDASAAPNFTVISVEIDKFLAAAAAAGPATPPCIPHHAVAELLAMVEREISELDSGEDRAAAVPLFVLEAIDRVFKLADTLAAFPSDPAYSQALNHAGAVLQRAMAFLEDEFRLLLEETGSGPAESTKWAAPPPQSSTYDAERSPRTPQQEPTSNSTTAAAVSEDSPAYPPETVEMLQRIASTMVSAGYEAECCQVFAVLRRNVFELGISSLGFEKMSIEEVQKMPWESLEGEIAAWIRAFRHVASVSFPRERDLCCAVFASRRRLAGGLFGNLFRGVVIQFLDFAEAVAMTKRSAEKLFKLLDMYEALRELTEKMEGIYYQEEEEEEGGNDPAPPLPPAAELKAEVAAARSRLGEAAVGIFSELENSIKSDAGRTPVPGGAVHPLTRYVMNYLKYACEYKNTLEEVFLQCRRPETPSSPRDDDDDRSRNPNPNSTGGNRHSPFAMQLMAVMDLLDANLETKSKLYKDPSLSHIFLMNNGRYIVQKIKGAAEIHGLLGDAWCRKRSSDLRQYHKNYQRETWGKVLGCFRDEGLQVKGSVSKPVLKERFRSFNAMFEEIHKTQSCWVVSDEQLQSELRVSVCSVVVPAYRSFLGRFQQYLDTGRQSEKYIKFGPEDLETFIDDLFDGTPASTVKRRS</sequence>
+        <xref id="Spipo7G0041600"/>
+        <matches>
+            <hmmer3-match evalue="9.7E-115" score="383.5">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="695" env-start="308" score="382.9" evalue="1.5E-114" hmm-start="2" hmm-end="372" hmm-length="0" start="309" end="694"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.41E-141">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="235" end="698"/>
+                    <superfamilyhmmer3-location start="141" end="203"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="ef778a7836d2e51c8e9ee13b1772eb90">MPIKGMRSIFFHPTPRRSDRRAASEEAPATAPATPRHSFSATMMEENISAAEEIITKWDPEGSAYAKITSIFYENRAEARQFLRAVSDLQRAMHFFMADSPVSSCDLLVRGQKLMQAAMRRLQKEFYQILSANRDRLDPESISASERSSLSLTSSSSLSDLEEDEIRAATESIGEVERVSFIAMADLSSIADCMITCGYGKECINIYKTIRRSIVDEGLYKLGFDRLSPSQIQKLDWDVLEMRMRSWLASAKVAVRTLFSGERALCDHVFASSESIRESSFAEIARDPAIYFLGFPELVALKTKRSPEKIFRMLDMYDSIAELLPEIESVFSHESTSAVRTQATSSLQMLAEAVRSLLGDFETAVQKDNSKVPVPGGGLHPLTRYAMNYLVFLTDYSEALTEIYGDQPFQTPASLPEPFFDAVALTTAPPSPAYRAGEPSLSPISPRLAWLILVLLCKLDSKAESYREVSLAYLFLSNNLRYVVNKVRGSLLGDILGDDWVSKHESKARNYAASYERLAWGKVLAAVPQTVATEIDTREAKEGMRRFNEAFEEACREQAGWVVPDGKMRDELKLSVAKKLIPAYRSFYMATATLLRGEKDLPTLLRFSPDDLGNYLSDLFYGDTSTGSSSSSVSGSSKWSRHPV</sequence>
+        <xref id="Spipo23G0027200"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="644" end="644"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="2.4E-103" score="346.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="618" env-start="245" score="345.3" evalue="4.0E-103" hmm-start="2" hmm-end="373" hmm-length="0" start="246" end="618"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.31E-131">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="48" end="144"/>
+                    <superfamilyhmmer3-location start="172" end="620"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="2146b4ff5bb14543643506ae95d7a879">MLILRWDAGAPTEQGGRMLFDGGDRAEADQYLRAVDEIRRSLDVAGSGGASPRLAAAIQVAMARLEDEFRSILMTRVNAVEMDSLATSLSLVSLSSADFSTEGSGGVGESYRGEDSAEGDEETSEGSSLHYGEAISRTSTTTSNNSYRFGSSIREVDLLPDDAIEDLRSIAERMVASGYARECFQVHGSVRKAAVDGSLCQLGVERISIGDVQRLDWEVLELKIRRWIRAAKVCIRVVFPSERRLWDQIFEGIVAAGGEDSPFVEIVKGAAIRLLNFAEAISISRRTPEKLFKILDLHDALSELLPDVAYVFLRLRASDPIHSQATEIVHRLAEAARGILSEFESAVRQDPSRIPVPGGTVHPLTRYVMNYTSLISDYKPTLTELIVSMPSSPTGSRSSETSGEGAASLPPLEMDVPEVLHQPPLSAHVTWIIVLLQSNLESKARLYRDSALSHFFLMNNVHYIVHKVRGYPELREMVGDDYLKRLTVKYQQSATSYRRSTWVRVLQCLREEGLQSSGSFSSGISRSTLRDRFRAFNAAFDEVHRTQALWTAPDSQLREELKISISELLIPAYRAFLGRFRHHIESGKHPEMYIRYSVEDLEVALSELFEGSSPSLHNRRRSHS</sequence>
+        <xref id="Spipo20G0009300"/>
+        <matches>
+            <hmmer3-match evalue="5.9E-111" score="371.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="607" env-start="225" score="369.9" evalue="1.3E-110" hmm-start="2" hmm-end="373" hmm-length="0" start="226" end="607"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="9.42E-145">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="151" end="610"/>
+                    <superfamilyhmmer3-location start="16" end="86"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="72838c4fdcae2f70637ac6ecc2720a11">MARQSSSLFRGGSKVVGGGGGGIENLLAVRRSLESILKKSRALASAVENAGIGIEEIYHRLPDLEAAVRSTRASKEALAGAGSHIGRAVSPGSVVLKVFDALHGLEPFLLADPLDDLEGYLSVLKRLEEAIQFLGDNCGHAIQWLEDSVEYLQESSLADGRYLSRLRASLKFLKESKTPLDGGLLDAALERLESAFRRLLVDNSVSLAMASPSSKPVNAIRADPTPPQVIAPSPLPMPVIQQLLTILERLSANGRLEKCSKIFAEVRGSNAKATLGNLGLDYLSISAHEFVDVRRIDVEIAEWRKHLEFAVKHVFEAEFKLCCEIFDRFGPPDLWMNCFADIAIQARILSFLQFGMTVTESRKDPDKLLKLLEIFGFMNSLRPDFNRLFRMKPCAEIQSATRDLIKRVINGACEIFFELPNQAKSQGQRPPPSDGGVPKVFTFLVDYCNRLLGDEHWPLLTEVLKIHRGWRGEDFQEGHVTKAIVEIIIALERNVEAWSKSYDDPILSDIFRINVHSHFYKQLKGTRLGGHLGDQWLRERDAYKDYYSAFYLKESWGRLPPLLSRKGLILVSKGRAATIELVKKRLAAFNEAFDEICRKHSAWVISDKDLRGKLSQLAVQAVVPVYRSFLQSYGTLVEQDPNSGEYIRHTPESLENSIGSLFQREPVRSPALQPAQSNGKVNDAGRVSQYRSAPTAV</sequence>
+        <xref id="Spipo12G0058700"/>
+        <matches>
+            <hmmer3-match evalue="1.6E-73" score="247.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="660" env-start="301" score="245.9" evalue="6.4E-73" hmm-start="2" hmm-end="371" hmm-length="0" start="302" end="658"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="8.37E-111">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="95" end="147"/>
+                    <superfamilyhmmer3-location start="175" end="662"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="dd5762d63eeea4b41196593d1b875e75">MHPLEAELRSLLETQSGFSPVDAGGGEDEVPVGQPVRDYAAAIDAFPSATVADLRAVVKRMLAAGLGEECLRAYSTCRRDFLQESISRLGLRRRPSWPAGEEITRWVEVARVAVFILFPSERRLCNRVFAGLAAPVADLSLAETCRAPVRRLLAFPDAAAAGSRSPERLFGMMDIYEALRELVPEIAAVFFGEYSSFFVLQFAAAGARLAAAVRGIFAELENRIRRDPAAPPVASGGLHPMTRYVVNYLRAASRCRRTLEEIMNEDGGAAAGDQIVWAMDLLLDNLEAKSKSYRDPAQSFLFLLNNGWYIAQKVKDGELGVLLGEDWIRGQTASVRRWRSGYQRTTWGALIDLLDAGREASSRSSSPAPANSLGEKLQMFNELFGETYKNQAGWVAADEGLATELRASAIQLVLPAYQSFLTRLRSSPAPEKSPEKSPERLVKYSPADVKARINRLFKGSARNL</sequence>
+        <xref id="Spipo6G0062500"/>
+        <matches>
+            <hmmer3-match evalue="2.1E-84" score="283.6">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="455" env-start="104" score="283.3" evalue="2.6E-84" hmm-start="1" hmm-end="372" hmm-length="0" start="104" end="454"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.94E-97">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="1" end="457"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="a44deabf075d74486f7f529ed4cce246">MISSGYGKECIDIYRLVRRSVVEEGLYKLGFDRPTPSQVKRLGWDLLENRISNWVTASEVAVRVLFSGERVLCAQVFSSSVRESVFAEITAEAAARFFRFPELLVSKLKFSPEKIFRLLDICETILDLLPEIESVFSYQSTSAVRSQVVASLLKVGGVVRCLFDELESAIRKENSKAAISGGGLHPLVRYVVNYMSLLADYSSTLEDIFAEHPVEMPAESIHEGATFMSAPPSPSSRGGEGPLSTVSLRMGWVVFVLLCKLDTKAEFYGEPALGYLFLANNLHYVVNKVRRCKLSDLLGDDWMATHAARAQRYAANYERLAWKDVLGTIPDDLAAISEMDPDEAALQMRRFNDSFNAACQRQANWVVSDRRMAEELKLSIARKIISAYRPFYVRCRGEGSSGVAVRYAPEDLANYISDLFCAGAGSSVSSGSGSSKDVSSRSSSKTQCIAAKGTSWLPKWAGPAR</sequence>
+        <xref id="Spipo6G0069200"/>
+        <matches>
+            <hmmer3-match evalue="1.2E-96" score="324.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="418" env-start="52" score="323.8" evalue="1.3E-96" hmm-start="1" hmm-end="373" hmm-length="0" start="52" end="418"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.35E-105">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="1" end="420"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="ed6a38e66bafc1152b2dbbf6c2d3afe5">MISSGYGKECIDIYRLVRRSVVEEGLYKLGFDRPTPSQVQRLGWDLLENRIWNWVAASKVAVRVLFSGERVLCAQVFSSSVRETVFAEVAGEAAAGFFRFPELLMSKLKFSPEKIFRLLDMYETILDLLPEIESVFSYQSTSAVRSQVVASLLKVGGVVRCLFDELESAIRKENSKAAISGGGLHPLVRYVVNYISLLADYGSALEDIFADHPIEMPAESLLEGATFMSAPPSPSSRGGEGPLSNVSLRMGWVVFVMLCKLDTKAELYGDPALGYLFLANNLHYVVNKVRRCKLSDLLGDDWMATHAARARRYAANYERLAWKDVLGTIPDDLAAISEMDPDEVALQMRRFNDSFDAACRRQASWVVSDRRMAEELKLSIAMKVISAYRPFYVRCRGEGSSGGAVRYAPEDLANYISDLFCAGAGSSVSSGSGSSKDVSSRSSSKTVQLAYSE</sequence>
+        <xref id="Spipo6G0069300"/>
+        <matches>
+            <hmmer3-match evalue="4.5E-97" score="325.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="418" env-start="52" score="325.2" evalue="5.2E-97" hmm-start="2" hmm-end="373" hmm-length="0" start="53" end="418"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.67E-106">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="1" end="420"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="bff41f9f535fa976ddef506fb9105d12">MDSGGGIVMETLETKASFLRESLRKSQDTTEGMVKILGSLDRRLSALDSAMRPTHMRTDAIGMACENIDKALKSADVILGKYHLSREAEATVLKGPKENFKTYLMAMDELRSNLYFFSSMKTFRNRDRVVNHINNLLVEAVLKLEEEFKRLLSAYSQPVERHNLLVISPSTSQPRSESLGNLDDPDPGSRTAQRMESVDKTVYKLPVLIPPRIFPMLHDLALEMVRTGNRQECIEAYRESHAPVLERTLRKLGLESKENVKRMPLEALEAKAGKWIDCMQIAIKSLFAGEKQVCHQIFHDIDSLKDVCFASVIENSVEMLLSFGHAVIRHEWPIEKLLPLLAMYEVMCELQSEIETIFGGEACSKMRESALNLTRQLAKTARIAIGVFEKNIIEDDGKMMNTSDGPKHPLASYVMNFVKLFRWSILEIFNEVPDAGNQPNHRPANAIKSIITALVSNLEGKSQKYNEPALRHLFLMNNIHYVVRYVRDLNAEELVGDDWVPRHRKIVQQNANQLRRAAWMPIMQILTIQGSNTGGSGVGGAGGSSGASRSLVRERFKSFNAQFEELLQRQSQWTVHDDLRESLRLMIAELVLPAYRSFTKRFGPLVDGTKNQEKFWKYTPEDVERLIGGFWPVVGCGGT</sequence>
+        <xref id="Spipo13G0006000"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="9" end="29"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="9.5E-88" score="294.7">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="628" env-start="273" score="292.3" evalue="5.0E-87" hmm-start="2" hmm-end="371" hmm-length="0" start="274" end="627"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="6.28E-117">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="201" end="630"/>
+                    <superfamilyhmmer3-location start="78" end="165"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="e0e2c11a77ece1d8001ae2d21b2e8cf0">MTTQEEVEERVLATAQQIVKNLGTSSDMKEDMIFILSNFDNRFSNITDLFSSSRGDRLEGRLDAAEKVISQWGCSSTLGSARDFIPWEDSPDVAAEYLAAVDDVILITEEAEGDQGSAELDRADRVLQMAMDRLEDEFRHFLVQNTVPLDAARLYGSIRRMSLSFASDGGETIEDLVTSEEELDASLEDRSTGGSLSNLLEIDVVRPEAVPHLKSIAERMIRSRYERECCQAYSGVRRDVLEECLATLGVERISIEEVQKIEWKELDKKMKKWIHAVKVVAQVLLLGERQLCDQIFEASPLVADACFAETTKGCMVQLLNFAEAVAIGQRSPEKLFRILDMYDVLSSVIPDLEVRFSEETREFLCSEAEITLKRLGDAAKGTLAEFENAVQRETSQKQLQFGGIHPLTRYVMNYVKLLVDYSATLNELMNEKGDAGELPAVEHHDDNPHAGITSPLGHHVLSTVSYLESNIEEKSKLYEDSGLQYVFLMNNILYMVQKVKDSDLGALLGDEWIRKHRGQIRQYARSYLRASWTKVLHCLKDEGIGFNGSSGSASKVALKERFKNFNFAFEEVCRNQMTWKVPDSQLREELRISISEMVIPAYRSFMGRFGGYLEGGRHAAKYMKYTPEDLERYLLDMFEGLPGPSNHSRRKLSS</sequence>
+        <xref id="Spipo9G0061500"/>
+        <matches>
+            <hmmer3-match evalue="9.9E-132" score="439.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="636" env-start="271" score="439.0" evalue="1.3E-131" hmm-start="1" hmm-end="372" hmm-length="0" start="271" end="635"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.75E-158">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="90" end="155"/>
+                    <superfamilyhmmer3-location start="197" end="639"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,9 +1,23 @@
 # Analysis of Exo70 gene family and NLR-Exo70
 
 ## Introduction
-We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR) proteins.
+We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. We later expand this analysis to include a diverse array of grass species. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation in the Exo70 gene family. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR) proteins, focusing on its evolutionary relationship with NLRs, date the integration event, and assess its presence/absence across a range of grass species.
 
-## Annotation and phylogenetic tree of Exo70 from *Hordeum vulgare*, *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*
+## Annotation of Exo70 encoding genes in plants
+Previously, Cvrckova *et al.* (2012) comprehensively described members of the exocyst complex throughout land plants. These species included:
+* *Arabidopsis thaliana*
+* *Arabidopsis lyrata*
+* *Populus trichocarpa*
+* *Vitis vinifera*
+* *Solanum lycopersicum*
+* *Oryza sativa*
+* *Sorghum bicolor*
+* *Brachypodium distachyon*
+* *Selaginella moellendorffii*
+* *Physcomitrella patens*
+
+Since the publication of Cvrckova *et al.* (2012), several species have been sequenced and improvements in annotation have increased or altered exocyst complex genes. We set out to identify the Exo70 gene family complement of the newly sequenced *Hordeum vulgare* (barley) and *Oropetium thomaeum* genomes and assign identifiers based on its phylogenetic relationship with *Brachypodium distachyon* and *Oryza sativa*.
+
 ### Exo70 gene family in *Hordeum vulgare*
 During the course of this analysis, two different genome annotations of barley were used. Initially, the annotation from the IBGSC (2012) *Nature* paper identified 35 proteins containing an Exo70 domain (Pfam PF03081). Later, the annotation from the Mascher *et al.* (2017) *Nature* identified 33 proteins containing an Exo70 domain. Multiple sequence alignment of the protein sequence from the 2012 and 2017 genomes found that the majority of genes were present in both annotations, with the exception of of MLOC_11137.3, MLOC_22709.1, and MLOC_45983.4 in the 2012 annotation and HORVU2Hr1G118460.1, HORVU2Hr1G118490.1 in the 2017 annotation.
 
@@ -19,106 +33,215 @@ During the course of this analysis, two different genome annotations of barley w
 
 MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present in the 2017 annotation of the barley genome, although as an alternative gene model from the reference set (HORVU3Hr1G094660). Two genes in barley, HORVU5Hr1G039240.1 and HORVU7Hr1G082050.1, had substantial missing data for the open reading frame due to ambiguous bases within the gene model.
 
-The final set of barley Exo70 includes 34 proteins (33 from 2017, 1 from 2012) with an additional sequence derived from the transcriptome of Baronesse (*RGH2*).
+**Table 2.** Gene models requiring the removal of N-terminal sequence before the start Met.
 
-### Exo70 gene family in *Brachypodium distachyon*
-In total, 34 proteins with Exo70 domains were extracted from the *Brachypodium distachyon* genome version 3.1 from the Department of Energy-Joint Genome Institute. 
+|Gene model        |
+|------------------|
+|HORVU0Hr1G021500.1|
+|HORVU1Hr1G070390.1|
+|HORVU2Hr1G067350.1|
+|HORVU2Hr1G069050.1|
+|HORVU2Hr1G116970.2|
+|HORVU2Hr1G118450.1|
+|HORVU2Hr1G118510.1|
+|HORVU2Hr1G118520.1|
+|HORVU3Hr1G094570.3|
+|HORVU4Hr1G079440.1|
+|HORVU5Hr1G062200.3|
+|HORVU6Hr1G021690.1|
+|HORVU7Hr1G030080.3|
+|HORVU7Hr1G064400.1|
+|HORVU7Hr1G084990.1|
 
-### Exo70 gene family in *Oryza sativa*
-In total, 66 proteins with Exo70 domains were extracted from the *Oryza sativa* genome version 7 from Michigan State University Rice Genome Annotation Project. 
+The gene model proposed for HORVU2Hr1G123350 (HORVU2Hr1G123350.18) was inaccurate due to no Met start and limited sequence from the first available Met, whereas HORVU2Hr1G123350.22 appears to have an intact Met. Three genes (HORVU1Hr1G070390.1, HORVU5Hr1G039240.1, and HORVU7Hr1G082050.1) were found to ambigugous amino acid sequence (*i.e.* X), some of which have reasonably long stretches. These were retained. The final set of barley Exo70 includes 34 proteins (33 from 2017, 1 from 2012) with an additional sequence derived from the transcriptome of Baronesse (*RGH2*).
 
-### Exo70 gene family in *Arabidopsis thaliana*
+### Exo70 gene family in other plant species
+To understand the expansion and evolution of Exo70 gene families in the monocots (such as the grass-specific *Exo70FX*), we identified additional sequenced monocot species on Phytozome from the Department of Energy-Joint Genome Institute.
+
+#### Exo70 gene family in *Annas comosus* (pineapple)
+In total, 14 proteins with Exo70 domains were extracted from the *Annas comosus* genome version 321_v3 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Arabidopsis thaliana*
 In total, 23 proteins with Exo70 domains were extracted from the *Arabidopsis thaliana* genome version 10 from TAIR.
 
-### Phylogenetic tree of the Exo70 gene family
-#### Domain characterization
+#### Exo70 gene family in *Brachypodium distachyon*
+In total, 29 representative proteins with Exo70 domains were extracted from the *Brachypodium distachyon* genome version 3.1 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Musa acuminata* (banana)
+In total, 28 proteins with Exo70 domains were extracted from the *Musa acuminata* genome version 304_v1 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Oropetium thomaeum*
+In total, 34 representative proteins with Exo70 domains were extracted from the *Oropetium thomaeum* genome version 1.0 from the Department of Energy-Joint Genome Institute.
+
+#### Exo70 gene family in *Oryza sativa*
+In total, 61 representative proteins with Exo70 domains were extracted from the *Oryza sativa* genome version 7 from Michigan State University Rice Genome Annotation Project. 
+
+#### Exo70 gene family in *Sorghum bicolor*
+In total, 46 proteins with Exo70 domains were extracted from the *Sorghum bicolor* genome version 454_v2.2 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Setaria italica*
+In total, 54 proteins with Exo70 domains were extracted from the *Setaria italica* genome version 312_v2.2 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Spirodela polyrhiza*
+In total, 18 proteins with Exo70 domains were extracted from the *Spirodela polyrhiza* genome version 290_v2 from the Department of Energy-Joint Genome Institute. 
+
+#### Exo70 gene family in *Zea mays*
+In total, 47 proteins with Exo70 domains were extracted from the *Zea mays* genome version 284_Ensembl-18_2010-01 from the Department of Energy-Joint Genome Institute. 
+
+Two novel fusions exist with Exo70 proteins in *Zea mays* including GRMZM2G370741_P01 with an aspartic peptidase and GRMZM2G390691_P01 with a hydroxymethylglutaryl-CoA reductase, class I/II protein. Due to the limited contribution of the Exo70 to GRMZM2G370741_P01, this sequence was removed from the analysis. GRMZM2G390691_P01 was reduced to the Exo70 domain alone.
+
+## Phylogenetic tree of the Exo70 gene family
+### Domain characterization
 InterProScan was used to assess all putative Exo70 domain containing proteins to define the Exo70 domain region and additional domains associated with Exo70 domains. To assess the domain architecture of Exo70 proteins, we used the [QKdomain](https://github.com/matthewmoscou/QKdomain) (v1.0) suite of scripts to identify the diversity of domains. 
 
 ```bash
-python QKdomain_preprocess.py Exo70_all.fa.tsv Exo70_v3_all_preprocess_summary.txt Exo70_abbreviations.txt
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ac.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_At.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Bd.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Hv.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Hv_RGH2.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ma.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Os.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ot.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sb.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sc.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Si.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sp.fa --iprlookup --seqtype p
+/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Zm.fa --iprlookup --seqtype p
+
+cat *.fa > Exo70_species_all.fa
+cat *.tsv > Exo70_species_all.fa.tsv
 ```
 
-**Table 2.** Protein domains associated with the Exo70 gene family in *Arabidopsis thaliana*, *Brachypodium distachyon*, *Hordeum vulgare*, and *Oryza sativa*.
+```bash
+python QKdomain_preprocess.py Exo70_species_all.fa.tsv Exo70_species_all_preprocess_summary.txt ../../Exo70_abbreviations.txt
+```
+
+**Table 2.** Protein domains associated with the Exo70 gene family in all species studied.
 
 |Domain identifier|Software       |Domain type                                        |Genes with domain|Total observed domains|Average domain length|Abbreviation|
 |:---------------:|:-------------:|:--------------------------------------------------|:---------------:|:--------------------:|:-------------------:|:----------:|
-|SSF74788         |SUPERFAMILY    |Cullin repeat-like-containing domain               |       141       |         216          |         285.0       |   Exo70    |
-|PF03081          |Pfam           |Exocyst complex component Exo70                    |       141       |         144          |         309.4       |   Exo70    |
-|Coil             |Coils          |Coiled coil                                        |        22       |          23          |          19.7       |      CC    |
-|SSF52402         |SUPERFAMILY    |                                                   |         4       |           4          |         104.8       |      NB    |
-|SSF53756         |SUPERFAMILY    |                                                   |         2       |           2          |          60.0       |     UGP    |
-|PF00931          |Pfam           |NB-ARC                                             |         1       |           2          |         147.0       |      NB    |
-|PF01612          |Pfam           |3'-5' exonuclease domain                           |         1       |           1          |         104.0       |    ExoI    |
-|PS50077          |ProSiteProfiles|HEAT, type 2                                       |         1       |           1          |          40.0       |    HEAT    |
-|SSF52058         |SUPERFAMILY    |Leucine-rich repeat domain, L domain-like          |         1       |           1          |         317.0       |     LRR    |
-|SSF53098         |SUPERFAMILY    |Ribonuclease H-like domain                         |         1       |           1          |         112.0       |   RiboH    |
-|SSF52540         |SUPERFAMILY    |P-loop containing nucleoside triphosphate hydrolase|         1       |           1          |         219.0       |      NB    |
+|SSF74788          |SUPERFAMILY|Cullin repeat-like-containing domain|353|564|274.1241135|Exo70|
+|PF03081           |Pfam|Exocyst complex component Exo70|354|375|298.4506667|Exo70|
+|Coil              |Coils||67|72|18.25|CC|
+|TMhelix           |TMHMM||10|24|22.58333333|TM|
+|G3DSA:3.40.50.620 |Gene3D|Rossmann-like alpha/beta/alpha sandwich fold|7|7|111.4285714|tRNAligase|
+|G3DSA:2.40.70.10  |Gene3D|Aspartic peptidase domain|4|6|100.1666667|AspPEP|
+|SSF52402          |SUPERFAMILY|NB-ARC|6|6|109|NB|
+|PR00449           |PRINTS||1|5|19.8|GTPase|
+|PF14541           |Pfam|Xylanase inhibitor, C-terminal|4|4|97.5|XI|
+|PF07779           |Pfam|Cas1p 10 TM acyl transferase domain|4|4|133|Cas1p|
+|SM00248           |SMART|Ankyrin repeat|1|4|30.5|Ank|
+|PF03087           |Pfam|Protein of unknown function DUF241, plant|1|4|203.25|DUF241|
+|G3DSA:1.10.357.10 |Gene3D|Tetracycline transcriptional regulator, TetR-like, C-terminal|3|3|111|TetR|
+|SSF52540          |SUPERFAMILY|P-loop containing nucleoside triphosphate hydrolase|3|3|212.3333333|NTPase|
+|G3DSA:3.40.50.300 |Gene3D|P-loop containing nucleoside triphosphate hydrolase|3|3|154|NTPase|
+|PF00931           |Pfam|NB-ARC|2|3|192.3333333|NB|
+|cd01989           |CDD|N-terminal Ser/Thr Kinase|3|3|164|Pkinase|
+|SSF50630          |SUPERFAMILY|Aspartic peptidase domain|3|3|187.6666667|AspPEP|
+|G3DSA:3.80.10.10  |Gene3D|Leucine-rich repeat domain, L domain-like|2|3|131.3333333|LRR|
+|PS51767           |ProSiteProfiles|Peptidase family A1 domain|2|2|361|Ank|
+|SSF56542          |SUPERFAMILY|Hydroxymethylglutaryl-CoA reductase, class I/II, substrate-binding domain|1|2|65.5|CoAreductase|
+|G3DSA:1.25.40.20  |Gene3D|Ankyrin repeat-containing domain|1|2|102.5|Ank|
+|PF14543           |Pfam|Xylanase inhibitor, N-terminal|2|2|79|XI|
+|PF00368           |Pfam|Hydroxymethylglutaryl-CoA reductase, class I/II|1|2|84.5|CoAreductase|
+|SSF52047          |SUPERFAMILY|Leucine-rich repeat domain, L domain-like|1|2|136.5|LRR|
+|SSF53756          |SUPERFAMILY|UGP|2|2|60|UGP|
+|PR00071           |PRINTS|Hydroxymethylglutaryl-CoA reductase, class I/II|1|2|21.5|CoAreductase|
+|PF12796           |Pfam|Ankyrin repeat-containing domain|1|1|56|Ank|
+|cd00204           |CDD|Ankyrin repeat|1|1|167|Ank|
+|SSF52058          |SUPERFAMILY|Leucine-rich repeat domain, L domain-like|1|1|317|LRR|
+|cd00009           |CDD|P-loop containing nucleoside triphosphate hydrolase|1|1|87|NTPase|
+|G3DSA:3.30.70.420 |Gene3D|Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding domain|1|1|63|CoAreductase|
+|PS50065           |ProSiteProfiles|Hydroxymethylglutaryl-CoA reductase, class I/II|1|1|267|CoAreductase|
+|SSF55035          |SUPERFAMILY|Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding domain|1|1|72|CoAreductase|
+|PS50077           |ProSiteProfiles|HEAT, type 2|1|1|40|HEAT|
+|PF02309           |Pfam|AUX/IAA domain|1|1|72|AUX|
+|TIGR00231         |TIGRFAM|Small GTP-binding protein domain|1|1|145|GTPase|
+|PF05633           |Pfam|Protein BYPASS-related|1|1|244|DUF793|
+|PF00071           |Pfam|Small GTPase superfamily|1|1|152|GTPase|
+|SM00175           |SMART|Small GTPase superfamily|1|1|157|GTPase|
+|SM00174           |SMART|Small GTPase superfamily|1|1|155|GTPase|
+|G3DSA:3.90.770.10 |Gene3D|Hydroxymethylglutaryl-CoA reductase, class I/II, catalytic domain|1|1|112|CoAreductase|
+|PF05699           |Pfam|HAT, C-terminal dimerisation domain|1|1|78|HAT|
+|G3DSA:3.30.420.10 |Gene3D|Ribonuclease H-like domain|1|1|113|RiboH|
+|PS51419           |ProSiteProfiles||1|1|186|GTPase|
+|SSF53098          |SUPERFAMILY|Ribonuclease H-like domain|1|1|112|RiboH|
+|PF13962           |Pfam|PGG domain|1|1|107|PGG|
+|PF01612           |Pfam|3'-5' exonuclease domain|1|1|104|ExoI|
+|SM00173           |SMART|Small GTPase superfamily|1|1|159|GTPase|
+|SSF46565          |SUPERFAMILY|DnaJ domain|1|1|78|DnaJ|
+|PF13637           |Pfam||1|1|54|Ank|
+|G3DSA:1.10.287.110|Gene3D|DnaJ domain|1|1|57|DnaJ|
+|SSF48403          |SUPERFAMILY|Ankyrin repeat-containing domain|1|1|172|Ank|
+|PS50297           |ProSiteProfiles|Ankyrin repeat-containing domain|1|1|171|Ank|
+|PF06507           |Pfam|Auxin response factor|1|1|66|AUX|
+|PS50088           |ProSiteProfiles|Ankyrin repeat|1|1|24|Ank|
 
-The association of NB and LRR domains is due to the integration of several Exo70 from grasses into NB and NB-LRR genes.
-
-**Table 3.** Domain architecture of genes containing a nucleotide binding (NB) domain.
-
-|Gene               |Domain architecture|
-|:------------------|:-----------------:|
-|LOC_Os07g10910.1   |       NB-Exo70    |
-|LOC_Os07g10910.2   |       NB-Exo70    |
-|LOC_Os07g10940.1   |       NB-Exo70    |
-|MLOC_11137.3       |    NB-CC-Exo70    |
-|HORVU2Hr1G003540.3 |   NB-LRR-Exo70    |
-
-The nucleotide binding (NB) exhibited in LOC_Os07g10910 (two alternate gene models), LOC_Os07g10940, and MLOC_11137.3 is more closely associated with serine/threonine protein kinases rather than NB-LRRs. HORVU2Hr1G003540.3 is a NB-LRR with an integrated Exo70, similar to others that have been observed. The identifier for HORVU2Hr1G003540.3 in the [barleyNLRome](https://github.com/matthewmoscou/barleyNLRome) analysis is 2097|m.19808. The implication of Exo70 integration in NB-LRRs will be discussed in more detail below. To generate a phylogenetic tree of the Exo70 gene family, we used three strategies for aligning Exo70 proteins:
-* Alignment of full length Exo70 proteins
-* Alignment of the Exo70 domain only
-* Alignment of full length Exo70 proteins using GUIDANCE2
-
-#### Alignment of full length Exo70 proteins
-We first evaluated the protein domain structure using `QKdomain_process.py` with default parameters to identify proteins with non-Exo70 domains.
+Coils and TMHMM predict the presence of coiled coils and transmembrane domains, respectively. The presence of these predicted domains is not surprising, as a coiled coil is a secondary structure and transmembrane domain prediction could be associated with hydrophobic residues in Exo70 proteins that interact with the membrane. It is unclear what the role of the domains Rossmann-like alpha/beta/alpha sandwich fold (associated with tRNA ligase) and aspartic peptidase, which will require further study. Of particular interest was the association of NB and LRR domains. It is known that Exo70 genes integrate into NB and NB-LRR genes. Next, we evaluated the protein domain structure using `QKdomain_process.py` with default parameters to identify proteins with non-Exo70 domains.
 
 ```bash
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-Full length Exo70 genes were included in the multiple sequence alignment, except for genes listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on `QKdomain`. A single gene model was selected at each gene locus for the analysis. Several multiple sequence alignments were performed on the [138 Exo70 genes](data/Exo70_AtBdHvOs.fa) including CLUSTALW2, MUSCLE, and MAFFT. The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for subsequent use as an outgroup in phylogenetic analyses.
+**Table 3.** Domain architecture of genes containing a nucleotide binding (NB) domain.
+
+|Gene                     |Domain architecture         |
+|:------------------------|:--------------------------:|
+|LOC_Os07g10910.1         |    Ser/Thr kinase-Exo70    |
+|LOC_Os07g10910.2         |    Ser/Thr kinase-Exo70    |
+|LOC_Os07g10940.1         |    Ser/Thr kinase-Exo70    |
+|MLOC_11137.3             |       ATPase-Exo70         |
+|HORVU2Hr1G003540.3       |       NB-LRR-Exo70         |
+|HvRGH2                   |       NB-LRR-Exo70         |
+|GRMZM2G436742_P01        |hAT-Ser/Thr kinase-CC-Exo70 |
+|Seita.5G432200.1.p       |    Ser/Thr kinase-Exo70    |
+
+The Ser/Thr kinase domain exhibited in LOC_Os07g10910 (two alternate gene models), LOC_Os07g10940, GRMZM2G436742_P01, and Seita.5G432200.1.p, as well as the ATPase domain in MLOC_11137.3 were removed from these sequences for subsequent analyses. HORVU2Hr1G003540.3 is a NB-LRR with an integrated Exo70, similar to others that have been observed. The identifier for HORVU2Hr1G003540.3 in the [barleyNLRome](https://github.com/matthewmoscou/barleyNLRome) analysis is 2097|m.19808. The implication of Exo70 integration in NB-LRRs will be discussed in more detail below, although for this analysis this NB-LRR regions were removed for analysis. 
+
+### Generation of phylogenetic tree using full length Exo70 proteins
+To generate a phylogenetic tree of the Exo70 gene family, we aligned the full length Exo70 proteins, except for genes listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [134 Exo70 genes](data/alignments/Exo70_AtBdHvOsSc.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
 
 ```bash
-clustalw2 -infile=Exo70_AtBdHvOs.fa -type=protein -matrix=pam -outfile=Exo70_AtBdHvOs_CLUSTALW2.aln -outorder=input
-muscle -in Exo70_AtBdHvOs.fa -out Exo70_AtBdHvOs_MUSCLE.aln -clwstrict
-mafft --clustalout --thread 4 Exo70_AtBdHvOs.fa > Exo70_AtBdHvOs_MAFFT.aln
+cat Exo70_species_At_curated.fa Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Os_curated.fa Exo70_species_Sc_curated.fa > Exo70_AtBdHvOsSc.fa
+muscle -in Exo70_AtBdHvOsSc.fa -out Exo70_AtBdHvOsSc_MUSCLE.aln -clwstrict
 ```
 
-CLUSTALW2 and MUSCLE gave alignments that were similar in length (1,108 and 1,199, respectively), whereas MAFFT gave an alignment length of 1,877 aa. The topology of the neighbor joining phylogenetic trees for MUSCLE and MAFFT were similar, whereas CLUSTALW2 created aberrant branch lengths. The MUSCLE alignment was selected for subsequent analyses. After alignment, it was found that the following sequences were redundant. They were subsequently removed for phylogenetic tree construction.
+The [multiple sequence alignment](data/alignments/Exo70_AtBdHvOsSc_MUSCLE.aln) had a length of 1,183 aa. Manual curation was made on the multiple sequence alignment to remove N-terminal sequence unique to only a single Exo70 protein. This generated an initial [alignment](data/alignments/Exo70_AtBdHvOsSc_MUSCLE.phy) length of 1,161 aa.
 
-**Table 4.** Redundant proteins in Exo70 multiple sequence alignment.
-
-|Retained gene model|Redundant gene model|
-|:-----------------:|:------------------:|
-|LOC_Os11g42989.1   |LOC_Os11g43049.1    |
-|AT5G61010.1        |AT5G61010.2         |
-|LOC_Os06g14450.1   |LOC_Os06g14450.2    |
-|LOC_Os06g14450.1   |LOC_Os06g14450.3    |
-
-#### Generation of phylogenetic tree using full length Exo70 proteins
-The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model.
+The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
 
 ```bash
-raxml -s exo70_alignment.phy.reduced -n EXO70_MULTIGAMMA -m PROTGAMMAJTT -p 654967019 -T 4
+raxml -f a -x 943789321641 -p 47823147231 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtBdHvOsSc_MUSCLE.phy -n Exo70_AtBdHvOsSc -T 4
 ```
 
-#### Bootstrap analysis of phylogenetic tree using full length Exo70 proteins
-Bootstrap support was generated using 300 bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML and was met after 250 bootstraps.
+The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70.
+
+**TODO** Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
+
+![alt text](figures/Exo70_AtBdHvOsSc_phylogeny.png "Exo70 phylogenetic tree with At, Bd, Hv, Os, and Sc")
+
+The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [258 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
+
+**TODO** Correct text below to add manual curation from HB.
+
+Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
 
 ```bash
-raxml -s exo70_alignment.phy.reduced -n EXO70_MULTIGAMMA_bootstrap_r1 -m PROTGAMMAJTT -N 100 -p 5247757188 -T 4
-raxml -s exo70_alignment.phy.reduced -n EXO70_MULTIGAMMA_bootstrap_r2 -m PROTGAMMAJTT -N 100 -p 9236245951 -T 4
-raxml -s exo70_alignment.phy.reduced -n EXO70_MULTIGAMMA_bootstrap_r3 -m PROTGAMMAJTT -N 100 -p 7483262134 -T 4
-cat RAxML_parsimonyTree.EXO70_MULTIGAMMA_bootstrap_r* > allBootstraps
-raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
+python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_ID -l Exo70_gene_identifiers.txt
 ```
 
-We use the `-f b` command in RAxML to add the bootstrap values to the phylogenetic tree.
+```bash
+cat Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Os_curated.fa Exo70_species_Ot_curated.fa Exo70_species_Sb_curated.fa Exo70_species_Sc_curated.fa Exo70_species_Si_curated.fa Exo70_species_Zm_curated.fa > Exo70_BdHvOsOtSbSiZm.fa
+muscle -in Exo70_BdHvOsOtSbSiZm.fa -out Exo70_BdHvOsOtSbSiZm_MUSCLE.aln -clwstrict
+```
+
+The [multiple sequence alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.aln) had a length of 1,403 aa. Manual curation was made on the multiple sequence alignment to remove N-terminal sequence unique to only a single Exo70 protein. This generated an initial [alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.phy) length of 1,351 aa.
+
+The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
 
 ```bash
-raxml -f b -z allBootstraps -t RAxML_result.EXO70_MULTIGAMMA -m PROTGAMMAJTT -n EXO70_FL
+raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbSiZm_MUSCLE.phy -n Exo70_BdHvOsOtSbSiZm -T 4
 ```
 
 All analyses can be found in the file `data\phylogenetic_analysis.tar.gz`. Next, we extract the node labels from the phylogenetic tree.
@@ -127,17 +250,16 @@ All analyses can be found in the file `data\phylogenetic_analysis.tar.gz`. Next,
 python QKphylogeny_nodelabels.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_nodelabels
 ```
 
-#### Visualization of phylogenetic tree using full length Exo70 proteins
-Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
+As above, iTOL was used for visualization and the phylogenetic tree was rooted based on ScExo70.
 
-```bash
-python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_ID -l Exo70_gene_identifiers.txt
-```
-The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70. Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
+**TODO** Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
 
-![alt text](figures/Exo70_phylogeny_v1.png "Exo70 phylogenetic tree")
+![alt text](figures/Exo70_BdHvOsOtSbScSiZm_phylogeny.png "Exo70 phylogenetic tree with Bd, Hv, Os, Ot, Sb, Sc, Si, and Zm")
 
-#### Analysis of phylogenetic tree using full length Exo70 proteins
+
+### Analysis of phylogenetic tree using full length Exo70 proteins
+**TODO** Need to redo this analysis based on the most up to date phylogenetic trees.
+
 The phylogenetic tree was used to:
 * Define gene families based on *Arabidopsis thaliana* and *Oryza sativa* annotation,
 * Assess expansion of gene families, and
@@ -169,79 +291,6 @@ Using evolutionary relationships of *Oryza sativa*, *Hordeum vulgare*, and *Brac
 * Exo70F5, loss of gene in *B. distachyon*
 
 Previous observations of extensive expansion within the Exo70FX clade in *Oryza sativa* was supported in *Hordeum vulgare* and *Brachypodium distachyon*. Orthologous relationships are unclear for the majority of this gene family, therefore no attempt was made to associate identifiers between species. 
-
-### Expanded phylogenetic tree using diverse sequenced monocot species
-To understand the expansion and evolution of Exo70 gene families in the monocots (such as *Exo70F* and *Exo70FX*), we identified additional sequenced monocot species on Phytozome from the Department of Energy-Joint Genome Institute.
-
-#### Exo70 gene family in *Annas comosus* (pineapple)
-In total, 14 proteins with Exo70 domains were extracted from the *Annas comosus* genome version 321_v3 from the Department of Energy-Joint Genome Institute. 
-
-#### Exo70 gene family in *Musa acuminata* (banana)
-In total, 28 proteins with Exo70 domains were extracted from the *Musa acuminata* genome version 304_v1 from the Department of Energy-Joint Genome Institute. 
-
-#### Exo70 gene family in *Sorghum bicolor*
-In total, 46 proteins with Exo70 domains were extracted from the *Sorghum bicolor* genome version 454_v2.2 from the Department of Energy-Joint Genome Institute. 
-
-#### Exo70 gene family in *Setaria italica*
-In total, 54 proteins with Exo70 domains were extracted from the *Setaria italica* genome version 312_v2.2 from the Department of Energy-Joint Genome Institute. 
-
-#### Exo70 gene family in *Spirodela polyrhiza*
-In total, 18 proteins with Exo70 domains were extracted from the *Spirodela polyrhiza* genome version 290_v2 from the Department of Energy-Joint Genome Institute. 
-
-#### Exo70 gene family in *Zea mays*
-In total, 47 proteins with Exo70 domains were extracted from the *Zea mays* genome version 284_Ensembl-18_2010-01 from the Department of Energy-Joint Genome Institute. 
-
-#### Multiple sequence alignment of expanded phylogenetic tree
-Full length Exo70 genes were included in the multiple sequence alignment including those previously used to construct the *Hordeum vulgare*, *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. Manual curation was performed on the data set with the removal of alternate gene models for single loci and removal of sequence preceding the first methionine. This was a common feature of the *Hordeum vulgare* protein data set, and to a lesser degree *Setaria italica*. From an initial set of [366 Exo70 genes](data/Exo70_AtBdHvOs_monocot.fa), multiple sequence alignment was performed with [318 Exo70 genes](data/Exo70_AtBdHvOs_monocot_nr.fa) using [MUSCLE](data/Exo70_AtBdHvOs_monocot_MUSCLE.aln). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included for subsequent use as an outgroup in phylogenetic analyses.
-
-```bash
-muscle -in Exo70_AtBdHvOs_monocot_nr.fa -out Exo70_AtBdHvOs_monocot_MUSCLE.aln -clwstrict
-```
-
-The multiple sequence alignment had a length of 2,529 aa. Manual curation was made on the multiple sequence alignment to remove sequence on N-terminal and C-terminal unique to only single Exo70 proteins. This generated an initial [alignment](data/Exo70_AtBdHvOs_monocot_MUSCLE.phy) length of 2,046 aa.
-
-#### Generation of expanded phylogenetic tree using full length Exo70 proteins
-The maximum likelihood phylogenetic tree was constructed using RAxML with the AUTO amino acid substitution model. The selected amino acid substitution model was JTT.
-
-```bash
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot -m PROTGAMMAAUTO -p 347123894213321 -T 4
-```
-
-#### Bootstrap analysis of phylogenetic tree using full length Exo70 proteins
-Bootstrap support was generated using XXX bootstraps. Convergence of bootstraps was determined using the `autoMRE` command in RAxML and was met after XXX bootstraps.
-
-```bash
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r1 -m PROTGAMMAAUTO -N 100 -p 5463297105643 -T 32
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r2 -m PROTGAMMAAUTO -N 100 -p 4236472395119 -T 32
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r3 -m PROTGAMMAAUTO -N 100 -p 6574185469431 -T 32
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r4 -m PROTGAMMAAUTO -N 100 -p 6485921568143 -T 32
-raxml -s Exo70_AtBdHvOs_monocot_MUSCLE.phy -n Exo70_AtBdHvOs_monocot_bootstrap_r5 -m PROTGAMMAAUTO -N 100 -p 7857483295341 -T 32
-cat RAxML_parsimonyTree.Exo70_AtBdHvOs_monocot_bootstrap_r* > allBootstraps
-raxml -z allBootstraps -m PROTGAMMAJTT -I autoMRE -n TEST -p 8147553599
-```
-
-We use the `-f b` command in RAxML to add the bootstrap values to the phylogenetic tree.
-
-```bash
-raxml -f b -z allBootstraps -t RAxML_result.Exo70_AtBdHvOs_monocot_bootstrap -m PROTGAMMAAUTO -n EXO70_AtBdHvOs_monocot_bootstraps
-```
-
-Bootstraps are ongoing, once completed all data will be deposited into the file `data\phylogenetic_analysis_extended_monocot.tar.gz`. Next, we extract the node labels from the phylogenetic tree.
-
-```bash
-python QKphylogeny_nodelabels.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_nodelabels
-```
-
-#### Visualization of phylogenetic tree using full length Exo70 proteins
-Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
-
-```bash
-python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_ID -l Exo70_gene_identifiers.txt
-```
-The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70. Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
-
-![alt text](figures/Exo70_phylogeny_v2.png "Extended Exo70 phylogenetic tree")
-
 
 ---
 ### Todo

@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="7e330423a1ee725a741071ef8b7a6b53">FFFCENVAERKLTRVKSSAAGCWRKTSSSPCRTAELEMAFPKSPATTVSSYASTPLSSCPSSSISTGCSTPATPNPFAVAAISPAEIRYIVPAGRASNHKPVLAATGTPEFTQGKKLQQHQDQDHKPALAATGTPEFAQGQKLQQHQDLPESAAKFPKQENPAPATTGSMEFIQGKKPQQHQDLLESAANFPNQEINGWEHPDLCSPSKLLKNASTSIKEISRWARSSTGSKVNSNIRLLQFLFSLIQVITSTTPHPDHVVAMIRVHEALANLLLVLPKNIFPFLLQHFAQFVDELCPKRGASLSERFGNTLHDLRRSIKSGLQVLKDMILDYTSDIVPQGGGVHEITKYLLKYIMSLLDNGTSLKIILVGDEQDGKVAMETLQDIVATLISHLEIMLEKESHRYKDAGLKQMFMVNNVKFLLYQVEGSEIGYLLGDDWVLKHRDQLKEHVSSFINISWESVMRCFHVKTSKIPIFSSLPTLRIFNLEFEKTYWTQKTWKVENPLLRSNMRTSVSEKLVQAYSTYLENHKNKAPKLMKYTPEDLEELLSDLFEG</sequence>
+        <xref id="HORVU0Hr1G021500.1"/>
+        <matches>
+            <hmmer3-match evalue="7.0E-61" score="206.2">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="550" env-start="230" score="205.7" evalue="1.0E-60" hmm-start="47" hmm-end="373" hmm-length="0" start="238" end="550"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.99E-55">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="237" end="553"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="68fea2a3af059982c7f0b5d16da851f5">MLGALGVTAIAVDPDRPTSSLAVHIAWIMDVLHKNLESKSKIYRDPPLASIFLMNNGKYVIHKVNDSELGVLLGDDWMKQMLSRVRRWSMEYQRGAWAKVMSVLQTGGSGFSGLPPKAMLQKLQMFNGYLEEIRAAQSEWVITDDQLRADVKAAIADSVLPAYKGLIARLRSSPDAPQDLFIKHTPEDVEACIQHLFEGIGK</sequence>
+        <xref id="HORVU3Hr1G088110.1"/>
+        <matches>
+            <hmmer3-match evalue="9.3E-48" score="163.1">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="195" env-start="8" score="162.8" evalue="1.1E-47" hmm-start="188" hmm-end="372" hmm-length="0" start="15" end="194"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.24E-50">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="12" end="198"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="991c50222ca613b7934d6368b65406bb">MVEHPGPQPPTSVSSILSPPLHANPATRADHQQLLTITTRPAPRAILLPQFGSSQEMDSRNQAPQKSSSFSSASSNKAREVDRNLSLGTLRHGDHDRRGSAVATWDQIKEECEDDEEDGCGGPGVSELSGEIDAFIVGLNGEAPLSLPEATPEKFAAAVELQIVQSENSRDKWANGEPPVVLAAIARIAALASAFAKNPEASSKYASGAHRVTAVLQRSMAFLEDEFHALLEPKADTCKLIRRPPSFEQGGHEADRCVLRPPDTAPAAAEAKPPYTPETVERLRSIADVMVAAGYVTECTQMLLVARRNAFDASVRALGYEKASIDDVVRMTWETLETEIVTWIKAFRHTINVGLSTEHELCGRVFTGPHAGVGRGVFADLARCVMLHMLNFTEAVAMTRRSAEKLFKVLDMYEAVRDSSPVIDAFLCASADDEPAADKKGNALADLKTEIAAARSRIGESAASIFCELESSIRADAGRQPVPGGAVHPLTRYVMNYLKYTCEYNSTLEQVFREHRRSDAVDAEDNNPFAAQLMEVMELLQGNLEGKSRLYKDPALSSIFLMNNGRYMLQKIRGSPETNAMLGETWARKQSTNLRQYHKNYQRETWNRVLTLLRDDGVLTVKGHVQKPLLKERXXXXXXXXXXXXXXXAVQAVQLGHGRDPEDAGSVGGERRAAAVGAPGFHRRRGGAGVPVVPGAVRADVQRREAGGEVREAERGGPGGDHRRALRR</sequence>
+        <xref id="HORVU5Hr1G039240.1"/>
+        <matches>
+            <hmmer3-match evalue="4.2E-76" score="256.3">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="636" env-start="342" score="255.7" evalue="6.7E-76" hmm-start="3" hmm-end="299" hmm-length="0" start="343" end="633"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.41E-94">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="179" end="633"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="e602b88315225fd519465c7a34af3101">MAGRLAAVPEETTDGSPAACPPTNLYRDSIRMVPLPRGQYIRSTLFAHSGQSGSSFSGASSYYPSSGSGCSWGPGWASALTHALAFISNRMVSDGYTQRMVQAFDFEYGGGDPERVLGAWFFELDVEWLVQTREEHSGLRRHVQDMPASSLQDMVGRWIRALTVLVFNIRNLMVAVHKMPPVTVARFGKASISAMLVFVDAILAVPGAETLRAVVDMFICVSSVSCYMFTTLVISPEAKSIFGEIGGLLETEGNMLRKAICSMMEEVRTLIEDDDSWAVEILRGRGEVHRNTRFMVDCIMSVKMARTSAQRHDAGNLPGMVDNSVDYLKDVLLRKSELCPDLSLRYLFLLNNSYFIAQVSDPSGDNYGLKLTPECEKYMDSYLDASWGHVLPCIQKSFFPGLLCCWCCCINTSSLAKFESAFHQTYEAQKFWKVPDPQLRDELRRAITRKVISEHPGIEQHVSRRSGSPKALVWMLEQIFEG</sequence>
+        <xref id="HORVU2Hr1G118500.1"/>
+        <matches>
+            <hmmer3-match evalue="3.2E-31" score="108.6">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="455" env-start="157" score="102.2" evalue="2.9E-29" hmm-start="33" hmm-end="338" hmm-length="0" start="180" end="453"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.14E-35">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="78" end="453"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="abd2a015a0686547c02b516690a061ae">MCPTTVPVTAAVSGADMDDAVLAKLRASRAAIVSVLSDAAQAEAAIDEAGDRLTDLLSSASSPSSSNLQSKAVAARALRARIDRAVAPAEPLLAALRRVSSLAEEAAQLPENPADTESAVAFVDRVDQMRDAIEDVVARGDEAVRRVEEAVGFLGRTTTKAAGRGRVRRLTEAASALRAVYETEAEAMRFEGPLDEALLGLQDLFEAVLLRLKHAAPADDAGAVGDTDEYELGTDDEVDAAARMAKTLAGNDCLDICVDIYVKARYRRAAKAMMRLDPAYLKAYTAEAIDGMEWEALESSMALWSPHFHVAIASVLTAERRLCARVLAHLPPAVWPECFAKIAARIVAAFFRFADGVVTAEREPQRLFKLLDMFDAVARERERLDALFSGESATLVAIRERASEVERALARAAAGVFYEFGLRVETHYIAGAGAGTDAVHVPKIVRYAVNYLKCLASDDYRGLMDTALRAERERGGGGDEDGGETEGGGGRAALAEAASNVLEALHRHVEAARKVCADAVAGHVMAMNAYWYIYMRTRGSDLSKLIGEEPMKRRYKTSAEEAAWEYQDAAWSPLVRLLGGSGGKAWTPDEAREKAAAFAGVMEERVRKHGAEYKIPDGDLRAQIKAAVTKAVRGAYAGFVKANEKAVAGGRRELLQVDAVESMVRRVFEAMGDGEAVGMGRTRSSGRARRESGNIEGFEAN</sequence>
+        <xref id="HORVU7Hr1G052100.1"/>
+        <matches>
+            <hmmer3-match evalue="8.3E-47" score="159.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="665" env-start="303" score="158.9" evalue="1.7E-46" hmm-start="3" hmm-end="349" hmm-length="0" start="304" end="645"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="7.32E-57">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="184" end="668"/>
+                    <superfamilyhmmer3-location start="103" end="149"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="1dfeb774798d4dec9e2ae9039ccf6d9f">RLSLESMDDLDTSSEFDPATPHSQEGAPDTARSASLVGNPFDDQLFDLVRPDAVDELRAIAERMGRAGYASELVQVYCGIRRDLLDECLTVLGVERLSIDEVQRVEWKQLNDKMKKWVHGVKTVVRSLLTGERRLCDQVLAVSDELRDECFVESTKVCIMQILNFGDAVAVCPRSPEKVSRILDMYEALAEVIPELKELYYGTPGDDVICDLEGVLGRLGDAVKGNLLEFGKVLQQESSRRPMMAGEIHPITRYVMNYLRLLVVYSDTLDKLLDEDAARDVDHNASNGGADDDEEYLQSLTPLGHRLVKLMSYLEANLEEKSKLYEDVALQCIFSMNNTLYIVQKVKDSELGRILGDHWTRRRRGKIRQNSKSYLRISWTKVLSYLKDDGHSSGSGSLGNSSSRVKEKFKNFNFAFDEIYRSQTLWKVPDPQLREELKISISENVIPAYRAFLGRYGSLVDNGRNSGKYIKYTPEDLENQLSDLFEGSLGSANHSRRRS</sequence>
+        <xref id="HORVU2Hr1G069050.1"/>
+        <matches>
+            <hmmer3-match evalue="2.0E-119" score="398.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="483" env-start="115" score="398.6" evalue="2.4E-119" hmm-start="1" hmm-end="373" hmm-length="0" start="115" end="483"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.94E-141">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="10" end="486"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="97b877f5b43fd4480887691ff3aa356c">MELPLFSACLGAMGSLSMKLDAIRDTKLEDGIRKLTTRLLKLSKAQDLPHIAINWMKDVRELSYEMENCVVAQADWIEKMSGFKARVKAANERYDRYLLETVPSRTYIFPVVDHWFPTDGGRKPDPVVGLHAKGGAVDTLCQWLADGDKQLKVVSIVGVGGIGKTTLAKQLWLEKKLGDFDCRAFVRTAKKPDMRRILRSILVQVRPHQPPNTSGVHDLIHDINEHLQNKRYFLIIDDLWATSVWDVVSDAFPEGNHCSRIVTTTEIEDVARACCSYPSKDIFKMEPLNVSNSKELFTNGVLGSREEDYRQFDEASDEIVRRCAGLPLAIISVASVLASQREADAVENREQTRGRWKGVHDFVYSIIEASVQSYRHINPAQLHNKSASGDRVQDFVVNSLPANTTSDEIMKQVLIFVYSCLSSCLQTCLLHLSMYPENYKVLKEDITKQWVVEGFICAPTDNGKMKVAQSYFDKLVSMGLIQDIDVDNSDGILYYAVHHLVHDFITSKSKEENFVNVIDYSQRTIRLANKVSHLSLQFGSATYATPPACTTTGLSQVRSLAYTGLSSCLPLISEFKLIRVLILHIWDDQPSIDVDLWGISELLLLRYLQVTCSDTVHLPDQMQGLKHLETLEINAGVAAVPSDLFHLQSLLHLRLGGGTELPDVTGILRNVTVPSAAILLDESSSPPNSVMAIELLPPICIIPEWFGQLNNLCILKVVVGELLRDDIHILGGLPALTVLTLFVQRQTTELISFAPGAFYALEYFEFRCGVLLLMFEEGAMPNLQRIKLGFNSHRGEQYGRLLVGIEHLSNVQEISGIIGSTVGAEEYDLKAAESAFKDASGKHPSNVSIKRSGIVVEEYGPLEIHHSFPSTSNEICGNQKQESQEDIKQNAANNFQLIDRTTNKKGHASVELLTQKTIRFKIADITSKRWNSSAFKVLSKFQGINSMSLDKKGLLKVVAHLDPEVILRALRKAKFNAQIISVGPHVQMDKPKGRQMPESLNLTTRRIIGGGGSMSDCTHRIGLQASEQARHSSLYLTLLGASLDVPDKLWAVARWLSGYPRAWVLNVPGKAWAVATWLSGYRRAPVLDEDNQIHGSPPRRIPSHLELDSAKVAAVIAALRLEIAGGAHWTPTVVQHRANTFNSDSSGDDDDEDPSDGYMCYPPISFLETGDAPLFLTGSTDSARPGDGLYRLSDVHDNPWILREGITTVAGPCELTNETTMTWVMRLKITTKLVCLIKQQLLEQNRELSEECFAKVAGQSLEKIFEVACSFSDATWSDVHISQQLTVFETLVDVLFNIQDLHFIRSGEVAGIINKMVNAFRRMIQTTSDDIYRGRESTIHPATFIFILVLEFFYRNGDKLQSILESGDYNTEPCSDMCDCLVSKLRECAEKTFQEKGGRCIFLLNNIDYVLELKYHPGLLLPSRIVSDLISLTDKYIVSYLDEYWVPLVTYLDVDSFKGPDRLSFDKFIEEFFTICDSQMTWKVRSRLKMRLRQQIIDLIAPTYVNFLKASQEKPRSWLNMSRREKPMYTAAFLEQVISGFFER</sequence>
+        <xref id="HORVU2Hr1G003540.3"/>
+        <matches>
+            <fingerprints-match evalue="2.9E-12" graphscan="III.">
+                <signature ac="PR00364" desc="Disease resistance protein signature" name="DISEASERSIST">
+                    <models>
+                        <model ac="PR00364" desc="Disease resistance protein signature" name="DISEASERSIST"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="2" pvalue="1.53E-5" score="31.83" start="226" end="240"/>
+                    <fingerprints-location motifNumber="3" pvalue="3.67E-5" score="39.0" start="323" end="337"/>
+                    <fingerprints-location motifNumber="1" pvalue="2.85E-9" score="57.66" start="153" end="168"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer3-match evalue="7.0E-44" score="149.9">
+                <signature ac="PF00931" desc="NB-ARC domain" name="NB-ARC">
+                    <entry ac="IPR002182" desc="NB-ARC" name="NB-ARC" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043531" name="ADP binding"/>
+                        <pathway-xref db="Reactome" id="R-HSA-111458" name="Formation of apoptosome"/>
+                        <pathway-xref db="Reactome" id="R-HSA-6803207" name="TP53 Regulates Transcription of Caspase Activators and Caspases"/>
+                        <pathway-xref db="Reactome" id="R-HSA-111459" name="Activation of caspases through apoptosome-mediated cleavage"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00931" desc="NB-ARC domain" name="NB-ARC"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="383" env-start="134" score="123.3" evalue="8.7E-36" hmm-start="5" hmm-end="249" hmm-length="0" start="137" end="375"/>
+                    <hmmer3-location env-end="461" env-start="390" score="24.1" evalue="1.4E-5" hmm-start="229" hmm-end="284" hmm-length="0" start="403" end="457"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.7E-12" score="44.4">
+                <signature ac="G3DSA:3.40.50.300">
+                    <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="DOMAIN"/>
+                    <models>
+                        <model ac="1ji0A00"/>
+                        <model ac="1e9rD01"/>
+                        <model ac="3i5xA01"/>
+                        <model ac="1pv4E02"/>
+                        <model ac="3iijA00"/>
+                        <model ac="1u9iA02"/>
+                        <model ac="1texA00"/>
+                        <model ac="1c4oA03"/>
+                        <model ac="1gm5A05"/>
+                        <model ac="1cr2A00"/>
+                        <model ac="1x3sA00"/>
+                        <model ac="2vhjA01"/>
+                        <model ac="1xtqA00"/>
+                        <model ac="1t8tA00"/>
+                        <model ac="1sgwA00"/>
+                        <model ac="1e6cA00"/>
+                        <model ac="1zd1B00"/>
+                        <model ac="1kgdA01"/>
+                        <model ac="1wcv100"/>
+                        <model ac="2ixeD01"/>
+                        <model ac="3m1iA00"/>
+                        <model ac="1svmA03"/>
+                        <model ac="1nn3A00"/>
+                        <model ac="1c4oA01"/>
+                        <model ac="1a7jA00"/>
+                        <model ac="1zd8A00"/>
+                        <model ac="3czqC00"/>
+                        <model ac="1ukvY00"/>
+                        <model ac="2hxsA00"/>
+                        <model ac="1htwA00"/>
+                        <model ac="3kb2A00"/>
+                        <model ac="1vecA00"/>
+                        <model ac="1nrjB00"/>
+                        <model ac="2qm8A02"/>
+                        <model ac="1xmvA01"/>
+                        <model ac="3co5A00"/>
+                        <model ac="2gnoA01"/>
+                        <model ac="1w36B01"/>
+                        <model ac="2zptX00"/>
+                        <model ac="2akaB00"/>
+                        <model ac="1w36D03"/>
+                        <model ac="2chgA01"/>
+                        <model ac="2ph1A00"/>
+                        <model ac="1wrbA00"/>
+                        <model ac="1xjcA00"/>
+                        <model ac="1gm5A04"/>
+                        <model ac="1in4A01"/>
+                        <model ac="2c95A00"/>
+                        <model ac="1mkyA01"/>
+                        <model ac="3lfuA01"/>
+                        <model ac="1g7sA01"/>
+                        <model ac="3czpA02"/>
+                        <model ac="1b0uA00"/>
+                        <model ac="1g64B00"/>
+                        <model ac="3ea0A00"/>
+                        <model ac="2f6rA00"/>
+                        <model ac="1ko7A02"/>
+                        <model ac="1vcnA01"/>
+                        <model ac="2bdtA00"/>
+                        <model ac="1znwA01"/>
+                        <model ac="1mh1A00"/>
+                        <model ac="2w58B01"/>
+                        <model ac="1w1wA00"/>
+                        <model ac="2wwfA00"/>
+                        <model ac="1g8fA03"/>
+                        <model ac="2iyvA00"/>
+                        <model ac="3o8bA04"/>
+                        <model ac="2nq2D00"/>
+                        <model ac="2fnaA01"/>
+                        <model ac="2pcjA00"/>
+                        <model ac="1fmjA00"/>
+                        <model ac="3defA00"/>
+                        <model ac="3cx8A01"/>
+                        <model ac="3qxcA00"/>
+                        <model ac="1g41A01"/>
+                        <model ac="1pujA01"/>
+                        <model ac="2oxcA00"/>
+                        <model ac="1m7bA00"/>
+                        <model ac="2h57B00"/>
+                        <model ac="3d31A01"/>
+                        <model ac="1gtvA00"/>
+                        <model ac="1gvnD00"/>
+                        <model ac="2cbzA00"/>
+                        <model ac="2qt1A00"/>
+                        <model ac="1q0uB00"/>
+                        <model ac="1w36D02"/>
+                        <model ac="1ihuA01"/>
+                        <model ac="2rhmC00"/>
+                        <model ac="2c78A01"/>
+                        <model ac="2reoA01"/>
+                        <model ac="3o8bA03"/>
+                        <model ac="2pl3A00"/>
+                        <model ac="3lv8A00"/>
+                        <model ac="1mkyA02"/>
+                        <model ac="2ck3A02"/>
+                        <model ac="1vytB02"/>
+                        <model ac="3dmnA00"/>
+                        <model ac="1s96A01"/>
+                        <model ac="1xzpA03"/>
+                        <model ac="1zp6A00"/>
+                        <model ac="1oywA02"/>
+                        <model ac="2xb4A00"/>
+                        <model ac="2ce2X00"/>
+                        <model ac="1lw7A02"/>
+                        <model ac="3c8uA00"/>
+                        <model ac="1nijA01"/>
+                        <model ac="2no7B00"/>
+                        <model ac="3gj0A00"/>
+                        <model ac="1vmaA02"/>
+                        <model ac="2r8rA00"/>
+                        <model ac="1ihuA02"/>
+                        <model ac="3czpB01"/>
+                        <model ac="1tf7A01"/>
+                        <model ac="2erxA00"/>
+                        <model ac="1viaA00"/>
+                        <model ac="1c9kB00"/>
+                        <model ac="2qu8A00"/>
+                        <model ac="2hjvA00"/>
+                        <model ac="3fdiB00"/>
+                        <model ac="1oxxK01"/>
+                        <model ac="1g3qA00"/>
+                        <model ac="1q44A00"/>
+                        <model ac="1pjrA01"/>
+                        <model ac="3bosB01"/>
+                        <model ac="3c5cB00"/>
+                        <model ac="1m6nA03"/>
+                        <model ac="1sxjA01"/>
+                        <model ac="1vhtA00"/>
+                        <model ac="1n0uA01"/>
+                        <model ac="3do6A01"/>
+                        <model ac="1ly1A00"/>
+                        <model ac="1e69A00"/>
+                        <model ac="2qorA01"/>
+                        <model ac="1e2kA00"/>
+                        <model ac="1wb1C01"/>
+                        <model ac="1tueD00"/>
+                        <model ac="2j45A02"/>
+                        <model ac="2h92A00"/>
+                        <model ac="1sxjE01"/>
+                        <model ac="1sq5C00"/>
+                        <model ac="2bbsB00"/>
+                        <model ac="1p9rA02"/>
+                        <model ac="1zunB01"/>
+                        <model ac="2dy1A01"/>
+                        <model ac="1f2uA00"/>
+                        <model ac="1a5tA01"/>
+                        <model ac="3b85A00"/>
+                        <model ac="2vp4D00"/>
+                        <model ac="3cwqA00"/>
+                        <model ac="3akeA00"/>
+                        <model ac="2gxqA00"/>
+                        <model ac="1wp9A01"/>
+                        <model ac="2jgnB00"/>
+                        <model ac="1qhxA00"/>
+                        <model ac="1rz3A00"/>
+                        <model ac="1knxE02"/>
+                        <model ac="1bifA01"/>
+                        <model ac="1jqlB00"/>
+                        <model ac="1cp2A00"/>
+                        <model ac="2if2A00"/>
+                        <model ac="3crmA01"/>
+                        <model ac="2r44A02"/>
+                        <model ac="1t9hA02"/>
+                        <model ac="1cipA01"/>
+                        <model ac="1zakA00"/>
+                        <model ac="1jnyA01"/>
+                        <model ac="1oywA01"/>
+                        <model ac="1f2uB00"/>
+                        <model ac="1ewqB05"/>
+                        <model ac="1j99A00"/>
+                        <model ac="1nktA03"/>
+                        <model ac="1t0jB00"/>
+                        <model ac="1dekA01"/>
+                        <model ac="2g0tA02"/>
+                        <model ac="1wp9A02"/>
+                        <model ac="2zejB02"/>
+                        <model ac="1rifA02"/>
+                        <model ac="2r2aA00"/>
+                        <model ac="2pjrA03"/>
+                        <model ac="1w5sA02"/>
+                        <model ac="2dbyA01"/>
+                        <model ac="1nstA00"/>
+                        <model ac="1s9hA02"/>
+                        <model ac="1g6hA00"/>
+                        <model ac="1gkuB02"/>
+                        <model ac="1osnC00"/>
+                        <model ac="1uf9A00"/>
+                        <model ac="3ievA01"/>
+                        <model ac="1wmsA00"/>
+                        <model ac="1kjwA02"/>
+                        <model ac="1xwiA01"/>
+                        <model ac="1g8pA01"/>
+                        <model ac="1s2mA02"/>
+                        <model ac="3lfuA03"/>
+                        <model ac="3lw7A00"/>
+                        <model ac="1odfA00"/>
+                        <model ac="1nktA01"/>
+                        <model ac="1nlfA00"/>
+                        <model ac="1darA01"/>
+                        <model ac="2y8eB00"/>
+                        <model ac="2p65A00"/>
+                        <model ac="1m7gC00"/>
+                        <model ac="2x19A00"/>
+                        <model ac="3b6eA00"/>
+                        <model ac="1l8qA01"/>
+                        <model ac="3pqcB00"/>
+                        <model ac="1np6B01"/>
+                        <model ac="1lv7A01"/>
+                        <model ac="1gkuB03"/>
+                        <model ac="1uj2A00"/>
+                        <model ac="1njgA01"/>
+                        <model ac="2bjwA01"/>
+                        <model ac="1knqA00"/>
+                        <model ac="2grjA00"/>
+                        <model ac="1dg3A02"/>
+                        <model ac="3be4A00"/>
+                        <model ac="1n0wA00"/>
+                        <model ac="2pt7A02"/>
+                        <model ac="1um8A01"/>
+                        <model ac="2ck3D02"/>
+                        <model ac="2obnA02"/>
+                        <model ac="1r6bX04"/>
+                        <model ac="1fnnA02"/>
+                        <model ac="3fmoB00"/>
+                        <model ac="1qf9A00"/>
+                        <model ac="1xtiA02"/>
+                        <model ac="3dl0A00"/>
+                        <model ac="2qi9C00"/>
+                        <model ac="1bofA01"/>
+                        <model ac="1vplA00"/>
+                        <model ac="1f6bB00"/>
+                        <model ac="1kk1A01"/>
+                        <model ac="1udxA02"/>
+                        <model ac="1byiA00"/>
+                        <model ac="1fukA00"/>
+                        <model ac="1w36B03"/>
+                        <model ac="1mr3F00"/>
+                        <model ac="1ofuX00"/>
+                        <model ac="3bs4A00"/>
+                        <model ac="1r2qA00"/>
+                        <model ac="3cbqA00"/>
+                        <model ac="1d2nA01"/>
+                        <model ac="1khtB00"/>
+                        <model ac="2r6fA05"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="305" env-start="134" score="43.4" evalue="1.6E-11" hmm-start="6" hmm-end="165" hmm-length="0" start="137" end="277"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.1E-27" score="96.1">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="1539" env-start="1221" score="95.1" evalue="4.1E-27" hmm-start="3" hmm-end="371" hmm-length="0" start="1223" end="1538"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.5E-5" score="22.2">
+                <signature ac="G3DSA:3.80.10.10">
+                    <entry ac="IPR032675" desc="Leucine-rich repeat domain, L domain-like" name="L_dom-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="2bexA00"/>
+                        <model ac="1p9aG00"/>
+                        <model ac="2ca6A00"/>
+                        <model ac="2astB00"/>
+                        <model ac="1w8aA00"/>
+                        <model ac="1xkuA00"/>
+                        <model ac="1wwlA00"/>
+                        <model ac="1io0A00"/>
+                        <model ac="1oznA00"/>
+                        <model ac="1h6uA02"/>
+                        <model ac="3cvrA01"/>
+                        <model ac="1a9nC00"/>
+                        <model ac="2ra8A02"/>
+                        <model ac="1ogqA00"/>
+                        <model ac="1o6vB01"/>
+                        <model ac="1fo1B00"/>
+                        <model ac="1ds9A00"/>
+                        <model ac="3g06A01"/>
+                        <model ac="1dceA03"/>
+                        <model ac="2ifgA01"/>
+                        <model ac="1h6tA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="1113" env-start="193" score="21.6" evalue="5.2E-5" hmm-start="46" hmm-end="218" hmm-length="0" start="700" end="802"/>
+                    <hmmer3-location env-end="1113" env-start="193" score="21.6" evalue="5.2E-5" hmm-start="46" hmm-end="218" hmm-length="0" start="602" end="663"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.24E-38">
+                <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+                    <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="DOMAIN"/>
+                    <models>
+                        <model ac="0049301" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051331" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049503" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039366" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048113" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052054" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042280" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048819" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038141" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049853" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047073" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047127" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049838" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048963" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043974" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050691" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038741" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051831" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045731" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051535" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041617" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049582" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047023" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045383" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043607" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050741" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049757" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046539" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044714" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051116" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050943" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040121" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042553" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037407" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041830" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048044" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038674" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052002" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041442" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048111" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049369" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054917" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047813" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037926" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050095" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051604" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046258" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035392" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044893" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050449" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051562" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051499" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051510" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045954" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037384" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051289" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042720" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042557" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038731" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045860" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036153" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043651" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051460" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047665" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050316" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048180" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053196" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048692" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049269" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036857" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041834" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049919" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047394" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043912" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051952" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048025" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045785" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051056" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037045" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038720" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046162" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051485" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053146" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052625" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048957" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051793" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046842" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054467" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051927" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043986" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049080" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0034832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040419" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041053" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050350" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046913" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049190" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039472" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050906" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046815" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047537" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039270" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047839" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039672" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043218" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043012" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052098" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045376" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040984" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048154" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049611" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050353" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046392" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046711" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049292" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044086" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046860" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045157" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047589" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049577" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048050" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048026" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037230" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040238" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050357" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049073" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037862" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051459" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051376" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052795" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037884" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038151" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052764" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052547" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035786" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043468" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047756" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054084" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037960" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042345" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037163" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047820" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042214" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043792" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052528" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043887" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046941" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038163" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035641" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035779" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043794" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047406" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043440" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047808" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050274" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048689" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047259" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052785" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044416" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049266" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043901" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050676" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051462" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051704" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044233" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047599" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053350" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036748" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037955" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052502" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037898" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042088" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045970" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048266" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043133" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047701" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035848" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050374" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036729" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051450" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054616" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052823" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046442" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051942" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054811" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042202" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036451" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035814" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043258" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052005" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049300" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041412" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050044" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049485" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051332" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038892" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038142" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051580" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049404" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052155" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040826" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049537" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035849" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049506" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036850" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046001" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052003" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049306" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050792" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038794" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052855" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048047" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038144" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046105" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047372" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046459" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052724" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047772" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048549" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046826" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044990" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042089" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053591" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050061" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054935" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053147" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051486" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049933" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046551" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044125" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048381" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052859" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040678" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049606" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046157" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051461" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048885" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036318" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053059" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036239" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038740" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048410" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051448" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043790" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048939" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037787" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049868" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051648" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051553" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049825" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036095" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046936" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046478" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038732" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047797" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051851" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039713" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051138" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052726" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051498" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047420" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050775" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046276" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039715" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050423" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036699" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048706" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041443" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040747" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045717" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044740" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048226" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053170" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045559" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047547" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049881" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049837" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048956" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036121" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043054" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053247" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040588" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050194" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048868" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052549" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051769" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041400" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037996" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051472" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052680" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037385" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044482" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054726" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046697" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050227" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052914" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049343" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051325" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051025" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0034833" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050989" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037818" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049491" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050351" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036279" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052815" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048255" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053686" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044438" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047538" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038188" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052796" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052346" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046916" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047988" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046693" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036790" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046248" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048220" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052548" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042070" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040237" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050482" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037248" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046945" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043798" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051458" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037412" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052931" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046441" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047933" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042496" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054829" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046869" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050354" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043648" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046548" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048426" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039041" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052691" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051156" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040410" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051104" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036155" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041032" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042008" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052841" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051206" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041234" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052879" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048702" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038162" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054387" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048545" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039999" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049759" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046479" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036452" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050867" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041170" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035281" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049398" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045809" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048436" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042605" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049053" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047291" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050356" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052501" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048272" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050361" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052546" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049657" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048593" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044700" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046895" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045788" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040239" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051582" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042094" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054470" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048852" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050337" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047607" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052615" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051551" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052004" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050677" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051784" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="136" end="354"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.88E-29">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="1214" end="1543"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="2.89E-15">
+                <signature ac="SSF52058" name="L domain-like">
+                    <entry ac="IPR032675" desc="Leucine-rich repeat domain, L domain-like" name="L_dom-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="0040811" name="L domain-like"/>
+                        <model ac="0041264" name="L domain-like"/>
+                        <model ac="0050397" name="L domain-like"/>
+                        <model ac="0048505" name="L domain-like"/>
+                        <model ac="0041263" name="L domain-like"/>
+                        <model ac="0040812" name="L domain-like"/>
+                        <model ac="0039014" name="L domain-like"/>
+                        <model ac="0053853" name="L domain-like"/>
+                        <model ac="0042103" name="L domain-like"/>
+                        <model ac="0047619" name="L domain-like"/>
+                        <model ac="0046244" name="L domain-like"/>
+                        <model ac="0053646" name="L domain-like"/>
+                        <model ac="0053852" name="L domain-like"/>
+                        <model ac="0046297" name="L domain-like"/>
+                        <model ac="0051010" name="L domain-like"/>
+                        <model ac="0048059" name="L domain-like"/>
+                        <model ac="0041267" name="L domain-like"/>
+                        <model ac="0039015" name="L domain-like"/>
+                        <model ac="0041848" name="L domain-like"/>
+                        <model ac="0046830" name="L domain-like"/>
+                        <model ac="0039222" name="L domain-like"/>
+                        <model ac="0045746" name="L domain-like"/>
+                        <model ac="0041268" name="L domain-like"/>
+                        <model ac="0053105" name="L domain-like"/>
+                        <model ac="0047132" name="L domain-like"/>
+                        <model ac="0039223" name="L domain-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="497" end="813"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="7ddbc1cb90ba567a345bc6b8af58eabd">TTTTRSRVWRGGNLVQIGASRRPPWEGRLPANLRAHGAPAMAEDGEEKLLATVQHIVQTLGSSDTMTEDILKVFSNYDGRLSLDKIYAARGAVAAAAGGGGGGXGERSMPASPPLPPPPAVAAPGSSARPPVTSMERTVRTLDRQISQFVTMDRLIWADSGDADAFLEAVDDLIGTVQELDAAGTNRVLLDRADELLSRCMARLEDEFRALIERPDDAAPSAPGGFASDGSDDEDFYGGEDGYGDEPIPIAKPVTDYDVVIDALSPGSIANVHQISRRMVDAGFGRECAEAYAAARRGFVDESVARLGVRPRTAEEVHASPWEELEFDIARWIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFIAAVRTQALQLISFGDAISSSSRSPERLFRVVDMYEAVRDILPDLDPVFSDPYSAALRAEVSAVCNTLGSSIKGIFMELENLIRRDPARVATPGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDLSAGGRAAASVDPDRPTSSLAVHIAWIMDVLHKNLDTKSKIYRDPSLACIFLMNNGKYIIQKVNDSELGVLLGDDWIKQLSTRVRRWSMDYQRSTWGKVTTVLQIGGSGVGALPAKAMLQKLRMFNTYFEEIYAVQSEWMVADDQLRMDVRSAVEDSVMPAYAALIARLKSAPETGRDLYIKYTPEDVEAHIQHLFEGAAK</sequence>
+        <xref id="HORVU1Hr1G070390.1"/>
+        <matches>
+            <hmmer3-match evalue="2.7E-99" score="332.7">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="685" env-start="330" score="332.2" evalue="3.8E-99" hmm-start="2" hmm-end="372" hmm-length="0" start="331" end="684"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.14E-126">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="256" end="688"/>
+                    <superfamilyhmmer3-location start="156" end="224"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="357037ef4f8c7cf24e17c242e4959c91">MAVSALPRTMEALTRRATMLRDSLHKSQGNTDGMVAILGSFDHRLSALEAAMRPTQVRTHAIRMAHENIDKTLKAGEAILSQFDLTRRAEATILRGPHEDLESYLEAVDILKGISRFFSSNKNFRSSEGILNHVNGLLAKSSLKIEEEFKQLMSTYSKPIEPDRLFDCLPKSLRPSKDDTEPGNDNQSDHPSKGLETAVYRTPTLVPPRILPLMNDIAQQLVQAGNQQSCYKIYRESRGSALELSLRKLGVEKLSKDDVQKMQWEALEAKIGNWIHFMRIAVKLLLAGERKICDQIFEGVNFNKDQCFAEMATNSVVTLLSFGDAVAKSKRSPEKLFVLLDMYEVMRELQSEIEVVFEGKACSEMREAALGLTKRLAQTAQETFADFEEAVEKDASKTIVQDGTVHPLTSYVINYVKFLFDYQSTLKLLFQEFETGSETESQLAVVTMRIMQALQNNLDGKSKQYKDPALTHLFLMNNVHYMVRSVRRSEAKDILGDDWIQRHRRIVQQNANQYKRVAWAKVLQALSVQGAPGSTGSSTPADLNSSGVSRAVVKERFKAFNTQFEELHAKQSLWIVPDQELRESLRLAIAEVLLPAYRSFIKRFGNLVGSGKNPLKYIRYSPELVDKLLGEFFEGQQYGEPKHQHRL</sequence>
+        <xref id="HORVU4Hr1G021040.1"/>
+        <matches>
+            <hmmer3-match evalue="4.7E-121" score="404.3">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="631" env-start="272" score="404.2" evalue="5.0E-121" hmm-start="2" hmm-end="372" hmm-length="0" start="273" end="630"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.62E-161">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="79" end="167"/>
+                    <superfamilyhmmer3-location start="199" end="634"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="fc29138b41e31cedf27710dafde3a8fe">SRGSDISFVDSRRPSSQYCTSHGAFLSPLLIHRTKAMASIHPQGQGGSMAGPWRLAAVPEGSTDGAKADQPPVGLYRNRIQAVDVSVGRRRSTIFSHGGSSYSSVSNSCPSSKSGYSSGSASAAGLECFRNQEELTRIARQMVIDGYTQRMAQAFDDASPAPAFKFGGSPDHALTSWFSELDVDWVLQIHDENSLRRLLRDKPATTRDLVDKWIRALAVIVASITDLLFDVETPAAVVPFGKASIAQMLDVVDVIITVLEAEKLQLVLDIFTCVSDALHVFTSLVLSPEINSIFSGIRSLLERQENRLSKNIASTMQELRTLMDEDDSWALEISRGGGEVHKNTRFIMDCIVSMMNAQTSSQNSLPSRSSENLSIEIDITTEYLKGLLFRKSESCSDQSLRYLFLLNNSYFVAHVVSESSGCFIPSEYNKYMDSYLDVSWGRVLSCIPKSRFPGPIHCWINTSSLAKFESAFHKMYQAQKLWKVPDPQLRDALRRAIIERVISGYRDYLEEHPELEKHVGRESSSPEVLQAMLRELFEG</sequence>
+        <xref id="HORVU2Hr1G118450.1"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="305" end="325"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="8.5E-46" score="156.6">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="535" env-start="205" score="155.4" evalue="1.9E-45" hmm-start="34" hmm-end="372" hmm-length="0" start="234" end="534"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.75E-47">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="133" end="538"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="eb96389d0853ecd69d0640dffbe7d6c1">SSRAFFHKVAASMEEQLDSVPEESTPGFTAAIPPPNSYRESIRSVSVVCPQWRIRSMLSGQSGSTYSSDSVASRSNNSGYSSNSASVGLADLGTSELKKIAQRMASDGYTEDMVKSFRIISLKQTFSPDYALKNWFVELDVDWVLQPLQTHLQEGSAYSLQELVESWIRALTVIVATIDEKLITIVSDTPAVARFATASVSAMLVFVDAVIQFNREENLQAMLQLYMCVCSASYDMLPMHMNFLDSRSIFNKIGEMLDREGNKLIESVCQKMVQVRRTLMKDDDSWVAEILEGGGEVHKNTRLMVEYIVLMSKAHTSMQNSLYSQHKEKLRELIDYMIDYLNNLLLRKSELCSDPSLRYLFLLNNSYFIMQMVSEVSLQKNPDQLCGYQREIKLTPECGKYMDSYLDVSWGNVLSFMPKSNFHGPLRRWIHTTSLAKFQSAFDNTYQAQKFWKVPEPRLRSLLRETITKRVISVYDDYLKEHPELEKQVIGGSRSPDVLKEMLGELFEG</sequence>
+        <xref id="HORVU2Hr1G118520.1"/>
+        <matches>
+            <hmmer3-match evalue="1.2E-42" score="146.3">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="504" env-start="165" score="145.7" evalue="1.8E-42" hmm-start="36" hmm-end="351" hmm-length="0" start="191" end="486"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.73E-43">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="95" end="508"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="ca3fbd06664ea309cfa79741531daa08">MATELPETMDALAQQVSVLRASLQSSQGNTEGMVAILGSFDERLSELEATIHPIQVRAHATQMAHENIDKAIKVADDILAQVVIVREAEATILRGPHVDLESYLKAVGRLKDVVGFFSLRDNFTSKERFLNDVNVLLSKSSLMIEEEFKRLMITYSKPIEGDLILGSPPKLQWASDGDAEADGRNSAHSEHPSKRLETAICRTPTLIPTRILQLLHTIAQKLVQDGNQQSCFKIYRDARRSALQLSFQKLGVEKLSKDDVERMQSDALEAKIGKWTEYLRITVKLLNGERKICDQVFEGISFNKDQCFAELAGIGVAVAKTLLSFGDAVAKSKRSSEKLFVLLDMYEVMHDVRSEVEVIFEDSFWSEMPEAAFGLMKLLAQTAHEMFVDFEELVEKDTSKTNVHDGTVHSFTIYVINHVKFLFDYQSTLKLLFQGFETGSDTESQLAVVLTKIMQALQNNIHGKSKQYKDPALMCIFIANNIHYMVRSVCRSEAKDILGDDWIERHRRIVQQHAQQYKRVAWGKALQTLSIKGDSSSGISSLSDLSSSGVSRAMIKERFKSFNMQFEELRAKQSLWIIPDQELRETLRLSIAEVLLPAY</sequence>
+        <xref id="HORVU5Hr1G040140.3"/>
+        <matches>
+            <hmmer3-match evalue="2.7E-94" score="316.2">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="599" env-start="273" score="315.5" evalue="4.4E-94" hmm-start="3" hmm-end="340" hmm-length="0" start="275" end="599"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="8.89E-126">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="200" end="599"/>
+                    <superfamilyhmmer3-location start="84" end="165"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="acf0c250f0dbb42133f93cb06ee5c2da">MAVSKNAADDMMRVLSIYDARLLPTSPPAEGQATGEAYGCDERDEGEQEQKEEEEAFAAAEDVIRRCNSSSSSSGMIDYLYAVDDALPAAALQGGLASRAAEAVQAAMPRLEEEARALLCSSSARRLSLSSDDLDDAATPPDASPRLPRLSPRAAASVRGVADRMLRAGYGPELAQVYVTARRDALAEAVAHQLGAAEPVAIEEVLRMEWLVLDQKMRRWNHAIRVVVRTLLAGERRLCDEVFASDEELGHECFADVSRGCVLQLLGFADAVAMSARATEKLYRTLGMYEALADVAPELEALFTGDARELFGAEVSAVAARLGSTVRRTIEEFGSAIQGESSRRPVQGGEIHPMNRYVINYCGLLADCRSTLDMILVDTADAVDGDEAPSGGGGATSTPSGRCMLELLTGLLRKMDEKSCLYDDAGLKHIFLMNNLYYIVQKVMDSPLRELLGDDWIRRHRGQIRQYETGYLRASWITVLSFLRDDGGSAAPTVKDKARSFNAAFEELYRNQTAWKVIDPQLREELRIAVSERLIPAYRSFLSRPRPQTGSSSGGSRHSASKHVKYTLEDLEDYMLDFFEGVQKLVK</sequence>
+        <xref id="HORVU7Hr1G054020.2"/>
+        <matches>
+            <hmmer3-match evalue="1.4E-108" score="363.3">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="577" env-start="218" score="362.8" evalue="1.9E-108" hmm-start="2" hmm-end="372" hmm-length="0" start="219" end="576"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.75E-118">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="57" end="580"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="e1554e28518c407ab2ea22fcd00423f9">VHDALTDTMLPAIVSAFGEKSEVTSRAVTLVTTKVSEAVRSMVASFEAAIEKEPSKGTVPGGAVHPLTRYVMNYLTFLADYENALAHIYFYQQGVGVGVGADQLTDTSSLASGSMRSSSDLSSSSSSSPALSVWSNPIGWLVHVLLRKLEAKAGSYREPALSYLFLANNTHYVAKKVGGGTKLEQILGEEWAEAQRAKARGYVDVYVRAAWGSKVLRGGAVEEAVVDMVAMQERWVAADEEMGEVLRAAAKEAVVPMYRLFYRRQGAVARLTPGDLIAMIDGLFGGRDAGAGDGSVAAAGRRRSSQQQQQQRQQEVPVEFKNGKTRRQRVTITD</sequence>
+        <xref id="HORVU2Hr1G067350.1"/>
+        <matches>
+            <hmmer3-match evalue="1.3E-49" score="169.2">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="281" env-start="221" score="25.1" evalue="7.8E-6" hmm-start="309" hmm-end="351" hmm-length="0" start="227" end="269"/>
+                    <hmmer3-location env-end="216" env-start="1" score="142.1" evalue="2.1E-41" hmm-start="82" hmm-end="272" hmm-length="0" start="8" end="213"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.56E-44">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="9" end="284"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="3c5575a242b93462180faf5948986c17">LLEPGAAARDLPGYLAVLARLEEALRFLSANCGLAAEWLADIVEYLGDHDLADPRFLAEVAVALDGLRKPSGYLDGGLLAAALDLLEAEFRRLLAEHSTPLAMHQQGATPASTAPPRVPAAAVRKLSPILDRLLANGWQDRCISLYADARGGVVTASLHALGLDYLHNPADDAQALGPGVELWGRHLEFVVRRLLESERQLCAKVFGQHKDDASVCFAEIASRASVLDFLRFGRAAADAKKDPIKLLRLLEVFDSLNKLRLDFNRLFGGKVCADIQCQTRDLVKLLVDGSVEIFEELIVQVELQRHMPPPADGGVPRLVTFIVEYCNRLLGEKYRSVLAQVLIIHRSWRKEVFSDKMLAVAVLNIVKALEANFDVWSKAYGNKIQSYIFMMNTRWHFYKHVKATKLAELLGDVWIRDHEKFKDFYLTVFMRDSWGALSPLLNREGLILFSKGRATAKDLVKQRLKTFNARFSDMFQEQSAWIIPDKDLRRETCDLVIQAIVPPYRSYMQNYGPLVEQDASASKYVKYTVDGLEKMLGSLFAPRPRRSGSFQIGHSNGKITSAMTGMYRSASTVK</sequence>
+        <xref id="HORVU6Hr1G021690.1"/>
+        <matches>
+            <hmmer3-match evalue="4.6E-80" score="269.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="538" env-start="181" score="269.1" evalue="5.6E-80" hmm-start="3" hmm-end="372" hmm-length="0" start="183" end="537"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.2E-113">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="5" end="41"/>
+                    <superfamilyhmmer3-location start="69" end="540"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="7df0ec672269f5617e16c5ed41cac1fb">AEAVILESPSKSVTAYLEAVDKLKSAEDFFTSKRIGKAGDDALKRVDELLHKAAAELENEFSRVLSECSKPVELEHLLSCLPSRSSAKDSAESQPNPGAVRSLPTLVDPRYVPRLSKLAQKSVELGCHQQFVKIYRDIRSSTLELTLKQLGVEYVQAEEVQAAQAESLNAKIAHWIQCLQIAVKLLFPSERALCDQIFQGKHAWKDHCFAAATSKTLLNLLSFGQAITESKTSPDKVFLLLDMFDATLKLQSEVETIFVGDECAENRKSAITLVKCLAQAAKKTLIDFKDSIVKESPKNTTADGDVHPLTSYVGNYIKFLFDYHSSLQLIFQESSNGDGTKSGLVSEITGLIHAVETNLDVKAKLYKDHALGILFLMNNINYIVRSIRRYIKGIQ</sequence>
+        <xref id="HORVU2Hr1G123350.18"/>
+        <matches>
+            <hmmer3-match evalue="1.8E-58" score="198.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="392" env-start="173" score="195.7" evalue="1.1E-57" hmm-start="2" hmm-end="239" hmm-length="0" start="174" end="389"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="8.37E-87">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="2" end="389"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="c4a62424d0f6292f8fb9b0404ba5f412">VRDLRAFIRAPQYPWRMPQGGEVHPCVGFWMGYLRCMLRNRVSLYFVLAGGNADSDSPLAPDEGGLVTELISCLEAVLEEKSAALAFPGLRHIFMLNNTSAILRRAVRSDLSMLLPPGWVLAREERMEGYIKDYLQMSWGPVVSRLDGKPGALNVLRRRNPLSAFYLALENTCIMQGGWKVPSPALRAALRRTVSGNVVPAYRRYLGDHPEVEVPAGRTVEELENQLSELFEG</sequence>
+        <xref id="HORVU7Hr1G030080.3"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="220" end="233"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="1.7E-45" score="155.6">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="229" env-start="2" score="155.4" evalue="2.0E-45" hmm-start="131" hmm-end="373" hmm-length="0" start="14" end="229"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.19E-48">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="12" end="232"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="67a40b83008ae46d09278ede793c342a">KLYEDAALECIFSMNNLLYIVQKVKDSELGKILGDHWVRRRSGKIRQYSKSYLRISWMKTLSYLRDDVHGSGSGSGSGSGHSGSRMSIKEKFKNFNLSFEEIYKEPDTLESSRSFSSEKS</sequence>
+        <xref id="HORVU7Hr1G084990.1"/>
+        <matches>
+            <hmmer3-match evalue="1.3E-34" score="119.8">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="110" env-start="1" score="119.7" evalue="1.4E-34" hmm-start="214" hmm-end="313" hmm-length="0" start="1" end="105"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.67E-34">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="2" end="104"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="10a6ca5a9b4952cc4c406b53b910567c">MMAPELDKQYSNIQLGEEVGLCDIKLALQALRKKILSLDFHNSLHVHDPQNSFEYLEVLYKLRQLSEKLGNLDPGGEAKEHKELTVYADDLFELAMARLEEEFVYLLTYYKQPLEQELLSFRSTEDGSTDEFSSSSFSEEQSEGKSTQTGSSGGSEYFVADLIQPGALSAVKSIANFMFLSDYNNECCQAYITARQGAIDEFIGSLHIDKHSMEELMSTKWNKLSASIKRWNRAMKAFVRVYLASERRLSSLVFGDLSGTAVDLCFYEISFSSVMQLLSFYESVAIGPCKPEKLFRILDMYEVLDDLLPEAEFLFQAGGNDMVLAEYHEVLLQLGESASKTFAEFKYAIQSYTSSSAVPTGAVHPLTKYVMNYIKAVTVYSKTLDSLLKDAEHFSADTQSVPHSCTHFTATALHLQSVAAVLEANLEAGSRLYRDGRLRNIFMMNNICYMVQKVKNSDLKSFLGDDWIRLHNRMFQHQATNYERASWSQVLSYLSDDGLCAAGDATSRKIIREKFKNFNLSFEDVYRVQTAWSVPDDQLREDVRISISLKVIQAYRTFVGRYSSFLDGSKQRDRYIKYRPEDLEELLLDLFEGTQKAPS</sequence>
+        <xref id="HORVU3Hr1G073910.1"/>
+        <matches>
+            <hmmer3-match evalue="3.2E-111" score="371.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="589" env-start="229" score="371.9" evalue="3.2E-111" hmm-start="1" hmm-end="372" hmm-length="0" start="229" end="588"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.82E-134">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="155" end="592"/>
+                    <superfamilyhmmer3-location start="50" end="120"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="9ccdfe59dc361047b01808e4eeae7517">MGMDQGDAAEEGRRRMASLQAARSALRAGVERSRALSHALARTGDRVGEIQARLAATEAGVRPIRAPRDALEGAGPNIDRAVGPAAAVLKVFDAVHGLEPPLLAGAAAKEDLPGYLALVGRLEEALRFLADNCGLAVDWLSDIVDYLGKRSLADPRFVAGLAGALSGLKTVTSAGLDAGLLTAALDVLEAEFCRLLADHSAPLAMQDDPDRSKSRHAASIPPPRIPAAAVQKLGLTLDRLAANGRLSYCTAAYADARGDTVSASLHALGLDYLQDQTQDAQALSPSVELWGRHLEFAVRHLLEAERKLCVAVFERRPEAAAACFADIAARAGILDFLKFGRAVADAKKDPIKLLRLLDVFDSLSKLRLDFNRLFGGKACLEIQSMTRDLVKRVVDGSVEIFEELLVQVELQRKMPPPADGGVPGLVTFVPKYCNQLLGEQYRSVLTQVLTIHRSWRKEAFNDKMLVDAVHNIVKALEANFDTWAKAYEDKTLSSLFMMNTHSHFFKHLKSTKMGEILGDEWLREHEQYKDYYSAMFLRESWGTLAPLLSREGLILFSKGQATARDLVKQRLKSFNASFDEMYQKQSAWIIPDKDLQQRVCHLVVQAIVPVYRSFMQNYGPLVEQDISASKYVKYSAEGLDKMLSTLFMPKLRTRRTASMQIRNSNGKIAGAMAGLQRSASTLQ</sequence>
+        <xref id="HORVU7Hr1G098020.1"/>
+        <matches>
+            <hmmer3-match evalue="1.8E-84" score="283.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="645" env-start="288" score="283.4" evalue="2.5E-84" hmm-start="3" hmm-end="372" hmm-length="0" start="290" end="644"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="7.85E-117">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="171" end="647"/>
+                    <superfamilyhmmer3-location start="88" end="142"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="d4072f8e27bc4da3a84f68b3399be477">RFVTGFQHTILPVPILILSSRDNTSHTFLPFQSQRYGRARPTASTHPASSRMAGRLAAVPELTTAGFTTPSPPLSVYRESIRSVAVSGGKITATVFSHSGNTEHSRSGDSGSGASGSYPSNNSGSGSSSGSVHAAAADYGAHELTKIARRMVSDGYTQRMVSAFEYGSGSDRALEAWFFELDVDWVLQLPDGDGSWRQFQIQDLVKRWIRAFITIVASIKEVAINVHEATAVAQFGKASIAKMFVFIDAITFASKEEKLRAVLDMYICVSSAEQMFSPEVQVKFMGLSKKIFMDIGGSLPREVKRLSKAIYSTVMEVRAFVEEDDSWAIEIPRGRGDIHRNTWLMVNCIKSMQDKARHHETEYLRGLIADSVRYLKDLLLRKSEQCSDQSLRYLFLLNNSYLVAMMVEPWSLMVESWSRDEWRPAPECLKYMNEYLHVSWGHVQSHIPKMAFMDGYLDGSRRRLHMLFCMLAPLQHRKNTASLAKFESAFHKTYEAQKFWKVPNPQLRDELRRTIIERVVSGYRCYLEKHPKLEKQVRGGSGSSSPDVFEEMLGELFEG</sequence>
+        <xref id="HORVU4Hr1G079440.1"/>
+        <matches>
+            <hmmer3-match evalue="2.3E-37" score="128.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="555" env-start="178" score="122.0" evalue="2.8E-35" hmm-start="36" hmm-end="371" hmm-length="0" start="231" end="553"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.46E-42">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="142" end="558"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="277ef4f84121f521eaf0fffcc117531b">MAFPTSPGSSISSYGSTLTLSSCPSSYISVGSSNPSSLTAGTGLVAPAGRAGDHSPALAATAAPEFTQGKKLQQHQDPPESEARFPKQEINGWEHPYLCSPSKQLKNVSTSIKEISRWARSSSGVKVNSNIRLLESVLSLIQVVTSAAPHPDHIVDMIRVHDALANLLLVLPKNIVPFLVQNFSPIVDELDPKRGAPLSVRFEKTLHDLRRSIRSGLQVLNVKIFDYTSEVVPQGGGVHEITKYLLKYIMSLLDNGRSLKIILVSDEQDAVVAMETLQDVVATLICHLEIMLEKESHRYKDAGLKQMFMVNNVNFLLHQVECSEIRYLPFQHSGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDSNIYHR</sequence>
+        <xref id="HORVU7Hr1G082050.1"/>
+        <matches>
+            <hmmer3-match evalue="6.7E-24" score="84.6">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="332" env-start="122" score="84.0" evalue="9.6E-24" hmm-start="49" hmm-end="244" hmm-length="0" start="131" end="327"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.99E-19">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="150" end="327"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="6c636f94604c5c5f70ab759001924aae">MQELRTLMDEDDSWALEISRGGGEVHKNTRFIMDCIVSMMNAQTSSQNSLPSRSSENLSIEIDITTEYLKGLLFRKSESCSDQSLRYLFLLNNSYFVAHVVSESSGCFIPSEYNKYMDSYLDVSWGRVLSCIPKSRFPGPIHCWINTSSLAKFESAFHRKFRTLSSEMRCGELSSKESFQVTETIWRSIRS</sequence>
+        <xref id="HORVU2Hr1G118490.1"/>
+        <matches>
+            <hmmer3-match evalue="9.0E-16" score="57.8">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="183" env-start="1" score="56.3" evalue="2.7E-15" hmm-start="118" hmm-end="301" hmm-length="0" start="3" end="162"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.77E-14">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="13" end="158"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="b7d49bc3959ef20ab2a9d8478ea688a5">GAGAGGRMAAAPPDGQEKVIAAAQQIVKSLANSKNAADDMIRILSGFDNRFSLMSDLFPAAGAPDAAAGSELPEGDEEEVEYGRERGPGYGGDDDDLEDERDAAVEDALRLIEQWDSPAAGDRLVFESPEDAEEYLAAAACLMGEAGPRVEAALQVAMARLEEEFRQLLIRGTASLAADDLHASLLRRLSLTVPTFHSASSVDLECPSFASQPDEGDEAASAAGRWSSVSDGEISPYLISPDTVSTLKDIADVMLRAGYGPELCQVYSEVRRDTLMECLAVLGVDKMSLEEVQRVEWGVLDGKMKKWIQALRVVVQGLLAEERRICGQILAADADAEEECFTEAAKGCVLQLLNFGDAIAIGKRSSEKLFRILGMYEALAELLPELEALFSGDARDFIKEEGEGILVRLGDAVRGTVAEFANAIRGETSRRSLPGGEIHPLTRYVMNYVRLLADYSRWLNHLLDGCETELENGGDNADMTPLGHCLLILITHLLDKIEDKAKLYDDEALQNIFLMNNLWYVVQKIKDSELKTLLGDNWIRKRRGQIRRYSTGYLRSSWTRVLACLRDDGLPHATGSSSALKAALKERFKSFNLAYEELYRTQTAWRVVDPQLREELKISISEKVLPAYRSFVGRFRGQLEGGRNFAKYIKYNPEDVENQVSDFFEGKKLNA</sequence>
+        <xref id="HORVU3Hr1G094570.3"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="151" end="171"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="9.3E-121" score="403.3">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="662" env-start="305" score="402.9" evalue="1.2E-120" hmm-start="1" hmm-end="372" hmm-length="0" start="305" end="661"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.88E-145">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="131" end="182"/>
+                    <superfamilyhmmer3-location start="231" end="665"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="8189ad74624d88f2c09cec6e5c5e1868">MMAPELDKQYSNIQLGEEVGLCDIKLALQALRKKILSLDFHNSLHVHDPQNSFEYLEVLYKLRQLSEKLGNLDPGGEAKEHKELTVYADDLFELAMARLEEEFVYLLTYYKQPLEQELLSFRSTEDGSTDEFSSSSFSEEQSEGKSTQTGSSGGSEYFVADLIQPGALSAVKSIANFMFLSDYNNECCQAYITARQGAIDEFIGSLHIDKHSMEELMSTKWNKLSASIKRWNRAMKAFVRVYLASERRLSSLVFGDLSGTAVDLCFYEISFSSVMQLLSFYESVAIGPCKPEKLFRILDMYEVLDDLLPEAEFLFQAGGNDMVLAEYHEVLLQLGESASKTFAEFKYAIQSYTSSSAVPTGAVHPLTKYVMNYIKAVTVYSKTLDSLLKDAEHFSADTQSVPHSCTHFTATALHLQSVAAVLEANLEAGSRLYRDGRLRNIFMMNNICYMVQKVKNSDLKSFLGDDWIRLHNRMFQHQATNYERASWSQVLSYLSDDGLCAAGDATSRKIIREKFKNFNLSFEDVYRVQTAWSVPDDQLREDVRISISLKVIQAYRTFVGRYSSFLDGSKQRDRYIKYRPEDLEELLLDLFEGTQKSLQHSGRV</sequence>
+        <xref id="HORVU3Hr1G073850.1"/>
+        <matches>
+            <hmmer3-match evalue="3.3E-111" score="371.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="589" env-start="229" score="371.9" evalue="3.3E-111" hmm-start="1" hmm-end="372" hmm-length="0" start="229" end="588"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.98E-134">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="155" end="592"/>
+                    <superfamilyhmmer3-location start="50" end="120"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="f17137ae65f8e5aa67a40bb3d2294ef5">MERIPIPIAMLPQKSSSFSQATIREEKLGRNLSLGAIKLNEHIERVKKDAAEAAGDKKAAAGGGEGGPADGETPELPPYEEPDLAELSAEVEAYLASRDGDAPLSISEVTLDRFASAVEVEIAQSEGEEDKWALREDGEQPLLLAAIKRVVTLASVLTASGGGNGTEGAVRYTIGVHRVTGVLHRSMTFLEDELHALLEDPRLGKTSNASESGSASAKSMKRPPSFGQGGDPDRSVVPSTEGGTGGDDASQPFPPETVDHLRAMVDVMITAGYETECTQVFLVARRNALDATMQGLGYEKASIDDVVKMAWEGLESEIGTWIKAFRHIVNVGLSAERDLCVRVFAGRNAGLGRDIFADLARCAMLQMFNFTEAVAMTKRAAEKLFKVLDMYEAIRDGAPVVDAFISVHKTEAGENPDGNSSGAEALADLKAELASVRSRLGESAAAIFCDLESSIRADAGKQPVPGGAVHPLTRYLMNYLKYACEYKNTLEQVFREFHRPDADDAPGHDGESNPFAAQLMEVMELLHGNLEAKSRLYKDLALSSIFLMNNGRYMLQKIRGSPEINAVVGEAWARKRSTDLRQYHKNYQRETWGRVLNVLRDDGVITVKGHVQKPVLKERFKQFNAAMDEIQRTQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFAQHFTAGRQTEKYIKLSADDLEGIIEELFEGSAGSMTRRRN</sequence>
+        <xref id="HORVU4Hr1G020050.1"/>
+        <matches>
+            <hmmer3-match evalue="1.9E-105" score="352.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="694" env-start="319" score="352.6" evalue="2.4E-105" hmm-start="2" hmm-end="373" hmm-length="0" start="320" end="694"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="7.85E-129">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="246" end="697"/>
+                    <superfamilyhmmer3-location start="175" end="210"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="24750350586b5af05a1af78b9da9e176">MHLTTVSRSASEKVHLAVGDDPKQWWLTLIWASRCFIPQHNLLVLVHIHRPAIPTVLGAPVPASTLTEESICVHMTNMRKIIENNFKKCLQLYEVHAEILIIDNDKDVGVALVEVIKEHKITTLVMGAKRRKHGWKSRRAVALEKQADCLCNILYLHNGFVVDSRHQHTDRKIGVPSLRGCHFSGSSSNATKSSSFFNSCSTADAFDVEHLDDPSLVMNTTYIYNDSRFNAIIGLKSFDSFRELVNQQILAEHSRDLYQAFHIKYCDIFTGCQFIGGFDSLIGVDSQNLGDAHWKSIKSWPAVLDYIVSVLKTLKMQLLMQNHRACNGFTHDDLSEAVKIPIRRLFAVASMVSDLEVRKSPEKLFCVLNMYTALVDAAPTLRKVFSTKSIRDVLGELEDSVRGILKELKGLIHTYNSPKVVLDGDILPISGYLMRYIVLLVKHKVSLDTILGHDYTDSLLKVEGMSLTGGLVSGLITDLESVIDKQSKQCAASKGLRCIFLMNNIHFILQEVKQSDVQLTVKAKWFEKRQSCIKGYIKSYLSALWVPVTSTLEVARSVPPSKRARTNLLNFWYTAPSLTPLQSFASAFNEACSCQICWKVPSPALRDELRVKILEFVSRAYHGHLESQRQSAEQNANDFELEWKRKISELFEG</sequence>
+        <xref id="MLOC_11137.3"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2.1"/>
+                </signature>
+                <locations>
+                    <coils-location start="622" end="642"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="2.7E-4" score="20.6">
+                <signature ac="G3DSA:3.40.50.620">
+                    <entry ac="IPR014729" desc="Rossmann-like alpha/beta/alpha sandwich fold" name="Rossmann-like_a/b/a_fold" type="DOMAIN"/>
+                    <models>
+                        <model ac="1k92A01"/>
+                        <model ac="1i6kA01"/>
+                        <model ac="2cyaA01"/>
+                        <model ac="1f7uA01"/>
+                        <model ac="1iq0A01"/>
+                        <model ac="1qu3A01"/>
+                        <model ac="3h99A01"/>
+                        <model ac="2dplA01"/>
+                        <model ac="2a1uA01"/>
+                        <model ac="1korB01"/>
+                        <model ac="2pfsA01"/>
+                        <model ac="1nupB00"/>
+                        <model ac="2ip1A01"/>
+                        <model ac="1vl2A01"/>
+                        <model ac="1r6xA02"/>
+                        <model ac="2yy5A01"/>
+                        <model ac="2d5bA01"/>
+                        <model ac="1ej2A00"/>
+                        <model ac="3nbkD00"/>
+                        <model ac="1efvB00"/>
+                        <model ac="1wkbA01"/>
+                        <model ac="1obhA01"/>
+                        <model ac="2zp1A01"/>
+                        <model ac="3focA01"/>
+                        <model ac="3fdxA00"/>
+                        <model ac="1ct9B02"/>
+                        <model ac="1o97C00"/>
+                        <model ac="3glvA00"/>
+                        <model ac="1o97D01"/>
+                        <model ac="1tq8A00"/>
+                        <model ac="1mjhB00"/>
+                        <model ac="1ileA01"/>
+                        <model ac="1lw7A01"/>
+                        <model ac="1u3dA01"/>
+                        <model ac="3rk1B01"/>
+                        <model ac="1vbkA03"/>
+                        <model ac="1m1zA02"/>
+                        <model ac="2hmaA01"/>
+                        <model ac="3h05B00"/>
+                        <model ac="2ielA00"/>
+                        <model ac="1h3fA01"/>
+                        <model ac="1y42X01"/>
+                        <model ac="1o6bA00"/>
+                        <model ac="1q77A00"/>
+                        <model ac="1kh1C01"/>
+                        <model ac="3do8A00"/>
+                        <model ac="2yxnA01"/>
+                        <model ac="1kamA00"/>
+                        <model ac="1np7B01"/>
+                        <model ac="1yumA00"/>
+                        <model ac="1q15D02"/>
+                        <model ac="3fiuA00"/>
+                        <model ac="1dnpA01"/>
+                        <model ac="1qtqA05"/>
+                        <model ac="2pg3A00"/>
+                        <model ac="1nzjA01"/>
+                        <model ac="3fg9C01"/>
+                        <model ac="1n3lA01"/>
+                        <model ac="1surA00"/>
+                        <model ac="3covA01"/>
+                        <model ac="1li5B01"/>
+                        <model ac="1rqgA01"/>
+                        <model ac="3gmiA02"/>
+                        <model ac="3ca8A02"/>
+                        <model ac="1kqpA00"/>
+                        <model ac="1tezA01"/>
+                        <model ac="1irxA01"/>
+                        <model ac="1j09A01"/>
+                        <model ac="1cozA00"/>
+                        <model ac="2x0kA01"/>
+                        <model ac="3dloD00"/>
+                        <model ac="1gaxA01"/>
+                        <model ac="1jmvA00"/>
+                        <model ac="3fetA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="138" env-start="16" score="19.4" evalue="6.0E-4" hmm-start="24" hmm-end="132" hmm-length="0" start="31" end="132"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.8E-55" score="188.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="641" env-start="303" score="187.8" evalue="2.9E-55" hmm-start="34" hmm-end="349" hmm-length="0" start="331" end="630"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.71E-52">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="282" end="634"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="9.21E-5">
+                <signature ac="SSF52402" name="Adenine nucleotide alpha hydrolases-like">
+                    <models>
+                        <model ac="0048858" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0050739" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0043381" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0046213" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0047632" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0052363" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0045391" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0046540" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0039977" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0048520" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0051645" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0046546" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0051038" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0036966" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0047848" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0052117" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0048369" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0049476" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0048172" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0048521" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0050614" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0039538" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0054501" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0054132" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0047035" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0036970" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0050746" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0049673" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0050128" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0052923" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0050233" name="Adenine nucleotide alpha hydrolases-like"/>
+                        <model ac="0042641" name="Adenine nucleotide alpha hydrolases-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="22" end="132"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="d476a85c21af5da6d5e093a151824436">MSAAPPPPPESAATSGGGSDKVLAAAQHIVKSLATSKNAADDMIRILSGFDNRLSSITTDLFPSPDLSSAESPEISSAAAFDAAEQLILLWDATPEALVFEAHEDDIAQYLTAVDVAVEHLARGGAGAGRAGVAVQLAMARLEEELRHHMVRHAVPLDPTGLCFSLRRLSLGSFDDLDFDAATPHSVDATPETARGGPLVSPFDDHSFDPVRPEAVDDLRAIADRMARAGYARELADAYCNIRRDLLDEYLSVLGVERISIDEVQRVEWKQLNDKMKKWVQGVKTVVRVLLAGERRLCDQVLAVSDELREECFVESTKGCIMQILNFGDAVAVCPRSPEKLSRILDMYEALAEVIPEMKDLCLGSSGDGVISDVQAILDRLGEAVRGTLFEFGKVLQQESSRRAMTAGEIHPMTRYVMNYLRLLVVYSETLDGLLDDDGDEGNALERPEDKDQDTEHLESMAPLGRRLLKLMCYLEANLEDKSKLYEDAALECIFSMNNLLYIVQKVKDSELGKILGDHWVRRRSGKIRQYSKSYLRISWMKTLSYLRDDVHGSGSGSGSGSGHSGSRMSIKEKFKNFNLSFEEIYRNQTLWKVPDPQLREELKISISENVIPAYRAFLGRYGSQVDGGRNSGKYIKYTPEDLEGQLSDLFEGSPGSANHSRRRT</sequence>
+        <xref id="HORVU7Hr1G028060.3"/>
+        <matches>
+            <hmmer3-match evalue="1.6E-123" score="412.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="649" env-start="277" score="411.9" evalue="2.3E-123" hmm-start="1" hmm-end="373" hmm-length="0" start="277" end="649"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.78E-149">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="204" end="652"/>
+                    <superfamilyhmmer3-location start="80" end="163"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="520d85556115a008977124e8dd501da8">EEHPSSGSGMEGLAQRAALLRESLGRSQAATDAVVSILGSFDSRLSALDAAMRPIQLRTHAVRTAHENIDRTLRSADVILTQFDRTREAEREIQKGPNENLQGFLDAVDRLRSIERFFSSNRSYSSSDRVLSHVNGLLSKALVKMEGEFQNQLTQRSKPMEPDRLFDCLPSTLRPSAESRSEGGKHPPGGAQSDNHETAEAAVYSPPALIEPKFVPLLAKLAQQLVQAGCQQQCAEIYSEARASALESSLKNLGVEKLSKDEVQKMPWEILESKIGNWIHFMRIAVKLLFAGERQLCDQVFECSQSLRDKCFSAITKNSLATLLSFGEAIATSKRSPEKLFVLLDMYEIMCELQTEIDTIFVGESCSQMRDSALSLTKCLAQTAQKTFSDFEEAVEKDATKNIHTDGTVHPLTSYVINYVKFLFDYQSTLKQLFQEFKREDGSGSELASVTMSIMQALQNNLEAKAKQYKDPALMHIFLMNNIHYIVKSVRRSEAKDLLGDDWIQRHRRIVQQNANQYRRVAWSKVLQCLSGQGLTSSGGSGQAGSEGGNSSGASRTAVKERFRSFNMQFEEIYQKQCGWSVPDSELRESLRLAVAEILLPAYRSFQKRFGPLIENSKAPGKYVKHTPEQLELFLGNLFEGKQERS</sequence>
+        <xref id="HORVU2Hr1G123320.1"/>
+        <matches>
+            <hmmer3-match evalue="1.8E-127" score="425.4">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="637" env-start="276" score="419.4" evalue="1.2E-125" hmm-start="2" hmm-end="371" hmm-length="0" start="277" end="635"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.66E-165">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="203" end="640"/>
+                    <superfamilyhmmer3-location start="79" end="167"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="0f203d33f27986cf5c2d33ff46fd3b94">SRAFDLEIEVLADLTSLSISSDRTNSVSSMDLPAVEEDDSVSYCGGRRSIYRSLRSIREIDLLPDDAVADLRAIASRMAAAGYGRECAQVYASVRKPAVDASLRRLGVERLSIGDVQRLGWDALEAKIRRWIRAARAAVRGVFASERRLSFHVFHDLPISNVTVVTAAPATRDTPFVEAVKGAALQLFGFAEAISIGRRSPEKLFKIIDLHDALSDLLPDVSDIFGASKAAESIYVQAVEIRSRLADAVRGILSEFENAVLRDPPKTAVPGGTIHPLTRYVMNYSSLISEYKATLTELIVSRPSASTRLAAEGNELVPSLCYLELPEHENQSPLAAHIIWIIVVLEHNLESKASLYKDTALSHLFLMNNIHYIVHKVKDSPDLWSMIGDDYLKRLTGKFTVAATNYQRTSWLKILNCLRDEGLHVSGGFSSGISKSALRERFKSFNAAFEDAHRVQSGWFVPDTQLREELRISISEKLLPAYRSFLGRFRHHIENGKHPELYIKHSAEDLENAVNDFFEGAPPSPHNRRKSHG</sequence>
+        <xref id="HORVU7Hr1G064400.1"/>
+        <matches>
+            <hmmer3-match evalue="2.2E-113" score="379.0">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="516" env-start="129" score="378.8" evalue="2.6E-113" hmm-start="2" hmm-end="373" hmm-length="0" start="130" end="516"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.15E-137">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="55" end="519"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="177f5b773844e7d5c0963f8b5b6ca73f">EPERPKQTKPKPGEKRNRPVSPRWTNQRAESIRAQRRAKTAASSPPVVGFLPLPPCYWCWFVARLAGGEEGRRGRSMDGSAAAELERAERVVMRWDSTASAPAGGGEDQMLFDGGGDRAEAERFLQAVDDLRRLAPPSPGSPRRTSSSGASGAVQVAMARLEDEFRHVLASRAVDLEIEVLADLSSLSMCSDRSSFSDVGDAPPVDDDSVESSVGRRSSYRSMRSIREIDLLPPDAVADLNAIASRMAAAGYDRECVQVYASVRKPAVDSALRRLGVEKLTIGDVQRLEWDALEVKIRRWIRAARAAVRGVFASERRLCFLIFHDLPLSNPTIATPAPTTTPAAPFVETVKGAALQLFGFAEAISIGRRSPEKLFKIIDLHDALADLLPDVSDIFAVSKAGESIYVQSTEIRARLADAVRGILSEFENAVLRDPSKTPVPGGTIHPLTRYVMNYIVLISDYKATLSELIVSRPSASSRVSADGNELTPSFPDLDLADPDSQLPLSAHLIWTIVVLEHNLEGKASLYKDPALSHLFLMNNVHYIVHKVKDSPELRGLIGNEYLKRLTGKFRLAATAYQRSSWLKILNCLRDEGLHVSGGFSSGISKSALRERFKSFNAAFEEAHRAQSGWYVPDTQLREELRISISEKLLPAYRSFLGRFRHHIENGRHPELYIKYTVEDLEISVTDFFEGSPPPPHNRRRSHG</sequence>
+        <xref id="HORVU5Hr1G062200.3"/>
+        <matches>
+            <hmmer3-match evalue="1.1E-112" score="376.7">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="686" env-start="298" score="376.4" evalue="1.4E-112" hmm-start="2" hmm-end="368" hmm-length="0" start="299" end="681"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="6.8E-147">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="118" end="183"/>
+                    <superfamilyhmmer3-location start="225" end="689"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="aaa75e01a02033623160211341fc8169">MADHFSSVLSGLRVLFQGSSTAGPLASVPEENTAGFTAPYSPPEPEGSTTVFKSRHPPGSTYRESIRSVAVSEWHNRSTLSFGSGQSGSNYSSNSGASSSYQSNYSVLSSGTADLGISELTAPPPSDGYLLSVFQSFVDSSSSLENWFVELDVYWVLQPQKSFASWLQLQEMGERWIRALTVIVVSITELVDEIHEEETAVAQFSKASMALMLIFVDDVIHVCKAEKKHGRNIEFPTLEVALQTYISVSNASYDMSMTGLVSWEAKTIFNEIRTSLDTKGSKLIGVISEAVIHFRWTLHHNTPWAIDILRGGGEVHRNIRSLMNFMVSIRKAHASTKKSAQNYNNGMFRRLFDETVHYMKNVLQEKSELCTDPSLSDKHCPKLMDFLRSGITFATVDITNDKLKMRYNFGIEIPTGCLIDLQTVFSLRHVRTSMAHMAVALIDEEYGDMKTNFSKSQHKLWEKTPLDRISIEYAAKDAYVSYKLYCKIRVVNYGERHLK</sequence>
+        <xref id="HORVU2Hr1G118460.1"/>
+        <matches>
+            <hmmer3-match evalue="1.9E-9" score="36.6">
+                <signature ac="G3DSA:3.30.420.10">
+                    <entry ac="IPR012337" desc="Ribonuclease H-like domain" name="RNaseH-like_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003676" name="nucleic acid binding"/>
+                    </entry>
+                    <models>
+                        <model ac="1jl1A00"/>
+                        <model ac="2zd1A05"/>
+                        <model ac="2kfnA01"/>
+                        <model ac="1qhtA02"/>
+                        <model ac="2hhvA01"/>
+                        <model ac="1u04A04"/>
+                        <model ac="1x9mA01"/>
+                        <model ac="1wljA00"/>
+                        <model ac="3qioA00"/>
+                        <model ac="3nciA02"/>
+                        <model ac="1lwcA05"/>
+                        <model ac="1kcfB00"/>
+                        <model ac="2py5A01"/>
+                        <model ac="2f96A00"/>
+                        <model ac="2igiB00"/>
+                        <model ac="2w42B02"/>
+                        <model ac="1bcoA01"/>
+                        <model ac="1vk0A00"/>
+                        <model ac="1w0hA00"/>
+                        <model ac="1s5jA02"/>
+                        <model ac="1uocB00"/>
+                        <model ac="2qxfA01"/>
+                        <model ac="1exqA00"/>
+                        <model ac="2guiA00"/>
+                        <model ac="3py8A01"/>
+                        <model ac="1ekeA01"/>
+                        <model ac="2p1jA01"/>
+                        <model ac="3qipA05"/>
+                        <model ac="1hjrA00"/>
+                        <model ac="1cxqA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="490" env-start="370" score="35.7" evalue="3.6E-9" hmm-start="93" hmm-end="203" hmm-length="0" start="376" end="488"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.5E-6" score="25.9">
+                <signature ac="PF01612" desc="3'-5' exonuclease" name="DNA_pol_A_exo1">
+                    <entry ac="IPR002562" desc="3'-5' exonuclease domain" name="3'-5'_exonuclease_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006139" name="nucleobase-containing compound metabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008408" name="3'-5' exonuclease activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003676" name="nucleic acid binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF01612" desc="3'-5' exonuclease" name="DNA_pol_A_exo1"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="491" env-start="349" score="25.1" evalue="1.1E-5" hmm-start="72" hmm-end="171" hmm-length="0" start="386" end="489"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="6.8E-8">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="141" end="376"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="3.79E-9">
+                <signature ac="SSF53098" name="Ribonuclease H-like">
+                    <entry ac="IPR012337" desc="Ribonuclease H-like domain" name="RNaseH-like_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003676" name="nucleic acid binding"/>
+                    </entry>
+                    <models>
+                        <model ac="0053000" name="Ribonuclease H-like"/>
+                        <model ac="0054949" name="Ribonuclease H-like"/>
+                        <model ac="0050411" name="Ribonuclease H-like"/>
+                        <model ac="0048225" name="Ribonuclease H-like"/>
+                        <model ac="0047793" name="Ribonuclease H-like"/>
+                        <model ac="0035416" name="Ribonuclease H-like"/>
+                        <model ac="0048905" name="Ribonuclease H-like"/>
+                        <model ac="0046687" name="Ribonuclease H-like"/>
+                        <model ac="0049961" name="Ribonuclease H-like"/>
+                        <model ac="0047446" name="Ribonuclease H-like"/>
+                        <model ac="0041666" name="Ribonuclease H-like"/>
+                        <model ac="0054948" name="Ribonuclease H-like"/>
+                        <model ac="0045815" name="Ribonuclease H-like"/>
+                        <model ac="0048960" name="Ribonuclease H-like"/>
+                        <model ac="0046085" name="Ribonuclease H-like"/>
+                        <model ac="0054856" name="Ribonuclease H-like"/>
+                        <model ac="0047541" name="Ribonuclease H-like"/>
+                        <model ac="0048444" name="Ribonuclease H-like"/>
+                        <model ac="0049562" name="Ribonuclease H-like"/>
+                        <model ac="0051402" name="Ribonuclease H-like"/>
+                        <model ac="0047295" name="Ribonuclease H-like"/>
+                        <model ac="0049035" name="Ribonuclease H-like"/>
+                        <model ac="0041082" name="Ribonuclease H-like"/>
+                        <model ac="0051650" name="Ribonuclease H-like"/>
+                        <model ac="0050330" name="Ribonuclease H-like"/>
+                        <model ac="0053015" name="Ribonuclease H-like"/>
+                        <model ac="0045929" name="Ribonuclease H-like"/>
+                        <model ac="0046649" name="Ribonuclease H-like"/>
+                        <model ac="0049179" name="Ribonuclease H-like"/>
+                        <model ac="0051425" name="Ribonuclease H-like"/>
+                        <model ac="0051245" name="Ribonuclease H-like"/>
+                        <model ac="0046173" name="Ribonuclease H-like"/>
+                        <model ac="0050971" name="Ribonuclease H-like"/>
+                        <model ac="0049844" name="Ribonuclease H-like"/>
+                        <model ac="0036277" name="Ribonuclease H-like"/>
+                        <model ac="0047514" name="Ribonuclease H-like"/>
+                        <model ac="0049624" name="Ribonuclease H-like"/>
+                        <model ac="0046881" name="Ribonuclease H-like"/>
+                        <model ac="0047398" name="Ribonuclease H-like"/>
+                        <model ac="0040018" name="Ribonuclease H-like"/>
+                        <model ac="0044818" name="Ribonuclease H-like"/>
+                        <model ac="0049323" name="Ribonuclease H-like"/>
+                        <model ac="0050648" name="Ribonuclease H-like"/>
+                        <model ac="0037052" name="Ribonuclease H-like"/>
+                        <model ac="0048406" name="Ribonuclease H-like"/>
+                        <model ac="0050187" name="Ribonuclease H-like"/>
+                        <model ac="0052065" name="Ribonuclease H-like"/>
+                        <model ac="0052515" name="Ribonuclease H-like"/>
+                        <model ac="0053802" name="Ribonuclease H-like"/>
+                        <model ac="0049752" name="Ribonuclease H-like"/>
+                        <model ac="0038606" name="Ribonuclease H-like"/>
+                        <model ac="0046055" name="Ribonuclease H-like"/>
+                        <model ac="0051397" name="Ribonuclease H-like"/>
+                        <model ac="0050668" name="Ribonuclease H-like"/>
+                        <model ac="0052620" name="Ribonuclease H-like"/>
+                        <model ac="0054813" name="Ribonuclease H-like"/>
+                        <model ac="0051538" name="Ribonuclease H-like"/>
+                        <model ac="0047617" name="Ribonuclease H-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="378" end="489"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="fb0284c2158e9ae9505c9b2b6c7b2476">PVRVALRASWISNNFSTVAINPGRVVDPAGCCRATLVIRTPLPLPSNLTELDQGRPSIAVPELRTNGSMAACPPWGLYRDRIRTVAVSGAQIRSTLSSHSQSQSSGQSGSSCSGDSGSPSDSSSVVAMDFGAHELAVVARQMVSHGYTQCMIQAFHIAPALGLGGPDDRALENWFFELDVDWVLQIRKEHGLCQQLELHDKSPSWFRPASWLQDLVERWIRALIVISFSVQAMVFTAYQMPPVARFAKASIAKMLIFVDIIAPVLRVENLQAVLDMYTSVSNASYMFMPVVISPEAQSIFSEIGSSLETRGDRLYEVLSSMMEEVRTPMEEDKWAIEILRGGGGVHRNTRLMVDYITSMKEACASTHNCAPSNNTVNLGHLIDDTIEYLEVLLLRKSEVCSDPSLRYIFLLNNFFFVEQVSKRYVERWSPDCKKFMDSYIDASWGHVLSCIPKSRFPGPVHCWINTSSLAKFESAFQKTYRAQKLWKVPDPQLRDALRKAIIKRVISGYRHYLEEHPELEKHVGRESTSPEVLQAMLGELFEG</sequence>
+        <xref id="HORVU2Hr1G118510.1"/>
+        <matches>
+            <hmmer3-match evalue="4.1E-47" score="160.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="539" env-start="212" score="159.6" evalue="1.1E-46" hmm-start="31" hmm-end="372" hmm-length="0" start="237" end="538"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.72E-49">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="133" end="542"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+    <protein>
+        <sequence md5="26bce63423717841a6dd05cde90bc14f">ALLATCFVSSRKSVTLPLQAAGNRRLRCRELGLRRLEVADEVVRRWASRGAAVEDSHGVSYSAGLSAAVKDLISLGSGGCLHALQAAIVHLEDDFHQVLSSGTYLHPPSSLQESLHECIAPFMRSFSFSSIPNLEDLSFSSFSTSPNGESRSYGTGYSRGLVWMEKVHMYLIDPEASILLKEIAELMILAGHAPNMCRAYGETRHNMLMRCLSLLDVQIEQKSYDNPAAATANGACSMQLYEKNQKMWIQALKVFVSTILPEERNSCAQIFGCDRKVEEDCFARATTRCTGELLTFGSMMANVKVNDQQHHKVPLLLQMHEELLKLQPTINNLMSGEAKGVISEQASMLLDKLGKEASSLLLEFLNVCSNLKPWQNTVLDGDILPLTQHVVGFVEQLNEYSDMIDLILLLTVEKEDKEITKSPWERYVLMLLARLQVKVEEKAESYKDERLRYIFLMNNAMHVLKGSGSSDLSMSMWDDQNRQQFVIRVEQYATAYLRASWTGALFQLSDQAVPRELPYEIRSTNSVKKSMKKFNSALGEISRVQTTWKVPNPQLRQHLRLVILQHVFPAYRAHLRRPRPGFHMEKHVKYTLDDIENHVLDLFEG</sequence>
+        <xref id="HORVU2Hr1G116970.2"/>
+        <matches>
+            <hmmer3-match evalue="2.6E-79" score="266.9">
+                <signature ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70">
+                    <entry ac="IPR004140" desc="Exocyst complex component Exo70" name="Exo70" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0000145" name="exocyst"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006887" name="exocytosis"/>
+                        <pathway-xref db="Reactome" id="R-HSA-1445148" name="Translocation of GLUT4 to the plasma membrane"/>
+                        <pathway-xref db="Reactome" id="R-HSA-264876" name="Insulin processing"/>
+                        <pathway-xref db="Reactome" id="R-HSA-5620916" name="VxPx cargo-targeting to cilium"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03081" desc="Exo70 exocyst complex subunit" name="Exo70"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="601" env-start="246" score="266.2" evalue="4.1E-79" hmm-start="2" hmm-end="372" hmm-length="0" start="247" end="600"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="2.56E-89">
+                <signature ac="SSF74788" name="Cullin repeat-like">
+                    <entry ac="IPR016159" desc="Cullin repeat-like-containing domain" name="Cullin_repeat-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051932" name="Cullin repeat-like"/>
+                        <model ac="0052372" name="Cullin repeat-like"/>
+                        <model ac="0054070" name="Cullin repeat-like"/>
+                        <model ac="0047960" name="Cullin repeat-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="165" end="604"/>
+                    <superfamilyhmmer3-location start="83" end="111"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

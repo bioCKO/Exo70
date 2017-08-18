@@ -1,0 +1,58 @@
+domainID	software	shortname	longname	genes_with_domain	total_observed_domains	average_domain_length	abbreviations
+PF12796	Pfam	Ankyrin repeats (3 copies)	Ankyrin repeat-containing domain	1	1	56.0	Ank
+G3DSA:1.10.357.10	Gene3D		Tetracycline transcriptional regulator, TetR-like, C-terminal	3	3	111.0	TetR
+cd00204	CDD	ANK		1	1	167.0	Ank
+SSF52058	SUPERFAMILY		Leucine-rich repeat domain, L domain-like	1	1	317.0	LRR
+cd00009	CDD	AAA		1	1	87.0	NTPase
+PS51767	ProSiteProfiles	Peptidase family A1 domain profile.	Peptidase family A1 domain	2	2	361.0	Ank
+G3DSA:3.30.70.420	Gene3D		Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding domain	1	1	63.0	CoAreductase
+PS50065	ProSiteProfiles	Hydroxymethylglutaryl-coenzyme A reductases family profile.	Hydroxymethylglutaryl-CoA reductase, class I/II	1	1	267.0	CoAreductase
+SSF55035	SUPERFAMILY		Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding domain	1	1	72.0	CoAreductase
+SSF52540	SUPERFAMILY		P-loop containing nucleoside triphosphate hydrolase	3	3	212.333333333	NTPase
+PS50077	ProSiteProfiles	HEAT repeat profile.	HEAT, type 2	1	1	40.0	HEAT
+SSF56542	SUPERFAMILY		Hydroxymethylglutaryl-CoA reductase, class I/II, substrate-binding domain	1	2	65.5	CoAreductase
+PF02309	Pfam	AUX/IAA family	AUX/IAA domain	1	1	72.0	AUX
+TIGR00231	TIGRFAM	small_GTP: small GTP-binding protein domain	Small GTP-binding protein domain	1	1	145.0	GTPase
+PF05633	Pfam	Protein of unknown function (DUF793)	Protein BYPASS-related	1	1	244.0	DUF793
+PF00071	Pfam	Ras family	Small GTPase superfamily	1	1	152.0	GTPase
+SM00175	SMART			1	1	157.0	GTPase
+SM00174	SMART			1	1	155.0	GTPase
+SSF74788	SUPERFAMILY		Cullin repeat-like-containing domain	353	564	274.124113475	Exo70
+G3DSA:3.90.770.10	Gene3D		Hydroxymethylglutaryl-CoA reductase, class I/II, catalytic domain	1	1	112.0	CoAreductase
+G3DSA:3.40.50.300	Gene3D		P-loop containing nucleoside triphosphate hydrolase	3	3	154.0	NTPase
+PF05699	Pfam	hAT family C-terminal dimerisation region	HAT, C-terminal dimerisation domain	1	1	78.0	HAT
+G3DSA:3.30.420.10	Gene3D		Ribonuclease H-like domain	1	1	113.0	RiboH
+PF14541	Pfam	Xylanase inhibitor C-terminal	Xylanase inhibitor, C-terminal	4	4	97.5	XI
+G3DSA:1.25.40.20	Gene3D		Ankyrin repeat-containing domain	1	2	102.5	Ank
+PF14543	Pfam	Xylanase inhibitor N-terminal	Xylanase inhibitor, N-terminal	2	2	79.0	XI
+PS51419	ProSiteProfiles	small GTPase Rab1 family profile.		1	1	186.0	GTPase
+G3DSA:2.40.70.10	Gene3D		Aspartic peptidase domain	4	6	100.166666667	AspPEP
+SSF53098	SUPERFAMILY		Ribonuclease H-like domain	1	1	112.0	RiboH
+PR00364	PRINTS	Disease resistance protein signature		2	7	15.5714285714	
+Coil	Coils			67	72	18.25	CC
+PF13962	Pfam	Domain of unknown function	PGG domain	1	1	107.0	PGG
+PF01612	Pfam	3'-5' exonuclease	3'-5' exonuclease domain	1	1	104.0	ExoI
+PF07779	Pfam	10 TM Acyl Transferase domain found in Cas1p	Cas1p 10 TM acyl transferase domain	4	4	133.0	Cas1p
+PF00368	Pfam	Hydroxymethylglutaryl-coenzyme A reductase	Hydroxymethylglutaryl-CoA reductase, class I/II	1	2	84.5	CoAreductase
+SSF52047	SUPERFAMILY			1	2	136.5	LRR
+SM00248	SMART		Ankyrin repeat	1	4	30.5	Ank
+SM00173	SMART			1	1	159.0	GTPase
+G3DSA:3.40.50.620	Gene3D		Rossmann-like alpha/beta/alpha sandwich fold	7	7	111.428571429	tRNAligase
+PR00449	PRINTS	Transforming protein P21 ras signature		1	5	19.8	GTPase
+SSF46565	SUPERFAMILY		DnaJ domain	1	1	78.0	DnaJ
+PF13637	Pfam	Ankyrin repeats (many copies)		1	1	54.0	Ank
+SSF53756	SUPERFAMILY			2	2	60.0	UGP
+G3DSA:1.10.287.110	Gene3D		DnaJ domain	1	1	57.0	DnaJ
+PR00071	PRINTS	Hydroxymethylglutaryl-coenzyme A reductase signature	Hydroxymethylglutaryl-CoA reductase, class I/II	1	2	21.5	CoAreductase
+SSF52402	SUPERFAMILY			6	6	109.0	NB
+SSF48403	SUPERFAMILY		Ankyrin repeat-containing domain	1	1	172.0	Ank
+PF00931	Pfam	NB-ARC domain	NB-ARC	2	3	192.333333333	NB
+PS50297	ProSiteProfiles	Ankyrin repeat region circular profile.	Ankyrin repeat-containing domain	1	1	171.0	Ank
+cd01989	CDD	STK_N		3	3	164.0	Pkinase
+SSF50630	SUPERFAMILY		Aspartic peptidase domain	3	3	187.666666667	AspPEP
+PF06507	Pfam	Auxin response factor	Auxin response factor	1	1	66.0	AUX
+TMhelix	TMHMM	Region of a membrane-bound protein predicted to be embedded in the membrane.		10	24	22.5833333333	TM
+G3DSA:3.80.10.10	Gene3D		Leucine-rich repeat domain, L domain-like	2	3	131.333333333	LRR
+PF03081	Pfam	Exo70 exocyst complex subunit	Exocyst complex component Exo70	354	375	298.450666667	Exo70
+PS50088	ProSiteProfiles	Ankyrin repeat profile.	Ankyrin repeat	1	1	24.0	Ank
+PF03087	Pfam	Arabidopsis protein of unknown function	Protein of unknown function DUF241, plant	1	4	203.25	DUF241

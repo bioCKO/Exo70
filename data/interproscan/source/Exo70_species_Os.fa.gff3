@@ -1,0 +1,1694 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##sequence-region LOC_Os08g40840.1 1 687
+LOC_Os08g40840.1	.	polypeptide	1	687	.	+	.	ID=LOC_Os08g40840.1;md5=d58b04a97d8f5d44109ce0c0e54d11ba
+LOC_Os08g40840.1	SUPERFAMILY	protein_match	113	144	3.35E-61	+	.	date=08-08-2017;Target=LOC_Os08g40840.1 113 144;ID=match$1_113_144;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g40840.1	SUPERFAMILY	protein_match	177	657	3.35E-61	+	.	date=08-08-2017;Target=LOC_Os08g40840.1 177 657;ID=match$1_177_657;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g40840.1	Pfam	protein_match	298	629	1.4E-49	+	.	date=08-08-2017;Target=LOC_Os08g40840.1 298 629;ID=match$2_298_629;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os09g17810.1 1 598
+LOC_Os09g17810.1	.	polypeptide	1	598	.	+	.	ID=LOC_Os09g17810.1;md5=0d7a6534785abcdb0a911b558d18bb24
+LOC_Os09g17810.1	SUPERFAMILY	protein_match	93	597	6.8E-72	+	.	date=08-08-2017;Target=LOC_Os09g17810.1 93 597;ID=match$3_93_597;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os09g17810.1	Pfam	protein_match	192	594	5.7E-72	+	.	date=08-08-2017;Target=LOC_Os09g17810.1 192 594;ID=match$4_192_594;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os07g10910.2 1 699
+LOC_Os07g10910.2	.	polypeptide	1	699	.	+	.	ID=LOC_Os07g10910.2;md5=939bcb70ec0d160a9701bc239a2da8a8
+LOC_Os07g10910.2	SUPERFAMILY	protein_match	70	163	1.67E-5	+	.	date=08-08-2017;Target=LOC_Os07g10910.2 70 163;ID=match$5_70_163;Name=SSF52402;status=T
+LOC_Os07g10910.2	SUPERFAMILY	protein_match	266	698	8.89E-87	+	.	date=08-08-2017;Target=LOC_Os07g10910.2 266 698;ID=match$6_266_698;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os07g10910.2	Gene3D	protein_match	41	163	8.8E-9	+	.	date=08-08-2017;Target=LOC_Os07g10910.2 41 163;ID=match$7_41_163;Name=G3DSA:3.40.50.620;status=T;Dbxref="InterPro:IPR014729"
+LOC_Os07g10910.2	Pfam	protein_match	357	683	5.5E-70	+	.	date=08-08-2017;Target=LOC_Os07g10910.2 357 683;ID=match$8_357_683;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10910.2	CDD	protein_match	39	196	1.35318E-40	+	.	date=08-08-2017;Target=LOC_Os07g10910.2 39 196;ID=match$9_39_196;signature_desc=STK_N;Name=cd01989;status=T
+##sequence-region LOC_Os04g58870.1 1 523
+LOC_Os04g58870.1	.	polypeptide	1	523	.	+	.	ID=LOC_Os04g58870.1;md5=ff9015c15452975c2beaa261fbb6c19b
+LOC_Os04g58870.1	Pfam	protein_match	103	480	2.1E-82	+	.	date=08-08-2017;Target=LOC_Os04g58870.1 103 480;ID=match$10_103_480;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os04g58870.1	Coils	protein_match	4	31	.	+	.	date=08-08-2017;Target=LOC_Os04g58870.1 4 31;ID=match$11_4_31;Name=Coil;status=T
+LOC_Os04g58870.1	SUPERFAMILY	protein_match	80	484	5.75E-98	+	.	date=08-08-2017;Target=LOC_Os04g58870.1 80 484;ID=match$12_80_484;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g58870.1	TMHMM	protein_match	493	515	.	+	.	date=08-08-2017;Target=LOC_Os04g58870.1 493 515;ID=match$13_493_515;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region LOC_Os05g30680.1 1 229
+LOC_Os05g30680.1	.	polypeptide	1	229	.	+	.	ID=LOC_Os05g30680.1;md5=cf8fc6c1bdef6b62332679b51ce8cb62
+LOC_Os05g30680.1	Pfam	protein_match	12	224	2.4E-44	+	.	date=08-08-2017;Target=LOC_Os05g30680.1 12 224;ID=match$14_12_224;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os05g30680.1	SUPERFAMILY	protein_match	13	228	1.15E-47	+	.	date=08-08-2017;Target=LOC_Os05g30680.1 13 228;ID=match$15_13_228;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os02g36619.1 1 700
+LOC_Os02g36619.1	.	polypeptide	1	700	.	+	.	ID=LOC_Os02g36619.1;md5=50629c3674012d8fbc05f8666e35bd81
+LOC_Os02g36619.1	SUPERFAMILY	protein_match	160	225	2.46E-83	+	.	date=08-08-2017;Target=LOC_Os02g36619.1 160 225;ID=match$16_160_225;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os02g36619.1	SUPERFAMILY	protein_match	273	699	2.46E-83	+	.	date=08-08-2017;Target=LOC_Os02g36619.1 273 699;ID=match$16_273_699;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os02g36619.1	Pfam	protein_match	347	696	3.9E-75	+	.	date=08-08-2017;Target=LOC_Os02g36619.1 347 696;ID=match$17_347_696;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os05g30620.1 1 164
+LOC_Os05g30620.1	.	polypeptide	1	164	.	+	.	ID=LOC_Os05g30620.1;md5=02b074602a86c4d0b820cba425d1b9a0
+LOC_Os05g30620.1	SUPERFAMILY	protein_match	2	163	3.09E-34	+	.	date=08-08-2017;Target=LOC_Os05g30620.1 2 163;ID=match$18_2_163;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g30620.1	Pfam	protein_match	2	160	4.7E-33	+	.	date=08-08-2017;Target=LOC_Os05g30620.1 2 160;ID=match$19_2_160;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os04g02070.2 1 398
+LOC_Os04g02070.2	.	polypeptide	1	398	.	+	.	ID=LOC_Os04g02070.2;md5=5c8e0536b167ebe55c3701ae1b538e3d
+LOC_Os04g02070.2	SUPERFAMILY	protein_match	34	357	8.37E-32	+	.	date=08-08-2017;Target=LOC_Os04g02070.2 34 357;ID=match$20_34_357;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g02070.2	Pfam	protein_match	65	356	2.3E-30	+	.	date=08-08-2017;Target=LOC_Os04g02070.2 65 356;ID=match$21_65_356;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os05g39610.2 1 636
+LOC_Os05g39610.2	.	polypeptide	1	636	.	+	.	ID=LOC_Os05g39610.2;md5=45cfa0a7a8a7203efe200c49228c581f
+LOC_Os05g39610.2	Pfam	protein_match	275	628	1.1E-98	+	.	date=08-08-2017;Target=LOC_Os05g39610.2 275 628;ID=match$22_275_628;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os05g39610.2	SUPERFAMILY	protein_match	200	632	2.51E-127	+	.	date=08-08-2017;Target=LOC_Os05g39610.2 200 632;ID=match$23_200_632;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g39610.2	SUPERFAMILY	protein_match	100	168	2.51E-127	+	.	date=08-08-2017;Target=LOC_Os05g39610.2 100 168;ID=match$23_100_168;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os10g33850.1 1 384
+LOC_Os10g33850.1	.	polypeptide	1	384	.	+	.	ID=LOC_Os10g33850.1;md5=ff94422f61e2475cdba595f7d6c9eb78
+LOC_Os10g33850.1	SUPERFAMILY	protein_match	145	366	3.03E-43	+	.	date=08-08-2017;Target=LOC_Os10g33850.1 145 366;ID=match$24_145_366;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os10g33850.1	Pfam	protein_match	148	367	1.6E-47	+	.	date=08-08-2017;Target=LOC_Os10g33850.1 148 367;ID=match$25_148_367;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os08g35470.1 1 632
+LOC_Os08g35470.1	.	polypeptide	1	632	.	+	.	ID=LOC_Os08g35470.1;md5=e0ecfe9dba6e01dd2b635a6370b1d986
+LOC_Os08g35470.1	SUPERFAMILY	protein_match	155	618	2.67E-145	+	.	date=08-08-2017;Target=LOC_Os08g35470.1 155 618;ID=match$26_155_618;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g35470.1	SUPERFAMILY	protein_match	33	111	2.67E-145	+	.	date=08-08-2017;Target=LOC_Os08g35470.1 33 111;ID=match$26_33_111;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g35470.1	Pfam	protein_match	229	614	3.6E-114	+	.	date=08-08-2017;Target=LOC_Os08g35470.1 229 614;ID=match$27_229_614;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os08g13270.1 1 281
+LOC_Os08g13270.1	.	polypeptide	1	281	.	+	.	ID=LOC_Os08g13270.1;md5=4c9ccedf478999e81e7b55a509ab2637
+LOC_Os08g13270.1	SUPERFAMILY	protein_match	85	176	9.94E-10	+	.	date=08-08-2017;Target=LOC_Os08g13270.1 85 176;ID=match$28_85_176;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g13270.1	SUPERFAMILY	protein_match	209	274	9.94E-10	+	.	date=08-08-2017;Target=LOC_Os08g13270.1 209 274;ID=match$28_209_274;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os08g13270.1	Pfam	protein_match	146	270	4.9E-6	+	.	date=08-08-2017;Target=LOC_Os08g13270.1 146 270;ID=match$29_146_270;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os12g01040.1 1 489
+LOC_Os12g01040.1	.	polypeptide	1	489	.	+	.	ID=LOC_Os12g01040.1;md5=a31359a03130a67507639ce96891d9f4
+LOC_Os12g01040.1	Pfam	protein_match	164	462	3.7E-61	+	.	date=08-08-2017;Target=LOC_Os12g01040.1 164 462;ID=match$30_164_462;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os12g01040.1	Coils	protein_match	205	225	.	+	.	date=08-08-2017;Target=LOC_Os12g01040.1 205 225;ID=match$31_205_225;Name=Coil;status=T
+LOC_Os12g01040.1	SUPERFAMILY	protein_match	31	479	9.94E-78	+	.	date=08-08-2017;Target=LOC_Os12g01040.1 31 479;ID=match$32_31_479;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os04g58870.2 1 448
+LOC_Os04g58870.2	.	polypeptide	1	448	.	+	.	ID=LOC_Os04g58870.2;md5=88a226a8782c4ff4272bff4fde7b098d
+LOC_Os04g58870.2	TMHMM	protein_match	418	440	.	+	.	date=08-08-2017;Target=LOC_Os04g58870.2 418 440;ID=match$33_418_440;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+LOC_Os04g58870.2	SUPERFAMILY	protein_match	2	409	7.32E-116	+	.	date=08-08-2017;Target=LOC_Os04g58870.2 2 409;ID=match$34_2_409;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g58870.2	Pfam	protein_match	43	405	4.4E-100	+	.	date=08-08-2017;Target=LOC_Os04g58870.2 43 405;ID=match$35_43_405;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os11g01050.1 1 497
+LOC_Os11g01050.1	.	polypeptide	1	497	.	+	.	ID=LOC_Os11g01050.1;md5=4354a60bb80dcfabeddf9e9249a43c46
+LOC_Os11g01050.1	SUPERFAMILY	protein_match	39	487	1.05E-77	+	.	date=08-08-2017;Target=LOC_Os11g01050.1 39 487;ID=match$36_39_487;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g01050.1	Coils	protein_match	213	233	.	+	.	date=08-08-2017;Target=LOC_Os11g01050.1 213 233;ID=match$37_213_233;Name=Coil;status=T
+LOC_Os11g01050.1	Pfam	protein_match	172	470	3.9E-61	+	.	date=08-08-2017;Target=LOC_Os11g01050.1 172 470;ID=match$38_172_470;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os07g10920.1 1 320
+LOC_Os07g10920.1	.	polypeptide	1	320	.	+	.	ID=LOC_Os07g10920.1;md5=8263ebc107286edb584821abdb74f0e8
+LOC_Os07g10920.1	Pfam	protein_match	33	315	9.6E-50	+	.	date=08-08-2017;Target=LOC_Os07g10920.1 33 315;ID=match$39_33_315;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10920.1	SUPERFAMILY	protein_match	33	319	1.52E-63	+	.	date=08-08-2017;Target=LOC_Os07g10920.1 33 319;ID=match$40_33_319;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os05g39610.1 1 661
+LOC_Os05g39610.1	.	polypeptide	1	661	.	+	.	ID=LOC_Os05g39610.1;md5=49a6daefe53432c0c72e9a2009e84f1c
+LOC_Os05g39610.1	SUPERFAMILY	protein_match	125	193	2.88E-127	+	.	date=08-08-2017;Target=LOC_Os05g39610.1 125 193;ID=match$41_125_193;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g39610.1	SUPERFAMILY	protein_match	225	657	2.88E-127	+	.	date=08-08-2017;Target=LOC_Os05g39610.1 225 657;ID=match$41_225_657;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g39610.1	Pfam	protein_match	300	653	1.3E-98	+	.	date=08-08-2017;Target=LOC_Os05g39610.1 300 653;ID=match$42_300_653;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os02g30230.1 1 689
+LOC_Os02g30230.1	.	polypeptide	1	689	.	+	.	ID=LOC_Os02g30230.1;md5=e75463ba5d09f48263a29371b1b474b4
+LOC_Os02g30230.1	Pfam	protein_match	301	673	8.3E-124	+	.	date=08-08-2017;Target=LOC_Os02g30230.1 301 673;ID=match$43_301_673;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os02g30230.1	SUPERFAMILY	protein_match	228	676	2.72E-153	+	.	date=08-08-2017;Target=LOC_Os02g30230.1 228 676;ID=match$44_228_676;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os02g30230.1	SUPERFAMILY	protein_match	89	183	2.72E-153	+	.	date=08-08-2017;Target=LOC_Os02g30230.1 89 183;ID=match$44_89_183;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os02g30230.1	Coils	protein_match	455	475	.	+	.	date=08-08-2017;Target=LOC_Os02g30230.1 455 475;ID=match$45_455_475;Name=Coil;status=T
+##sequence-region LOC_Os07g10940.1 1 709
+LOC_Os07g10940.1	.	polypeptide	1	709	.	+	.	ID=LOC_Os07g10940.1;md5=bfdcfebfc25462fccc36cbd58bcbc27c
+LOC_Os07g10940.1	Pfam	protein_match	360	686	3.3E-50	+	.	date=08-08-2017;Target=LOC_Os07g10940.1 360 686;ID=match$46_360_686;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10940.1	SUPERFAMILY	protein_match	11	130	2.93E-7	+	.	date=08-08-2017;Target=LOC_Os07g10940.1 11 130;ID=match$47_11_130;Name=SSF52402;status=T
+LOC_Os07g10940.1	Gene3D	protein_match	11	129	3.5E-9	+	.	date=08-08-2017;Target=LOC_Os07g10940.1 11 129;ID=match$48_11_129;Name=G3DSA:3.40.50.620;status=T;Dbxref="InterPro:IPR014729"
+LOC_Os07g10940.1	SUPERFAMILY	protein_match	263	684	2.51E-46	+	.	date=08-08-2017;Target=LOC_Os07g10940.1 263 684;ID=match$49_263_684;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os07g10940.1	CDD	protein_match	11	185	1.19749E-25	+	.	date=08-08-2017;Target=LOC_Os07g10940.1 11 185;ID=match$50_11_185;signature_desc=STK_N;Name=cd01989;status=T
+##sequence-region LOC_Os09g26820.1 1 638
+LOC_Os09g26820.1	.	polypeptide	1	638	.	+	.	ID=LOC_Os09g26820.1;md5=e4bc904d0d3f21515448bf93733b43c9
+LOC_Os09g26820.1	Pfam	protein_match	238	618	7.0E-112	+	.	date=08-08-2017;Target=LOC_Os09g26820.1 238 618;ID=match$51_238_618;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os09g26820.1	SUPERFAMILY	protein_match	164	624	2.35E-146	+	.	date=08-08-2017;Target=LOC_Os09g26820.1 164 624;ID=match$52_164_624;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os09g26820.1	SUPERFAMILY	protein_match	36	120	2.35E-146	+	.	date=08-08-2017;Target=LOC_Os09g26820.1 36 120;ID=match$52_36_120;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os05g30700.1 1 373
+LOC_Os05g30700.1	.	polypeptide	1	373	.	+	.	ID=LOC_Os05g30700.1;md5=ec2d870a1261af640a908333d88232ab
+LOC_Os05g30700.1	Pfam	protein_match	154	373	5.0E-30	+	.	date=08-08-2017;Target=LOC_Os05g30700.1 154 373;ID=match$53_154_373;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os05g30700.1	SUPERFAMILY	protein_match	93	372	9.42E-15	+	.	date=08-08-2017;Target=LOC_Os05g30700.1 93 372;ID=match$54_93_372;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os03g33520.1 1 556
+LOC_Os03g33520.1	.	polypeptide	1	556	.	+	.	ID=LOC_Os03g33520.1;md5=d9e7a6f74c0e296b0b8e810f89e68ac0
+LOC_Os03g33520.1	Pfam	protein_match	188	448	7.6E-54	+	.	date=08-08-2017;Target=LOC_Os03g33520.1 188 448;ID=match$55_188_448;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os03g33520.1	Pfam	protein_match	458	514	2.7E-7	+	.	date=08-08-2017;Target=LOC_Os03g33520.1 458 514;ID=match$55_458_514;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os03g33520.1	SUPERFAMILY	protein_match	37	516	1.26E-70	+	.	date=08-08-2017;Target=LOC_Os03g33520.1 37 516;ID=match$56_37_516;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g49460.1 1 151
+LOC_Os01g49460.1	.	polypeptide	1	151	.	+	.	ID=LOC_Os01g49460.1;md5=2e5d40647151b55e05d1923b2e1a47e1
+LOC_Os01g49460.1	Pfam	protein_match	58	133	7.1E-16	+	.	date=08-08-2017;Target=LOC_Os01g49460.1 58 133;ID=match$57_58_133;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os01g49460.1	SUPERFAMILY	protein_match	4	67	1.18E-8	+	.	date=08-08-2017;Target=LOC_Os01g49460.1 4 67;ID=match$58_4_67;Name=SSF53756;status=T
+LOC_Os01g49460.1	SUPERFAMILY	protein_match	57	131	3.19E-15	+	.	date=08-08-2017;Target=LOC_Os01g49460.1 57 131;ID=match$59_57_131;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g61180.1 1 652
+LOC_Os01g61180.1	.	polypeptide	1	652	.	+	.	ID=LOC_Os01g61180.1;md5=c90e31892a2301ebf06cd297ada9ad79
+LOC_Os01g61180.1	SUPERFAMILY	protein_match	117	185	2.35E-122	+	.	date=08-08-2017;Target=LOC_Os01g61180.1 117 185;ID=match$60_117_185;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g61180.1	SUPERFAMILY	protein_match	216	648	2.35E-122	+	.	date=08-08-2017;Target=LOC_Os01g61180.1 216 648;ID=match$60_216_648;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g61180.1	Pfam	protein_match	291	644	1.3E-91	+	.	date=08-08-2017;Target=LOC_Os01g61180.1 291 644;ID=match$61_291_644;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os05g30660.1 1 559
+LOC_Os05g30660.1	.	polypeptide	1	559	.	+	.	ID=LOC_Os05g30660.1;md5=66fb09af35e59f1d91e04eddc51696a0
+LOC_Os05g30660.1	Pfam	protein_match	154	554	9.2E-80	+	.	date=08-08-2017;Target=LOC_Os05g30660.1 154 554;ID=match$62_154_554;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os05g30660.1	SUPERFAMILY	protein_match	93	184	4.55E-44	+	.	date=08-08-2017;Target=LOC_Os05g30660.1 93 184;ID=match$63_93_184;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g30660.1	SUPERFAMILY	protein_match	230	558	4.55E-44	+	.	date=08-08-2017;Target=LOC_Os05g30660.1 230 558;ID=match$63_230_558;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g61190.1 1 553
+LOC_Os01g61190.1	.	polypeptide	1	553	.	+	.	ID=LOC_Os01g61190.1;md5=135903a6c5d4ced27c65474b321c5251
+LOC_Os01g61190.1	Pfam	protein_match	191	522	6.5E-74	+	.	date=08-08-2017;Target=LOC_Os01g61190.1 191 522;ID=match$64_191_522;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os01g61190.1	SUPERFAMILY	protein_match	26	533	9.94E-92	+	.	date=08-08-2017;Target=LOC_Os01g61190.1 26 533;ID=match$65_26_533;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g67820.1 1 592
+LOC_Os01g67820.1	.	polypeptide	1	592	.	+	.	ID=LOC_Os01g67820.1;md5=2045a6038ab9b2acc6ced3f0ee84045e
+LOC_Os01g67820.1	SUPERFAMILY	protein_match	49	101	2.98E-80	+	.	date=08-08-2017;Target=LOC_Os01g67820.1 49 101;ID=match$66_49_101;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g67820.1	SUPERFAMILY	protein_match	160	581	2.98E-80	+	.	date=08-08-2017;Target=LOC_Os01g67820.1 160 581;ID=match$66_160_581;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g67820.1	Pfam	protein_match	236	578	1.3E-71	+	.	date=08-08-2017;Target=LOC_Os01g67820.1 236 578;ID=match$67_236_578;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os07g10910.1 1 700
+LOC_Os07g10910.1	.	polypeptide	1	700	.	+	.	ID=LOC_Os07g10910.1;md5=09fe5ab67aee08cfa8b28ef1be51d1da
+LOC_Os07g10910.1	Pfam	protein_match	358	684	5.5E-70	+	.	date=08-08-2017;Target=LOC_Os07g10910.1 358 684;ID=match$68_358_684;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10910.1	SUPERFAMILY	protein_match	71	164	1.17E-5	+	.	date=08-08-2017;Target=LOC_Os07g10910.1 71 164;ID=match$69_71_164;Name=SSF52402;status=T
+LOC_Os07g10910.1	SUPERFAMILY	protein_match	267	699	8.89E-87	+	.	date=08-08-2017;Target=LOC_Os07g10910.1 267 699;ID=match$70_267_699;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os07g10910.1	Gene3D	protein_match	41	164	3.8E-9	+	.	date=08-08-2017;Target=LOC_Os07g10910.1 41 164;ID=match$71_41_164;Name=G3DSA:3.40.50.620;status=T;Dbxref="InterPro:IPR014729"
+LOC_Os07g10910.1	CDD	protein_match	39	197	1.85303E-41	+	.	date=08-08-2017;Target=LOC_Os07g10910.1 39 197;ID=match$72_39_197;signature_desc=STK_N;Name=cd01989;status=T
+##sequence-region LOC_Os01g69230.1 1 646
+LOC_Os01g69230.1	.	polypeptide	1	646	.	+	.	ID=LOC_Os01g69230.1;md5=29a8e040c4d09d685092d2830b41c750
+LOC_Os01g69230.1	Pfam	protein_match	280	636	9.2E-125	+	.	date=08-08-2017;Target=LOC_Os01g69230.1 280 636;ID=match$73_280_636;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os01g69230.1	SUPERFAMILY	protein_match	108	159	3.19E-150	+	.	date=08-08-2017;Target=LOC_Os01g69230.1 108 159;ID=match$74_108_159;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g69230.1	SUPERFAMILY	protein_match	206	640	3.19E-150	+	.	date=08-08-2017;Target=LOC_Os01g69230.1 206 640;ID=match$74_206_640;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g69230.1	Coils	protein_match	128	148	.	+	.	date=08-08-2017;Target=LOC_Os01g69230.1 128 148;ID=match$75_128_148;Name=Coil;status=T
+##sequence-region LOC_Os02g05620.1 1 664
+LOC_Os02g05620.1	.	polypeptide	1	664	.	+	.	ID=LOC_Os02g05620.1;md5=edb018504704e1b4d55d22e89976274e
+LOC_Os02g05620.1	Pfam	protein_match	272	627	5.1E-85	+	.	date=08-08-2017;Target=LOC_Os02g05620.1 272 627;ID=match$76_272_627;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os02g05620.1	SUPERFAMILY	protein_match	73	127	6.8E-122	+	.	date=08-08-2017;Target=LOC_Os02g05620.1 73 127;ID=match$77_73_127;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os02g05620.1	SUPERFAMILY	protein_match	155	630	6.8E-122	+	.	date=08-08-2017;Target=LOC_Os02g05620.1 155 630;ID=match$77_155_630;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os05g30640.1 1 520
+LOC_Os05g30640.1	.	polypeptide	1	520	.	+	.	ID=LOC_Os05g30640.1;md5=f80ab23390929336cce9d1729b7a041f
+LOC_Os05g30640.1	SUPERFAMILY	protein_match	96	164	5.23E-46	+	.	date=08-08-2017;Target=LOC_Os05g30640.1 96 164;ID=match$78_96_164;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g30640.1	SUPERFAMILY	protein_match	208	519	5.23E-46	+	.	date=08-08-2017;Target=LOC_Os05g30640.1 208 519;ID=match$78_208_519;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os05g30640.1	Pfam	protein_match	157	516	3.0E-46	+	.	date=08-08-2017;Target=LOC_Os05g30640.1 157 516;ID=match$79_157_516;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os04g02070.3 1 362
+LOC_Os04g02070.3	.	polypeptide	1	362	.	+	.	ID=LOC_Os04g02070.3;md5=40bc559153b5aa8883aa0df5e86c0b05
+LOC_Os04g02070.3	SUPERFAMILY	protein_match	35	322	1.31E-31	+	.	date=08-08-2017;Target=LOC_Os04g02070.3 35 322;ID=match$80_35_322;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g02070.3	Pfam	protein_match	29	320	1.7E-30	+	.	date=08-08-2017;Target=LOC_Os04g02070.3 29 320;ID=match$81_29_320;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os06g08460.1 1 486
+LOC_Os06g08460.1	.	polypeptide	1	486	.	+	.	ID=LOC_Os06g08460.1;md5=9033a088b11715dc6b5f16b4ceff2bbf
+LOC_Os06g08460.1	Pfam	protein_match	145	482	9.7E-61	+	.	date=08-08-2017;Target=LOC_Os06g08460.1 145 482;ID=match$82_145_482;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os06g08460.1	SUPERFAMILY	protein_match	69	485	1.26E-69	+	.	date=08-08-2017;Target=LOC_Os06g08460.1 69 485;ID=match$83_69_485;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os04g58880.1 1 634
+LOC_Os04g58880.1	.	polypeptide	1	634	.	+	.	ID=LOC_Os04g58880.1;md5=47499b29e48d71c6fcd143e409b73d07
+LOC_Os04g58880.1	SUPERFAMILY	protein_match	191	628	9.42E-166	+	.	date=08-08-2017;Target=LOC_Os04g58880.1 191 628;ID=match$84_191_628;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g58880.1	SUPERFAMILY	protein_match	70	158	9.42E-166	+	.	date=08-08-2017;Target=LOC_Os04g58880.1 70 158;ID=match$84_70_158;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g58880.1	Pfam	protein_match	265	623	6.8E-124	+	.	date=08-08-2017;Target=LOC_Os04g58880.1 265 623;ID=match$85_265_623;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os12g24620.1 1 141
+LOC_Os12g24620.1	.	polypeptide	1	141	.	+	.	ID=LOC_Os12g24620.1;md5=32b060903aa08d8a3421ffe695f27faa
+LOC_Os12g24620.1	SUPERFAMILY	protein_match	57	128	8.37E-14	+	.	date=08-08-2017;Target=LOC_Os12g24620.1 57 128;ID=match$86_57_128;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os12g24620.1	SUPERFAMILY	protein_match	4	59	1.32E-7	+	.	date=08-08-2017;Target=LOC_Os12g24620.1 4 59;ID=match$87_4_59;Name=SSF53756;status=T
+LOC_Os12g24620.1	Pfam	protein_match	58	128	2.9E-15	+	.	date=08-08-2017;Target=LOC_Os12g24620.1 58 128;ID=match$88_58_128;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os11g06700.1 1 692
+LOC_Os11g06700.1	.	polypeptide	1	692	.	+	.	ID=LOC_Os11g06700.1;md5=1cad3f62b067dc5759996b28b2db943f
+LOC_Os11g06700.1	Pfam	protein_match	308	678	2.5E-108	+	.	date=08-08-2017;Target=LOC_Os11g06700.1 308 678;ID=match$89_308_678;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os11g06700.1	SUPERFAMILY	protein_match	133	201	1.46E-136	+	.	date=08-08-2017;Target=LOC_Os11g06700.1 133 201;ID=match$90_133_201;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g06700.1	SUPERFAMILY	protein_match	234	681	1.46E-136	+	.	date=08-08-2017;Target=LOC_Os11g06700.1 234 681;ID=match$90_234_681;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os08g41820.1 1 606
+LOC_Os08g41820.1	.	polypeptide	1	606	.	+	.	ID=LOC_Os08g41820.1;md5=5bec83816682ad05bbf14ffbb6c39460
+LOC_Os08g41820.1	Pfam	protein_match	223	595	9.9E-106	+	.	date=08-08-2017;Target=LOC_Os08g41820.1 223 595;ID=match$91_223_595;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os08g41820.1	SUPERFAMILY	protein_match	59	599	3.82E-127	+	.	date=08-08-2017;Target=LOC_Os08g41820.1 59 599;ID=match$92_59_599;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g05580.1 1 177
+LOC_Os01g05580.1	.	polypeptide	1	177	.	+	.	ID=LOC_Os01g05580.1;md5=e69cd061d16f14b4b6c8eb9d538b8d8a
+LOC_Os01g05580.1	Pfam	protein_match	5	67	3.5E-6	+	.	date=08-08-2017;Target=LOC_Os01g05580.1 5 67;ID=match$93_5_67;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os07g10960.1 1 588
+LOC_Os07g10960.1	.	polypeptide	1	588	.	+	.	ID=LOC_Os07g10960.1;md5=f5fba86ff062c127abfcec2712b609e4
+LOC_Os07g10960.1	Pfam	protein_match	313	575	1.3E-47	+	.	date=08-08-2017;Target=LOC_Os07g10960.1 313 575;ID=match$94_313_575;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10960.1	Coils	protein_match	417	437	.	+	.	date=08-08-2017;Target=LOC_Os07g10960.1 417 437;ID=match$95_417_437;Name=Coil;status=T
+LOC_Os07g10960.1	SUPERFAMILY	protein_match	230	576	9.42E-59	+	.	date=08-08-2017;Target=LOC_Os07g10960.1 230 576;ID=match$96_230_576;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os11g05880.1 1 643
+LOC_Os11g05880.1	.	polypeptide	1	643	.	+	.	ID=LOC_Os11g05880.1;md5=ae74c87e0894ab4fcab9b328342d3f5e
+LOC_Os11g05880.1	Pfam	protein_match	277	630	6.1E-124	+	.	date=08-08-2017;Target=LOC_Os11g05880.1 277 630;ID=match$97_277_630;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os11g05880.1	SUPERFAMILY	protein_match	81	169	4.92E-164	+	.	date=08-08-2017;Target=LOC_Os11g05880.1 81 169;ID=match$98_81_169;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g05880.1	SUPERFAMILY	protein_match	203	634	4.92E-164	+	.	date=08-08-2017;Target=LOC_Os11g05880.1 203 634;ID=match$98_203_634;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g55799.1 1 602
+LOC_Os01g55799.1	.	polypeptide	1	602	.	+	.	ID=LOC_Os01g55799.1;md5=5d06433f95c8703e30d65eab29a02d3c
+LOC_Os01g55799.1	SUPERFAMILY	protein_match	155	596	3.03E-139	+	.	date=08-08-2017;Target=LOC_Os01g55799.1 155 596;ID=match$99_155_596;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g55799.1	SUPERFAMILY	protein_match	41	120	3.03E-139	+	.	date=08-08-2017;Target=LOC_Os01g55799.1 41 120;ID=match$99_41_120;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g55799.1	Pfam	protein_match	229	592	4.4E-113	+	.	date=08-08-2017;Target=LOC_Os01g55799.1 229 592;ID=match$100_229_592;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os08g13570.1 1 526
+LOC_Os08g13570.1	.	polypeptide	1	526	.	+	.	ID=LOC_Os08g13570.1;md5=0c38cf95e41cffca8efdff440469b677
+LOC_Os08g13570.1	Pfam	protein_match	156	522	3.9E-62	+	.	date=08-08-2017;Target=LOC_Os08g13570.1 156 522;ID=match$101_156_522;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os08g13570.1	SUPERFAMILY	protein_match	63	525	1.1E-73	+	.	date=08-08-2017;Target=LOC_Os08g13570.1 63 525;ID=match$102_63_525;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g67810.1 1 557
+LOC_Os01g67810.1	.	polypeptide	1	557	.	+	.	ID=LOC_Os01g67810.1;md5=4107a67e80c72bae063f111865dd4e1f
+LOC_Os01g67810.1	Pfam	protein_match	216	546	6.1E-53	+	.	date=08-08-2017;Target=LOC_Os01g67810.1 216 546;ID=match$103_216_546;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os01g67810.1	SUPERFAMILY	protein_match	152	549	3.24E-58	+	.	date=08-08-2017;Target=LOC_Os01g67810.1 152 549;ID=match$104_152_549;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g67810.1	SUPERFAMILY	protein_match	41	100	3.24E-58	+	.	date=08-08-2017;Target=LOC_Os01g67810.1 41 100;ID=match$104_41_100;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os04g31330.1 1 688
+LOC_Os04g31330.1	.	polypeptide	1	688	.	+	.	ID=LOC_Os04g31330.1;md5=70a53ac702ef24c67593e899732f3bdc
+LOC_Os04g31330.1	Pfam	protein_match	303	673	1.6E-121	+	.	date=08-08-2017;Target=LOC_Os04g31330.1 303 673;ID=match$105_303_673;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os04g31330.1	SUPERFAMILY	protein_match	230	676	3.35E-152	+	.	date=08-08-2017;Target=LOC_Os04g31330.1 230 676;ID=match$106_230_676;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g31330.1	SUPERFAMILY	protein_match	94	184	3.35E-152	+	.	date=08-08-2017;Target=LOC_Os04g31330.1 94 184;ID=match$106_94_184;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os11g42989.1 1 579
+LOC_Os11g42989.1	.	polypeptide	1	579	.	+	.	ID=LOC_Os11g42989.1;md5=34a4f354c37c0e22e9a317d5f98f9c3a
+LOC_Os11g42989.1	SUPERFAMILY	protein_match	49	541	3.03E-64	+	.	date=08-08-2017;Target=LOC_Os11g42989.1 49 541;ID=match$107_49_541;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g42989.1	Pfam	protein_match	211	470	3.1E-48	+	.	date=08-08-2017;Target=LOC_Os11g42989.1 211 470;ID=match$108_211_470;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os04g02070.4 1 516
+LOC_Os04g02070.4	.	polypeptide	1	516	.	+	.	ID=LOC_Os04g02070.4;md5=0730d181f817a77dc3d951a34416b0f4
+LOC_Os04g02070.4	SUPERFAMILY	protein_match	152	474	1.26E-31	+	.	date=08-08-2017;Target=LOC_Os04g02070.4 152 474;ID=match$109_152_474;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os04g02070.4	Pfam	protein_match	183	474	5.2E-30	+	.	date=08-08-2017;Target=LOC_Os04g02070.4 183 474;ID=match$110_183_474;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os06g14450.1 1 412
+LOC_Os06g14450.1	.	polypeptide	1	412	.	+	.	ID=LOC_Os06g14450.1;md5=e789e526d4a8e92be8615040b41d89b7
+LOC_Os06g14450.1	Coils	protein_match	163	183	.	+	.	date=08-08-2017;Target=LOC_Os06g14450.1 163 183;ID=match$111_163_183;Name=Coil;status=T
+LOC_Os06g14450.1	Pfam	protein_match	63	406	4.1E-86	+	.	date=08-08-2017;Target=LOC_Os06g14450.1 63 406;ID=match$112_63_406;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os06g14450.1	SUPERFAMILY	protein_match	1	411	2.46E-91	+	.	date=08-08-2017;Target=LOC_Os06g14450.1 1 411;ID=match$113_1_411;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g56210.1 1 243
+LOC_Os01g56210.1	.	polypeptide	1	243	.	+	.	ID=LOC_Os01g56210.1;md5=aeaf67985031f77d75744f77d0d6eaef
+LOC_Os01g56210.1	SUPERFAMILY	protein_match	136	242	1.57E-20	+	.	date=08-08-2017;Target=LOC_Os01g56210.1 136 242;ID=match$114_136_242;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g56210.1	Pfam	protein_match	136	239	4.2E-20	+	.	date=08-08-2017;Target=LOC_Os01g56210.1 136 239;ID=match$115_136_239;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##sequence-region LOC_Os07g10970.1 1 388
+LOC_Os07g10970.1	.	polypeptide	1	388	.	+	.	ID=LOC_Os07g10970.1;md5=3c7bc6a32900314e81ad46e9af0f153c
+LOC_Os07g10970.1	Pfam	protein_match	87	386	2.8E-47	+	.	date=08-08-2017;Target=LOC_Os07g10970.1 87 386;ID=match$116_87_386;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os07g10970.1	SUPERFAMILY	protein_match	67	386	7.85E-59	+	.	date=08-08-2017;Target=LOC_Os07g10970.1 67 386;ID=match$117_67_386;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os04g02070.1 1 522
+LOC_Os04g02070.1	.	polypeptide	1	522	.	+	.	ID=LOC_Os04g02070.1;md5=0f691b3e40cb197629ebddd3f1ea2b8a
+LOC_Os04g02070.1	Pfam	protein_match	189	480	5.3E-30	+	.	date=08-08-2017;Target=LOC_Os04g02070.1 189 480;ID=match$118_189_480;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os04g02070.1	SUPERFAMILY	protein_match	158	480	1.31E-31	+	.	date=08-08-2017;Target=LOC_Os04g02070.1 158 480;ID=match$119_158_480;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os01g28600.1 1 681
+LOC_Os01g28600.1	.	polypeptide	1	681	.	+	.	ID=LOC_Os01g28600.1;md5=e5f7c0597a286a66e08afdfd2a9741b9
+LOC_Os01g28600.1	Pfam	protein_match	333	677	2.8E-63	+	.	date=08-08-2017;Target=LOC_Os01g28600.1 333 677;ID=match$120_333_677;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os01g28600.1	SUPERFAMILY	protein_match	119	196	2.77E-92	+	.	date=08-08-2017;Target=LOC_Os01g28600.1 119 196;ID=match$121_119_196;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os01g28600.1	SUPERFAMILY	protein_match	263	680	2.77E-92	+	.	date=08-08-2017;Target=LOC_Os01g28600.1 263 680;ID=match$121_263_680;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os12g06840.1 1 700
+LOC_Os12g06840.1	.	polypeptide	1	700	.	+	.	ID=LOC_Os12g06840.1;md5=339bde63dfbbe22228859fddf730961b
+LOC_Os12g06840.1	Pfam	protein_match	325	686	7.9E-106	+	.	date=08-08-2017;Target=LOC_Os12g06840.1 325 686;ID=match$122_325_686;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os12g06840.1	SUPERFAMILY	protein_match	167	689	2.51E-132	+	.	date=08-08-2017;Target=LOC_Os12g06840.1 167 689;ID=match$123_167_689;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os06g48330.1 1 673
+LOC_Os06g48330.1	.	polypeptide	1	673	.	+	.	ID=LOC_Os06g48330.1;md5=5854bf7b98749b0a100e022b95df8075
+LOC_Os06g48330.1	Pfam	protein_match	280	636	1.8E-84	+	.	date=08-08-2017;Target=LOC_Os06g48330.1 280 636;ID=match$124_280_636;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+LOC_Os06g48330.1	SUPERFAMILY	protein_match	83	137	2.51E-122	+	.	date=08-08-2017;Target=LOC_Os06g48330.1 83 137;ID=match$125_83_137;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os06g48330.1	SUPERFAMILY	protein_match	165	639	2.51E-122	+	.	date=08-08-2017;Target=LOC_Os06g48330.1 165 639;ID=match$125_165_639;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+##sequence-region LOC_Os11g36400.1 1 433
+LOC_Os11g36400.1	.	polypeptide	1	433	.	+	.	ID=LOC_Os11g36400.1;md5=ed68070375949eb442f82bba10befe76
+LOC_Os11g36400.1	SUPERFAMILY	protein_match	297	399	3.56E-22	+	.	date=08-08-2017;Target=LOC_Os11g36400.1 297 399;ID=match$126_297_399;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g36400.1	SUPERFAMILY	protein_match	86	206	3.56E-22	+	.	date=08-08-2017;Target=LOC_Os11g36400.1 86 206;ID=match$126_86_206;Name=SSF74788;status=T;Dbxref="InterPro:IPR016159"
+LOC_Os11g36400.1	Pfam	protein_match	294	398	8.9E-14	+	.	date=08-08-2017;Target=LOC_Os11g36400.1 294 398;ID=match$127_294_398;signature_desc=Exo70 exocyst complex subunit;Name=PF03081;status=T;Dbxref="InterPro:IPR004140"
+##FASTA
+>LOC_Os01g05580.1
+MSTLATEKLYRMLGMYEVLTDIKSDLESLFTGYARNFFSFEVTSIVAQLGNTIRHLSMQF
+WIRIREGEGRRQRREEGFVGTLLRCSRVTAVVASPRHQRLLLVLLTPPPEPSCSPAGRRP
+WPAAPPPPPVEREGERWRGEGKKRLMGRIRVGPMLSQMSRWVKPESKPPRTQSDSVL
+>LOC_Os01g28600.1
+MSTDAKTRRGLAAATSRRRGAERASSRGSPAQQDHRRLDYHVFPDDLGGLGAAAPRCDLE
+RRVHGAALLGAFSPCFHGSSSSHLPPQHSSEEVSAAAATREQEQTLRLFLQDIERSIVFG
+ICKNPETTEFFRDHRRRLDDYFAAAKNLLQMLEHPVLAYGDLHNRAKSLLVTAMGSLAVE
+LCHLKIWKPDALASYLGCTPTSIWELARSSCRGGGDGSGSASSASWMSTSRSCSGGSSGP
+NGVSFDGYYMALSEERTVRSGQASSVTASHIDLKSVSILNKIADFMIGVGHEQMLRGAFD
+QHSEHLVRYIEILDIDKILGNHMEESTELLLKVWTSTMRTVFSVLDEMRTQLNQKDHGTF
+SSLKVDYFSAIAKESVMKLLNYANAICIQVGPNDPSCRDTHASVKHFPSKMVNLLIMFQA
+LEYAKMEILDLFLGQTKGPILMEIERLTNGLSAVFLVLLVELNGLLRSQHLVISNTGVHH
+VTQHIMGLMRLLVEQKDKVHMMLNDNPDKFGQVVTQLISSLEFMLDMNSRSLALQGQQLV
+FLLNNINFVLEQANNYTDLKLILGESWCLQRHVQLDQFLASYVEASWTPVMSSFIITRIP
+KILWPQQLFDKFNSRFEMTYNVQKTWKVTDPVIRQKLREKITQKVIPLYRMYLESYSDKK
+QKSARFNVEHLEARLLEIFEG
+>LOC_Os01g49460.1
+MAAAHFVFVPLMAQGHLIPAVDTALLLATHGVLCTVVATPATVARVRTHRRIGPTVHLEA
+VLEEKSGELAFPRTRQVFMLNNTHAIVRHAVRSNLAMFLPSGWARAWEERMEGYVKSYLD
+MSWAPIVSRLAAGAATTAATKPATVSVLRRQ
+>LOC_Os01g55799.1
+MMAAELIKQFSNITLGEEQELCDIEHALKALRKKILTLDFENSMRVHDPQNSFQYLEVLY
+KIRQLTERLGSLHPGGEAKEHNELIVYAGDLFDMAMARLEEEFVYLLTHYKQPIEQGLVS
+FRSTEDGSVDDFSSSSFNEEQCDGKTTQTETTGGSEYFATDLIQHGALSAVKSIANFMFL
+SEYDKECSQAYISTRQSAVDENLGSLRIDKLSMEELLSTNWTKLSSLIKRWNRAMKVFVQ
+VYLTSEKRLSNHVFGELSESTADLCFYEISLSSVMQLLTFYESVAIGPPKPEKLFRLLDM
+YEVLNDLLPEVEFLFQEGCDDIVLTEYNEVLLQLGESVRKTITEFKYAVQSYTSSNAMAR
+GEVHPLTKYVMNYIKALTAYSKTLDSLLKDTDRRCQHFSTDIQSMANQCPHFTVSALHLQ
+SVTAILEENLEAGSRLYRDDRLRNIFMMNNIYYMVQKVKNSELKIFLGDDWIRVHNRKFQ
+QQAMSYERASWSHVLSFLSDDGLCAAGDGASRKIIKEKFKNFNLSFEDAYRTQTGWSIPD
+DQLREDVRISISLKIIQAYRTFTGRYYSRLDGTRHLERYIKYKPEDLEKLLLDLFEGAQK
+TL
+>LOC_Os01g56210.1
+MVGFVDAVLAALKLVHAPPPEKLHALVSMYGHAMDASSLLWSQCRRVLITHQTTQAITFD
+AMENALFRKATELHGAISSTMEETKALVEAAADDDPTEIARGSGDDVHTSARVMVDCVAS
+SSRSPTYGGFVASGGYIDGYFSASWAPVLSCLSSKSGLSPWSNKSSPLRKFELAFHETYT
+AQKLWKVPSPELRGRLRKTITERVVSGYREYLLEHPELKRLVSRGNSNTPADLEEMLAEL
+FEG
+>LOC_Os01g61180.1
+MAEDGEEKLLATVQHIVKTLGRTDTMTEDILKVFSNYDGRLSLDKLYATRAAAAAAAVAA
+AGGAGAGEHSVPASPPMPPPPAVPPAVAAMPAVTSLERTVRTLDRQISQFVTMDRLIWAD
+SADADAFLEAVDDLIGTVQELDAAGTNRGLLDRADELLSRCMARLEDEFRALIERPDDVA
+PPAPGGFASDESEEEDYDADDGYGDEPIPIAKPVSDFDVVIDALPPGSVSDVHQIARRMV
+DAGFGRECAEAYAAARRGFIDESVARLGIRARTIDEVHSLPWEELEFDIARWIPAFKMVF
+RILIPSERRLCDRVFDGLAPYGDLAFVAAVRTQVLQLISFGDAVSAASRAPERLFRVIDM
+YEAVRDLLPDLDPVFADPYSAALRAEVSAVCNTLGSSIKGIFMELENLIRRDPARVSVPG
+GGIHPITRYVMNYLRAACGSRQTLEEVMEGDLGAVGGAAIAVDPDRPTSSLAVHIAWIMD
+VLHKNLETKSKIYRDPPLASIFLMNNGKYIIHKVNDSELGVLLGDEWMKQMMSRVRRWSL
+EYQRGAWAKVMSVLQTGGPGIGSLPAKALLQKLRMFNGYLEEICAIQSEWVIADEQLRED
+VRAAITDSVKSAYMGLISRLKSSPEAAQDLFIKHSPEDVEARIQHLFEGVSK
+>LOC_Os01g61190.1
+MAGMEDTLQALNDLISQFLCLNRPLWSSSDDADAFLEAVDELTSTIHSLESMSADHILLE
+SFDHLLERCSLRLGEELQHLIDASGFDTNCSYPNTRKSHDDDDDRHTLVAQPVSNFDIIV
+DALPEGVIFEANRIAKRMVAAGFGDSCAETYASSRLNFIDESIARLGVHAHMAEMFKSAS
+WEELEIQIMCWIPAIRVVFHILIPSERHLCDSIFEGFTSYSDVAFVTACHPFLQLLSFGN
+FIAAAGKNPECLFRIVDMYDAVRDILPVLDDAFNPEVAALRECLGLSIKAILMALENLVR
+RDPSESCPLDGGVHPMTRYVMNYLVTACVSRHTLEEVMLLEFGSSDPSGNCPIEPDRPTS
+SLAIHLAWIVDVLTGNLVSKSKVYSHAPLSCVFLVNNGIYIIKKVNGCELKVLLGEDWIK
+VIHSKVNQWILEYRRATWGKAIMILEMDKRFCSNVNVITEKLSRFNNFVEAICQVQSRWV
+LVDKQQGVDFSILVEELVIPAYRDMAEMLKATGSAGESYMRLEDVRSRIQQLFKAMTSQM
+VEDLPSRTASHPG
+>LOC_Os01g67810.1
+MGAAVGKAAPAKARLDIAENTIFQRNRGIWDAAAACTNERLLDAVDEILDLAEAQPFPAA
+SAAAARLDSALRAAMSLMMDEFMCLRVWNASSHDLRLAVDRLAVGASANALWQHTFPSTG
+DRSSSASTVGRASAGSPSSAPGDLVGFLDGEFLDELQLLCPASLLVLHEIAHRVIRAGYT
+KELVQKFTNSPCDVLDRFLSIFQGECSRRTTVDLIKRWSLATHLVGKALVVMQRQLYTHN
+SPGAFDALKDEYFLAITKNRILNLLKFADDFTSITSHEKLIYILGMYQALSEAASGLLLM
+FTGPHKELVAERSEEILAKLAMSIRSMVASLIAKVRDGVSNTKNIVGVGVHPLTKYAVLC
+IVRLAPHRDTLDLILASGGDDVASLSDLASRVVGSLEEKPVLPCDDDATAAATGSRHHLF
+HANNANFVLQSCKPLLGDEWAAARESIVERHVAGYAEACWAPVVACLEPAGRKPAAKVVA
+KFSAAFDRAYESQARCEVRDPALRDALRRAVSDKVVTAYGVYLKTHPKLEKKLRYTAGEL
+GERLSELFEGEAAEHNK
+>LOC_Os01g67820.1
+MTRAEYRLAVAEQVILGWHCARSSGADLAGVWDSDATCTNESLLSAVDEVLLLAEIHAFP
+MASAARRSMQDALDVAVSCLMEEFLRLKVWDASQMEVRLGVRFAVGKFSMPAADSGVSLS
+LAFPTTGSISTASTIDELYASGGSQSSRVGAVTMLLDGEFFDELDLISPASLSVLHQIAL
+RVIRAGYTKELLHAFTNAPCDVLDRFLTILQMECAFETDHVSFEDAEWWTAEDMIKRWIL
+ATKLVAKALAVMQRQLQAQSCGAFDRFKNDYFMAIAKNSIFVLLRFANGFTTTEAPDKLV
+YVLEMYEALSNATPGLLLLFTEQRVELVSRQVEVVLAKLARALRAMIGGLIARIRKADCP
+QTTGSAARGVGVHPLTRYAMTCVELLSPHRAALDLILANGAGESVTSLGSLVAVLVTSLE
+RHLEEINPKLSNDDDDAAAAAAASRHLFLATNASYVARRAVDAGVEPLLGDGWAARRGSL
+IARYVASYVEACWAPVAACLETAGRKPVKVAAKFSSAFDEAYESQVHREIPDPALRDALR
+KAASEMVVPAYSAYLQNHPKLQKNVRHTAGELDRLLWELFEGEAAERNKLLL
+>LOC_Os01g69230.1
+MAAAPPGGQEKVIAAAQHIVKSLANSKNAADDMIRILSGFDDRLTFMSDLFPPPPPAAAA
+VREPSVVEEEEAGPDDAREDEVEEAAELVERWDSPEEGDRLVFDSAKDAGDYLGAAAVLV
+GARGARAEAALQAAMARLEDEFRHLLARGMSPLAGEDLHASLLRRLSLTVPSFASSASDL
+DCPSFASHTGDGDESGGAGGRASVSDEEISPYLISPDTVGALRGIADVMLRAGYGPELCQ
+VYGEMRRDTLMECLAVLGVDKMSLEEVQRVEWGVLDGKMKKWIQALKVVVRGLVAEERRI
+CNQIFAADAEAEEDCFTEAAKGCVLQLLNFGDAIAIGKRSSEKLFRILGMYEALDEVLPE
+LEGLFSGDARDFIKEEAVGILMRLGDAVRGTVAEFANAIQGETSRRALPGGEIHPLTRYV
+MNYVRLLADYSRSLNQLLKDWDTELENGGDNVNMTPLGQCVLILITHLQAKIEEKSKLYE
+DEALQNIFLMNNLLYIVQKVKDSELKTLLGDNWIRQRRGQIRRYSTGYLRSSWTRVLACL
+RDDGLPQTMGSSSALKASLKERFKNFNLAFEELYKTQTTWKVVDPQLREELKISISEKVL
+PAYRSFVGRFRGQLEGGRNSARYIKYNPEDLENQVSDFFEGRRPNA
+>LOC_Os02g05620.1
+MESVAAAARSLRAGVEKSRALGQALARAGPRVEEIQLALPALEAAVRPIRAPRAELAAAG
+PHIDRAVGPAAAVLKVFDAVHGLEPPLLAAGAVAGDLAGYLAVLGRLEEALRFLSDNSGL
+AAQWLADIVEYLGDHDLADPRFLADLAVTLEGLKKPSGDLDGGLLAAALDMLEAEFRRLL
+ADHSAPLPLAMQQLNTTSASTAAPSLIPAATVHKLSLILDRLIANGRQDRCLSVYADARG
+GVVSASLRALGLDYLRNPVDVAQALGPGVELWGRHLEFVVRCLLESERQLCNKVFGQRKD
+DASACFADVAAHAGILDFLSFGRAAADAKKDPIKLLRLLEVFDSLNKLRLDFNRLFGGKK
+ACVEIQNQTRDLVKLLVDGAVEIFEELLVQVELQRHMPPPPDGGVPRLVSFVVEYCNRLL
+SEKYRPVLAQVLTIHRSWRKETFSDKMLVNAVLNIVKALEANFDVWSKAYDNVTLSYLFM
+MNTHWHFFKNLKATRLGELLGDAWLQEHEQFKDYYLTVFMRDSWGVVSPLLNREGLILFS
+KGRATAKDLVKQRLKTFNASFDEMFRKQSAWVIPEKDLREKTCGLVVQAIVPAYRSYMQN
+YGPLVEQDVSASKYVKYTVDGLEKMLSALFIPRPRRAGSFQIRHTNDKITSAMTGFYRSA
+STVK
+>LOC_Os02g30230.1
+MSAAPPPPPPESPVAAAAGGGDKVLAAAQHIVKSLATSKNAADDMIRILSGFDNRLSQIT
+SDLFPSPDLAADSDERGNPLWGQISAAAFDAAEQLIQVWDGTPEALVFEATEDEVAEYLS
+AVDVAIEHLARGSGGGAGGAGSSSSSTAGRAGVAVQLAMARLEEELRHLMVRHAVPLDPT
+GLFFSLRRLSLGSMDDLDTSSEFDAATPHSIDVAPETARGGPLVNPFEDQVFDPVRPEAV
+DDLRAIADRMARAGYSRELADAYCGIRRDLLDEYLSALGVERLSIDEVQRIEWKHLNDKM
+KKWVQAVKTVVRVLLAGERRLCDQVLSVSDELREECFIESTKGCIMQILSFGDAVAVCPR
+SPEKLSRILDMYEALAEVIPEMKDLCLGSSGDGVISDVQANLDRLGDAIRGTLFEFGKVL
+QLESSRRAMTAGEIHPMTRYVMNYLRLLVVYSDTLDALLDDNADDQIDLARAEDQDQEHL
+ESMTPLGKRLLKLISYLEANLEEKSKLYEDSALECIFSMNNLLYIVQKVRDSELGKILGD
+HWVKRRNGKIRQYSKSYLRISWMKVLSFLKDDGHGSGSGSSSGSGSGHSSSRMSIKEKFK
+NFNLAFEEIYRNQTTWKVPDPQLREELKISISENVIPAYRAFLGRYGSQVDGGRNSGKYI
+KYTPEDLESQLSDLFEGAPGPANHSRRRT
+>LOC_Os02g36619.1
+MGGDRGKKPVDTPADMLLPSRKRWLGDGGSDRAHGGCLFYETTPSSFTHGSSSSSPNRPL
+HDRMEVDTKESEIPRQRTENDRKISARIKRSHQARRRQRYEDQEDRVHGNVHFASICPPP
+VSWLELKHNMEVKLDLNLDDIEKSIVIPRCQEMDTSGNPDKVDKYLVAAKNLTRILNLEH
+PVLTETGHLRDRARSLHGTTISSIITEFCYLKVWRVSPLRRLGYLPGPIWESSVRSTFNE
+SISATVSSSSSSSFTCSGSTNGSSDNNQASLEDGPDKRLACTGFINIQSVSVLDDIASII
+TEGGYQQLLRGAFDRHYSELARYFEILDIENILGSHMKDSVEILVNAWVRAMRITLNVLT
+EMRRQLHKQNFGAFNSFKHDYFMVIATQSIKKLVACGSSMCSWQQNSQDDPSTQSCAARE
+STKHTTQMILNLVMMYRALNYAMPELLALFSGRTEQIVLAEFRGLIDRSSSTVLQLFMEL
+NNLIKSQRLVMVDIGVHHITRHITEYMRVLFEKKSTIYQMLDSKPNAFGELVMGLVSSLE
+SMLEMNSRSLVLQGQKQVFLLNNLHFMIEQVKRCIDSGLILGESCLVQREDQLDQLITAY
+IEASWDPVISSFEKRTQVAIILWPHQLFDKFNSSFERIYSVQKTWKVTNPNVRLKLREAI
+IQKLIPVYQMQMGNQSEKKQMSARYSVEQLESQLLEMFEG
+>LOC_Os03g33520.1
+MALVAVAGSSRSTNTALEEKVAGVAALIDKWRPDDGQCSLFLDGSRREAGRFLCAAVELH
+GAMLLVASDVDQERGDECLVRAQGVLEAAMRRLQLELELLLSTVRSNAVDGAISGHDVVG
+DAGVVGHITMVADAMMAAGYGMECVSTFNSHRRAEFAAAVRRLLGFAPSQHAHFHKLTWE
+DVDGKVQSWHTAAGFAFNFAFSRERVLCHRVFAADAALADKVFAGIASDHAADLLAVAEA
+AVMRARRAPERLFHVLDVHATLAEILPAIACILGDKSEAAARATAALRNAGNAARGILMS
+LEQAIQKTTSSKAAVTGSAVHPLTRYVMNYLVLLADYEDTLARIYQQGESTLTSGSGSAS
+RVSPSSSADSIGRLVSVLQRKLEAMAVGYRPSALRSLFMANNTHYVSKKVRGSSKLEGIV
+GEDWIEEQMAETRRHVDAFVHSAWRDVLVAGGEGADAAVKEAVATQRSWVVADDEMGDAV
+RAAAAAVVVPAYRALYRRHGTAAWMTPGDVNAMISRQFGGLRNEAAGARPVSAGSATSRR
+HRLRLTSFSDKLAHVQ
+>LOC_Os04g02070.1
+MEQAVSMRQTGEVICRLHMWNRDGLSTAANSHYECINRPPLSIRTNLTHFCSCPCDSSER
+SSPDNYASSVASDSNGGGIGARNGHPLRYSSNVHLLDENVNLISTESVAQLDTAMGRCGE
+IIGDHREELLMVFTNNSDMLSSLFYEYDTPWILGKNTKTSMDFSKCEDLGKDYLIMLKIS
+TKVLQSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLA
+YDTLQDVLPTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPT
+TCFLINAIKIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDS
+DGNNPNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWG
+PAISCLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEI
+SFEELQRNSNSGLFCSCFPRNLTCSMYTPEILRRSVQGLFEG
+>LOC_Os04g02070.2
+MQVFYPQFLTSSIFPIYSLFYEYDTPWILGKNTKTSMDFSKCEDLGKDYLIMLKISTKVL
+QSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTL
+QDVLPTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFL
+INAIKIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNN
+PNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAIS
+CLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEISFEE
+LQRNSNSGLFCSCFPRNLTCSMYTPEILRRSVQGLFEG
+>LOC_Os04g02070.3
+MDFSKCEDLGKDYLIMLKISTKVLQSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEI
+ALSFSESNWSEEHIRPMLLAYDTLQDVLPTIRELSPDEPDEFFTSILHNMRNASRGIIDN
+MKRFIQHKVQTWDNIAIHPTTCFLINAIKIFNVHKNLLHSTLVPGDGQDSFGYLINGVIA
+CWKLKIKELSMLDDPDKNDSDGNNPNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIEECK
+NEFQSDMENYTSRYMTASWGPAISCLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKVPDS
+ELKQKLRDDIENLIFPAYEISFEELQRNSNSGLFCSCFPRNLTCSMYTPEILRRSVQGLF
+EG
+>LOC_Os04g02070.4
+MRQTGEVICRLHMWNRDGLSTAANSHYECINRPPLSIRTNLTHFCSCPCDSSERSSPDNY
+ASSVASDSNGGGIGARNGHPLRYSSNVHLLDENVNLISTESVAQLDTAMGRCGEIIGDHR
+EELLMVFTNNSDMLSSLFYEYDTPWILGKNTKTSMDFSKCEDLGKDYLIMLKISTKVLQS
+MFCQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQD
+VLPTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLIN
+AIKIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPN
+LFIFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCL
+NNHTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEISFEELQ
+RNSNSGLFCSCFPRNLTCSMYTPEILRRSVQGLFEG
+>LOC_Os04g31330.1
+MSAPPAPPHPQPEELEVAEEPPAAAGGVGNDKVLAAAQHIVKSLATSKNAADDMIRILSG
+FDHRFSSITADLFPSPLPSSGAGPTPPPPPPPRGAFEAAERLIRQWDATSELLVFEGPEG
+DVADYLEAVDVAVDQLLSGVGAAAADAEAEAAGVVVQLAMARMEEELRHLMVRHAVPLDA
+SGLFCSLRRLSLESMDDLDTSSEFDPITPHSLEGGPDTARSASLVGNPFDDQVFDLVRPE
+AIDDLRSIAQRMDRAGYASELEQVYCGVRRDLLDECLAVLGVERLSIDEVQRMEWKLLND
+KMKKWVHGVKTVVRSLLTGERRICDQVLAVSDELRDECFVESTKGCIMQILNFGDAVAVC
+SRSPEKLSRILDMYEALAEVIPELKELFFGNSGNDVICDLEGVLERLGDAVKGTLLEFGK
+VLQQESSRRPMMAGEIHPMTRYVMNYLRLLVVYSDTLDKLLGDDSAGDVDHSDTHRGGDD
+EEEYLESLSPLGRHLVKLISYLEANLEEKSKLYEDGALQCIFSMNNILYIVQKVKDSELG
+RILGDHWIRRRRGKIRQNSKNYLRISWTKVLSFLKDDAHGGRSGSGSGSGNSSRIKEKFK
+NFNLAFDEIYRSQTLWKVPDPQLREELKISISENVIPAYRAFLGRYGSLVDSGRNSGRYI
+KYTPEDLENQLSDLFEGSLGPANHSRRR
+>LOC_Os04g58870.1
+MERAADEEAAAEALRAKIELLRQAMQSSEAMQKEAAVIGTRLNNHMVAIDEAMRPAHKRT
+YNACRVHDNIRRSLTAAGAIVRHLDLVREAEHVILLDRPNEDLNAYLEAIDKLTSVEYFF
+TSKIRCRVGNDVHERVNELLSKAIHGLENEFHRLLTKCSKPVDLENIFNCLSSLNRQLSS
+EDLIGPSAVISDYLFEQVDAIFEGNACSENQKSALTLTKSLAQTAKKTIGDFMEYILNHS
+VTSTTVDGAVHYMTSYVTDYIKFLFDYQSSIKQIFGDPCVEDEKDTDVVSQIVGAIHALE
+TNLAMKAKQYKDLALGHLFLMNNIHYIVKYIGRSELKDLLGADWIERQRRIVQQHATRYR
+RVAWLKVLECLSTQGLTSSVGSSIDVTQGSFRNIKNSTTSRSVIKERLKCFNMRFEEICQ
+KQMNWGVPDRDLRDSLILMIAEILLPAYRSFLKHFGPLVENSHSALKYMKYTPESLEQAL
+GNLFAKKLRSDQVFSLHLFAACIVHVCIGLTYSFSKPGGSDQV
+>LOC_Os04g58870.2
+MEIYREIRSSTLERTLKRLGVEYVTKEEMQQVEAQSMEAKIAEWTQFSRITVKLLFGAER
+ILCDQVFEGKYTWKDHCFAEVTAKSLSILLSFGDAVVQSQILPDKLYILLDMYKATLELQ
+SKVDAIFEGNACSENQKSALTLTKSLAQTAKKTIGDFMEYILNHSVTSTTVDGAVHYMTS
+YVTDYIKFLFDYQSSIKQIFGDPCVEDEKDTDVVSQIVGAIHALETNLAMKAKQYKDLAL
+GHLFLMNNIHYIVKYIGRSELKDLLGADWIERQRRIVQQHATRYRRVAWLKVLECLSTQG
+LTSSVGSSIDVTQGSFRNIKNSTTSRSVIKERLKCFNMRFEEICQKQMNWGVPDRDLRDS
+LILMIAEILLPAYRSFLKHFGPLVENSHSALKYMKYTPESLEQALGNLFAKKLRSDQVFS
+LHLFAACIVHVCIGLTYSFSKPGGSDQV
+>LOC_Os04g58880.1
+METLAQRAALLRESLQKSQSVTDAVVSILGSFDSRLSALDAAMRPIQVRTHAVRTAHENI
+DRTLRSADVILTQFDRTREAEREIQKGPHENLQGFLDAVDRLRSIERFFSSNRSYRSSDG
+VLNHVNALLSKALVKMEDEFQKQLTQRSKPIEPDRLFDCLPSTLRPSSESHPEGGKNQSH
+SENQQNSEAAVYSPPALIEPRFIPFLAKLAQQLVQAGCQQQCSEIYSEARASALESSLKS
+LGVEKLSKDEVQKMPWEILESKIGNWIHFMRIAVKLLFAAERQLCDQVFECSQSLRDKCF
+AQITRNSLATLLSFGEAIAMSKRSPEKLFVLLDMYEIMCELQADIDTIFVGESCSQMRES
+ALSLTKCLAQTAQKTFSDFEEAVEKDATKNIHIDGTVHPLTSYVINYVKFLFDYQSTLKQ
+LFQEFKREDGTGSELATVTMSIMQALQNNLDAKAKQYKDPALMHIFLMNNIHYIVKSVRR
+SEAKDLLGDDWIQRHRRIVQQNANHYRRIAWSKVLQCLSGQGLTSSGGSGQVGSEGGNSS
+GASRAAVKERFRSFNVLFEEIYQKQCGWSVPDTELRESLRLAVAEILLPAYRSFLKRFGP
+LIENSKAPGKYVKHTPEQVELLLANLFEGKQERT
+>LOC_Os05g30620.1
+MIQQMLINFEDQLEKNSESFSDPSLRYQFLLNNSYFVREEFLEPSNYVYILPSGTTLKFM
+QYQEKYMLASWEPVLYCLQDKMPLWFPKHSSQLSRFKSEFQKTCTPHQKLWKVPNPRLRQ
+KLREAITDKVITGYKRYLEDHPELEKCSSDLQDMEDMVNELFEG
+>LOC_Os05g30640.1
+METQLPTVMELDSSEPANFTQPSRRYSYLEKIRSLSVVSGEVAGWSSSASASSSRSARSS
+YYSSSMSSNASGGPHNHRYAPYSNSSPGDIDLHGAQDIARQMVHDGFMVNLIREFDRAPG
+PALERWFSELDVGWLLRSAAAADKEQSELGLADLVRRWTRGYTVMAEALSATQTKVAGVP
+AIILPQAQRDHNNIMCDQELEDDLRLQFARFVEATVSKMLAFVDALAAENTRLSIDNLSR
+LVGLCSCIYSCFYKCNVVVITDSEEIVDSELQCLGRKVVGAFIITTTTLCNAIESMAMVA
+EAVTPVLIGWDSCENFKQNAEIHEATRLIVDYVRLFWGYQSLRSNMRYLKWVQIPITMIP
+QMLINFEDQLEKISESFSDPSLRYLFLLNNSYFVREEFLEPSNYVFILPSGTTLKFMQYQ
+EKYMLASWEPVLYCLHEKMPLWFPKHSSQLARFKSEFQKTFRHQKLWKVPNPRLRQKLRE
+AIIDKVITGYKRYLEDHPELEKCSSDLQDMEDMVNELFEG
+>LOC_Os05g30660.1
+MAALSELDATEASLSLPSWRWSYSYLEKIRSMSVVGSSSSSSSSRSARSSNYSSTVSSTE
+SGAGSHRRRCKTGAASGGSFLRVVGFQVPGPRDIASQMVRDGFVLALIGAFGRAPGPVLE
+RWFSELDVGWVLRPTDQQQQEEEEEEEAERLVWRWTRALTVMAHALSATQGHLHDERSAA
+AAAAAAVAVVGGVEFAISQPPHHTAPAVASSSDHELLLRGVVGGGDDLCLVRFTDTTISK
+MIAFAAALAAAGKAGTCPTPTADSFFGLMEVHTCISDVSEILMPALKQEALDLRLPDSEQ
+MQSLVNKIGEAMANTQDSLGEAIRKTAKDAEAVTPVLSAMDSWEKFTQTEGIHRATRLIV
+DYASLFWGYRRVLESILCCYRSESSQNCWEIVQSLIEQMIITFLDQLEKKSESFSDPSLR
+YIFLINNSYFIQDQFLATNTDYSFPSSKGIRYWHYQNCYLDVSWEPVLSFLYLYNKMPKF
+FPKHSPQLLARFQSEFQKACRHQKLWKVPNTEHRNSLRKAISDKVITAYRKYLEGHLEPE
+KSSSDLLAMEDMVNELFEG
+>LOC_Os05g30680.1
+MMTTDALSPPSGPFPDNAEIHKATLLAVNYAILFWGYHSVLEAILLDNGDLFGNCSWYSE
+KLVVERLIVQIITNLQDELEKKSKLFSDHSLRYLFLLNNSYVVQYQFLVPSDYSPPSEIK
+FHYEQYQKEYMRASWEPVLSCLHDKMPPCFPKLSSHSELSRFELEFEKTCSHQKLWKVPL
+PNLRQSLRETIINKIITRYKKYMEDHPEQEKCGRDPLDMEGMVNDLFEG
+>LOC_Os05g30700.1
+MKLEPQLAITMELGRSSDPNISLQSRRHSYLQEIRSLAVDSAGGWSPSSSSRSARSSSYY
+SSSKSSSSRHRYAPYSISSSRRLARLEDKSPRDIARRMVRDGFMGKLIGEFGRAPRPALE
+RWFSELDVGWVLRSALEKEKSELALDKLYDLAVQRWTRGFTVMAEALSATQRHLQEEGRS
+TAQVDRDDDLRLVRFVEATVCKMLAFANSLVAVADKTWNPMNKLSGLMNVRSCISHASEI
+IMLSLKKETLWLPDSDEMLQGLLNKTSNIFSTAKDNLGQAIQRMANDAEAVTPVLSGMHS
+WETFPQSAEIHKATHLIMDYARLFWGHIDELNSILGQCWPHRILKCDIIEQMISNLIDHL
+EKKSESFSDPILS
+>LOC_Os05g39610.1
+MAEDGEEKLLATVQHIVQTLGSSDTMTEDILRVFSNYDGRLSLDKLYAARAAAASAAGGG
+GGGGLGGGGEHSMPESPTLPLPPPPAAAVSAAAAAGRPPPVTSMERTVRTLDRQISQFVA
+MDRLIWADSADADAFLEAVDDLIGTVQELEAAGTNRGLFDRAEELLSRCMARLEEEFRAL
+IERPDDAVPAAPGGFRSDGSDDEEDFGGGDGYGDEPIPIAKPVTDYDVVIDALSPGSVAN
+VHQIARRMVDAGFGRECAEVYAAARRGFVDESVARLGVRPRTAEEVHASSWEELEFDIAR
+WIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFVAAVRTQALQLISFGDAISSSSRAP
+ERLFRVVDMYEAVRDLLPDLDPVFADPYSAALRAEVTAVCNTLGSSIKGIFMELENLIRR
+DPARVAAQGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDFGAVGGAAAAVDPDRPTSSL
+AVHIAWIMDVLHKNLDIKSKIYRDPSLACVFLMNNGKYIIQKVNDSELGVLLGDEWIKQM
+TNRVRRWSMDYQRVTWGKVTTVLQTGGPGVGGLPATAMKQKLRMFNTYFQEIYEVQSEWV
+IADEQLRVDVRAAVAEAVMPVYTALISRLKSSPEARHDLYIKYTPEDVEACIQHLFEGAA
+K
+>LOC_Os05g39610.2
+MTEDILRVFSNYDGRLSLDKLYAARAAAASAAGGGGGGGLGGGGEHSMPESPTLPLPPPP
+AAAVSAAAAAGRPPPVTSMERTVRTLDRQISQFVAMDRLIWADSADADAFLEAVDDLIGT
+VQELEAAGTNRGLFDRAEELLSRCMARLEEEFRALIERPDDAVPAAPGGFRSDGSDDEED
+FGGGDGYGDEPIPIAKPVTDYDVVIDALSPGSVANVHQIARRMVDAGFGRECAEVYAAAR
+RGFVDESVARLGVRPRTAEEVHASSWEELEFDIARWIPAFNMVFRILIPSERRLCDRVFD
+GLAPFGDLAFVAAVRTQALQLISFGDAISSSSRAPERLFRVVDMYEAVRDLLPDLDPVFA
+DPYSAALRAEVTAVCNTLGSSIKGIFMELENLIRRDPARVAAQGGGIHPITRYVMNYLRA
+ACGSRQTLEEVMEGDFGAVGGAAAAVDPDRPTSSLAVHIAWIMDVLHKNLDIKSKIYRDP
+SLACVFLMNNGKYIIQKVNDSELGVLLGDEWIKQMTNRVRRWSMDYQRVTWGKVTTVLQT
+GGPGVGGLPATAMKQKLRMFNTYFQEIYEVQSEWVIADEQLRVDVRAAVAEAVMPVYTAL
+ISRLKSSPEARHDLYIKYTPEDVEACIQHLFEGAAK
+>LOC_Os06g08460.1
+MAIMHARFEVSDVVGGDGSSSGGSSPASVSGPSDSDGSSCSSSSAADELFPDARELPSTS
+ASVPVLAGVGFHPISPTSLSVLSDIDVHMQRMARLLPAFASPAAAPRAQALGRWLAGFDV
+GWVLEMDAGGGRLPRREVGRRVRVWAQALSTMDRVFRLRHREARNPANEAAAAQLAALGE
+LASASAGAMLRLATAVAALGASPSALLAALDVYVPVSEAYPGLARMFSWSTAAADAALAA
+LVDAARRCVRGLPASIRSHYPWRMPQGGEVHPCVGFWMGYFRCMLRNRVSLYLVLAGGDG
+GETATTPALAPGGEGGLVADLISRLEAVLEEKSGELAFPGLRQVFMLNNTHAIVRRAVRS
+DLAMFLPPGWTRAREERMEGYVKSYLDASWAPVVSRLAAAATKPAAVSVLRRRRDPLAAF
+NSALENACSAQRCWKVPSPVLRRVLRRTVSEHVVPAYRRCLEAAETPAAARTVEELERQL
+SELFEG
+>LOC_Os06g14450.1
+MMLAGHESNLSHAYGEIRNSTLMQCLCLFGVQIDLNSYNPRASPSESGFNMLLDLDGQKM
+EIWIQALRVIIGTVLPEERQACTQIFGSDSKVEEDCFARATMRFIQQLFAFGSLIANVKD
+EQYEKVPLLVQMLEEFLKLKPSIEALRYGDAKDAISQEADMLLEKLREEAVRLLLKFSEA
+QINHESYDNETIVLNGSVLSFPQYTMGVIKLLAGYSDTLNIILPVEVGGVGTVTTSPWKS
+YVLTLLTRLQLNIEEKSKSYKDECLRNVFLMNNAMYVLEKARSPDLKILLGDNWVTKQLV
+QVEQHATAYLRASWTEPLFQLKDKGINYTERSLILTKKFKNFNSIFGEISRVQTTWKVPN
+PQLRQHLRLVILQQVIPAYRAFVGRFGMLLNSKFIKYTLEDIENNVLDLFEG
+>LOC_Os06g48330.1
+MGVGEEEGRGMASLLAARRALRAGVERSRALSHALARAGPRLGEIRARLPPMEAAVRPIR
+APRDALEGAGECVDRAVGPAAAVLKVFDAVHGLEPPLLAASAAADDLPGYLAVLSRLEEA
+LHFLSDNCGIASQWLADIVEYLGDRSLADPRFVSDLAEALSHLKTPSANLDGGLLAAALD
+ILEAEFRRLLTEHSAPLAMKEPNNSSDPGSITPPRIPASAVHKLSLILDRLAANGRLGTC
+TAAYADARGDTVSASLRALGLDYLHDPAEDAQVLTPNVEHWGRHLEFAVRHLLEAERKLC
+VAVFERRPEAASSCFAEIASRAGILDFLKFGRAICDARKDPIKLLRLLDVFDSLSKLRMD
+FNRLFGGKACVEIQTRTRELVKRVVDGSVEIFEELLVQVELQRNMPPPADGGVPRIVSFV
+AKYCNQLLGDPYRSVLTQVLVIHRSWRKETFNDKMLVDAVLNIVKALEANFEAWSKAYED
+VTLSYLFMMNTHWHFFKHLKGTKMGEILGDEWLREHEQYKDYYSAVFLRESWGTLAPLLS
+REGIILFSKGRATARDLVKQRLKSFNANFDEMYQKQSAWIISDRDLQQKTCHLVVQAIVP
+VYRSFMQNYGPLVDQQDASANKYVKFTAEGLDKMLSTLFLPKPRRAGSFQIRHSNGKITS
+AMTGLYRSSSTLK
+>LOC_Os07g10910.1
+MDVPLVPVPTTAADDDAAAGSPSPSPEMEMEEDGGGGKVVYVAVSGNRNKALPTLRWALR
+RHAPAPEGRKKTALLVLVYVHRPATMIPIFTGAKVPSIVLKDEIVTSYRQQERRITEKFL
+QQYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKISTLIMGAGIYGKTSTQRTKLAIT
+MEKEADPSCKILFVHKGNLFSIRPRTTSIPISVNSDVPTMAGSHIPWFSFIPPWHHDDRS
+SVTSSSFLTDSQTMTDNGLDPENLDHQFFENAMPMFDYDSFSLIRHESLHGLNEIASQII
+LSGHSQYLRQLNFDVSCNEEVRNRQFIHGIDSILGVDSMNLEEVYWKAYMEDKTIKWIYL
+LEYIHKIVSVSLKQIQEQHDGASSGLTLEGLSDAATKPINRLLTFASTVSKVNGSPEKLF
+HTLQMHKALSEASPMIQQALLGEQKEFFVRELHRILDTLEDSAREILGKLKVQIQSHDSP
+IIPGGSVHLVTTYLMRYITLLAHNTSSLNTILGHDHSDHLLAADGINLLLPSHLISGLIF
+DLGSMLQKQSKLYKPEGLQYLFLMNNEHFILQHFEREDIKLMIGTEWIQKYCHNINRYKV
+KYIEATWATVVSCLDKKISISLNFLQPSPLKEFISSFETEYRLQMHWKVPDPKLRIELRQ
+TVCDYVLPAYCEFMEKHPNLEKSGDNLEDIRNKLNELFEG
+>LOC_Os07g10910.2
+MDVPLVPVPTTAADDDAAAGSPSPSPEMEMEEDGGGGKVVYVAVSGNRNKALPTLRWALR
+RHAPAPEGRKKTALLVLVYVHRPATMIPIFRAKVPSIVLKDEIVTSYRQQERRITEKFLQ
+QYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKISTLIMGAGIYGKTSTQRTKLAITM
+EKEADPSCKILFVHKGNLFSIRPRTTSIPISVNSDVPTMAGSHIPWFSFIPPWHHDDRSS
+VTSSSFLTDSQTMTDNGLDPENLDHQFFENAMPMFDYDSFSLIRHESLHGLNEIASQIIL
+SGHSQYLRQLNFDVSCNEEVRNRQFIHGIDSILGVDSMNLEEVYWKAYMEDKTIKWIYLL
+EYIHKIVSVSLKQIQEQHDGASSGLTLEGLSDAATKPINRLLTFASTVSKVNGSPEKLFH
+TLQMHKALSEASPMIQQALLGEQKEFFVRELHRILDTLEDSAREILGKLKVQIQSHDSPI
+IPGGSVHLVTTYLMRYITLLAHNTSSLNTILGHDHSDHLLAADGINLLLPSHLISGLIFD
+LGSMLQKQSKLYKPEGLQYLFLMNNEHFILQHFEREDIKLMIGTEWIQKYCHNINRYKVK
+YIEATWATVVSCLDKKISISLNFLQPSPLKEFISSFETEYRLQMHWKVPDPKLRIELRQT
+VCDYVLPAYCEFMEKHPNLEKSGDNLEDIRNKLNELFEG
+>LOC_Os07g10920.1
+MLQLFGKELVALIDRSIQEINREHGQARGASEMRRLLKLAVVITMLPTSPDLLPVILRLY
+ATLGTFPIDQLNGITKELRKCVRKILRRVCSLSQTQSGLYHVAQRGGVHKITLYVMNYVK
+FLWEHDSVINNIIAYQADGESENGEEWTQVDSFVQHFIGRLDALLERMARHESMMGLECI
+SLLNNAHFILNRLRKLEVKSALQQDWILRYENQVKHQITRYLELSWLPVMSCLDAHTPTQ
+ALFPCFHLPLTTRFYEMLESTCAEQQNWRIEDPKLRNNVRKAVSSHVVQCYQAHLQKKGM
+KLHKYIPQEIENKLMELFEG
+>LOC_Os07g10940.1
+MAGEGGAEEEKVYVAVGGEPERCLPTLRWALSYTPAGSTLVLLYVHRPDAMIPIFTGARV
+PVCVLKDEVINVHRQKERSIVQERLRIFTAECESKQVHTEVIIAENDSIGLGIVKLIEEH
+KIGTLIMGAGYYGHYYEKDFRVRSKPVFASRPKSSTGEFKVRTKLATIVEEQAHPSCKIL
+FVHGGKELSTRPRLINIRAARNENGEIPRAAWRLDDEEVEEECRCSALSSSSSSTASYGA
+LKLEKLDNPVIEKLESSSPSSADHGSLLTLMAPASLVALNEMVNEMILAGMSPELRRAPF
+GAGCDDDGQVRRSLHAIIGIDAALGLEWRNLEEVHWRGYMEYKTTRWLHTLEYVRCVAAV
+MHRGGQARARALSAAAEKPVETLLEFATAVSRVSGSPEKLFHMLHMHKALAHAAPLLLAA
+FIGDAKERFAGELERTLASLGVAVRGILSKTKALIHSYGGSPGQNVVVVVVVPDGGGIHV
+VTSYLARYVELLAQHAASLNVILAGDVDVDDDDGSQSQMMSPLGRLVAGVIGSLGVMLRR
+TAELYETEGGEGLRHLFLLNNEHAILQAIETTTLLPLAAEWTQAYRHGIEQHKQGYIQTW
+AAVATSCLPRDDPPPPPTSAKKAGFLRRRRRSPPLREFAASLEETSVEQMQWKAASPHLR
+DELRRAVKECVAQAYSEFMDKHPTSNAGEEFATVDDLILRCQIDQILEG
+>LOC_Os07g10960.1
+MAQKMIEDDCEKVYVAISPIQSLCPPMLLWTLRNTPPGKTYSCCSAQTRLPAGFYTQEAR
+TGEKMLRDYLHVCESQKFHAEVLTAEKENVELGLVELVSELKITTLIMGGGLYRYTHETP
+LFNDQEGGMKNMMLTDRTITVLEKADPSCKIFVLNRGNLFFIRERRITISTSTKNGFAPV
+EVSDFPTSSYHFLGWHPNDYASRSSISLSLLSETQSMTDDGCDSEQLDLMLEYLHPGFDN
+DSFRIVSKESLIYLDKIANQSTQSGHAQDLHQAPFDDRCHCHFIPDMDRILGIQSRNDDE
+ARWRNCIKHKMTEWLHELRYVCTIVLSAHKQLMQWHLAVHDSLALDKLSKAVKEPITQLL
+TFASTVSKMHGSPEKFFHMLHMHQALTEAYPVLQEVFSGELKESFTGELHKILHTLKDGT
+KETLDQLRVQIQSYSSEDMPEGGGIHLVTTYLIRYIMSLTQNTGSLDAILAHSYEDHALA
+EERMMNTSGHLISMLISDLTSMLYRLSKLYMSKSEGLQWLFLLNNEHFILRKIEEADIRS
+MLPADWIQNYQHRVEQNKVNYIEATWALTLSYLKKGPKVPSISFILQP
+>LOC_Os07g10970.1
+MPASTSSSTNMSFVLTSTTELASSYDIQSSSEEAAISQYQQCSYEAGIRIYKQLLGDIPE
+DGLDLSNIRIWIQRADSRMLELFKEELVAMIDQSIQEINSKHGQEQESDMHRLLKLAGVM
+TMLSPSSDLLPAILRLYVTLEIFPVNQVNGIASELKRCVREIFQGQCSLALNGIYSVPRG
+GGIHNITSYMMNYIKYMWEHDSLLNVILAQDDGESENPLHDGKWTRLDYFVQSLIGYLDS
+LLETISKYQSTEFQCIFLLNNAHFILEILEKLDMKSALQQSWITRHHNQVEYQIARYLEH
+SWEPILSRLVARKNILFPCFHLPPLTEFYTMLNNNCAVQKYWKIEDPKLRQVVRKTISSR
+VTQCYQAYLGRSVKNQKRAHYTSEDLSY
+>LOC_Os08g13270.1
+MEALASFMDLEGRPHQHRWSMRRGGGLFFPQISSAAGELGWSSDSSTASSPAPSTLSSSC
+MSSPWGGGSGRWSASPAPAASSGLHQMVRDNYTQGLIRAFGRRRHDEALLHKWFSQLDVE
+WVLLLHAGQRDLDSSSVEDLMALMERWMRALLIMVQVLSMTLLELRDRRSSSSLAGTDDD
+DAFLLRTKGSAGNRSPAPELPDFVCVQEVVQFAEASILRMLAFVDAITLAALNDDHRRRH
+REPEMLPGMLYLYDCFSDASPTVLAFFKEASDVLRLRLREE
+>LOC_Os08g13570.1
+MEYGITPAGGFRWRSYRDLIRDVFIAGDMYCGPAKLLFPQITGSAGEDQARCGWSSASSV
+ASSPVVSSSYMSSSGSPAWSSASSSPVHKLRVIAQQMVGDGYIQELIRAFGRRRPDELIF
+QRWFSQLDVDFVLVLHTDGMVRADSFSVEDLMALIKRWIRALLTMVQVLNITLLELPLPV
+AGSTERMAAAADHAQFTGFAEESILRMLAFVDAVTLSALNVNDDHRHRTPELLPGMLQLY
+ACVSEACDLLVSAGMGKDEITKMQALDAMNNGILMQSRRKLSDAIWVMMEKVRALFLMDA
+CWQVSQEAAASGTHETTELTMNYITLLWRNHTMLDYFSVFVSDADSFSSVARLIAEMITC
+LECKLEETSLSIPDLGLRFIFLLNNWHRVLQRVESLRDLPAAVRQERILLLHASDSKIKR
+YIDDYLNASWSPLLRCLLIDKPFVALGRSHESKIETQLQTTYATQKFWKVPNPQLRQRLR
+RAIMSKVIPDYSKYIEQMDRQNKINRHLVVTSPEQLEQQIEELFEG
+>LOC_Os08g35470.1
+MDGSAELEAAERVVMRWDSTSASDEPMLFDGARAEAERFLRAVDDLRRLAPPSPAAVGSP
+RRLSSGSSSVSAGGGGGAATAVQVAMARLEDEFRHVLSSRALDLEIEALADLGGSLSISS
+DRSNSASSAELQVVDEDDSVSSLVGRRSSYRSLPSIREIDLLPDDAVSDLRAIASRMAAA
+GYGRECAQVYASVRKPAVDASLRRLGVERLSIGDVQRLEWKALEAKIRRWIRAARAAVRG
+VFASERRLCFLIFHDLPISNITVTAAAPATHDTPFAEAVKGAALQLFGFAEAISIGRRSP
+EKLFKIIDLHDALSDLLPDVSDIFAASKVAESIYVQAAEIRSRLADAVRGILSEFENAVL
+RDPPKTAVPGGTVHPLTRYVMNYSSLISDYKVTLSELIVSRPSASARLAAEGNELAPSLA
+ELDLPEPDNQTPLAAHIIWIIVVLEHNLEGKASLYRDTALSHLFLMNNVYYIVHKVKDSP
+DLWNLIGDDYLKRLTGKFTMAATNYQRSAWLKILNCLRDEGLHVSGGFSSGISKSALRER
+FRSFNAAFEEAHRVQSGWCVPDTQLREELRISISEKLVPAYRSFLGRFRHHIENGKHPEL
+YIKYSAEDLEIAVNDFFEGVPPSPHIRRRSHS
+>LOC_Os08g40840.1
+MCTHASTPAIAGGDTVLEQLRASRAAIVSVLATAVEAEAAIDAAGDRLGDMYSGLPSSSQ
+LQSQAVAARALRARIDRAVAPAGPLLAALRRVSALAEEAAAALPAADPGDAGGAAAFVGR
+VDRLRDAVEEAVARGDEAVRRVEEAVGFLGRTKATGRGRVRRLAEAAAALRAVHEAEAEE
+MRFEGPLDEALLGLQDLFEALLLRLKHPGRGGGGGEVSDVEEEYELGTDDEVDAAARIAR
+TLAGNDCLDICLDIYVKVRYRRAAKAMMRLNPEYLKSYTPEDVDAMEWEALESAMALWGP
+HFHVAISGVLAAERWLCARVLAPLPPAVWPECFAKIAARIAAAFFRFADGVAAAAAREPQ
+RLFRLLDMLDAVARERGRLDELFSGESATLLAIRERAREVERALARAAAAAFYEFGLRVE
+THYVTAAAAGESGHVPKIVRYAVNYLKCLASDDYRGTMDAALRAGAGDDDGGDSEALAEA
+ASNVLEALHRHVEAARRALPDAVASHVMAMNSYWYIYMRARGSELASLVGDDTMRRRYKA
+SAEEAAWEYQDAAWGPLVRLVSGSSSGAAKAWPSPEEAREKAAAFADALEERARRHGAEY
+KIPDGDLREQIKAAAAKAVRGAYAGFLRANDSAVASGGGRREFLPVDAIEGMVRRVFDEM
+GDGGGVAGSAGRTRSRRQSGNLEGFEG
+>LOC_Os08g41820.1
+MADGARDAVVEVAKHMGKSLAVSKNAADDMMRVLSRYEGEAPMFPLSHPEVDQAEEEEVF
+AAAEDIIRRCNSVSSPSEMVDYLYAVDDAIAATALQGELASRAAETVQAAMPRLEEEVRA
+LLGSSARRLSLDSFEDLDDAGAATTPDGSPPRRDALSPEAAASASGVADRMLRAGYGPEL
+AQVYVAVRRDALAESAAHLGVEAVAIEEVLRMEWGVLNQRIRRWSHAVRAVVKTLLAGER
+RLCDEVFASDEELGHECFADVARGCLLQLIGFADAVAMSTPATEKLYRMLGMYEALTAVE
+PDIESLFTGDARDFFSSEVAGVAAQLGSTIRHTIDQFVNVIHGESSRRPVLGGEIHPMTR
+YVLNYCGLLAECRVTLDMVLADNNTSNHDTNDDDHDGGGGGGASSTPSGRCMREILTHLL
+RNLDEKSRLYDDAGLKNIFLMNNIYYIVQKMMVEFPALRELLGDDWVRRHRGQIRQYETG
+YLRASWMSVLASLRDDASPAAAHGHGGRAALKEKARSFNAAFEELYRSQTAWKVTDPQLR
+EELRIAVSERLIPAYRSFVGRSRQLLESGSSSGRHSSSAAKHIKYSLEDLEDYMLDFFEG
+VQKFVR
+>LOC_Os09g17810.1
+METTRSDGSIMVVGAVDIDCPQHRLCGYRDLIRGVSGGGAAMSRWPEAAPFVPQIASTGG
+DGGAAVAGGGWSSGSSSPAPSSCSSSSSWREGDCCYDVCWCSSSTVHELRSIAERMVRDG
+YIEGLIRAFGGAATAGAAGRRGPPDELLLHNWFSQLDVEWVLLLHTCSEEEEDEHVRRPP
+PLPVEDLMALMERWIRALLTMVQVLCITQLELRAKKPTVAGVRRAIQFFLLRRDSKTAHA
+DYVQQVVQFARFAEESILRMLAFVDAATLAVVEEDDDDHRVAEALPGMLQVYACISEASP
+TVLAMFKEASDLLASGSSRHGQEAQVFDGMDGIFLRKRKKLSDAIWDMMEKVRSSFLQDG
+CWQVSPEASASGVHETTVLMMNYIALLWRNDDVLTFILQDHHFSVFVSHTQGFSSVVNLI
+TDIISCLGHKLEEIASSLSNSILDPALRCIFLLNNWQLVLHRIESLDLPSWALIDRCRTR
+RYIDTYIDVFWSPLLCCIFIGNSSDTPRKKTYRPAFGFRRYLSLENFEIEFRKTYAKHKF
+FKVPDPKLRQRLRQAIIQKIIPHYSMYLEERAARGMHNRPPKITPEQLKELLEELFEG
+>LOC_Os09g26820.1
+MMDGSTAAAAELEAAERVVMRWDSTASASYGGGGGDEQMLFDGGGDRVEAERFLRAVDDL
+RRLAPPSPATVGSPRRTSSASGGGGAASNAVQVAMARLEDEFRHVLSSRALDLEIEALAD
+LTSLSMCSDRTNSADVAEEAAAADEDDSVSSSVGRRSSYRSLRSIREIDLLPADAISDLH
+AIASRMAVAGYGRECVQVYASVRKPAVDSALRRLGVEKLSIGDVQRLEWEVLEAKIRRWI
+RAARAAVRGVFASERRLCFLIFHDLPLSSSTITTATHDAPFAEAVKGAALQLFGFAEAIS
+IGRRSPEKLFKIIDLHDAIADLLPDVSDIFAASKAGESIYVQAAEIRSRLADAVRGILSE
+FENAVLRDPSKTPVPGGTIHPLTRYVMNYSSLISDYKTTLSELIVSRPLACSRIAPEGNE
+NAPSFPDLDLADPDSQLPLAAHLIWIIVVLEHNLESKASLYKDAALSHLFVMNNVHYIAH
+KIKDSPELRGLIGDEYLKQLTGKFRLAATRYQRTAWLKILNCLRDEGLHVSGGFSSGVSK
+SALRERFKSFNAAFEEAHRVQSAWYVPDTQLREELRISIAEKLLPAYRSFLGRFRHHIEN
+GRHPELYIKYSVEDLETSVTNFFEGCPPSLHNRRRSHG
+>LOC_Os10g33850.1
+MQMRICNDGAAAATPHGTGYGGHLADTAAGGAFFSRSASSASTSATATSPTQPFARRPDD
+SPPRWSPSSAGPPSSQPSENTATCTNDEPRHGDGAPDAAMTTKTSGGGGGAGGRGGRHSV
+ASRPRAPTAPSSSGSPPPAPVCGGGATRVRAVVKTLLAGERHLCDELLASDEELGHEWFA
+DVARRCLLQLIGFADAVAMSTPATEKLYRMLGMYEALTAVEPDIESLFTGDVRDLFSSEV
+TGVVAQLGNTIRHTMTIDQFVNVIHGESSRRPVHGGKIHPMTRYVLNYCGLLAECRTTLD
+MVLADNNNTNDDHHDGGGASSSGRCMRELLTHLLRKPDEKSRLYDHTGLQNIFLMNNLYC
+IVQKMMEEEEEIDPQWAPLFFLRE
+>LOC_Os11g01050.1
+MMSRLIGDMQRHRRTLSTTVVEETIAAAATLVSKWHPDDHHSSLFLHASSPEADHFLRAA
+ADLHRAMLFFASDPTNAHNGHGLVQAHHLLDTAMRRLQLELPRLLAPPPAGSRDRLRALA
+DTMMSAGYGKECISTFKEHRRAALAATLRRQHTTVQVQLSKLTWEQVDDNIQSWLAAARI
+AFSSVFPAEKELCDTVFAGDASVGDAVFEDVANNQAANLLDVAEAAVARARRAPERLFRV
+LDVHDALTEILPEIMSVFGDRSEVAKRGCSALFKAGEAARGALANLEVAIEKEPSKATVA
+GGGVHPLTRYVMNYLVFLADYEGALDRINQQQGSPERSWSIGWLVQVLMRKIEAKAGSYR
+EAALRHLFMANNTHYVARKVAKIPSLGDDDGEAQDAARRHVEAYVRAAWGKVLKAIAAAD
+GVEVEEAVMQAVAKQEKWVAADEEMGQVLRAAATAAVVPKYRMLYRRHGATLRLTPGDVN
+AIIAALFGGIIATPSSC
+>LOC_Os11g05880.1
+MVVAAAARPQTAEALSKRASMLRDSLQRSQGNTDGMVTILGSFDHRLSALEAAMRPTQVR
+THAIRMAHENIDKTIKAADGILSQFDLARRAEAAVLKGPHEDLESYLEAVDLLKGIVRFF
+STNKNFKSSEGVLNHVNNLLAKSALKIEEEFRQLMTTYSKPIEPDRLFDCLPKSLRPTKD
+DPDADPGNAGHSEHPSKSLETAVYRTPTLIPPRILPLMNDIAQQLIQAGNQQSCYKIYRD
+TRGSALESSLRKLGVEKLSKEDVQKMQWEALEAKIGNWIHFMRIAVKLLLAGERKICDQI
+FDGVNFNKDQCFAELTANSVVTLLSFGDAVAKSKRSPEKLFVLLDMYEVMHELQPEIEVI
+FEGKSCSEMREASLGLAKRLAQTAQETFADFEEAVEKDASKTIVNDGTVHPLTSYVINYV
+KFLFDYQSTLKLLFQEFETGSETESQLAVVTMRIMQALQNNLDGKSKQYRDPALTYLFLM
+NNIHYMVRSVRRSEAKDILGDDWIQRHRRIVQQNANQYKRVAWAKILQTLSIQGAGSTGS
+SDLSSSGVSRAMIKERFKSFNMQFEELHAKQSQWIVPDQELRESLRLAVAEVLLPAYRSF
+VKRFGNLVENGKNPHKYVRYSPEMVEQLLGEFFEGQQWGEQKR
+>LOC_Os11g06700.1
+MDRIPPQKSSSFSPATFREERLGRNLSLGAIKISEHAPAVRVKEEAEEGRGGVDNAGAGE
+GEGAAGEEAAPPEEAAEPDLAMLSAEVDAFLAGREGDAPTSISEVTLDKFASAVEQEMAQ
+SEGDDDKWAVGENGEAAPLLAAIRRISALAAALTAVPEGSKFTIGVHRVTGVLHRAMAFV
+EDEFHTMLEDPRVAKAAQNGDTRSATGKSMRRGPSFNHAGGDPASDGGGGGGGGGDTPPP
+FPPETVDRLRAMADAMIAVGYMTECTQVFLVARRNALDASLQNLGYEKASIDDVVRMAWE
+SLESDVATWIKAFHHTINVGLSAEHDLCARVFAGCDAAVGRAIFVDLARCAMLQMLNFTE
+AVAMTKRAAEKLFKVLDMYEAVRDAAPVIDAFIAACSTTDAAADEPDTTTDALTDIKTEL
+ASVRSRLGESAAAIFCDLESSIRADAGKQPVPGGAVHPLTRYLMNYLKYACEYKNTLEQV
+FHEHHRTDIDADDEGSDPFAAQLMEVMELLHDNLEAKSRLYKDPALCSIFLMNNGRYMLQ
+KIRGSPEINAVVGEAWSRKRSTDLRQYHKNYQRETWSRVLTLLRDDGVITVKGSVQKPVL
+KERFKQFNAAMDEIQRTQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFSQSFSAGRQ
+AEKYIKLSAEDLEAIIDELFDGNAVSMPRRRN
+>LOC_Os11g36400.1
+MQSRLAEELRALKFDRVWRPSPHRSESDGGSCSYRNSIQRVVTASVAAASTSSTTLVFPS
+SGSVTSSSSASFTSSAPGSEAHGTPSSGPESYRLLRGEAFRGLSEIASHMVSDRYTERLI
+TEFSRPRLGSGSGGGGGGDEILQTWFSDLGVDWVLRVDEMNLQEKPWSGVEEMIKGWLAA
+LTVMAEALRLTKATLSSGDGDSGGVIPVLPIEKYRPQISAPAWIDDDHAGVTLHDVSPGS
+GSSNLDQESSDPAPNTSRSRSIAIATVKQAITAYSQAASSRSYRYDQHGAAGPEFQFALF
+AKASLVKMMCFPDAIAALSRSPEKILRVIDMYAVVSGVSPSLLALLPGATKWLVSERITA
+VLKTLSGMMRGILHDLESLIREEDSWRTTAQGNDIHPVNQIATCWSRRARTTTATTSCSP
+SGSYTSSRRRNRR
+>LOC_Os11g42989.1
+MALVAMASSSGSGSSRSTNGMLEETVADVAALVEKWRSDDDGRRRRRSSLFLDGGFADAG
+RFMSAAVELHRGMLVLASSDVEDARGRGDRGDERLVRAQGVLEDAMRRLQLELEILLSAV
+RSNTADDGDGDGAAMSGHGLDGDGAVVVGHIRLVAEAMVAAGYGMECVTTFMSHRRAEFA
+GAVRRLLGYAPSQHARFRKLAWDDVDGKVRSWHTAAGFAFNFAFSGERVLCHRVFAAADA
+GVADRVFEGIASDHAADLLAVAEAAVARARRAPERLFHVLDVHATLVEIFPAIVCVLGDK
+SEAAVRATAALRNAGEAARGILVSFEEAIQKATSKSSAAATGGAVHPLARYVMNYLVLLA
+DYDDTLARIYQQGRGSTSPHSPSSSSSSSNPIGRLVSVLLRKLDAMAGRHRSPAARSLFM
+ANNTHYVSKKVRGSSKLVGIVGGEGWAVAQSAETRRHVDAFVHAAWRDVLVVGGEGADAA
+VREAVASQRRWVAVADDEMGDAVRAAAAAAVVPAYRALYRRHGMAAWMTPGDVNAMIGRL
+FGGPRNAAAGARPVAAGGATPRRHRLRLTSSSQKLAHKQ
+>LOC_Os12g01040.1
+MQRHRRTLSTTVVEETVAAAATLVSKWHPDDHHSSLFLHASSPEADHFLRAAADLHRAML
+FFASDPTNAHNGHGLVQAHHLLDTAMRRLQLELPRLLAPPPAGSRDRLRALADTMMSAGY
+GKECISTFKEHRRAALAATLRRQHTTVQVQLSKLTWEQVDDNIQSWLAAARIAFSSVFPA
+EKELCDTVFAGDASVGDAVFEDVANNQAANLLDVAEAAVARARRAPERLFRVLDVHDALT
+EILPEIMSVFGDRSEVAKRGCSALFKAGEAARGALANLEVAIEKEPSKATVAGGGVHPLT
+RYVMNYLVFLADYEGALDRINQQQGSPERSWSIGWLVQVLMRKIEAKAGSYREAALRHLF
+MANNTHYVARKVAKIPSLGDDDGEAQDAARRHVEAYVRAAWGKVLKAIAAADGVEVEEAV
+MQAVAKQEKWVAADEEMGQVLRAAATAAVVPKYRMLYRRHGATLRLTPGDVNAIIAALFG
+GIIATPSSC
+>LOC_Os12g06840.1
+MPLRRRDSDSRSSHHAPHKSSSFSQPSARDDKPRDAIDRNLSLGSAGHHHHHDGRRLDLH
+HPPPAGDAIKEEYEEEERGGAGAPCGGGDGGGGDGGGGGDGGGGDGGVPDLAALSVEIDA
+FVAAGQDGGEALSDATLERFAAAVEMEIAQSESAVDKWATGANGEPRALLAAISRIAALA
+AALAKAPEGKHATAGAHRVTAVLHRAMAFLEDEFLALLDDPRVPKATTFDQVQHEVDRCV
+LPASVDVGAGVGESAPPYPPETVDRLRSMADAMVTAGYVTECTQMFLVARRNASDASLRA
+LGYEKASIDDVVKMTWEALEAEIATWTKAFRHTINVGLSTEHDLCARVFAGRHAAVGRGM
+FADLARCVMLHMLNFTEAVTMTKRAAEKLFKVLDMYEATRDASPVIDAFLTADDGNNSTA
+LTDLKHELNSVRSRLGEFAAAIFRELESSIRADAGKQPVPGGAVHPLTRYVMNYLKYACE
+YNSTLEQVFREHGAHGGGGGGDGENPFAAQLMEVMELLHGNLEGKSRLYKDPSLSNIFLM
+NNGRYMLQKIRGSPETNAMLGEAWARKQSTNLRQYHKNYQRETWSRVLGLLRDDGVLTVK
+GSVQKPVLKERFKQFNAAMDEIQRTQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFA
+QTFSAGRQSEKYVKLSADDVEAIIDELFDGNATSMTRRRT
+>LOC_Os12g24620.1
+MAVAHLVFIPLMAQGHLIPAVDTALLLATHGALCTIVATPATVARVCTHRRLGPAVRLEA
+VLEEKSGELAFPRMRQVFMLNNTNAIVRRAVRSNLAMFLPPGWARAREERMEGYVKSYLD
+VSWAPIVSRDFSLLFNRKLLF
+>match$1_113_144
+GAAAFVGRVDRLRDAVEEAVARGDEAVRRVEE
+>match$1_177_657
+EAEEMRFEGPLDEALLGLQDLFEALLLRLKHPGRGGGGGEVSDVEEEYELGTDDEVDAAA
+RIARTLAGNDCLDICLDIYVKVRYRRAAKAMMRLNPEYLKSYTPEDVDAMEWEALESAMA
+LWGPHFHVAISGVLAAERWLCARVLAPLPPAVWPECFAKIAARIAAAFFRFADGVAAAAA
+REPQRLFRLLDMLDAVARERGRLDELFSGESATLLAIRERAREVERALARAAAAAFYEFG
+LRVETHYVTAAAAGESGHVPKIVRYAVNYLKCLASDDYRGTMDAALRAGAGDDDGGDSEA
+LAEAASNVLEALHRHVEAARRALPDAVASHVMAMNSYWYIYMRARGSELASLVGDDTMRR
+RYKASAEEAAWEYQDAAWGPLVRLVSGSSSGAAKAWPSPEEAREKAAAFADALEERARRH
+GAEYKIPDGDLREQIKAAAAKAVRGAYAGFLRANDSAVASGGGRREFLPVDAIEGMVRRV
+F
+>match$2_298_629
+WGPHFHVAISGVLAAERWLCARVLAPLPPAVWPECFAKIAARIAAAFFRFADGVAAAAAR
+EPQRLFRLLDMLDAVARERGRLDELFSGESATLLAIRERAREVERALARAAAAAFYEFGL
+RVETHYVTAAAAGESGHVPKIVRYAVNYLKCLASDDYRGTMDAALRAGAGDDDGGDSEAL
+AEAASNVLEALHRHVEAARRALPDAVASHVMAMNSYWYIYMRARGSELASLVGDDTMRRR
+YKASAEEAAWEYQDAAWGPLVRLVSGSSSGAAKAWPSPEEAREKAAAFADALEERARRHG
+AEYKIPDGDLREQIKAAAAKAVRGAYAGFLRA
+>match$3_93_597
+DCCYDVCWCSSSTVHELRSIAERMVRDGYIEGLIRAFGGAATAGAAGRRGPPDELLLHNW
+FSQLDVEWVLLLHTCSEEEEDEHVRRPPPLPVEDLMALMERWIRALLTMVQVLCITQLEL
+RAKKPTVAGVRRAIQFFLLRRDSKTAHADYVQQVVQFARFAEESILRMLAFVDAATLAVV
+EEDDDDHRVAEALPGMLQVYACISEASPTVLAMFKEASDLLASGSSRHGQEAQVFDGMDG
+IFLRKRKKLSDAIWDMMEKVRSSFLQDGCWQVSPEASASGVHETTVLMMNYIALLWRNDD
+VLTFILQDHHFSVFVSHTQGFSSVVNLITDIISCLGHKLEEIASSLSNSILDPALRCIFL
+LNNWQLVLHRIESLDLPSWALIDRCRTRRYIDTYIDVFWSPLLCCIFIGNSSDTPRKKTY
+RPAFGFRRYLSLENFEIEFRKTYAKHKFFKVPDPKLRQRLRQAIIQKIIPHYSMYLEERA
+ARGMHNRPPKITPEQLKELLEELFE
+>match$4_192_594
+ERWIRALLTMVQVLCITQLELRAKKPTVAGVRRAIQFFLLRRDSKTAHADYVQQVVQFAR
+FAEESILRMLAFVDAATLAVVEEDDDDHRVAEALPGMLQVYACISEASPTVLAMFKEASD
+LLASGSSRHGQEAQVFDGMDGIFLRKRKKLSDAIWDMMEKVRSSFLQDGCWQVSPEASAS
+GVHETTVLMMNYIALLWRNDDVLTFILQDHHFSVFVSHTQGFSSVVNLITDIISCLGHKL
+EEIASSLSNSILDPALRCIFLLNNWQLVLHRIESLDLPSWALIDRCRTRRYIDTYIDVFW
+SPLLCCIFIGNSSDTPRKKTYRPAFGFRRYLSLENFEIEFRKTYAKHKFFKVPDPKLRQR
+LRQAIIQKIIPHYSMYLEERAARGMHNRPPKITPEQLKELLEE
+>match$5_70_163
+KKTALLVLVYVHRPATMIPIFRAKVPSIVLKDEIVTSYRQQERRITEKFLQQYLDICTSE
+KVQAEAFMIANDNIAHGLIGAIQEHKISTLIMGA
+>match$6_266_698
+QFFENAMPMFDYDSFSLIRHESLHGLNEIASQIILSGHSQYLRQLNFDVSCNEEVRNRQF
+IHGIDSILGVDSMNLEEVYWKAYMEDKTIKWIYLLEYIHKIVSVSLKQIQEQHDGASSGL
+TLEGLSDAATKPINRLLTFASTVSKVNGSPEKLFHTLQMHKALSEASPMIQQALLGEQKE
+FFVRELHRILDTLEDSAREILGKLKVQIQSHDSPIIPGGSVHLVTTYLMRYITLLAHNTS
+SLNTILGHDHSDHLLAADGINLLLPSHLISGLIFDLGSMLQKQSKLYKPEGLQYLFLMNN
+EHFILQHFEREDIKLMIGTEWIQKYCHNINRYKVKYIEATWATVVSCLDKKISISLNFLQ
+PSPLKEFISSFETEYRLQMHWKVPDPKLRIELRQTVCDYVLPAYCEFMEKHPNLEKSGDN
+LEDIRNKLNELFE
+>match$7_41_163
+YVAVSGNRNKALPTLRWALRRHAPAPEGRKKTALLVLVYVHRPATMIPIFRAKVPSIVLK
+DEIVTSYRQQERRITEKFLQQYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKISTLI
+MGA
+>match$8_357_683
+IYLLEYIHKIVSVSLKQIQEQHDGASSGLTLEGLSDAATKPINRLLTFASTVSKVNGSPE
+KLFHTLQMHKALSEASPMIQQALLGEQKEFFVRELHRILDTLEDSAREILGKLKVQIQSH
+DSPIIPGGSVHLVTTYLMRYITLLAHNTSSLNTILGHDHSDHLLAADGINLLLPSHLISG
+LIFDLGSMLQKQSKLYKPEGLQYLFLMNNEHFILQHFEREDIKLMIGTEWIQKYCHNINR
+YKVKYIEATWATVVSCLDKKISISLNFLQPSPLKEFISSFETEYRLQMHWKVPDPKLRIE
+LRQTVCDYVLPAYCEFMEKHPNLEKSG
+>match$9_39_196
+VVYVAVSGNRNKALPTLRWALRRHAPAPEGRKKTALLVLVYVHRPATMIPIFRAKVPSIV
+LKDEIVTSYRQQERRITEKFLQQYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKIST
+LIMGAGIYGKTSTQRTKLAITMEKEADPSCKILFVHKG
+>match$10_103_480
+LNAYLEAIDKLTSVEYFFTSKIRCRVGNDVHERVNELLSKAIHGLENEFHRLLTKCSKPV
+DLENIFNCLSSLNRQLSSEDLIGPSAVISDYLFEQVDAIFEGNACSENQKSALTLTKSLA
+QTAKKTIGDFMEYILNHSVTSTTVDGAVHYMTSYVTDYIKFLFDYQSSIKQIFGDPCVED
+EKDTDVVSQIVGAIHALETNLAMKAKQYKDLALGHLFLMNNIHYIVKYIGRSELKDLLGA
+DWIERQRRIVQQHATRYRRVAWLKVLECLSTQGLTSSVGSSIDVTQGSFRNIKNSTTSRS
+VIKERLKCFNMRFEEICQKQMNWGVPDRDLRDSLILMIAEILLPAYRSFLKHFGPLVENS
+HSALKYMKYTPESLEQAL
+>match$11_4_31
+AADEEAAAEALRAKIELLRQAMQSSEAM
+>match$12_80_484
+IVRHLDLVREAEHVILLDRPNEDLNAYLEAIDKLTSVEYFFTSKIRCRVGNDVHERVNEL
+LSKAIHGLENEFHRLLTKCSKPVDLENIFNCLSSLNRQLSSEDLIGPSAVISDYLFEQVD
+AIFEGNACSENQKSALTLTKSLAQTAKKTIGDFMEYILNHSVTSTTVDGAVHYMTSYVTD
+YIKFLFDYQSSIKQIFGDPCVEDEKDTDVVSQIVGAIHALETNLAMKAKQYKDLALGHLF
+LMNNIHYIVKYIGRSELKDLLGADWIERQRRIVQQHATRYRRVAWLKVLECLSTQGLTSS
+VGSSIDVTQGSFRNIKNSTTSRSVIKERLKCFNMRFEEICQKQMNWGVPDRDLRDSLILM
+IAEILLPAYRSFLKHFGPLVENSHSALKYMKYTPESLEQALGNLF
+>match$13_493_515
+VFSLHLFAACIVHVCIGLTYSFS
+>match$14_12_224
+GPFPDNAEIHKATLLAVNYAILFWGYHSVLEAILLDNGDLFGNCSWYSEKLVVERLIVQI
+ITNLQDELEKKSKLFSDHSLRYLFLLNNSYVVQYQFLVPSDYSPPSEIKFHYEQYQKEYM
+RASWEPVLSCLHDKMPPCFPKLSSHSELSRFELEFEKTCSHQKLWKVPLPNLRQSLRETI
+INKIITRYKKYMEDHPEQEKCGRDPLDMEGMVN
+>match$15_13_228
+PFPDNAEIHKATLLAVNYAILFWGYHSVLEAILLDNGDLFGNCSWYSEKLVVERLIVQII
+TNLQDELEKKSKLFSDHSLRYLFLLNNSYVVQYQFLVPSDYSPPSEIKFHYEQYQKEYMR
+ASWEPVLSCLHDKMPPCFPKLSSHSELSRFELEFEKTCSHQKLWKVPLPNLRQSLRETII
+NKIITRYKKYMEDHPEQEKCGRDPLDMEGMVNDLFE
+>match$16_160_225
+DKVDKYLVAAKNLTRILNLEHPVLTETGHLRDRARSLHGTTISSIITEFCYLKVWRVSPL
+RRLGYL
+>match$16_273_699
+DGPDKRLACTGFINIQSVSVLDDIASIITEGGYQQLLRGAFDRHYSELARYFEILDIENI
+LGSHMKDSVEILVNAWVRAMRITLNVLTEMRRQLHKQNFGAFNSFKHDYFMVIATQSIKK
+LVACGSSMCSWQQNSQDDPSTQSCAARESTKHTTQMILNLVMMYRALNYAMPELLALFSG
+RTEQIVLAEFRGLIDRSSSTVLQLFMELNNLIKSQRLVMVDIGVHHITRHITEYMRVLFE
+KKSTIYQMLDSKPNAFGELVMGLVSSLESMLEMNSRSLVLQGQKQVFLLNNLHFMIEQVK
+RCIDSGLILGESCLVQREDQLDQLITAYIEASWDPVISSFEKRTQVAIILWPHQLFDKFN
+SSFERIYSVQKTWKVTNPNVRLKLREAIIQKLIPVYQMQMGNQSEKKQMSARYSVEQLES
+QLLEMFE
+>match$17_347_696
+AWVRAMRITLNVLTEMRRQLHKQNFGAFNSFKHDYFMVIATQSIKKLVACGSSMCSWQQN
+SQDDPSTQSCAARESTKHTTQMILNLVMMYRALNYAMPELLALFSGRTEQIVLAEFRGLI
+DRSSSTVLQLFMELNNLIKSQRLVMVDIGVHHITRHITEYMRVLFEKKSTIYQMLDSKPN
+AFGELVMGLVSSLESMLEMNSRSLVLQGQKQVFLLNNLHFMIEQVKRCIDSGLILGESCL
+VQREDQLDQLITAYIEASWDPVISSFEKRTQVAIILWPHQLFDKFNSSFERIYSVQKTWK
+VTNPNVRLKLREAIIQKLIPVYQMQMGNQSEKKQMSARYSVEQLESQLLE
+>match$18_2_163
+IQQMLINFEDQLEKNSESFSDPSLRYQFLLNNSYFVREEFLEPSNYVYILPSGTTLKFMQ
+YQEKYMLASWEPVLYCLQDKMPLWFPKHSSQLSRFKSEFQKTCTPHQKLWKVPNPRLRQK
+LREAITDKVITGYKRYLEDHPELEKCSSDLQDMEDMVNELFE
+>match$19_2_160
+IQQMLINFEDQLEKNSESFSDPSLRYQFLLNNSYFVREEFLEPSNYVYILPSGTTLKFMQ
+YQEKYMLASWEPVLYCLQDKMPLWFPKHSSQLSRFKSEFQKTCTPHQKLWKVPNPRLRQK
+LREAITDKVITGYKRYLEDHPELEKCSSDLQDMEDMVNE
+>match$20_34_357
+KTSMDFSKCEDLGKDYLIMLKISTKVLQSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKM
+LEIALSFSESNWSEEHIRPMLLAYDTLQDVLPTIRELSPDEPDEFFTSILHNMRNASRGI
+IDNMKRFIQHKVQTWDNIAIHPTTCFLINAIKIFNVHKNLLHSTLVPGDGQDSFGYLING
+VIACWKLKIKELSMLDDPDKNDSDGNNPNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIE
+ECKNEFQSDMENYTSRYMTASWGPAISCLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKV
+PDSELKQKLRDDIENLIFPAYEIS
+>match$21_65_356
+CQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQDVL
+PTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLINAI
+KIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPNLF
+IFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCLNN
+HTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEI
+>match$22_275_628
+RWIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFVAAVRTQALQLISFGDAISSSSRA
+PERLFRVVDMYEAVRDLLPDLDPVFADPYSAALRAEVTAVCNTLGSSIKGIFMELENLIR
+RDPARVAAQGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDFGAVGGAAAAVDPDRPTSS
+LAVHIAWIMDVLHKNLDIKSKIYRDPSLACVFLMNNGKYIIQKVNDSELGVLLGDEWIKQ
+MTNRVRRWSMDYQRVTWGKVTTVLQTGGPGVGGLPATAMKQKLRMFNTYFQEIYEVQSEW
+VIADEQLRVDVRAAVAEAVMPVYTALISRLKSSPEARHDLYIKYTPEDVEACIQ
+>match$23_100_168
+IWADSADADAFLEAVDDLIGTVQELEAAGTNRGLFDRAEELLSRCMARLEEEFRALIERP
+DDAVPAAPG
+>match$23_200_632
+DYDVVIDALSPGSVANVHQIARRMVDAGFGRECAEVYAAARRGFVDESVARLGVRPRTAE
+EVHASSWEELEFDIARWIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFVAAVRTQAL
+QLISFGDAISSSSRAPERLFRVVDMYEAVRDLLPDLDPVFADPYSAALRAEVTAVCNTLG
+SSIKGIFMELENLIRRDPARVAAQGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDFGAV
+GGAAAAVDPDRPTSSLAVHIAWIMDVLHKNLDIKSKIYRDPSLACVFLMNNGKYIIQKVN
+DSELGVLLGDEWIKQMTNRVRRWSMDYQRVTWGKVTTVLQTGGPGVGGLPATAMKQKLRM
+FNTYFQEIYEVQSEWVIADEQLRVDVRAAVAEAVMPVYTALISRLKSSPEARHDLYIKYT
+PEDVEACIQHLFE
+>match$24_145_366
+GATRVRAVVKTLLAGERHLCDELLASDEELGHEWFADVARRCLLQLIGFADAVAMSTPAT
+EKLYRMLGMYEALTAVEPDIESLFTGDVRDLFSSEVTGVVAQLGNTIRHTMTIDQFVNVI
+HGESSRRPVHGGKIHPMTRYVLNYCGLLAECRTTLDMVLADNNNTNDDHHDGGGASSSGR
+CMRELLTHLLRKPDEKSRLYDHTGLQNIFLMNNLYCIVQKMM
+>match$25_148_367
+RVRAVVKTLLAGERHLCDELLASDEELGHEWFADVARRCLLQLIGFADAVAMSTPATEKL
+YRMLGMYEALTAVEPDIESLFTGDVRDLFSSEVTGVVAQLGNTIRHTMTIDQFVNVIHGE
+SSRRPVHGGKIHPMTRYVLNYCGLLAECRTTLDMVLADNNNTNDDHHDGGGASSSGRCMR
+ELLTHLLRKPDEKSRLYDHTGLQNIFLMNNLYCIVQKMME
+>match$26_33_111
+RAEAERFLRAVDDLRRLAPPSPAAVGSPRRLSSGSSSVSAGGGGGAATAVQVAMARLEDE
+FRHVLSSRALDLEIEALAD
+>match$26_155_618
+SIREIDLLPDDAVSDLRAIASRMAAAGYGRECAQVYASVRKPAVDASLRRLGVERLSIGD
+VQRLEWKALEAKIRRWIRAARAAVRGVFASERRLCFLIFHDLPISNITVTAAAPATHDTP
+FAEAVKGAALQLFGFAEAISIGRRSPEKLFKIIDLHDALSDLLPDVSDIFAASKVAESIY
+VQAAEIRSRLADAVRGILSEFENAVLRDPPKTAVPGGTVHPLTRYVMNYSSLISDYKVTL
+SELIVSRPSASARLAAEGNELAPSLAELDLPEPDNQTPLAAHIIWIIVVLEHNLEGKASL
+YRDTALSHLFLMNNVYYIVHKVKDSPDLWNLIGDDYLKRLTGKFTMAATNYQRSAWLKIL
+NCLRDEGLHVSGGFSSGISKSALRERFRSFNAAFEEAHRVQSGWCVPDTQLREELRISIS
+EKLVPAYRSFLGRFRHHIENGKHPELYIKYSAEDLEIAVNDFFE
+>match$27_229_614
+RWIRAARAAVRGVFASERRLCFLIFHDLPISNITVTAAAPATHDTPFAEAVKGAALQLFG
+FAEAISIGRRSPEKLFKIIDLHDALSDLLPDVSDIFAASKVAESIYVQAAEIRSRLADAV
+RGILSEFENAVLRDPPKTAVPGGTVHPLTRYVMNYSSLISDYKVTLSELIVSRPSASARL
+AAEGNELAPSLAELDLPEPDNQTPLAAHIIWIIVVLEHNLEGKASLYRDTALSHLFLMNN
+VYYIVHKVKDSPDLWNLIGDDYLKRLTGKFTMAATNYQRSAWLKILNCLRDEGLHVSGGF
+SSGISKSALRERFRSFNAAFEEAHRVQSGWCVPDTQLREELRISISEKLVPAYRSFLGRF
+RHHIENGKHPELYIKYSAEDLEIAVN
+>match$28_85_176
+HQMVRDNYTQGLIRAFGRRRHDEALLHKWFSQLDVEWVLLLHAGQRDLDSSSVEDLMALM
+ERWMRALLIMVQVLSMTLLELRDRRSSSSLAG
+>match$28_209_274
+VVQFAEASILRMLAFVDAITLAALNDDHRRRHREPEMLPGMLYLYDCFSDASPTVLAFFK
+EASDVL
+>match$29_146_270
+RWMRALLIMVQVLSMTLLELRDRRSSSSLAGTDDDDAFLLRTKGSAGNRSPAPELPDFVC
+VQEVVQFAEASILRMLAFVDAITLAALNDDHRRRHREPEMLPGMLYLYDCFSDASPTVLA
+FFKEA
+>match$30_164_462
+QSWLAAARIAFSSVFPAEKELCDTVFAGDASVGDAVFEDVANNQAANLLDVAEAAVARAR
+RAPERLFRVLDVHDALTEILPEIMSVFGDRSEVAKRGCSALFKAGEAARGALANLEVAIE
+KEPSKATVAGGGVHPLTRYVMNYLVFLADYEGALDRINQQQGSPERSWSIGWLVQVLMRK
+IEAKAGSYREAALRHLFMANNTHYVARKVAKIPSLGDDDGEAQDAARRHVEAYVRAAWGK
+VLKAIAAADGVEVEEAVMQAVAKQEKWVAADEEMGQVLRAAATAAVVPKYRMLYRRHGA
+>match$31_205_225
+NNQAANLLDVAEAAVARARRA
+>match$32_31_479
+DHHSSLFLHASSPEADHFLRAAADLHRAMLFFASDPTNAHNGHGLVQAHHLLDTAMRRLQ
+LELPRLLAPPPAGSRDRLRALADTMMSAGYGKECISTFKEHRRAALAATLRRQHTTVQVQ
+LSKLTWEQVDDNIQSWLAAARIAFSSVFPAEKELCDTVFAGDASVGDAVFEDVANNQAAN
+LLDVAEAAVARARRAPERLFRVLDVHDALTEILPEIMSVFGDRSEVAKRGCSALFKAGEA
+ARGALANLEVAIEKEPSKATVAGGGVHPLTRYVMNYLVFLADYEGALDRINQQQGSPERS
+WSIGWLVQVLMRKIEAKAGSYREAALRHLFMANNTHYVARKVAKIPSLGDDDGEAQDAAR
+RHVEAYVRAAWGKVLKAIAAADGVEVEEAVMQAVAKQEKWVAADEEMGQVLRAAATAAVV
+PKYRMLYRRHGATLRLTPGDVNAIIAALF
+>match$33_418_440
+VFSLHLFAACIVHVCIGLTYSFS
+>match$34_2_409
+EIYREIRSSTLERTLKRLGVEYVTKEEMQQVEAQSMEAKIAEWTQFSRITVKLLFGAERI
+LCDQVFEGKYTWKDHCFAEVTAKSLSILLSFGDAVVQSQILPDKLYILLDMYKATLELQS
+KVDAIFEGNACSENQKSALTLTKSLAQTAKKTIGDFMEYILNHSVTSTTVDGAVHYMTSY
+VTDYIKFLFDYQSSIKQIFGDPCVEDEKDTDVVSQIVGAIHALETNLAMKAKQYKDLALG
+HLFLMNNIHYIVKYIGRSELKDLLGADWIERQRRIVQQHATRYRRVAWLKVLECLSTQGL
+TSSVGSSIDVTQGSFRNIKNSTTSRSVIKERLKCFNMRFEEICQKQMNWGVPDRDLRDSL
+ILMIAEILLPAYRSFLKHFGPLVENSHSALKYMKYTPESLEQALGNLF
+>match$35_43_405
+EWTQFSRITVKLLFGAERILCDQVFEGKYTWKDHCFAEVTAKSLSILLSFGDAVVQSQIL
+PDKLYILLDMYKATLELQSKVDAIFEGNACSENQKSALTLTKSLAQTAKKTIGDFMEYIL
+NHSVTSTTVDGAVHYMTSYVTDYIKFLFDYQSSIKQIFGDPCVEDEKDTDVVSQIVGAIH
+ALETNLAMKAKQYKDLALGHLFLMNNIHYIVKYIGRSELKDLLGADWIERQRRIVQQHAT
+RYRRVAWLKVLECLSTQGLTSSVGSSIDVTQGSFRNIKNSTTSRSVIKERLKCFNMRFEE
+ICQKQMNWGVPDRDLRDSLILMIAEILLPAYRSFLKHFGPLVENSHSALKYMKYTPESLE
+QAL
+>match$36_39_487
+DHHSSLFLHASSPEADHFLRAAADLHRAMLFFASDPTNAHNGHGLVQAHHLLDTAMRRLQ
+LELPRLLAPPPAGSRDRLRALADTMMSAGYGKECISTFKEHRRAALAATLRRQHTTVQVQ
+LSKLTWEQVDDNIQSWLAAARIAFSSVFPAEKELCDTVFAGDASVGDAVFEDVANNQAAN
+LLDVAEAAVARARRAPERLFRVLDVHDALTEILPEIMSVFGDRSEVAKRGCSALFKAGEA
+ARGALANLEVAIEKEPSKATVAGGGVHPLTRYVMNYLVFLADYEGALDRINQQQGSPERS
+WSIGWLVQVLMRKIEAKAGSYREAALRHLFMANNTHYVARKVAKIPSLGDDDGEAQDAAR
+RHVEAYVRAAWGKVLKAIAAADGVEVEEAVMQAVAKQEKWVAADEEMGQVLRAAATAAVV
+PKYRMLYRRHGATLRLTPGDVNAIIAALF
+>match$37_213_233
+NNQAANLLDVAEAAVARARRA
+>match$38_172_470
+QSWLAAARIAFSSVFPAEKELCDTVFAGDASVGDAVFEDVANNQAANLLDVAEAAVARAR
+RAPERLFRVLDVHDALTEILPEIMSVFGDRSEVAKRGCSALFKAGEAARGALANLEVAIE
+KEPSKATVAGGGVHPLTRYVMNYLVFLADYEGALDRINQQQGSPERSWSIGWLVQVLMRK
+IEAKAGSYREAALRHLFMANNTHYVARKVAKIPSLGDDDGEAQDAARRHVEAYVRAAWGK
+VLKAIAAADGVEVEEAVMQAVAKQEKWVAADEEMGQVLRAAATAAVVPKYRMLYRRHGA
+>match$39_33_315
+MRRLLKLAVVITMLPTSPDLLPVILRLYATLGTFPIDQLNGITKELRKCVRKILRRVCSL
+SQTQSGLYHVAQRGGVHKITLYVMNYVKFLWEHDSVINNIIAYQADGESENGEEWTQVDS
+FVQHFIGRLDALLERMARHESMMGLECISLLNNAHFILNRLRKLEVKSALQQDWILRYEN
+QVKHQITRYLELSWLPVMSCLDAHTPTQALFPCFHLPLTTRFYEMLESTCAEQQNWRIED
+PKLRNNVRKAVSSHVVQCYQAHLQKKGMKLHKYIPQEIENKLM
+>match$40_33_319
+MRRLLKLAVVITMLPTSPDLLPVILRLYATLGTFPIDQLNGITKELRKCVRKILRRVCSL
+SQTQSGLYHVAQRGGVHKITLYVMNYVKFLWEHDSVINNIIAYQADGESENGEEWTQVDS
+FVQHFIGRLDALLERMARHESMMGLECISLLNNAHFILNRLRKLEVKSALQQDWILRYEN
+QVKHQITRYLELSWLPVMSCLDAHTPTQALFPCFHLPLTTRFYEMLESTCAEQQNWRIED
+PKLRNNVRKAVSSHVVQCYQAHLQKKGMKLHKYIPQEIENKLMELFE
+>match$41_125_193
+IWADSADADAFLEAVDDLIGTVQELEAAGTNRGLFDRAEELLSRCMARLEEEFRALIERP
+DDAVPAAPG
+>match$41_225_657
+DYDVVIDALSPGSVANVHQIARRMVDAGFGRECAEVYAAARRGFVDESVARLGVRPRTAE
+EVHASSWEELEFDIARWIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFVAAVRTQAL
+QLISFGDAISSSSRAPERLFRVVDMYEAVRDLLPDLDPVFADPYSAALRAEVTAVCNTLG
+SSIKGIFMELENLIRRDPARVAAQGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDFGAV
+GGAAAAVDPDRPTSSLAVHIAWIMDVLHKNLDIKSKIYRDPSLACVFLMNNGKYIIQKVN
+DSELGVLLGDEWIKQMTNRVRRWSMDYQRVTWGKVTTVLQTGGPGVGGLPATAMKQKLRM
+FNTYFQEIYEVQSEWVIADEQLRVDVRAAVAEAVMPVYTALISRLKSSPEARHDLYIKYT
+PEDVEACIQHLFE
+>match$42_300_653
+RWIPAFNMVFRILIPSERRLCDRVFDGLAPFGDLAFVAAVRTQALQLISFGDAISSSSRA
+PERLFRVVDMYEAVRDLLPDLDPVFADPYSAALRAEVTAVCNTLGSSIKGIFMELENLIR
+RDPARVAAQGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDFGAVGGAAAAVDPDRPTSS
+LAVHIAWIMDVLHKNLDIKSKIYRDPSLACVFLMNNGKYIIQKVNDSELGVLLGDEWIKQ
+MTNRVRRWSMDYQRVTWGKVTTVLQTGGPGVGGLPATAMKQKLRMFNTYFQEIYEVQSEW
+VIADEQLRVDVRAAVAEAVMPVYTALISRLKSSPEARHDLYIKYTPEDVEACIQ
+>match$43_301_673
+KKWVQAVKTVVRVLLAGERRLCDQVLSVSDELREECFIESTKGCIMQILSFGDAVAVCPR
+SPEKLSRILDMYEALAEVIPEMKDLCLGSSGDGVISDVQANLDRLGDAIRGTLFEFGKVL
+QLESSRRAMTAGEIHPMTRYVMNYLRLLVVYSDTLDALLDDNADDQIDLARAEDQDQEHL
+ESMTPLGKRLLKLISYLEANLEEKSKLYEDSALECIFSMNNLLYIVQKVRDSELGKILGD
+HWVKRRNGKIRQYSKSYLRISWMKVLSFLKDDGHGSGSGSSSGSGSGHSSSRMSIKEKFK
+NFNLAFEEIYRNQTTWKVPDPQLREELKISISENVIPAYRAFLGRYGSQVDGGRNSGKYI
+KYTPEDLESQLSD
+>match$44_89_183
+FDAAEQLIQVWDGTPEALVFEATEDEVAEYLSAVDVAIEHLARGSGGGAGGAGSSSSSTA
+GRAGVAVQLAMARLEEELRHLMVRHAVPLDPTGLF
+>match$44_228_676
+EDQVFDPVRPEAVDDLRAIADRMARAGYSRELADAYCGIRRDLLDEYLSALGVERLSIDE
+VQRIEWKHLNDKMKKWVQAVKTVVRVLLAGERRLCDQVLSVSDELREECFIESTKGCIMQ
+ILSFGDAVAVCPRSPEKLSRILDMYEALAEVIPEMKDLCLGSSGDGVISDVQANLDRLGD
+AIRGTLFEFGKVLQLESSRRAMTAGEIHPMTRYVMNYLRLLVVYSDTLDALLDDNADDQI
+DLARAEDQDQEHLESMTPLGKRLLKLISYLEANLEEKSKLYEDSALECIFSMNNLLYIVQ
+KVRDSELGKILGDHWVKRRNGKIRQYSKSYLRISWMKVLSFLKDDGHGSGSGSSSGSGSG
+HSSSRMSIKEKFKNFNLAFEEIYRNQTTWKVPDPQLREELKISISENVIPAYRAFLGRYG
+SQVDGGRNSGKYIKYTPEDLESQLSDLFE
+>match$45_455_475
+LDALLDDNADDQIDLARAEDQ
+>match$46_360_686
+VMHRGGQARARALSAAAEKPVETLLEFATAVSRVSGSPEKLFHMLHMHKALAHAAPLLLA
+AFIGDAKERFAGELERTLASLGVAVRGILSKTKALIHSYGGSPGQNVVVVVVVPDGGGIH
+VVTSYLARYVELLAQHAASLNVILAGDVDVDDDDGSQSQMMSPLGRLVAGVIGSLGVMLR
+RTAELYETEGGEGLRHLFLLNNEHAILQAIETTTLLPLAAEWTQAYRHGIEQHKQGYIQT
+WAAVATSCLPRDDPPPPPTSAKKAGFLRRRRRSPPLREFAASLEETSVEQMQWKAASPHL
+RDELRRAVKECVAQAYSEFMDKHPTSN
+>match$47_11_130
+KVYVAVGGEPERCLPTLRWALSYTPAGSTLVLLYVHRPDAMIPIFTGARVPVCVLKDEVI
+NVHRQKERSIVQERLRIFTAECESKQVHTEVIIAENDSIGLGIVKLIEEHKIGTLIMGAG
+>match$48_11_129
+KVYVAVGGEPERCLPTLRWALSYTPAGSTLVLLYVHRPDAMIPIFTGARVPVCVLKDEVI
+NVHRQKERSIVQERLRIFTAECESKQVHTEVIIAENDSIGLGIVKLIEEHKIGTLIMGA
+>match$49_263_684
+DHGSLLTLMAPASLVALNEMVNEMILAGMSPELRRAPFGAGCDDDGQVRRSLHAIIGIDA
+ALGLEWRNLEEVHWRGYMEYKTTRWLHTLEYVRCVAAVMHRGGQARARALSAAAEKPVET
+LLEFATAVSRVSGSPEKLFHMLHMHKALAHAAPLLLAAFIGDAKERFAGELERTLASLGV
+AVRGILSKTKALIHSYGGSPGQNVVVVVVVPDGGGIHVVTSYLARYVELLAQHAASLNVI
+LAGDVDVDDDDGSQSQMMSPLGRLVAGVIGSLGVMLRRTAELYETEGGEGLRHLFLLNNE
+HAILQAIETTTLLPLAAEWTQAYRHGIEQHKQGYIQTWAAVATSCLPRDDPPPPPTSAKK
+AGFLRRRRRSPPLREFAASLEETSVEQMQWKAASPHLRDELRRAVKECVAQAYSEFMDKH
+PT
+>match$50_11_185
+KVYVAVGGEPERCLPTLRWALSYTPAGSTLVLLYVHRPDAMIPIFTGARVPVCVLKDEVI
+NVHRQKERSIVQERLRIFTAECESKQVHTEVIIAENDSIGLGIVKLIEEHKIGTLIMGAG
+YYGHYYEKDFRVRSKPVFASRPKSSTGEFKVRTKLATIVEEQAHPSCKILFVHGG
+>match$51_238_618
+RWIRAARAAVRGVFASERRLCFLIFHDLPLSSSTITTATHDAPFAEAVKGAALQLFGFAE
+AISIGRRSPEKLFKIIDLHDAIADLLPDVSDIFAASKAGESIYVQAAEIRSRLADAVRGI
+LSEFENAVLRDPSKTPVPGGTIHPLTRYVMNYSSLISDYKTTLSELIVSRPLACSRIAPE
+GNENAPSFPDLDLADPDSQLPLAAHLIWIIVVLEHNLESKASLYKDAALSHLFVMNNVHY
+IAHKIKDSPELRGLIGDEYLKQLTGKFRLAATRYQRTAWLKILNCLRDEGLHVSGGFSSG
+VSKSALRERFKSFNAAFEEAHRVQSAWYVPDTQLREELRISIAEKLLPAYRSFLGRFRHH
+IENGRHPELYIKYSVEDLETS
+>match$52_36_120
+DEQMLFDGGGDRVEAERFLRAVDDLRRLAPPSPATVGSPRRTSSASGGGGAASNAVQVAM
+ARLEDEFRHVLSSRALDLEIEALAD
+>match$52_164_624
+SIREIDLLPADAISDLHAIASRMAVAGYGRECVQVYASVRKPAVDSALRRLGVEKLSIGD
+VQRLEWEVLEAKIRRWIRAARAAVRGVFASERRLCFLIFHDLPLSSSTITTATHDAPFAE
+AVKGAALQLFGFAEAISIGRRSPEKLFKIIDLHDAIADLLPDVSDIFAASKAGESIYVQA
+AEIRSRLADAVRGILSEFENAVLRDPSKTPVPGGTIHPLTRYVMNYSSLISDYKTTLSEL
+IVSRPLACSRIAPEGNENAPSFPDLDLADPDSQLPLAAHLIWIIVVLEHNLESKASLYKD
+AALSHLFVMNNVHYIAHKIKDSPELRGLIGDEYLKQLTGKFRLAATRYQRTAWLKILNCL
+RDEGLHVSGGFSSGVSKSALRERFKSFNAAFEEAHRVQSAWYVPDTQLREELRISIAEKL
+LPAYRSFLGRFRHHIENGRHPELYIKYSVEDLETSVTNFFE
+>match$53_154_373
+QRWTRGFTVMAEALSATQRHLQEEGRSTAQVDRDDDLRLVRFVEATVCKMLAFANSLVAV
+ADKTWNPMNKLSGLMNVRSCISHASEIIMLSLKKETLWLPDSDEMLQGLLNKTSNIFSTA
+KDNLGQAIQRMANDAEAVTPVLSGMHSWETFPQSAEIHKATHLIMDYARLFWGHIDELNS
+ILGQCWPHRILKCDIIEQMISNLIDHLEKKSESFSDPILS
+>match$54_93_372
+DIARRMVRDGFMGKLIGEFGRAPRPALERWFSELDVGWVLRSALEKEKSELALDKLYDLA
+VQRWTRGFTVMAEALSATQRHLQEEGRSTAQVDRDDDLRLVRFVEATVCKMLAFANSLVA
+VADKTWNPMNKLSGLMNVRSCISHASEIIMLSLKKETLWLPDSDEMLQGLLNKTSNIFST
+AKDNLGQAIQRMANDAEAVTPVLSGMHSWETFPQSAEIHKATHLIMDYARLFWGHIDELN
+SILGQCWPHRILKCDIIEQMISNLIDHLEKKSESFSDPIL
+>match$55_188_448
+SWHTAAGFAFNFAFSRERVLCHRVFAADAALADKVFAGIASDHAADLLAVAEAAVMRARR
+APERLFHVLDVHATLAEILPAIACILGDKSEAAARATAALRNAGNAARGILMSLEQAIQK
+TTSSKAAVTGSAVHPLTRYVMNYLVLLADYEDTLARIYQQGESTLTSGSGSASRVSPSSS
+ADSIGRLVSVLQRKLEAMAVGYRPSALRSLFMANNTHYVSKKVRGSSKLEGIVGEDWIEE
+QMAETRRHVDAFVHSAWRDVL
+>match$55_458_514
+AVKEAVATQRSWVVADDEMGDAVRAAAAAVVVPAYRALYRRHGTAAWMTPGDVNAMI
+>match$56_37_516
+QCSLFLDGSRREAGRFLCAAVELHGAMLLVASDVDQERGDECLVRAQGVLEAAMRRLQLE
+LELLLSTVRSNAVDGAISGHDVVGDAGVVGHITMVADAMMAAGYGMECVSTFNSHRRAEF
+AAAVRRLLGFAPSQHAHFHKLTWEDVDGKVQSWHTAAGFAFNFAFSRERVLCHRVFAADA
+ALADKVFAGIASDHAADLLAVAEAAVMRARRAPERLFHVLDVHATLAEILPAIACILGDK
+SEAAARATAALRNAGNAARGILMSLEQAIQKTTSSKAAVTGSAVHPLTRYVMNYLVLLAD
+YEDTLARIYQQGESTLTSGSGSASRVSPSSSADSIGRLVSVLQRKLEAMAVGYRPSALRS
+LFMANNTHYVSKKVRGSSKLEGIVGEDWIEEQMAETRRHVDAFVHSAWRDVLVAGGEGAD
+AAVKEAVATQRSWVVADDEMGDAVRAAAAAVVVPAYRALYRRHGTAAWMTPGDVNAMISR
+>match$57_58_133
+LEAVLEEKSGELAFPRTRQVFMLNNTHAIVRHAVRSNLAMFLPSGWARAWEERMEGYVKS
+YLDMSWAPIVSRLAAG
+>match$58_4_67
+AHFVFVPLMAQGHLIPAVDTALLLATHGVLCTVVATPATVARVRTHRRIGPTVHLEAVLE
+EKSG
+>match$59_57_131
+HLEAVLEEKSGELAFPRTRQVFMLNNTHAIVRHAVRSNLAMFLPSGWARAWEERMEGYVK
+SYLDMSWAPIVSRLA
+>match$60_117_185
+IWADSADADAFLEAVDDLIGTVQELDAAGTNRGLLDRADELLSRCMARLEDEFRALIERP
+DDVAPPAPG
+>match$60_216_648
+DFDVVIDALPPGSVSDVHQIARRMVDAGFGRECAEAYAAARRGFIDESVARLGIRARTID
+EVHSLPWEELEFDIARWIPAFKMVFRILIPSERRLCDRVFDGLAPYGDLAFVAAVRTQVL
+QLISFGDAVSAASRAPERLFRVIDMYEAVRDLLPDLDPVFADPYSAALRAEVSAVCNTLG
+SSIKGIFMELENLIRRDPARVSVPGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDLGAV
+GGAAIAVDPDRPTSSLAVHIAWIMDVLHKNLETKSKIYRDPPLASIFLMNNGKYIIHKVN
+DSELGVLLGDEWMKQMMSRVRRWSLEYQRGAWAKVMSVLQTGGPGIGSLPAKALLQKLRM
+FNGYLEEICAIQSEWVIADEQLREDVRAAITDSVKSAYMGLISRLKSSPEAAQDLFIKHS
+PEDVEARIQHLFE
+>match$61_291_644
+RWIPAFKMVFRILIPSERRLCDRVFDGLAPYGDLAFVAAVRTQVLQLISFGDAVSAASRA
+PERLFRVIDMYEAVRDLLPDLDPVFADPYSAALRAEVSAVCNTLGSSIKGIFMELENLIR
+RDPARVSVPGGGIHPITRYVMNYLRAACGSRQTLEEVMEGDLGAVGGAAIAVDPDRPTSS
+LAVHIAWIMDVLHKNLETKSKIYRDPPLASIFLMNNGKYIIHKVNDSELGVLLGDEWMKQ
+MMSRVRRWSLEYQRGAWAKVMSVLQTGGPGIGSLPAKALLQKLRMFNGYLEEICAIQSEW
+VIADEQLREDVRAAITDSVKSAYMGLISRLKSSPEAAQDLFIKHSPEDVEARIQ
+>match$62_154_554
+RWTRALTVMAHALSATQGHLHDERSAAAAAAAAVAVVGGVEFAISQPPHHTAPAVASSSD
+HELLLRGVVGGGDDLCLVRFTDTTISKMIAFAAALAAAGKAGTCPTPTADSFFGLMEVHT
+CISDVSEILMPALKQEALDLRLPDSEQMQSLVNKIGEAMANTQDSLGEAIRKTAKDAEAV
+TPVLSAMDSWEKFTQTEGIHRATRLIVDYASLFWGYRRVLESILCCYRSESSQNCWEIVQ
+SLIEQMIITFLDQLEKKSESFSDPSLRYIFLINNSYFIQDQFLATNTDYSFPSSKGIRYW
+HYQNCYLDVSWEPVLSFLYLYNKMPKFFPKHSPQLLARFQSEFQKACRHQKLWKVPNTEH
+RNSLRKAISDKVITAYRKYLEGHLEPEKSSSDLLAMEDMVN
+>match$63_93_184
+DIASQMVRDGFVLALIGAFGRAPGPVLERWFSELDVGWVLRPTDQQQQEEEEEEEAERLV
+WRWTRALTVMAHALSATQGHLHDERSAAAAAA
+>match$63_230_558
+LVRFTDTTISKMIAFAAALAAAGKAGTCPTPTADSFFGLMEVHTCISDVSEILMPALKQE
+ALDLRLPDSEQMQSLVNKIGEAMANTQDSLGEAIRKTAKDAEAVTPVLSAMDSWEKFTQT
+EGIHRATRLIVDYASLFWGYRRVLESILCCYRSESSQNCWEIVQSLIEQMIITFLDQLEK
+KSESFSDPSLRYIFLINNSYFIQDQFLATNTDYSFPSSKGIRYWHYQNCYLDVSWEPVLS
+FLYLYNKMPKFFPKHSPQLLARFQSEFQKACRHQKLWKVPNTEHRNSLRKAISDKVITAY
+RKYLEGHLEPEKSSSDLLAMEDMVNELFE
+>match$64_191_522
+WIPAIRVVFHILIPSERHLCDSIFEGFTSYSDVAFVTACHPFLQLLSFGNFIAAAGKNPE
+CLFRIVDMYDAVRDILPVLDDAFNPEVAALRECLGLSIKAILMALENLVRRDPSESCPLD
+GGVHPMTRYVMNYLVTACVSRHTLEEVMLLEFGSSDPSGNCPIEPDRPTSSLAIHLAWIV
+DVLTGNLVSKSKVYSHAPLSCVFLVNNGIYIIKKVNGCELKVLLGEDWIKVIHSKVNQWI
+LEYRRATWGKAIMILEMDKRFCSNVNVITEKLSRFNNFVEAICQVQSRWVLVDKQQGVDF
+SILVEELVIPAYRDMAEMLKATGSAGESYMRL
+>match$65_26_533
+WSSSDDADAFLEAVDELTSTIHSLESMSADHILLESFDHLLERCSLRLGEELQHLIDASG
+FDTNCSYPNTRKSHDDDDDRHTLVAQPVSNFDIIVDALPEGVIFEANRIAKRMVAAGFGD
+SCAETYASSRLNFIDESIARLGVHAHMAEMFKSASWEELEIQIMCWIPAIRVVFHILIPS
+ERHLCDSIFEGFTSYSDVAFVTACHPFLQLLSFGNFIAAAGKNPECLFRIVDMYDAVRDI
+LPVLDDAFNPEVAALRECLGLSIKAILMALENLVRRDPSESCPLDGGVHPMTRYVMNYLV
+TACVSRHTLEEVMLLEFGSSDPSGNCPIEPDRPTSSLAIHLAWIVDVLTGNLVSKSKVYS
+HAPLSCVFLVNNGIYIIKKVNGCELKVLLGEDWIKVIHSKVNQWILEYRRATWGKAIMIL
+EMDKRFCSNVNVITEKLSRFNNFVEAICQVQSRWVLVDKQQGVDFSILVEELVIPAYRDM
+AEMLKATGSAGESYMRLEDVRSRIQQLF
+>match$66_49_101
+EVLLLAEIHAFPMASAARRSMQDALDVAVSCLMEEFLRLKVWDASQMEVRLGV
+>match$66_160_581
+FFDELDLISPASLSVLHQIALRVIRAGYTKELLHAFTNAPCDVLDRFLTILQMECAFETD
+HVSFEDAEWWTAEDMIKRWILATKLVAKALAVMQRQLQAQSCGAFDRFKNDYFMAIAKNS
+IFVLLRFANGFTTTEAPDKLVYVLEMYEALSNATPGLLLLFTEQRVELVSRQVEVVLAKL
+ARALRAMIGGLIARIRKADCPQTTGSAARGVGVHPLTRYAMTCVELLSPHRAALDLILAN
+GAGESVTSLGSLVAVLVTSLERHLEEINPKLSNDDDDAAAAAAASRHLFLATNASYVARR
+AVDAGVEPLLGDGWAARRGSLIARYVASYVEACWAPVAACLETAGRKPVKVAAKFSSAFD
+EAYESQVHREIPDPALRDALRKAASEMVVPAYSAYLQNHPKLQKNVRHTAGELDRLLWEL
+FE
+>match$67_236_578
+KRWILATKLVAKALAVMQRQLQAQSCGAFDRFKNDYFMAIAKNSIFVLLRFANGFTTTEA
+PDKLVYVLEMYEALSNATPGLLLLFTEQRVELVSRQVEVVLAKLARALRAMIGGLIARIR
+KADCPQTTGSAARGVGVHPLTRYAMTCVELLSPHRAALDLILANGAGESVTSLGSLVAVL
+VTSLERHLEEINPKLSNDDDDAAAAAAASRHLFLATNASYVARRAVDAGVEPLLGDGWAA
+RRGSLIARYVASYVEACWAPVAACLETAGRKPVKVAAKFSSAFDEAYESQVHREIPDPAL
+RDALRKAASEMVVPAYSAYLQNHPKLQKNVRHTAGELDRLLWE
+>match$68_358_684
+IYLLEYIHKIVSVSLKQIQEQHDGASSGLTLEGLSDAATKPINRLLTFASTVSKVNGSPE
+KLFHTLQMHKALSEASPMIQQALLGEQKEFFVRELHRILDTLEDSAREILGKLKVQIQSH
+DSPIIPGGSVHLVTTYLMRYITLLAHNTSSLNTILGHDHSDHLLAADGINLLLPSHLISG
+LIFDLGSMLQKQSKLYKPEGLQYLFLMNNEHFILQHFEREDIKLMIGTEWIQKYCHNINR
+YKVKYIEATWATVVSCLDKKISISLNFLQPSPLKEFISSFETEYRLQMHWKVPDPKLRIE
+LRQTVCDYVLPAYCEFMEKHPNLEKSG
+>match$69_71_164
+KTALLVLVYVHRPATMIPIFTGAKVPSIVLKDEIVTSYRQQERRITEKFLQQYLDICTSE
+KVQAEAFMIANDNIAHGLIGAIQEHKISTLIMGA
+>match$70_267_699
+QFFENAMPMFDYDSFSLIRHESLHGLNEIASQIILSGHSQYLRQLNFDVSCNEEVRNRQF
+IHGIDSILGVDSMNLEEVYWKAYMEDKTIKWIYLLEYIHKIVSVSLKQIQEQHDGASSGL
+TLEGLSDAATKPINRLLTFASTVSKVNGSPEKLFHTLQMHKALSEASPMIQQALLGEQKE
+FFVRELHRILDTLEDSAREILGKLKVQIQSHDSPIIPGGSVHLVTTYLMRYITLLAHNTS
+SLNTILGHDHSDHLLAADGINLLLPSHLISGLIFDLGSMLQKQSKLYKPEGLQYLFLMNN
+EHFILQHFEREDIKLMIGTEWIQKYCHNINRYKVKYIEATWATVVSCLDKKISISLNFLQ
+PSPLKEFISSFETEYRLQMHWKVPDPKLRIELRQTVCDYVLPAYCEFMEKHPNLEKSGDN
+LEDIRNKLNELFE
+>match$71_41_164
+YVAVSGNRNKALPTLRWALRRHAPAPEGRKKTALLVLVYVHRPATMIPIFTGAKVPSIVL
+KDEIVTSYRQQERRITEKFLQQYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKISTL
+IMGA
+>match$72_39_197
+VVYVAVSGNRNKALPTLRWALRRHAPAPEGRKKTALLVLVYVHRPATMIPIFTGAKVPSI
+VLKDEIVTSYRQQERRITEKFLQQYLDICTSEKVQAEAFMIANDNIAHGLIGAIQEHKIS
+TLIMGAGIYGKTSTQRTKLAITMEKEADPSCKILFVHKG
+>match$73_280_636
+KKWIQALKVVVRGLVAEERRICNQIFAADAEAEEDCFTEAAKGCVLQLLNFGDAIAIGKR
+SSEKLFRILGMYEALDEVLPELEGLFSGDARDFIKEEAVGILMRLGDAVRGTVAEFANAI
+QGETSRRALPGGEIHPLTRYVMNYVRLLADYSRSLNQLLKDWDTELENGGDNVNMTPLGQ
+CVLILITHLQAKIEEKSKLYEDEALQNIFLMNNLLYIVQKVKDSELKTLLGDNWIRQRRG
+QIRRYSTGYLRSSWTRVLACLRDDGLPQTMGSSSALKASLKERFKNFNLAFEELYKTQTT
+WKVVDPQLREELKISISEKVLPAYRSFVGRFRGQLEGGRNSARYIKYNPEDLENQVS
+>match$74_108_159
+DAGDYLGAAAVLVGARGARAEAALQAAMARLEDEFRHLLARGMSPLAGEDLH
+>match$74_206_640
+DEEISPYLISPDTVGALRGIADVMLRAGYGPELCQVYGEMRRDTLMECLAVLGVDKMSLE
+EVQRVEWGVLDGKMKKWIQALKVVVRGLVAEERRICNQIFAADAEAEEDCFTEAAKGCVL
+QLLNFGDAIAIGKRSSEKLFRILGMYEALDEVLPELEGLFSGDARDFIKEEAVGILMRLG
+DAVRGTVAEFANAIQGETSRRALPGGEIHPLTRYVMNYVRLLADYSRSLNQLLKDWDTEL
+ENGGDNVNMTPLGQCVLILITHLQAKIEEKSKLYEDEALQNIFLMNNLLYIVQKVKDSEL
+KTLLGDNWIRQRRGQIRRYSTGYLRSSWTRVLACLRDDGLPQTMGSSSALKASLKERFKN
+FNLAFEELYKTQTTWKVVDPQLREELKISISEKVLPAYRSFVGRFRGQLEGGRNSARYIK
+YNPEDLENQVSDFFE
+>match$75_128_148
+EAALQAAMARLEDEFRHLLAR
+>match$76_272_627
+WGRHLEFVVRCLLESERQLCNKVFGQRKDDASACFADVAAHAGILDFLSFGRAAADAKKD
+PIKLLRLLEVFDSLNKLRLDFNRLFGGKKACVEIQNQTRDLVKLLVDGAVEIFEELLVQV
+ELQRHMPPPPDGGVPRLVSFVVEYCNRLLSEKYRPVLAQVLTIHRSWRKETFSDKMLVNA
+VLNIVKALEANFDVWSKAYDNVTLSYLFMMNTHWHFFKNLKATRLGELLGDAWLQEHEQF
+KDYYLTVFMRDSWGVVSPLLNREGLILFSKGRATAKDLVKQRLKTFNASFDEMFRKQSAW
+VIPEKDLREKTCGLVVQAIVPAYRSYMQNYGPLVEQDVSASKYVKYTVDGLEKMLS
+>match$77_73_127
+VLKVFDAVHGLEPPLLAAGAVAGDLAGYLAVLGRLEEALRFLSDNSGLAAQWLAD
+>match$77_155_630
+KPSGDLDGGLLAAALDMLEAEFRRLLADHSAPLPLAMQQLNTTSASTAAPSLIPAATVHK
+LSLILDRLIANGRQDRCLSVYADARGGVVSASLRALGLDYLRNPVDVAQALGPGVELWGR
+HLEFVVRCLLESERQLCNKVFGQRKDDASACFADVAAHAGILDFLSFGRAAADAKKDPIK
+LLRLLEVFDSLNKLRLDFNRLFGGKKACVEIQNQTRDLVKLLVDGAVEIFEELLVQVELQ
+RHMPPPPDGGVPRLVSFVVEYCNRLLSEKYRPVLAQVLTIHRSWRKETFSDKMLVNAVLN
+IVKALEANFDVWSKAYDNVTLSYLFMMNTHWHFFKNLKATRLGELLGDAWLQEHEQFKDY
+YLTVFMRDSWGVVSPLLNREGLILFSKGRATAKDLVKQRLKTFNASFDEMFRKQSAWVIP
+EKDLREKTCGLVVQAIVPAYRSYMQNYGPLVEQDVSASKYVKYTVDGLEKMLSALF
+>match$78_96_164
+QDIARQMVHDGFMVNLIREFDRAPGPALERWFSELDVGWLLRSAAAADKEQSELGLADLV
+RRWTRGYTV
+>match$78_208_519
+FARFVEATVSKMLAFVDALAAENTRLSIDNLSRLVGLCSCIYSCFYKCNVVVITDSEEIV
+DSELQCLGRKVVGAFIITTTTLCNAIESMAMVAEAVTPVLIGWDSCENFKQNAEIHEATR
+LIVDYVRLFWGYQSLRSNMRYLKWVQIPITMIPQMLINFEDQLEKISESFSDPSLRYLFL
+LNNSYFVREEFLEPSNYVFILPSGTTLKFMQYQEKYMLASWEPVLYCLHEKMPLWFPKHS
+SQLARFKSEFQKTFRHQKLWKVPNPRLRQKLREAIIDKVITGYKRYLEDHPELEKCSSDL
+QDMEDMVNELFE
+>match$79_157_516
+RWTRGYTVMAEALSATQTKVAGVPAIILPQAQRDHNNIMCDQELEDDLRLQFARFVEATV
+SKMLAFVDALAAENTRLSIDNLSRLVGLCSCIYSCFYKCNVVVITDSEEIVDSELQCLGR
+KVVGAFIITTTTLCNAIESMAMVAEAVTPVLIGWDSCENFKQNAEIHEATRLIVDYVRLF
+WGYQSLRSNMRYLKWVQIPITMIPQMLINFEDQLEKISESFSDPSLRYLFLLNNSYFVRE
+EFLEPSNYVFILPSGTTLKFMQYQEKYMLASWEPVLYCLHEKMPLWFPKHSSQLARFKSE
+FQKTFRHQKLWKVPNPRLRQKLREAIIDKVITGYKRYLEDHPELEKCSSDLQDMEDMVNE
+>match$80_35_322
+NQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQDVLPTIREL
+SPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLINAIKIFNVH
+KNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPNLFIFLLNN
+IKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCLNNHTGGSI
+RQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEISF
+>match$81_29_320
+CQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQDVL
+PTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLINAI
+KIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPNLF
+IFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCLNN
+HTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEI
+>match$82_145_482
+WAQALSTMDRVFRLRHREARNPANEAAAAQLAALGELASASAGAMLRLATAVAALGASPS
+ALLAALDVYVPVSEAYPGLARMFSWSTAAADAALAALVDAARRCVRGLPASIRSHYPWRM
+PQGGEVHPCVGFWMGYFRCMLRNRVSLYLVLAGGDGGETATTPALAPGGEGGLVADLISR
+LEAVLEEKSGELAFPGLRQVFMLNNTHAIVRRAVRSDLAMFLPPGWTRAREERMEGYVKS
+YLDASWAPVVSRLAAAATKPAAVSVLRRRRDPLAAFNSALENACSAQRCWKVPSPVLRRV
+LRRTVSEHVVPAYRRCLEAAETPAAARTVEELERQLSE
+>match$83_69_485
+VGFHPISPTSLSVLSDIDVHMQRMARLLPAFASPAAAPRAQALGRWLAGFDVGWVLEMDA
+GGGRLPRREVGRRVRVWAQALSTMDRVFRLRHREARNPANEAAAAQLAALGELASASAGA
+MLRLATAVAALGASPSALLAALDVYVPVSEAYPGLARMFSWSTAAADAALAALVDAARRC
+VRGLPASIRSHYPWRMPQGGEVHPCVGFWMGYFRCMLRNRVSLYLVLAGGDGGETATTPA
+LAPGGEGGLVADLISRLEAVLEEKSGELAFPGLRQVFMLNNTHAIVRRAVRSDLAMFLPP
+GWTRAREERMEGYVKSYLDASWAPVVSRLAAAATKPAAVSVLRRRRDPLAAFNSALENAC
+SAQRCWKVPSPVLRRVLRRTVSEHVVPAYRRCLEAAETPAAARTVEELERQLSELFE
+>match$84_70_158
+ILTQFDRTREAEREIQKGPHENLQGFLDAVDRLRSIERFFSSNRSYRSSDGVLNHVNALL
+SKALVKMEDEFQKQLTQRSKPIEPDRLFD
+>match$84_191_628
+VYSPPALIEPRFIPFLAKLAQQLVQAGCQQQCSEIYSEARASALESSLKSLGVEKLSKDE
+VQKMPWEILESKIGNWIHFMRIAVKLLFAAERQLCDQVFECSQSLRDKCFAQITRNSLAT
+LLSFGEAIAMSKRSPEKLFVLLDMYEIMCELQADIDTIFVGESCSQMRESALSLTKCLAQ
+TAQKTFSDFEEAVEKDATKNIHIDGTVHPLTSYVINYVKFLFDYQSTLKQLFQEFKREDG
+TGSELATVTMSIMQALQNNLDAKAKQYKDPALMHIFLMNNIHYIVKSVRRSEAKDLLGDD
+WIQRHRRIVQQNANHYRRIAWSKVLQCLSGQGLTSSGGSGQVGSEGGNSSGASRAAVKER
+FRSFNVLFEEIYQKQCGWSVPDTELRESLRLAVAEILLPAYRSFLKRFGPLIENSKAPGK
+YVKHTPEQVELLLANLFE
+>match$85_265_623
+NWIHFMRIAVKLLFAAERQLCDQVFECSQSLRDKCFAQITRNSLATLLSFGEAIAMSKRS
+PEKLFVLLDMYEIMCELQADIDTIFVGESCSQMRESALSLTKCLAQTAQKTFSDFEEAVE
+KDATKNIHIDGTVHPLTSYVINYVKFLFDYQSTLKQLFQEFKREDGTGSELATVTMSIMQ
+ALQNNLDAKAKQYKDPALMHIFLMNNIHYIVKSVRRSEAKDLLGDDWIQRHRRIVQQNAN
+HYRRIAWSKVLQCLSGQGLTSSGGSGQVGSEGGNSSGASRAAVKERFRSFNVLFEEIYQK
+QCGWSVPDTELRESLRLAVAEILLPAYRSFLKRFGPLIENSKAPGKYVKHTPEQVELLL
+>match$86_57_128
+RLEAVLEEKSGELAFPRMRQVFMLNNTNAIVRRAVRSNLAMFLPPGWARAREERMEGYVK
+SYLDVSWAPIVS
+>match$87_4_59
+AHLVFIPLMAQGHLIPAVDTALLLATHGALCTIVATPATVARVCTHRRLGPAVRLE
+>match$88_58_128
+LEAVLEEKSGELAFPRMRQVFMLNNTNAIVRRAVRSNLAMFLPPGWARAREERMEGYVKS
+YLDVSWAPIVS
+>match$89_308_678
+TWIKAFHHTINVGLSAEHDLCARVFAGCDAAVGRAIFVDLARCAMLQMLNFTEAVAMTKR
+AAEKLFKVLDMYEAVRDAAPVIDAFIAACSTTDAAADEPDTTTDALTDIKTELASVRSRL
+GESAAAIFCDLESSIRADAGKQPVPGGAVHPLTRYLMNYLKYACEYKNTLEQVFHEHHRT
+DIDADDEGSDPFAAQLMEVMELLHDNLEAKSRLYKDPALCSIFLMNNGRYMLQKIRGSPE
+INAVVGEAWSRKRSTDLRQYHKNYQRETWSRVLTLLRDDGVITVKGSVQKPVLKERFKQF
+NAAMDEIQRTQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFSQSFSAGRQAEKYIKL
+SAEDLEAIIDE
+>match$90_133_201
+NGEAAPLLAAIRRISALAAALTAVPEGSKFTIGVHRVTGVLHRAMAFVEDEFHTMLEDPR
+VAKAAQNGD
+>match$90_234_681
+GGDTPPPFPPETVDRLRAMADAMIAVGYMTECTQVFLVARRNALDASLQNLGYEKASIDD
+VVRMAWESLESDVATWIKAFHHTINVGLSAEHDLCARVFAGCDAAVGRAIFVDLARCAML
+QMLNFTEAVAMTKRAAEKLFKVLDMYEAVRDAAPVIDAFIAACSTTDAAADEPDTTTDAL
+TDIKTELASVRSRLGESAAAIFCDLESSIRADAGKQPVPGGAVHPLTRYLMNYLKYACEY
+KNTLEQVFHEHHRTDIDADDEGSDPFAAQLMEVMELLHDNLEAKSRLYKDPALCSIFLMN
+NGRYMLQKIRGSPEINAVVGEAWSRKRSTDLRQYHKNYQRETWSRVLTLLRDDGVITVKG
+SVQKPVLKERFKQFNAAMDEIQRTQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFSQ
+SFSAGRQAEKYIKLSAEDLEAIIDELFD
+>match$91_223_595
+RWSHAVRAVVKTLLAGERRLCDEVFASDEELGHECFADVARGCLLQLIGFADAVAMSTPA
+TEKLYRMLGMYEALTAVEPDIESLFTGDARDFFSSEVAGVAAQLGSTIRHTIDQFVNVIH
+GESSRRPVLGGEIHPMTRYVLNYCGLLAECRVTLDMVLADNNTSNHDTNDDDHDGGGGGG
+ASSTPSGRCMREILTHLLRNLDEKSRLYDDAGLKNIFLMNNIYYIVQKMMVEFPALRELL
+GDDWVRRHRGQIRQYETGYLRASWMSVLASLRDDASPAAAHGHGGRAALKEKARSFNAAF
+EELYRSQTAWKVTDPQLREELRIAVSERLIPAYRSFVGRSRQLLESGSSSGRHSSSAAKH
+IKYSLEDLEDYML
+>match$92_59_599
+VFAAAEDIIRRCNSVSSPSEMVDYLYAVDDAIAATALQGELASRAAETVQAAMPRLEEEV
+RALLGSSARRLSLDSFEDLDDAGAATTPDGSPPRRDALSPEAAASASGVADRMLRAGYGP
+ELAQVYVAVRRDALAESAAHLGVEAVAIEEVLRMEWGVLNQRIRRWSHAVRAVVKTLLAG
+ERRLCDEVFASDEELGHECFADVARGCLLQLIGFADAVAMSTPATEKLYRMLGMYEALTA
+VEPDIESLFTGDARDFFSSEVAGVAAQLGSTIRHTIDQFVNVIHGESSRRPVLGGEIHPM
+TRYVLNYCGLLAECRVTLDMVLADNNTSNHDTNDDDHDGGGGGGASSTPSGRCMREILTH
+LLRNLDEKSRLYDDAGLKNIFLMNNIYYIVQKMMVEFPALRELLGDDWVRRHRGQIRQYE
+TGYLRASWMSVLASLRDDASPAAAHGHGGRAALKEKARSFNAAFEELYRSQTAWKVTDPQ
+LREELRIAVSERLIPAYRSFVGRSRQLLESGSSSGRHSSSAAKHIKYSLEDLEDYMLDFF
+E
+>match$93_5_67
+ATEKLYRMLGMYEVLTDIKSDLESLFTGYARNFFSFEVTSIVAQLGNTIRHLSMQFWIRI
+REG
+>match$94_313_575
+EWLHELRYVCTIVLSAHKQLMQWHLAVHDSLALDKLSKAVKEPITQLLTFASTVSKMHGS
+PEKFFHMLHMHQALTEAYPVLQEVFSGELKESFTGELHKILHTLKDGTKETLDQLRVQIQ
+SYSSEDMPEGGGIHLVTTYLIRYIMSLTQNTGSLDAILAHSYEDHALAEERMMNTSGHLI
+SMLISDLTSMLYRLSKLYMSKSEGLQWLFLLNNEHFILRKIEEADIRSMLPADWIQNYQH
+RVEQNKVNYIEATWALTLSYLKK
+>match$95_417_437
+KDGTKETLDQLRVQIQSYSSE
+>match$96_230_576
+MLEYLHPGFDNDSFRIVSKESLIYLDKIANQSTQSGHAQDLHQAPFDDRCHCHFIPDMDR
+ILGIQSRNDDEARWRNCIKHKMTEWLHELRYVCTIVLSAHKQLMQWHLAVHDSLALDKLS
+KAVKEPITQLLTFASTVSKMHGSPEKFFHMLHMHQALTEAYPVLQEVFSGELKESFTGEL
+HKILHTLKDGTKETLDQLRVQIQSYSSEDMPEGGGIHLVTTYLIRYIMSLTQNTGSLDAI
+LAHSYEDHALAEERMMNTSGHLISMLISDLTSMLYRLSKLYMSKSEGLQWLFLLNNEHFI
+LRKIEEADIRSMLPADWIQNYQHRVEQNKVNYIEATWALTLSYLKKG
+>match$97_277_630
+NWIHFMRIAVKLLLAGERKICDQIFDGVNFNKDQCFAELTANSVVTLLSFGDAVAKSKRS
+PEKLFVLLDMYEVMHELQPEIEVIFEGKSCSEMREASLGLAKRLAQTAQETFADFEEAVE
+KDASKTIVNDGTVHPLTSYVINYVKFLFDYQSTLKLLFQEFETGSETESQLAVVTMRIMQ
+ALQNNLDGKSKQYRDPALTYLFLMNNIHYMVRSVRRSEAKDILGDDWIQRHRRIVQQNAN
+QYKRVAWAKILQTLSIQGAGSTGSSDLSSSGVSRAMIKERFKSFNMQFEELHAKQSQWIV
+PDQELRESLRLAVAEVLLPAYRSFVKRFGNLVENGKNPHKYVRYSPEMVEQLLG
+>match$98_81_169
+ILSQFDLARRAEAAVLKGPHEDLESYLEAVDLLKGIVRFFSTNKNFKSSEGVLNHVNNLL
+AKSALKIEEEFRQLMTTYSKPIEPDRLFD
+>match$98_203_634
+VYRTPTLIPPRILPLMNDIAQQLIQAGNQQSCYKIYRDTRGSALESSLRKLGVEKLSKED
+VQKMQWEALEAKIGNWIHFMRIAVKLLLAGERKICDQIFDGVNFNKDQCFAELTANSVVT
+LLSFGDAVAKSKRSPEKLFVLLDMYEVMHELQPEIEVIFEGKSCSEMREASLGLAKRLAQ
+TAQETFADFEEAVEKDASKTIVNDGTVHPLTSYVINYVKFLFDYQSTLKLLFQEFETGSE
+TESQLAVVTMRIMQALQNNLDGKSKQYRDPALTYLFLMNNIHYMVRSVRRSEAKDILGDD
+WIQRHRRIVQQNANQYKRVAWAKILQTLSIQGAGSTGSSDLSSSGVSRAMIKERFKSFNM
+QFEELHAKQSQWIVPDQELRESLRLAVAEVLLPAYRSFVKRFGNLVENGKNPHKYVRYSP
+EMVEQLLGEFFE
+>match$99_41_120
+ENSMRVHDPQNSFQYLEVLYKIRQLTERLGSLHPGGEAKEHNELIVYAGDLFDMAMARLE
+EEFVYLLTHYKQPIEQGLVS
+>match$99_155_596
+SEYFATDLIQHGALSAVKSIANFMFLSEYDKECSQAYISTRQSAVDENLGSLRIDKLSME
+ELLSTNWTKLSSLIKRWNRAMKVFVQVYLTSEKRLSNHVFGELSESTADLCFYEISLSSV
+MQLLTFYESVAIGPPKPEKLFRLLDMYEVLNDLLPEVEFLFQEGCDDIVLTEYNEVLLQL
+GESVRKTITEFKYAVQSYTSSNAMARGEVHPLTKYVMNYIKALTAYSKTLDSLLKDTDRR
+CQHFSTDIQSMANQCPHFTVSALHLQSVTAILEENLEAGSRLYRDDRLRNIFMMNNIYYM
+VQKVKNSELKIFLGDDWIRVHNRKFQQQAMSYERASWSHVLSFLSDDGLCAAGDGASRKI
+IKEKFKNFNLSFEDAYRTQTGWSIPDDQLREDVRISISLKIIQAYRTFTGRYYSRLDGTR
+HLERYIKYKPEDLEKLLLDLFE
+>match$100_229_592
+KRWNRAMKVFVQVYLTSEKRLSNHVFGELSESTADLCFYEISLSSVMQLLTFYESVAIGP
+PKPEKLFRLLDMYEVLNDLLPEVEFLFQEGCDDIVLTEYNEVLLQLGESVRKTITEFKYA
+VQSYTSSNAMARGEVHPLTKYVMNYIKALTAYSKTLDSLLKDTDRRCQHFSTDIQSMANQ
+CPHFTVSALHLQSVTAILEENLEAGSRLYRDDRLRNIFMMNNIYYMVQKVKNSELKIFLG
+DDWIRVHNRKFQQQAMSYERASWSHVLSFLSDDGLCAAGDGASRKIIKEKFKNFNLSFED
+AYRTQTGWSIPDDQLREDVRISISLKIIQAYRTFTGRYYSRLDGTRHLERYIKYKPEDLE
+KLLL
+>match$101_156_522
+KRWIRALLTMVQVLNITLLELPLPVAGSTERMAAAADHAQFTGFAEESILRMLAFVDAVT
+LSALNVNDDHRHRTPELLPGMLQLYACVSEACDLLVSAGMGKDEITKMQALDAMNNGILM
+QSRRKLSDAIWVMMEKVRALFLMDACWQVSQEAAASGTHETTELTMNYITLLWRNHTMLD
+YFSVFVSDADSFSSVARLIAEMITCLECKLEETSLSIPDLGLRFIFLLNNWHRVLQRVES
+LRDLPAAVRQERILLLHASDSKIKRYIDDYLNASWSPLLRCLLIDKPFVALGRSHESKIE
+TQLQTTYATQKFWKVPNPQLRQRLRRAIMSKVIPDYSKYIEQMDRQNKINRHLVVTSPEQ
+LEQQIEE
+>match$102_63_525
+SPVVSSSYMSSSGSPAWSSASSSPVHKLRVIAQQMVGDGYIQELIRAFGRRRPDELIFQR
+WFSQLDVDFVLVLHTDGMVRADSFSVEDLMALIKRWIRALLTMVQVLNITLLELPLPVAG
+STERMAAAADHAQFTGFAEESILRMLAFVDAVTLSALNVNDDHRHRTPELLPGMLQLYAC
+VSEACDLLVSAGMGKDEITKMQALDAMNNGILMQSRRKLSDAIWVMMEKVRALFLMDACW
+QVSQEAAASGTHETTELTMNYITLLWRNHTMLDYFSVFVSDADSFSSVARLIAEMITCLE
+CKLEETSLSIPDLGLRFIFLLNNWHRVLQRVESLRDLPAAVRQERILLLHASDSKIKRYI
+DDYLNASWSPLLRCLLIDKPFVALGRSHESKIETQLQTTYATQKFWKVPNPQLRQRLRRA
+IMSKVIPDYSKYIEQMDRQNKINRHLVVTSPEQLEQQIEELFE
+>match$103_216_546
+KRWSLATHLVGKALVVMQRQLYTHNSPGAFDALKDEYFLAITKNRILNLLKFADDFTSIT
+SHEKLIYILGMYQALSEAASGLLLMFTGPHKELVAERSEEILAKLAMSIRSMVASLIAKV
+RDGVSNTKNIVGVGVHPLTKYAVLCIVRLAPHRDTLDLILASGGDDVASLSDLASRVVGS
+LEEKPVLPCDDDATAAATGSRHHLFHANNANFVLQSCKPLLGDEWAAARESIVERHVAGY
+AEACWAPVVACLEPAGRKPAAKVVAKFSAAFDRAYESQARCEVRDPALRDALRRAVSDKV
+VTAYGVYLKTHPKLEKKLRYTAGELGERLSE
+>match$104_41_100
+LLDAVDEILDLAEAQPFPAASAAAARLDSALRAAMSLMMDEFMCLRVWNASSHDLRLAVD
+>match$104_152_549
+FLDELQLLCPASLLVLHEIAHRVIRAGYTKELVQKFTNSPCDVLDRFLSIFQGECSRRTT
+VDLIKRWSLATHLVGKALVVMQRQLYTHNSPGAFDALKDEYFLAITKNRILNLLKFADDF
+TSITSHEKLIYILGMYQALSEAASGLLLMFTGPHKELVAERSEEILAKLAMSIRSMVASL
+IAKVRDGVSNTKNIVGVGVHPLTKYAVLCIVRLAPHRDTLDLILASGGDDVASLSDLASR
+VVGSLEEKPVLPCDDDATAAATGSRHHLFHANNANFVLQSCKPLLGDEWAAARESIVERH
+VAGYAEACWAPVVACLEPAGRKPAAKVVAKFSAAFDRAYESQARCEVRDPALRDALRRAV
+SDKVVTAYGVYLKTHPKLEKKLRYTAGELGERLSELFE
+>match$105_303_673
+KKWVHGVKTVVRSLLTGERRICDQVLAVSDELRDECFVESTKGCIMQILNFGDAVAVCSR
+SPEKLSRILDMYEALAEVIPELKELFFGNSGNDVICDLEGVLERLGDAVKGTLLEFGKVL
+QQESSRRPMMAGEIHPMTRYVMNYLRLLVVYSDTLDKLLGDDSAGDVDHSDTHRGGDDEE
+EYLESLSPLGRHLVKLISYLEANLEEKSKLYEDGALQCIFSMNNILYIVQKVKDSELGRI
+LGDHWIRRRRGKIRQNSKNYLRISWTKVLSFLKDDAHGGRSGSGSGSGNSSRIKEKFKNF
+NLAFDEIYRSQTLWKVPDPQLREELKISISENVIPAYRAFLGRYGSLVDSGRNSGRYIKY
+TPEDLENQLSD
+>match$106_94_184
+GAFEAAERLIRQWDATSELLVFEGPEGDVADYLEAVDVAVDQLLSGVGAAAADAEAEAAG
+VVVQLAMARMEEELRHLMVRHAVPLDASGLF
+>match$106_230_676
+DDQVFDLVRPEAIDDLRSIAQRMDRAGYASELEQVYCGVRRDLLDECLAVLGVERLSIDE
+VQRMEWKLLNDKMKKWVHGVKTVVRSLLTGERRICDQVLAVSDELRDECFVESTKGCIMQ
+ILNFGDAVAVCSRSPEKLSRILDMYEALAEVIPELKELFFGNSGNDVICDLEGVLERLGD
+AVKGTLLEFGKVLQQESSRRPMMAGEIHPMTRYVMNYLRLLVVYSDTLDKLLGDDSAGDV
+DHSDTHRGGDDEEEYLESLSPLGRHLVKLISYLEANLEEKSKLYEDGALQCIFSMNNILY
+IVQKVKDSELGRILGDHWIRRRRGKIRQNSKNYLRISWTKVLSFLKDDAHGGRSGSGSGS
+GNSSRIKEKFKNFNLAFDEIYRSQTLWKVPDPQLREELKISISENVIPAYRAFLGRYGSL
+VDSGRNSGRYIKYTPEDLENQLSDLFE
+>match$107_49_541
+SLFLDGGFADAGRFMSAAVELHRGMLVLASSDVEDARGRGDRGDERLVRAQGVLEDAMRR
+LQLELEILLSAVRSNTADDGDGDGAAMSGHGLDGDGAVVVGHIRLVAEAMVAAGYGMECV
+TTFMSHRRAEFAGAVRRLLGYAPSQHARFRKLAWDDVDGKVRSWHTAAGFAFNFAFSGER
+VLCHRVFAAADAGVADRVFEGIASDHAADLLAVAEAAVARARRAPERLFHVLDVHATLVE
+IFPAIVCVLGDKSEAAVRATAALRNAGEAARGILVSFEEAIQKATSKSSAAATGGAVHPL
+ARYVMNYLVLLADYDDTLARIYQQGRGSTSPHSPSSSSSSSNPIGRLVSVLLRKLDAMAG
+RHRSPAARSLFMANNTHYVSKKVRGSSKLVGIVGGEGWAVAQSAETRRHVDAFVHAAWRD
+VLVVGGEGADAAVREAVASQRRWVAVADDEMGDAVRAAAAAAVVPAYRALYRRHGMAAWM
+TPGDVNAMIGRLF
+>match$108_211_470
+SWHTAAGFAFNFAFSGERVLCHRVFAAADAGVADRVFEGIASDHAADLLAVAEAAVARAR
+RAPERLFHVLDVHATLVEIFPAIVCVLGDKSEAAVRATAALRNAGEAARGILVSFEEAIQ
+KATSKSSAAATGGAVHPLARYVMNYLVLLADYDDTLARIYQQGRGSTSPHSPSSSSSSSN
+PIGRLVSVLLRKLDAMAGRHRSPAARSLFMANNTHYVSKKVRGSSKLVGIVGGEGWAVAQ
+SAETRRHVDAFVHAAWRDVL
+>match$109_152_474
+KTSMDFSKCEDLGKDYLIMLKISTKVLQSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKM
+LEIALSFSESNWSEEHIRPMLLAYDTLQDVLPTIRELSPDEPDEFFTSILHNMRNASRGI
+IDNMKRFIQHKVQTWDNIAIHPTTCFLINAIKIFNVHKNLLHSTLVPGDGQDSFGYLING
+VIACWKLKIKELSMLDDPDKNDSDGNNPNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIE
+ECKNEFQSDMENYTSRYMTASWGPAISCLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKV
+PDSELKQKLRDDIENLIFPAYEI
+>match$110_183_474
+CQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQDVL
+PTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLINAI
+KIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPNLF
+IFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCLNN
+HTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEI
+>match$111_163_183
+LEKLREEAVRLLLKFSEAQIN
+>match$112_63_406
+WIQALRVIIGTVLPEERQACTQIFGSDSKVEEDCFARATMRFIQQLFAFGSLIANVKDEQ
+YEKVPLLVQMLEEFLKLKPSIEALRYGDAKDAISQEADMLLEKLREEAVRLLLKFSEAQI
+NHESYDNETIVLNGSVLSFPQYTMGVIKLLAGYSDTLNIILPVEVGGVGTVTTSPWKSYV
+LTLLTRLQLNIEEKSKSYKDECLRNVFLMNNAMYVLEKARSPDLKILLGDNWVTKQLVQV
+EQHATAYLRASWTEPLFQLKDKGINYTERSLILTKKFKNFNSIFGEISRVQTTWKVPNPQ
+LRQHLRLVILQQVIPAYRAFVGRFGMLLNSKFIKYTLEDIENNV
+>match$113_1_411
+MMLAGHESNLSHAYGEIRNSTLMQCLCLFGVQIDLNSYNPRASPSESGFNMLLDLDGQKM
+EIWIQALRVIIGTVLPEERQACTQIFGSDSKVEEDCFARATMRFIQQLFAFGSLIANVKD
+EQYEKVPLLVQMLEEFLKLKPSIEALRYGDAKDAISQEADMLLEKLREEAVRLLLKFSEA
+QINHESYDNETIVLNGSVLSFPQYTMGVIKLLAGYSDTLNIILPVEVGGVGTVTTSPWKS
+YVLTLLTRLQLNIEEKSKSYKDECLRNVFLMNNAMYVLEKARSPDLKILLGDNWVTKQLV
+QVEQHATAYLRASWTEPLFQLKDKGINYTERSLILTKKFKNFNSIFGEISRVQTTWKVPN
+PQLRQHLRLVILQQVIPAYRAFVGRFGMLLNSKFIKYTLEDIENNVLDLFE
+>match$114_136_242
+YIDGYFSASWAPVLSCLSSKSGLSPWSNKSSPLRKFELAFHETYTAQKLWKVPSPELRGR
+LRKTITERVVSGYREYLLEHPELKRLVSRGNSNTPADLEEMLAELFE
+>match$115_136_239
+YIDGYFSASWAPVLSCLSSKSGLSPWSNKSSPLRKFELAFHETYTAQKLWKVPSPELRGR
+LRKTITERVVSGYREYLLEHPELKRLVSRGNSNTPADLEEMLAE
+>match$116_87_386
+LVAMIDQSIQEINSKHGQEQESDMHRLLKLAGVMTMLSPSSDLLPAILRLYVTLEIFPVN
+QVNGIASELKRCVREIFQGQCSLALNGIYSVPRGGGIHNITSYMMNYIKYMWEHDSLLNV
+ILAQDDGESENPLHDGKWTRLDYFVQSLIGYLDSLLETISKYQSTEFQCIFLLNNAHFIL
+EILEKLDMKSALQQSWITRHHNQVEYQIARYLEHSWEPILSRLVARKNILFPCFHLPPLT
+EFYTMLNNNCAVQKYWKIEDPKLRQVVRKTISSRVTQCYQAYLGRSVKNQKRAHYTSEDL
+>match$117_67_386
+NIRIWIQRADSRMLELFKEELVAMIDQSIQEINSKHGQEQESDMHRLLKLAGVMTMLSPS
+SDLLPAILRLYVTLEIFPVNQVNGIASELKRCVREIFQGQCSLALNGIYSVPRGGGIHNI
+TSYMMNYIKYMWEHDSLLNVILAQDDGESENPLHDGKWTRLDYFVQSLIGYLDSLLETIS
+KYQSTEFQCIFLLNNAHFILEILEKLDMKSALQQSWITRHHNQVEYQIARYLEHSWEPIL
+SRLVARKNILFPCFHLPPLTEFYTMLNNNCAVQKYWKIEDPKLRQVVRKTISSRVTQCYQ
+AYLGRSVKNQKRAHYTSEDL
+>match$118_189_480
+CQFCGQNQPFFQTKKDYFQQFAKSPIKKMLEIALSFSESNWSEEHIRPMLLAYDTLQDVL
+PTIRELSPDEPDEFFTSILHNMRNASRGIIDNMKRFIQHKVQTWDNIAIHPTTCFLINAI
+KIFNVHKNLLHSTLVPGDGQDSFGYLINGVIACWKLKIKELSMLDDPDKNDSDGNNPNLF
+IFLLNNIKHFNRDTNGLLDGLLVHRELIEECKNEFQSDMENYTSRYMTASWGPAISCLNN
+HTGGSIRQSMNAFISKFEGTFDCQKVLKVPDSELKQKLRDDIENLIFPAYEI
+>match$119_158_480
+KTSMDFSKCEDLGKDYLIMLKISTKVLQSMFCQFCGQNQPFFQTKKDYFQQFAKSPIKKM
+LEIALSFSESNWSEEHIRPMLLAYDTLQDVLPTIRELSPDEPDEFFTSILHNMRNASRGI
+IDNMKRFIQHKVQTWDNIAIHPTTCFLINAIKIFNVHKNLLHSTLVPGDGQDSFGYLING
+VIACWKLKIKELSMLDDPDKNDSDGNNPNLFIFLLNNIKHFNRDTNGLLDGLLVHRELIE
+ECKNEFQSDMENYTSRYMTASWGPAISCLNNHTGGSIRQSMNAFISKFEGTFDCQKVLKV
+PDSELKQKLRDDIENLIFPAYEI
+>match$120_333_677
+VWTSTMRTVFSVLDEMRTQLNQKDHGTFSSLKVDYFSAIAKESVMKLLNYANAICIQVGP
+NDPSCRDTHASVKHFPSKMVNLLIMFQALEYAKMEILDLFLGQTKGPILMEIERLTNGLS
+AVFLVLLVELNGLLRSQHLVISNTGVHHVTQHIMGLMRLLVEQKDKVHMMLNDNPDKFGQ
+VVTQLISSLEFMLDMNSRSLALQGQQLVFLLNNINFVLEQANNYTDLKLILGESWCLQRH
+VQLDQFLASYVEASWTPVMSSFIITRIPKILWPQQLFDKFNSRFEMTYNVQKTWKVTDPV
+IRQKLREKITQKVIPLYRMYLESYSDKKQKSARFNVEHLEARLLE
+>match$121_119_196
+FGICKNPETTEFFRDHRRRLDDYFAAAKNLLQMLEHPVLAYGDLHNRAKSLLVTAMGSLA
+VELCHLKIWKPDALASYL
+>match$121_263_680
+ASSVTASHIDLKSVSILNKIADFMIGVGHEQMLRGAFDQHSEHLVRYIEILDIDKILGNH
+MEESTELLLKVWTSTMRTVFSVLDEMRTQLNQKDHGTFSSLKVDYFSAIAKESVMKLLNY
+ANAICIQVGPNDPSCRDTHASVKHFPSKMVNLLIMFQALEYAKMEILDLFLGQTKGPILM
+EIERLTNGLSAVFLVLLVELNGLLRSQHLVISNTGVHHVTQHIMGLMRLLVEQKDKVHMM
+LNDNPDKFGQVVTQLISSLEFMLDMNSRSLALQGQQLVFLLNNINFVLEQANNYTDLKLI
+LGESWCLQRHVQLDQFLASYVEASWTPVMSSFIITRIPKILWPQQLFDKFNSRFEMTYNV
+QKTWKVTDPVIRQKLREKITQKVIPLYRMYLESYSDKKQKSARFNVEHLEARLLEIFE
+>match$122_325_686
+TWTKAFRHTINVGLSTEHDLCARVFAGRHAAVGRGMFADLARCVMLHMLNFTEAVTMTKR
+AAEKLFKVLDMYEATRDASPVIDAFLTADDGNNSTALTDLKHELNSVRSRLGEFAAAIFR
+ELESSIRADAGKQPVPGGAVHPLTRYVMNYLKYACEYNSTLEQVFREHGAHGGGGGGDGE
+NPFAAQLMEVMELLHGNLEGKSRLYKDPSLSNIFLMNNGRYMLQKIRGSPETNAMLGEAW
+ARKQSTNLRQYHKNYQRETWSRVLGLLRDDGVLTVKGSVQKPVLKERFKQFNAAMDEIQR
+TQGAWVVSDEQLQSELRVSIAAVVVPAYRSFLGRFAQTFSAGRQSEKYVKLSADDVEAII
+DE
+>match$123_167_689
+RALLAAISRIAALAAALAKAPEGKHATAGAHRVTAVLHRAMAFLEDEFLALLDDPRVPKA
+TTFDQVQHEVDRCVLPASVDVGAGVGESAPPYPPETVDRLRSMADAMVTAGYVTECTQMF
+LVARRNASDASLRALGYEKASIDDVVKMTWEALEAEIATWTKAFRHTINVGLSTEHDLCA
+RVFAGRHAAVGRGMFADLARCVMLHMLNFTEAVTMTKRAAEKLFKVLDMYEATRDASPVI
+DAFLTADDGNNSTALTDLKHELNSVRSRLGEFAAAIFRELESSIRADAGKQPVPGGAVHP
+LTRYVMNYLKYACEYNSTLEQVFREHGAHGGGGGGDGENPFAAQLMEVMELLHGNLEGKS
+RLYKDPSLSNIFLMNNGRYMLQKIRGSPETNAMLGEAWARKQSTNLRQYHKNYQRETWSR
+VLGLLRDDGVLTVKGSVQKPVLKERFKQFNAAMDEIQRTQGAWVVSDEQLQSELRVSIAA
+VVVPAYRSFLGRFAQTFSAGRQSEKYVKLSADDVEAIIDELFD
+>match$124_280_636
+HWGRHLEFAVRHLLEAERKLCVAVFERRPEAASSCFAEIASRAGILDFLKFGRAICDARK
+DPIKLLRLLDVFDSLSKLRMDFNRLFGGKACVEIQTRTRELVKRVVDGSVEIFEELLVQV
+ELQRNMPPPADGGVPRIVSFVAKYCNQLLGDPYRSVLTQVLVIHRSWRKETFNDKMLVDA
+VLNIVKALEANFEAWSKAYEDVTLSYLFMMNTHWHFFKHLKGTKMGEILGDEWLREHEQY
+KDYYSAVFLRESWGTLAPLLSREGIILFSKGRATARDLVKQRLKSFNANFDEMYQKQSAW
+IISDRDLQQKTCHLVVQAIVPVYRSFMQNYGPLVDQQDASANKYVKFTAEGLDKMLS
+>match$125_83_137
+VLKVFDAVHGLEPPLLAASAAADDLPGYLAVLSRLEEALHFLSDNCGIASQWLAD
+>match$125_165_639
+TPSANLDGGLLAAALDILEAEFRRLLTEHSAPLAMKEPNNSSDPGSITPPRIPASAVHKL
+SLILDRLAANGRLGTCTAAYADARGDTVSASLRALGLDYLHDPAEDAQVLTPNVEHWGRH
+LEFAVRHLLEAERKLCVAVFERRPEAASSCFAEIASRAGILDFLKFGRAICDARKDPIKL
+LRLLDVFDSLSKLRMDFNRLFGGKACVEIQTRTRELVKRVVDGSVEIFEELLVQVELQRN
+MPPPADGGVPRIVSFVAKYCNQLLGDPYRSVLTQVLVIHRSWRKETFNDKMLVDAVLNIV
+KALEANFEAWSKAYEDVTLSYLFMMNTHWHFFKHLKGTKMGEILGDEWLREHEQYKDYYS
+AVFLRESWGTLAPLLSREGIILFSKGRATARDLVKQRLKSFNANFDEMYQKQSAWIISDR
+DLQQKTCHLVVQAIVPVYRSFMQNYGPLVDQQDASANKYVKFTAEGLDKMLSTLF
+>match$126_86_206
+SSGPESYRLLRGEAFRGLSEIASHMVSDRYTERLITEFSRPRLGSGSGGGGGGDEILQTW
+FSDLGVDWVLRVDEMNLQEKPWSGVEEMIKGWLAALTVMAEALRLTKATLSSGDGDSGGV
+I
+>match$126_297_399
+FALFAKASLVKMMCFPDAIAALSRSPEKILRVIDMYAVVSGVSPSLLALLPGATKWLVSE
+RITAVLKTLSGMMRGILHDLESLIREEDSWRTTAQGNDIHPVN
+>match$127_294_398
+EFQFALFAKASLVKMMCFPDAIAALSRSPEKILRVIDMYAVVSGVSPSLLALLPGATKWL
+VSERITAVLKTLSGMMRGILHDLESLIREEDSWRTTAQGNDIHPV

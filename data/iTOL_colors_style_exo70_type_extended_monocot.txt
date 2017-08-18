@@ -45,17 +45,16 @@ DATA
 #examples of colored ranges from iTOL's Tree of Life
 #2190|2287,range,#aaffaa,Archaea
 #623|1502,range,#aaaaff,Bacteria
-BdExo70A3|GSMUA_Achr5P26180_001,range,#E41A1C,Exo70A
-GRMZM2G067313_P01|AtExo70G2,range,#377EB8,Exo70G
-Seita.6G212800.1.p|GSMUA_AchrUn_randomP27140_001,range,#4DAF4A,Exo70I
-Sobic.009G171000.1.p|AtExo70B1,range,#FFFF33,Exo70B
-GRMZM2G343437_P01|AtExo70C2,range,#FF7F00,Exo70C
-Sobic.008G000500.1.p|AtExo70H3,range,#984EA3,Exo70H
-GRMZM2G076389_P01|AtExo70D1,range,#A65628,Exo70D
-GRMZM2G111657_P01|AtExo70E1,range,#888888,Exo70E
-Sobic.003G405700.1.p|AtExo70F1,range,#F781BF,Exo70F
-Sobic.010G269950.1.p|Seita.1G130000.1.p,range,#999999,Exo70FX
-
+BdExo70A3|GSMUA_Achr5P26180_001,range,#000000,Exo70A
+GRMZM2G067313_P01|AtExo70G2,range,#6DB6FF,Exo70G
+Seita.6G212800.1.p|GSMUA_AchrUn_randomP27140_001,range,#DBD100,Exo70I
+Sobic.009G171000.1.p|AtExo70B1,range,#009292,Exo70B
+GRMZM2G343437_P01|AtExo70C2,range,#FF6DB6,Exo70C
+Sobic.008G000500.1.p|AtExo70H3,range,#920000,Exo70H
+GRMZM2G076389_P01|AtExo70D1,range,#490092,Exo70D
+GRMZM2G111657_P01|AtExo70E1,range,#006DDB,Exo70E
+Sobic.003G405700.1.p|AtExo70F1,range,#B66DFF,Exo70F
+Sobic.010G269950.1.p|Seita.1G130000.1.p,range,#24FF24,Exo70FX
 
 #leaf label for node 9606 will be displayed in green, bold and twice the regular font size
 #9606,label,#00ff00,bold,2
