@@ -1,0 +1,4 @@
+,2312|m.12779,RGH2|Baronesse,RGH2|Ta
+2312|m.12779,,95.3,91.9
+RGH2|Baronesse,95.3,,92.2
+RGH2|Ta,91.9,92.2,

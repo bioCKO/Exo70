@@ -1,0 +1,4 @@
+,RGH2|Ta translation,2312|m.12779 translation,RGH2|Baronesse translation
+RGH2|Ta translation,,89.3,89.4
+2312|m.12779 translation,89.3,,92.4
+RGH2|Baronesse translation,89.4,92.4,

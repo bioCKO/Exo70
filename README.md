@@ -95,19 +95,19 @@ Two novel fusions exist with Exo70 proteins in *Zea mays* including GRMZM2G37074
 InterProScan was used to assess all putative Exo70 domain containing proteins to define the Exo70 domain region and additional domains associated with Exo70 domains. To assess the domain architecture of Exo70 proteins, we used the [QKdomain](https://github.com/matthewmoscou/QKdomain) (v1.0) suite of scripts to identify the diversity of domains. 
 
 ```bash
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ac.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_At.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Bd.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Hv.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Hv_RGH2.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ma.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Os.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Ot.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sb.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sc.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Si.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Sp.fa --iprlookup --seqtype p
-/usr/users/sl/jacksonw/work/src/interproscan-5.20-59.0/interproscan.sh  --output-dir . --input Exo70_species_Zm.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Ac.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_At.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Bd.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Hv.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Hv_RGH2.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Ma.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Os.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Ot.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Sb.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Sc.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Si.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Sp.fa --iprlookup --seqtype p
+./interproscan.sh  --output-dir . --input Exo70_species_Zm.fa --iprlookup --seqtype p
 
 cat *.fa > Exo70_species_all.fa
 cat *.tsv > Exo70_species_all.fa.tsv
@@ -207,12 +207,11 @@ cat Exo70_species_At_curated.fa Exo70_species_Bd_curated.fa Exo70_species_Hv_Met
 muscle -in Exo70_AtBdHvOsSc.fa -out Exo70_AtBdHvOsSc_MUSCLE.aln -clwstrict
 ```
 
-The [multiple sequence alignment](data/alignments/Exo70_AtBdHvOsSc_MUSCLE.aln) had a length of 1,183 aa. Manual curation was made on the multiple sequence alignment to remove N-terminal sequence unique to only a single Exo70 protein. This generated an initial [alignment](data/alignments/Exo70_AtBdHvOsSc_MUSCLE.phy) length of 1,161 aa.
-
-The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
+The [multiple sequence alignment](data/alignments/Exo70_AtBdHvOsSc_MUSCLE.aln) included 134 proteins with a length of 1,183 aa. `QKphylogeny_alignment_analysis.py` was used to reduce the alignment to sites with at least 40% of proteins with a amino acid (non-gaps in alignment) and only included proteins with at least 40% coverage over the alignment from start to stop. This reduced the alignment to 130 proteins and alignment length of 620 aa. The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
 
 ```bash
-raxml -f a -x 943789321641 -p 47823147231 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtBdHvOsSc_MUSCLE.phy -n Exo70_AtBdHvOsSc -T 4
+python QKphylogeny_alignment_analysis.py -a Exo70_AtBdHvOsSc_MUSCLE.phy -b 0.4 -d 0.4 -o Exo70_AtBdHvOsSc_MUSCLE_b0.4_d0.4.phy -t protein
+raxml -f a -x 943789321641 -p 47823147231 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtBdHvOsSc_MUSCLE_b0.4_d0.4.phy -n Exo70_AtBdHvOsSc -T 4
 ```
 
 The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70.
@@ -221,7 +220,7 @@ The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as s
 
 ![alt text](figures/Exo70_AtBdHvOsSc_phylogeny.png "Exo70 phylogenetic tree with At, Bd, Hv, Os, and Sc")
 
-The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [258 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
+The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [257 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbScSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
 
 **TODO** Correct text below to add manual curation from HB.
 
@@ -232,19 +231,18 @@ python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o
 ```
 
 ```bash
-cat Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Os_curated.fa Exo70_species_Ot_curated.fa Exo70_species_Sb_curated.fa Exo70_species_Sc_curated.fa Exo70_species_Si_curated.fa Exo70_species_Zm_curated.fa > Exo70_BdHvOsOtSbSiZm.fa
-muscle -in Exo70_BdHvOsOtSbSiZm.fa -out Exo70_BdHvOsOtSbSiZm_MUSCLE.aln -clwstrict
+cat Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Os_curated.fa Exo70_species_Ot_curated.fa Exo70_species_Sb_curated.fa Exo70_species_Sc_curated.fa Exo70_species_Si_curated.fa Exo70_species_Zm_curated.fa > Exo70_BdHvOsOtSbScSiZm.fa
+muscle -in Exo70_BdHvOsOtSbScSiZm.fa -out Exo70_BdHvOsOtSbScSiZm_MUSCLE.aln -clwstrict
+python QKphylogeny_alignment_analysis.py -a Exo70_BdHvOsOtSbScSiZm_MUSCLE.phy -b 0.4 -d 0.4 -o Exo70_BdHvOsOtSbScSiZm_MUSCLE_b0.4_d0.4.phy -t protein
 ```
 
-The [multiple sequence alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.aln) had a length of 1,403 aa. Manual curation was made on the multiple sequence alignment to remove N-terminal sequence unique to only a single Exo70 protein. This generated an initial [alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.phy) length of 1,351 aa.
-
-The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
+The [multiple sequence alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.aln) had a length of 2,254 aa. `QKphylogeny_alignment_analysis.py` was used to reduce the alignment to sites with at least 40% of proteins with a amino acid (non-gaps in alignment) and only included proteins with at least 40% coverage over the alignment from start to stop. This reduced the alignment to 256 proteins and alignment length of 604 aa. The maximum likelihood phylogenetic tree was constructed using RAxML with the JTT amino acid substitution model, with 1,000 bootstraps performed in parallel.
 
 ```bash
-raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbSiZm_MUSCLE.phy -n Exo70_BdHvOsOtSbSiZm -T 4
+raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbScSiZm_MUSCLE_b0.4_d0.4.phy -n Exo70_BdHvOsOtSbScSiZm -T 4
 ```
 
-All analyses can be found in the file `data\phylogenetic_analysis.tar.gz`. Next, we extract the node labels from the phylogenetic tree.
+All analyses can be found in the folder `phylogeny\Exo70_BdHvOsOtSbScSiZm`. Next, we extract the node labels from the phylogenetic tree.
 
 ```bash
 python QKphylogeny_nodelabels.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_nodelabels
@@ -257,6 +255,13 @@ As above, iTOL was used for visualization and the phylogenetic tree was rooted b
 ![alt text](figures/Exo70_BdHvOsOtSbScSiZm_phylogeny.png "Exo70 phylogenetic tree with Bd, Hv, Os, Ot, Sb, Sc, Si, and Zm")
 
 
+```bash
+cat Exo70_species_Ac_curated.fa Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Ma_curated.fa Exo70_species_Os_curated.fa Exo70_species_Ot_curated.fa Exo70_species_Sb_curated.fa Exo70_species_Sc_curated.fa Exo70_species_Si_curated.fa Exo70_species_Sp_curated.fa Exo70_species_Zm_curated.fa > ../../alignments/Exo70_AcBdHvMaOsOtSbScSiSpZm.fa
+muscle -in Exo70_AcBdHvMaOsOtSbScSiSpZm.fa -out Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.aln -clwstrict
+raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbSiZm_MUSCLE.phy -n Exo70_BdHvOsOtSbSiZm -T 4
+raxml -s Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.phy -n Exo70_AcBdHvMaOsOtSbScSiSpZm -m PROTGAMMAAUTO -p 4152784321 -T 4
+
+```
 ### Analysis of phylogenetic tree using full length Exo70 proteins
 **TODO** Need to redo this analysis based on the most up to date phylogenetic trees.
 
@@ -554,29 +559,46 @@ Orthologs of *Exo70F1* were identified in all species analyzed. In addition, ort
 |:--------------------------|:-------:|:---------------------------------|:-------------------------------|
 |*Achnatherum splendens*    |*Exo70F1*|DN27349_c2_g1_i3                  |                                |
 |*Agropyron cristatum*      |*Exo70F1*|DN52368_c0_g1_i1                  |                                |
-|*Agropyron cristatum*      |*RGH2*   |DN41656_c2_g2_i5                  |Non-integrated, early stop codon|
 |*Agropyron desertorum*     |*Exo70F1*|DN73454_c1_g2_i1                  |Fragment, need to extend        |
-|*Agropyron desertorum*     |*RGH2*   |DN66057_c5_g2_i2                  |Non-integrated                  |
 |*Agrostis stolonifera*     |*Exo70F1*|DN14026_c1_g1_i3                  |                                |
-|*Agrostis stolonifera*     |*RGH2*   |DN10799_c1_g2_i1                  |Non-integrated                  |
 |*Avena sativa*             |*Exo70F1*|TR86309_c0_g1_i1                  |Non-integrated                  |
-|*Avena sativa*             |*RGH2*   |TR23872_c0_g4_i7                  |Integrated, not in frame        |
 |*Bromus inermis*           |*Exo70F1*|DN316854_c0_g1_i1                 |                                |
 |*Dactylis glomerata*       |*Exo70F1*|DN30327_c2_g1_i1                  |                                |
-|*Dactylis glomerata*       |*RGH2*   |DN14829_c0_g1_i2                  |Cannot assess integrated status |
 |*Festuca pratensis*        |*Exo70F1*|DN23806_c5_g2_i1                  |                                |
-|*Festuca pratensis*        |*RGH2*   |DN30046_c5_g1_i4                  |Non-integrated                  |
 |*Holcus lanatus*           |*Exo70F1*|DN73170_c0_g7_i1,DN73170_c0_g14_i1|Fragmented                      |
-|*Holcus lanatus*           |*RGH2*   |DN82267_c1_g1_i1,DN84363_c3_g1_i5 |Fragmented                      |
 |*Melica nutans*            |*Exo70F1*|DN25023_c1_g1_i3                  |                                |
-|*Melica nutans*            |*RGH2*   |DN25504_c1_g1_i7                  |Non-integrated                  |
 |*Nardus stricta*           |*Exo70F1*|DN28212_c0_g1_i3                  |                                |
 |*Phalaris arundinacea*     |*Exo70F1*|DN52809_c0_g2_i1,DN47937_c1_g1_i4 |Fragmented                      |
-|*Phalaris arundinacea*     |*RGH2*   |DN57676_c0_g1_i1,DN60508_c1_g1_i5 |Fragmented                      |
 |*Poa annua*                |*Exo70F1*|DN37714_c0_g1_i12,DN29762_c0_g1_i1|Merged contigs                  |
-|*Poa annua*                |*RGH2*   |DN36697_c1_g2_i5,DN33459_c0_g1_i2 |Incomplete, sequential extension|
+|*Poa pratensis*            |*Exo70F1*|DN214133_c7_g1_i3                 |                                |
 |*Stipa lagascae*           |*Exo70F1*|DN40527_c0_g3_i2                  |                                |
+
+|Species                    |Gene     |Identifier                        |Notes                           |
+|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
+|*Agropyron cristatum*      |*RGH2*   |DN41656_c2_g2_i5                  |Non-integrated, early stop codon|
+|*Agropyron desertorum*     |*RGH2*   |DN66057_c5_g2_i2                  |Non-integrated                  |
+|*Agrostis stolonifera*     |*RGH2*   |DN10799_c1_g2_i1                  |Non-integrated                  |
+|*Avena sativa*             |*RGH2*   |TR23872_c0_g4_i7                  |Integrated, not in frame        |
+|*Dactylis glomerata*       |*RGH2*   |DN14829_c0_g1_i2                  |Cannot assess integrated status |
+|*Festuca pratensis*        |*RGH2*   |DN30046_c5_g1_i4                  |Non-integrated                  |
+|*Holcus lanatus*           |*RGH2*   |DN82267_c1_g1_i1,DN84363_c3_g1_i5 |Fragmented                      |
+|*Melica nutans*            |*RGH2*   |DN25504_c1_g1_i7                  |Non-integrated                  |
+|*Phalaris arundinacea*     |*RGH2*   |DN57676_c0_g1_i1,DN60508_c1_g1_i5 |Fragmented                      |
+|*Poa annua*                |*RGH2*   |DN36697_c1_g2_i5,DN33459_c0_g1_i2 |Incomplete, sequential extension|
 |*Stipa lagascae*           |*RGH2*   |DN37467_c1_g1_i9                  |Non-integrated                  |
+
+|Species                    |Gene     |Identifier                        |Notes                           |
+|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
+|*Agropyron cristatum*      |*RGH3*   |DN40142_c0_g1_i9                  |N-terminal truncation           |
+|*Agropyron desertorum*     |*RGH3*   |DN64380_c0_g1_i1,DN61022_c0_g1_i1 |Fragmented                      |
+|*Agrostis stolonifera*     |*RGH3*   |DN13830_c2_g2_i6                  |N-terminal truncation           |
+|*Avena sativa*             |*RGH3*   |Obtain from capture data          |                                |
+|*Festuca pratensis*        |*RGH3*   |DN25392_c0_g2_i1                  |                                |
+|*Holcus lanatus*           |*RGH3*   |DN81287_c0_g1_i7                  |N-terminal truncation           |
+|*Melica nutans*            |*RGH3*   |DN26792_c0_g6_i6                  |Almost complete sequence        |
+|*Phalaris arundinacea*     |*RGH3*   |DN56399_c0_g1_i1                  |                                |
+|*Poa annua*                |*RGH3*   |DN36391_c0_g6_i1                  |C-terminal truncation           |
+|*Poa pratensis*            |*RGH3*   |DN208182_c1_g1_i1                 |Lacking small part of C-terminal region|
 
 Our ability to assess the integration of *Exo70F1* was restricted by the quality of the transcriptome assembly. For *RGH2*, when a single contig was not formed, the N- and C-terminal fragments could be identified.
 
@@ -593,16 +615,28 @@ samtools rmdup PoaExo70F1_Poa_sorted.bam PoaExo70F1_Poa_sorted.rmdup.bam
 After obtaining sequence for *Exo70F1* from 17 species and the integrated *Exo70F1* in four species, multiple sequence alignment was generated using PRANK and phylogenetic tree constructed using RAxML. No outgroup is specified.
 
 ```bash
-prank -d=Exo70F1_grasses.fa -o=Exo70F1_extended.PRANK.phy -f=phylips -DNA -codon
-raxml -s Exo70F1_extended.PRANK.phy -m GTRGAMMA -n Exo70F1 -p 825684913254
-raxml -s Exo70F1_extended.PRANK.phy -n Exo70F1_bootstrap_r1 -m GTRGAMMA -N 100 -p 5247757188 -T 4
-raxml -s Exo70F1_extended.PRANK.phy -n Exo70F1_bootstrap_r2 -m GTRGAMMA -N 100 -p 4672394623 -T 4
+prank -d=Exo70F1_grasses.fa -o=Exo70F1_grasses.PRANK.phy -f=phylips -DNA -codon
+```
+
+After an initial alignment, we removed *PhaExo70F1.1*, *PhaExo70F1.2*, and *AgdExo70F1* from the alignment, as each was a fragment of the ORF. Also, 57 nucleotides (CCGCGGCCACCTGCCTCGTGGGCACAGCTGGGGCACGCGTGGAGGTGGCTCTGCAGG) were removed from *AvsRGH2* sequence, as represented linker sequence and was not similar to the *Exo70F1* gene family. The reduced fasta file was named [Exo70F1_grasses_reduced.fa](data/nucleotide/Exo70F1/Exo70F1_grasses_reduced.fa).
+
+```bash
+prank -d=Exo70F1_grasses_reduced.fa -o=Exo70F1_grasses_reduced.PRANK.phy -f=phylips -DNA -codon
+
+raxml -f a -x 80568329151 -p 84923147235 -# 1000 -m GTRGAMMA -s Exo70F1_grasses_reduced.phy -n Exo70F1_grasses_reduced -T 4
+raxml -z RAxML_bootstrap.Exo70F1_grasses_reduced -m GTRGAMMA -I autoMRE -n TEST -p 8147553599
+raxml -f b -z RAxML_bootstrap.Exo70F1_grasses_reduced -t RAxML_bipartitions.Exo70F1_grasses_reduced -m GTRGAMMA -n Exo70F1_bootstraps
+
+raxml -f a -x 80568329151 -p 84923147235 -# 1000 -m GTRGAMMA -s Exo70F1_grasses_reduced.phy -o OsExo70F1 -n Exo70F1_grasses_reduced -T 4
+
+raxml -s Exo70F1_grasses_reduced.PRANK.phy -m GTRGAMMA -n Exo70F1 -p 825684913254
+raxml -s Exo70F1_grasses_reduced.PRANK.phy -n Exo70F1_bootstrap_r1 -m GTRGAMMA -N 100 -p 5247757188 -T 4
+raxml -s Exo70F1_grasses_reduced.PRANK.phy -n Exo70F1_bootstrap_r2 -m GTRGAMMA -N 100 -p 4672394623 -T 4
 cat RAxML_parsimonyTree.Exo70F1_bootstrap_r* > allBootstraps
 raxml -z allBootstraps -m GTRGAMMA -I autoMRE -n TEST -p 8147553599
 raxml -f b -z allBootstraps -t RAxML_result.Exo70F1 -m GTRGAMMA -n Exo70F1_bootstraps
 ```
 
-Bootstraps results can be found [here](data\phylogenetic_analysis_Exo70F1_bootstrap.tar.gz).
 
 The phylogenetic tree has strong support for the presence of integrated *Exo70F1* within the *Exo70F1* clade. The topology suggests the integration occurred after speciation of *Brachypodium distachyon*, but before the radiation of the Poaceae. The *Poa annua* integrated *Exo70F1* had extensive sequence variation compared to all other sequence.
 
@@ -648,45 +682,21 @@ Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RG
 |*Spirodela polyrhiza*      |    *Sp*    |          |gDNA|    2  | DOE-JGI Phytozome         |
 |*Zea mays*                 |    *Zm*    |      B73 |gDNA|2010-01| DOE-JGI Phytozome         |
 
-**Table Y.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly
+**Table Y.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly of Poaceae species
 
-|Species                    |Abbreviation|Accession|Type |Identifiers                       |Notes              |
-|:--------------------------|:----------:|:-------:|:---:|:---------------------------------|:------------------|
-|*Achnatherum splendens*    |    *As*    |         | RNA |SRR3089957, SRR3089983, SRR3089986|Subset of data used|
-|*Agropyron cristatum*      |   *Agc*    |         | RNA |SRR3087732                        |                   |
-|*Agropyron desertorum*     |   *Agd*    |         | RNA |SRR3087737                        |                   |
-|*Agrostis stolonifera*     |   *Ags*    |         | RNA |SRR5309260, SRR5309261, SRR5309262|Subset of data used|
-|*Bromus inermis*           |    *Bi*    |         | RNA |SRR3087621                        |                   |
-|*Dactylis glomerata*       |    *Dg*    |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Festuca pratensis*        |    *Fp*    |         | RNA |ERR1777661, ERR1777664, ERR1777666|Subset of data used|
-|*Holcus lanatus*           |    *Hl*    |         | RNA |ERR294007 to ERR294017            |Subset of data used|
-|*Melica nutans*            |    *Mn*    |         | RNA |ERR1744575 to ERR1744595          |                   |
-|*Nardus stricta*           |    *Ns*    |         | RNA |ERR1744596 to ERR1744603          |                   |
-|*Phalaris arundinacea*     |    *Pa*    |         | RNA |ERR1777669 to ERR1777676          |Subset of data used|
-|*Poa annua*                |   *Poa*    |         | RNA |SRR1633980                        |                   |
-|*Poa pratensis*            |   *Pop*    |         | RNA |See table below.                  |                   |
-|*Stipa lagascae*           |    *Sl*    |         | RNA |ERR1744604 to ERR1744610          |                   |
-
-Poa pratensis
-
-SRR2984344
-SRR2984345
-SRR2984348
-SRR2984349
-SRR2984354
-SRR2984356
-SRR2984357
-SRR2984358
-SRR2984359
-SRR2984360
-SRR2984361
-SRR2984362
-SRR2984363
-SRR2984364
-SRR2984365
-SRR2984366
-SRR2988071
-SRR2988083
-SRR2989148
-
-**Note** Check Zea mays information.
+|Species                    |Abbreviation|Accession|Type |Identifiers                                                           |Notes              |
+|:--------------------------|:----------:|:-------:|:---:|:---------------------------------------------------------------------|:------------------|
+|*Achnatherum splendens*    |   *Acs*    |         | RNA |SRR3089957, SRR3089983, SRR3089986                                    |Subset of data used|
+|*Agropyron cristatum*      |   *Agc*    |         | RNA |SRR3087732                                                            |                   |
+|*Agropyron desertorum*     |   *Agd*    |         | RNA |SRR3087737                                                            |                   |
+|*Agrostis stolonifera*     |   *Ags*    |         | RNA |SRR5309260, SRR5309261, SRR5309262                                    |Subset of data used|
+|*Bromus inermis*           |    *Bi*    |         | RNA |SRR3087621                                                            |                   |
+|*Dactylis glomerata*       |    *Dg*    |         | RNA |ERR1777661, ERR1777664, ERR1777666                                    |Subset of data used|
+|*Festuca pratensis*        |    *Fp*    |         | RNA |SRR3096274, SRR3096275, SRR3096290, SRR3096312, SRR3096315, SRR3096651|Subset of data used|
+|*Holcus lanatus*           |    *Hl*    |         | RNA |ERR294007 to ERR294017                                                |Subset of data used|
+|*Melica nutans*            |    *Mn*    |         | RNA |ERR1744575 to ERR1744595                                              |                   |
+|*Nardus stricta*           |    *Ns*    |         | RNA |ERR1744596 to ERR1744603                                              |                   |
+|*Phalaris arundinacea*     |   *Pha*    |         | RNA |ERR1777669 to ERR1777676                                              |Subset of data used|
+|*Poa annua*                |   *Poa*    |         | RNA |SRR1633980                                                            |                   |
+|*Poa pratensis*            |   *Pop*    |         | RNA |See table below.                                                      |                   |
+|*Stipa lagascae*           |    *Sl*    |         | RNA |ERR1744604 to ERR1744610                                              |                   |

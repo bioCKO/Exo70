@@ -1,0 +1,27 @@
+---Remove from alignment
+Bradi4g41980.3.p 
+AT5G03540.2
+AT5G03540.3
+AT5G59730.2
+AT5G61010.2
+Bradi5g01926.2.p
+Bradi5g01926.3.p
+Bradi5g01926.4.p
+Bradi5g01926.5.p
+LOC_Os07g10910.2
+LOC_Os07g10970.2
+Os04g02070.2
+Os04g02070.3
+Os04g02070.4
+Sobic.010G271501.2.p
+Seita.2G217900.2.p
+Sobic.002G215100.2.p
+
+---Need to truncate
+LOC_Os07g10910.1	Ser/Thr Kinase - N-terminal --- Exo70
+LOC_Os07g10940.1	Ser/Thr Kinase - N-terminal --- Exo70
+
+---Check out
+GRMZM2G370741_P01	Exo70 --- Aspartic peptidase
+MLOC_11137.3	Not NB...
+GRMZM2G390691_P01	Exo70 --- Hydroxymethylglutaryl-CoA reductase, class I/II
