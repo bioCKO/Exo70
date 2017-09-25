@@ -214,20 +214,16 @@ python QKphylogeny_alignment_analysis.py -a Exo70_AtBdHvOsSc_MUSCLE.phy -b 0.4 -
 raxml -f a -x 943789321641 -p 47823147231 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtBdHvOsSc_MUSCLE_b0.4_d0.4.phy -n Exo70_AtBdHvOsSc -T 4
 ```
 
-The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70.
-
-**TODO** Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
+The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as shown below. The phylogenetic tree was rooted based on ScExo70. Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/phylogeny/Exo70_AtBdHvOsSc/iTOL_colors_style_Exo70_AtBdHvOsSc.txt). 
 
 ![alt text](figures/Exo70_AtBdHvOsSc_phylogeny.png "Exo70 phylogenetic tree with At, Bd, Hv, Os, and Sc")
 
 The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [257 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbScSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
 
-**TODO** Correct text below to add manual curation from HB.
-
 Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
 
 ```bash
-python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_ID -l Exo70_gene_identifiers.txt
+python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.Exo70_AtBdHvOsSc -l ~/Research/projects/Exo70/data/Exo70_gene_definitions.txt -o RAxML_bipartitionsBranchLabels.Exo70_AtBdHvOsSc_defined
 ```
 
 ```bash
@@ -242,15 +238,13 @@ The [multiple sequence alignment](data/alignments/Exo70_BdHvOsOtSbSiZm_MUSCLE.al
 raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbScSiZm_MUSCLE_b0.4_d0.4.phy -n Exo70_BdHvOsOtSbScSiZm -T 4
 ```
 
-All analyses can be found in the folder `phylogeny\Exo70_BdHvOsOtSbScSiZm`. Next, we extract the node labels from the phylogenetic tree.
+All analyses can be found in the folder `data\phylogeny\Exo70_BdHvOsOtSbScSiZm`. Next, we extract the node labels from the phylogenetic tree.
 
 ```bash
-python QKphylogeny_nodelabels.py -t RAxML_bipartitionsBranchLabels.EXO70_FL -o RAxML_bipartitionsBranchLabels.EXO70_FL_nodelabels
+python QKphylogeny_rename_nodes.py -t RAxML_bipartitionsBranchLabels.Exo70_BdHvOsOtSbScSiZm -l ~/Research/projects/Exo70/data/Exo70_gene_definitions.txt -o RAxML_bipartitionsBranchLabels.Exo70_BdHvOsOtSbScSiZm_defined
 ```
 
-As above, iTOL was used for visualization and the phylogenetic tree was rooted based on ScExo70.
-
-**TODO** Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/iTOL_colors_style_exo70_type.txt). 
+As above, iTOL was used for visualization and the phylogenetic tree was rooted based on ScExo70. Topological features of individual Exo70 protein families were added based on prior knowledge from *Arabidopsis thaliana* and *Oryza sativa*, and bootstrap support within the phylogenetic tree using the iTOL [TREE_COLORs](data/phylogeny/Exo70_BdHvOsOtSbScSiZm/iTOL_colors_style_Exo70_BdHvOsOtSbScSiZm.txt). 
 
 ![alt text](figures/Exo70_BdHvOsOtSbScSiZm_phylogeny.png "Exo70 phylogenetic tree with Bd, Hv, Os, Ot, Sb, Sc, Si, and Zm")
 
@@ -258,10 +252,10 @@ As above, iTOL was used for visualization and the phylogenetic tree was rooted b
 ```bash
 cat Exo70_species_Ac_curated.fa Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Ma_curated.fa Exo70_species_Os_curated.fa Exo70_species_Ot_curated.fa Exo70_species_Sb_curated.fa Exo70_species_Sc_curated.fa Exo70_species_Si_curated.fa Exo70_species_Sp_curated.fa Exo70_species_Zm_curated.fa > ../../alignments/Exo70_AcBdHvMaOsOtSbScSiSpZm.fa
 muscle -in Exo70_AcBdHvMaOsOtSbScSiSpZm.fa -out Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.aln -clwstrict
-raxml -f a -x 4738219462314 -p 4758901234541 -# 1000 -m PROTGAMMAAUTO -s Exo70_BdHvOsOtSbSiZm_MUSCLE.phy -n Exo70_BdHvOsOtSbSiZm -T 4
-raxml -s Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.phy -n Exo70_AcBdHvMaOsOtSbScSiSpZm -m PROTGAMMAAUTO -p 4152784321 -T 4
-
+python QKphylogeny_alignment_analysis.py -a Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.phy -b 0.4 -d 0.4 -o Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE_b0.4_d0.4.phy -t protein
+raxml -f a -x 9342734902141 -p 3246823914 -# 1000 -m PROTGAMMAAUTO -s Exo70_AcBdHvMaOsOtSbScSiSpZm_MUSCLE.phy -n Exo70_AcBdHvMaOsOtSbScSiSpZm -T 4
 ```
+
 ### Analysis of phylogenetic tree using full length Exo70 proteins
 **TODO** Need to redo this analysis based on the most up to date phylogenetic trees.
 
@@ -301,13 +295,11 @@ Previous observations of extensive expansion within the Exo70FX clade in *Oryza 
 ### Todo
 Below are analyses that will be performed at a later date.
 
-### Assessment of positions within the multiple sequence alignment using GUIDANCE
-```bash
-~/src/guidance.v2.02/www/Guidance/guidance.pl --seqFile Exo70_AtBdHvOs.fa --msaProgram MAFFT --seqType aa -outDir Exo70_AtBdHvOs_GUIDANCE --proc_num 4
-```
-
-### Identification of novel motifs within Exo70 genes
+#### Identification of novel motifs within Exo70 genes
 Use the existing pipeline within QKdomain to identify all sequences not associated with Exo70 domains and identify additional conserved motifs.
+
+#### Build individual phylogenetic trees for all gene families from Poaceae
+The goal is to identify the dN/dS value for all Exo70 gene families. We can use this for comparative purposes with the Exo70F1 gene family.
 
 ---
 
