@@ -263,6 +263,19 @@ The [multiple sequence alignment](data/alignments/Exo70_AcBdHvMaOsOtSbScSiSpZm_M
 
 ![alt text](figures/Exo70_AcBdHvMaOsOtSbScSiSpZm_phylogeny.png "Exo70 phylogenetic tree with Ac, Bd, Hv, Ma, Os, Ot, Sb, Sc, Si, Sp, and Zm")
 
+Extraction of the coding sequence for all Poaceae Exo70 genes
+
+```bash
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/barley_gDNA_2017/160517_Hv_IBSC_PGSB_r1_CDS_AllConf_REPR_annotation.fasta -o HvExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/brachypodium_3.1/annotation/Bdistachyon_314_v3.1.cds.fa -o BdExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/oryza_sativa/Oryza_sativa.MSU7.cds.all.fa -o OsExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/grasses/genome/Othomaeum_386_v1.0.cds.fa -o OtExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/grasses/genome/Sbicolor_454_v3.1.1.cds.fa -o SbExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/grasses/genome/Sitalica_312_v2.2.cds.fa -o SiExo70_CDS.fa
+python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/grasses/genome/Zmays_284_Ensembl-18_2010-01-MaizeSequence.cds.fa -o ZmExo70_CDS.fa
+```
+
+
 ### Expansion and contraction of Exo70 gene families
 **TODO** Need to redo this analysis based on the most up to date phylogenetic trees.
 
