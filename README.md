@@ -317,6 +317,10 @@ Use the existing pipeline within QKdomain to identify all sequences not associat
 ### Build individual phylogenetic trees for all gene families from Poaceae
 The goal is to identify the dN/dS value for all Exo70 gene families. We can use this for comparative purposes with the Exo70F1 gene family.
 
+ZmExo70A1 appears to be broken into two different gene models in *Zea mays*: GRMZM2G046590_P01 and GRMZM2G074530_P01.
+HvExo70A2 does not appear to be correct, or has a large InDel. Check original gene model.
+HvExo70F2b, ZmExo70F2b, ZmExo70F2c, ZmExo70F2d are all fragments.
+
 
 ## Evolution of *Exo70F1* in the Poaceae
 The following analysis is associated with the manuscript entitled 'An ancient integration at *Mla* is maintained as a *trans*-species polymorphism'. We observed that *RGH2* in the cv. Baronesse has a C-terminal integration of *Exo70F1*. Allelic variants in barley of *RGH2* exist that are either NB-LRR or NB-LRR-Exo70F1. The integration spans approximately 86.9% of Exo70F1 and lacks only the first 86 aa. This prompted several initial questions including:

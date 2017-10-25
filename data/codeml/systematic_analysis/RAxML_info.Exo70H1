@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 921 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 44.12%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 921
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml -s Exo70H1.PRANK.phylip.best.phy -m GTRCAT -n Exo70H1 -p 15211332 -T 4 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.179 0.335 0.323 0.163 
+
+Inference[0]: Time 0.216319 CAT-based likelihood -8167.015212, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.593332 3.745558 1.285523 1.248614 3.322900 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -9564.638659 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70H1
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9564.638659 .... 
+
+Final GAMMA-based Score of best tree -9564.638659
+
+Program execution info written to /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_info.Exo70H1
+Best-scoring ML tree written to: /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_bestTree.Exo70H1
+
+Overall execution time: 0.345342 secs or 0.000096 hours or 0.000004 days
+
