@@ -39,8 +39,6 @@ MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present i
 |------------------|
 |HORVU0Hr1G021500.1|
 |HORVU1Hr1G070390.1|
-|HORVU2Hr1G067350.1|
-|HORVU2Hr1G069050.1|
 |HORVU2Hr1G116970.2|
 |HORVU2Hr1G118450.1|
 |HORVU2Hr1G118510.1|
@@ -50,10 +48,40 @@ MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present i
 |HORVU5Hr1G062200.3|
 |HORVU6Hr1G021690.1|
 |HORVU7Hr1G030080.3|
-|HORVU7Hr1G064400.1|
 |HORVU7Hr1G084990.1|
 
-The gene model proposed for HORVU2Hr1G123350 (HORVU2Hr1G123350.18) was inaccurate due to no Met start and limited sequence from the first available Met, whereas HORVU2Hr1G123350.22 appears to have an intact Met. Three genes (HORVU1Hr1G070390.1, HORVU5Hr1G039240.1, and HORVU7Hr1G082050.1) were found to ambigugous amino acid sequence (*i.e.* X), some of which have reasonably long stretches. These were retained. The final set of barley Exo70 includes 34 proteins (33 from 2017, 1 from 2012) with an additional sequence derived from the transcriptome of Baronesse (*RGH2*).
+A number of gene models were found to be incorrect. This was either due to the incorrect selection of a representative gene model, or due to mistakes in genome assembly and annotation. Manual curation was performed and the details are described below.
+
+#### HvExo70A2 (HORVU2Hr1G123350)
+The gene model proposed for HORVU2Hr1G123350 (HORVU2Hr1G123350.18) was inaccurate due to no Met start and limited sequence from the first available Met, whereas HORVU2Hr1G123350.22 appears to have an intact Met. Subsequent comparison of orthologs from rice and *B. distachyon* and *de novo* transcriptome assemblies of barley found that all annotated gene models from barley were truncated. Comparison of the 2017 pseudomolecules 2017 to 2012 whole genome contig (morex_contig_43759) found a discrepency the 2017 genome that is clearly an artifact (see figure below). A manually curated sequence was created for this gene (HORVU2Hr1G123350.m1).
+
+![alt text](figures/HvExo70A2_manual_curation.png "Comparison of 2012 WGS and 2017 pseudomolecule at the HvExo70A2 locus")
+
+Three genes (HORVU1Hr1G070390.1, HORVU5Hr1G039240.1, and HORVU7Hr1G082050.1) were found to ambigugous amino acid sequence (*i.e.* X), some of which have reasonably long stretches. These were retained. The final set of barley Exo70 includes 34 proteins (33 from 2017, 1 from 2012) with an additional sequence derived from the transcriptome of Baronesse (*RGH2*).
+
+#### HvExo70B1 (HORVU3Hr1G088110)
+The representative gene model selected for HORVU3Hr1G088110 was changed to HORVU3Hr1G088110.3 (equivalent to MLOC_3646.1)
+
+#### HvExo70D2 (HORVU7Hr1G064400)
+The representative gene model selected for HORVU7Hr1G064400 was changed to MLOC_19124.1.
+
+#### HvExo70E1 (HORVU3Hr1G073850 and HORVU3Hr1G073910)
+A recent duplication at the HvExo70E1 locus generated two near-identical copies of this gene. Confirm mapping with RNAseq data (ongoing).
+
+#### HvExo70F2b (HORVU7Hr1G084990)
+This gene was removed from the Exo70 gene family analysis, as it appears to be a truncated version of HvExo70F2.
+
+#### HvExo70F3 (HORVU2Hr1G069050)
+The representative gene model selected for HORVU2Hr1G069050 was changed to MLOC_59065.1.
+
+#### HvExo70F5 (HORVU2Hr1G116970)
+Correct based on comparative genomics with *Setaria italica*.
+
+#### HvExo70G1 (HORVU6Hr1G021690.1)
+Review reference genome with aligned RNAseq reads.
+
+#### HvExo70H1 (HORVU2Hr1G067350.1)
+The representative gene model selected for HORVU2Hr1G067350.1 was changed to MLOC_56456.1.
 
 ### Exo70 gene family in other plant species
 To understand the expansion and evolution of Exo70 gene families in the monocots (such as the grass-specific *Exo70FX*), we identified additional sequenced monocot species on Phytozome from the Department of Energy-Joint Genome Institute.
@@ -263,7 +291,17 @@ The [multiple sequence alignment](data/alignments/Exo70_AcBdHvMaOsOtSbScSiSpZm_M
 
 ![alt text](figures/Exo70_AcBdHvMaOsOtSbScSiSpZm_phylogeny.png "Exo70 phylogenetic tree with Ac, Bd, Hv, Ma, Os, Ot, Sb, Sc, Si, Sp, and Zm")
 
-Extraction of the coding sequence for all Poaceae Exo70 genes
+### Development of a phylogenetic tree for *Exo70F* gene family
+The integrated Exo70 domain of RGH2 was found to reside within the Exo70F1 clade. We next develop a Exo70F phylogenetic tree to visualize the relationship of Exo70F proteins.
+
+```bash
+muscle -in Exo70_AtBdHvOsOtSbSiZm_Exo70F.fa -out Exo70_AtBdHvOsOtSbSiZm_Exo70F_MUSCLE.aln -clwstrict
+python QKphylogeny_alignment_analysis.py -a Exo70_AtBdHvOsOtSbSiZm_Exo70F_MUSCLE.phy -b 0.4 -d 0.4 -o Exo70_AtBdHvOsOtSbSiZm_Exo70F_MUSCLE_b0.4_d0.4.phy -t protein
+raxml -f a -x 78453201957413 -p 9758494154143 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtBdHvOsOtSbSiZm_Exo70F_MUSCLE_b0.4_d0.4.phy -n Exo70_AtBdHvOsOtSbSiZm_Exo70F -T 4
+```
+
+## Molecular evolution of *Exo70* gene families
+The identification of orthologous groups facilitated molecular evolutionary analyses of individual gene families, with the main goal of identifying dN/dS values. Our first step was to extract the coding sequence for all Poaceae Exo70 genes.
 
 ```bash
 python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/barley_gDNA_2017/160517_Hv_IBSC_PGSB_r1_CDS_AllConf_REPR_annotation.fasta -o HvExo70_CDS.fa
@@ -275,12 +313,18 @@ python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/s
 python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/grasses/genome/Zmays_284_Ensembl-18_2010-01-MaizeSequence.cds.fa -o ZmExo70_CDS.fa
 ```
 
+Next, a Python wrapper script was generated that performs the following operations:
+* Imports gene family membership
+* Imports coding sequence
+* Generates gene family-specific FASTA files
+* Performs translation-based multiple sequence alignment using PRANK
+* Develops a maximum likelihood phylogenetic tree using RAxML
+* Estimates dN/dS values using PAML codeml
 
-### Expansion and contraction of Exo70 gene families
-**TODO** Need to redo this analysis based on the most up to date phylogenetic trees.
+The script is [Exo70_systematic_analysis.py](data/codeml/systematic_analysis/Exo70_systematic_analysis.py)
 
+## Expansion and contraction of Exo70 gene families
 The phylogenetic tree was used to:
-* Define gene families based on *Arabidopsis thaliana* and *Oryza sativa* annotation,
 * Assess expansion of gene families, and
 * Identify the loss of genes.
 
@@ -311,21 +355,46 @@ Using evolutionary relationships of *Oryza sativa*, *Hordeum vulgare*, and *Brac
 
 Previous observations of extensive expansion within the Exo70FX clade in *Oryza sativa* was supported in *Hordeum vulgare* and *Brachypodium distachyon*. Orthologous relationships are unclear for the majority of this gene family, therefore no attempt was made to associate identifiers between species. 
 
-### Identification of novel motifs within Exo70 genes
+## Identification of novel motifs within Exo70 genes
 Use the existing pipeline within QKdomain to identify all sequences not associated with Exo70 domains and identify additional conserved motifs.
-
-### Build individual phylogenetic trees for all gene families from Poaceae
-The goal is to identify the dN/dS value for all Exo70 gene families. We can use this for comparative purposes with the Exo70F1 gene family.
-
-ZmExo70A1 appears to be broken into two different gene models in *Zea mays*: GRMZM2G046590_P01 and GRMZM2G074530_P01.
-HvExo70A2 does not appear to be correct, or has a large InDel. Check original gene model.
-HvExo70F2b, ZmExo70F2b, ZmExo70F2c, ZmExo70F2d are all fragments.
-
 
 ## Evolution of *Exo70F1* in the Poaceae
 The following analysis is associated with the manuscript entitled 'An ancient integration at *Mla* is maintained as a *trans*-species polymorphism'. We observed that *RGH2* in the cv. Baronesse has a C-terminal integration of *Exo70F1*. Allelic variants in barley of *RGH2* exist that are either NB-LRR or NB-LRR-Exo70F1. The integration spans approximately 86.9% of Exo70F1 and lacks only the first 86 aa. This prompted several initial questions including:
  * Does allelic variation exist outside *Hordeum vulgare*?
  * When did the integration of the *Exo70F* into *RGH2* occur?
+
+### Objectives, hypotheses, and questions
+Experimental approaches:
+* dN / dS ratio can be used to assess the variation in non-synonymous and synonymous sites between allelic variants of RGH2-Exo70 in barley and the wheat homolog.
+* Assess the non-synonymous and synonymous sites between allelic variants of RGH2-Exo70 in barley without an Exo70 integration.
+* Is the origin of the *Exo70F* integrated domain under positive or purifying selection? Within *Hordeum vulgare* and compared to *Brachypodium distachyon* and *Oryza sativa*.
+
+**Question:** Is the integrated Exo70F a functional Exo70? (Functional, non-functional (decoy), subfunctionalization, or neofunctionalization)
+* Alternative hypothesis: The integration of Exo70F simply provide specific localization of *RGH2* for immune signalling.
+
+Knowledge required for developing experimental approaches:
+* Gene expression of *Exo70F* genes to ascertain tissue specificity and potential biological role.
+
+Experimental approaches:
+* Recreate the original protein through fusion of the missing N-terminal sequence with its origin (in parallel with native promoter and terminator).
+* Design an approach to complement a deficient knockout of the origin of the integrated *Exo70F*.
+* Perform yeast 2-hybrid assays that demonstrate the ability to bind exocyst components, similar to the origin.
+* Show similar localization patterns of the origin and integrated *Exo70F*.
+
+**Question:** Does the *Brachypodium distachyon* homolog of RGH2-Exo70 have allelic variation for integration other than a lectin domain?
+
+**Question:** Is their an *Mla* haplotype that has alternate haplotypes of RGH2 integrated domains other than Exo70?
+
+**Hypothesis:** The *Exo70F* gene family is under strong diversifying selection.
+The rationale is that several members of the *Exo70F* gene family are the target of effectors.
+
+Experimental approaches:
+* Investigate the number of genes within the *Exo70F* gene family. (Also *Exo70FX*).
+* Perform pairwise comparisons among species for every orthologous group to test for diversifying selection.
+
+**Question:** What is the process of integration for *Exo70F*?
+* Are there signatures within *RGH2* that permit integration of Exo70?
+* Do these signatures exist within integrated alleles but lack in non-integrated alleles?
 
 ### *RGH2* diversity in Poaceae species
 We set out to identify publically available transcriptome data sets that capture the diversity of other grass species. In our initial screen, we found that 10 accessions of *Aegilops tauschii* that have RNAseq and assembled transcriptomes. These assemblies are described in the following manuscript:
@@ -370,48 +439,6 @@ We expanded our search to include a diverse array of Poaceae species, including 
 |*Poa annua*                |   *Poa*    |         | RNA |SRR1633980                                                            |                   |
 |*Poa pratensis*            |   *Pop*    |         | RNA |See table below.                                                      |                   |
 |*Stipa lagascae*           |    *Sl*    |         | RNA |ERR1744604 to ERR1744610                                              |                   |
-
-
-
-
-
-
-
----
-Working text below.
-
-Experimental approaches:
-* dN / dS ratio can be used to assess the variation in non-synonymous and synonymous sites between allelic variants of RGH2-Exo70 in barley and the wheat homolog.
-* Assess the non-synonymous and synonymous sites between allelic variants of RGH2-Exo70 in barley without an Exo70 integration.
-* Is the origin of the *Exo70F* integrated domain under positive or purifying selection? Within *Hordeum vulgare* and compared to *Brachypodium distachyon* and *Oryza sativa*.
-
-**Question:** Is the integrated Exo70F a functional Exo70? (Functional, non-functional (decoy), subfunctionalization, or neofunctionalization)
-* Alternative hypothesis: The integration of Exo70F simply provide specific localization of *RGH2* for immune signalling.
-
-Knowledge required for developing experimental approaches:
-* Gene expression of *Exo70F* genes to ascertain tissue specificity and potential biological role.
-
-Experimental approaches:
-* Recreate the original protein through fusion of the missing N-terminal sequence with its origin (in parallel with native promoter and terminator).
-* Design an approach to complement a deficient knockout of the origin of the integrated *Exo70F*.
-* Perform yeast 2-hybrid assays that demonstrate the ability to bind exocyst components, similar to the origin.
-* Show similar localization patterns of the origin and integrated *Exo70F*.
-
-
-**Question:** Does the *Brachypodium distachyon* homolog of RGH2-Exo70 have allelic variation for integration other than a lectin domain?
-
-**Question:** Is their an *Mla* haplotype that has alternate haplotypes of RGH2 integrated domains other than Exo70?
-
-**Hypothesis:** The *Exo70F* gene family is under strong diversifying selection.
-The rationale is that several members of the *Exo70F* gene family are the target of effectors.
-
-Experimental approaches:
-* Investigate the number of genes within the *Exo70F* gene family. (Also *Exo70FX*).
-* Perform pairwise comparisons among species for every orthologous group to test for diversifying selection.
-
-**Question:** What is the process of integration for *Exo70F*?
-* Are there signatures within *RGH2* that permit integration of Exo70?
-* Do these signatures exist within integrated alleles but lack in non-integrated alleles?
 
 First, we need to assess the degree of identity at the nucleotide/protein level of NB-LRR and Exo70 encoding domains within RGH2 and Exo70 genes/proteins.
 
@@ -513,8 +540,8 @@ BLAST of RGH2-Exo70 (Baronesse) on *Aegilops sharonensis* accession 1644 found t
 blastall -p tblastn -i RGH2_Baronesse.fa -d ~/Research/sequences/aegilops_sharonensis_WGS/assembly1_1644_IUPAC2189.fasta -o RGH2_Baronesse_assembly1_1644_IUPAC2189_tblastn.txt -a 4 -F F -v 10 -b 10
 ```
 
-### Phylogenetic analysis of the Exo70F1 gene family
-To understand the relationship of the Exo70F1 gene family, a multiple sequence alignment using PRANK was used for the development of a phylogenetic tree. OsExo70F3 was included to be used as an outgroup to root the tree.
+### Phylogenetic analysis of the *Exo70F1* gene family
+To understand the relationship of the *Exo70F1* gene family, a multiple sequence alignment using PRANK was used for the development of a phylogenetic tree. OsExo70F3 was included to be used as an outgroup to root the tree.
 ```bash
 prank -d=Exo70F1_AtBdHvOs.fa -o=Exo70F1_AtBdHvOs.PRANK.phy -f=phylips -protein
 ```
@@ -668,7 +695,6 @@ raxml -z allBootstraps -m GTRGAMMA -I autoMRE -n TEST -p 8147553599
 raxml -f b -z allBootstraps -t RAxML_result.Exo70F1 -m GTRGAMMA -n Exo70F1_bootstraps
 ```
 
-
 The phylogenetic tree has strong support for the presence of integrated *Exo70F1* within the *Exo70F1* clade. The topology suggests the integration occurred after speciation of *Brachypodium distachyon*, but before the radiation of the Poaceae. The *Poa annua* integrated *Exo70F1* had extensive sequence variation compared to all other sequence.
 
 ![alt text](figures/Exo70F1_grasses_phylogeny_v2.png "Exo70F1_grasses_phylogeny_v2")
@@ -685,13 +711,12 @@ raxml -f b -z allBootstraps -t RAxML_result.Exo70F1_Si_outgroup -m GTRGAMMA -p S
 
 Bootstraps results can be found [here](data\phylogenetic_analysis_Exo70F1_Si_outgroup_bootstrap.tar.gz).
 
-### Molecular resources for analyzing the integrated Exo70 domain in RGH2
+## Resources for analyzing the integrated Exo70 domain in RGH2
 Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RGH2 in Baronesse. The region selected for synthesis is just after the final Pfam annotation for the LRR region. Modifications to the sequence from the reference include changing the amino acid just after the LRR region to a ATG (Met) and the final stop codon to an in-frame open reading frame for the vector. This domain was introduced into the pDONR221 vector, which is developed for Gateway cloning with C-terminal fusion. Domestication for GoldenGate cloning would require the removal of a *Bpi*I and *Bsa*I site located in the 3' region of the insert.
 
 ![alt text](figures/pDONR221_Exo70_C_C119.png "pDONR221_Exo70_C_C119")
 
-
-## Evolution of Exo70 genes
+## Future questions
 ### Nucleotide diversity in Exo70 genes
 Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
 Presence/absence variation relative to other sequenced genomes? (Confirm with BLAST)

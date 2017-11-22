@@ -1,0 +1,27 @@
+# gffread Hv_IBSC_PGSB_r1_HighConf.gtf -L -o Hv_IBSC_PGSB_r1_HighConf.gff3
+##gff-version 3
+chr3H	Hv_IBSC_PGSB_r1	mRNA	2000	32864	.	+	.	ID=HORVU3Hr1G088110.1;geneID=HORVU3Hr1G088110;clst_id=TCONS_00136106;confidence_class=HC_G
+chr3H	Hv_IBSC_PGSB_r1	exon	2000	2165	.	+	.	ID=HORVU3Hr1G088110.1;confidence_class=HC_G;5UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	exon	31807	32864	.	+	.	ID=HORVU3Hr1G088110.1;confidence_class=HC_G;coding_exon_number=2;3UTR_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	2163	2165	.	+	0	ID=HORVU3Hr1G088110.1
+chr3H	Hv_IBSC_PGSB_r1	CDS	31807	32412	.	+	0	ID=HORVU3Hr1G088110.1
+chr3H	Hv_IBSC_PGSB_r1	mRNA	29762	32782	.	+	.	ID=HORVU3Hr1G088110.2;geneID=HORVU3Hr1G088110;clst_id=TCONS_00116150;confidence_class=HC_G
+chr3H	Hv_IBSC_PGSB_r1	exon	29762	32782	.	+	.	ID=HORVU3Hr1G088110.2;confidence_class=HC_G;5UTR_number=1;coding_exon_number=1;3UTR_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	30469	32412	.	+	0	ID=HORVU3Hr1G088110.2
+chr3H	Hv_IBSC_PGSB_r1	mRNA	30229	32673	.	+	.	ID=HORVU3Hr1G088110.3;geneID=HORVU3Hr1G088110;clst_id=TCONS_00116151;confidence_class=HC_G
+chr3H	Hv_IBSC_PGSB_r1	exon	30229	30255	.	+	.	ID=HORVU3Hr1G088110.3;confidence_class=HC_G;5UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	exon	30353	32673	.	+	.	ID=HORVU3Hr1G088110.3;confidence_class=HC_G;coding_exon_number=2;3UTR_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	30231	30255	.	+	0	ID=HORVU3Hr1G088110.3
+chr3H	Hv_IBSC_PGSB_r1	CDS	30353	32412	.	+	2	ID=HORVU3Hr1G088110.3
+chr3H	Hv_IBSC_PGSB_r1	exon	34202	34684	.	-	.	ID=HORVU3Hr1G088120.1;confidence_class=HC_G;3UTR_number=1
+chr3H	Hv_IBSC_PGSB_r1	exon	34313	34683	.	-	.	ID=HORVU3Hr1G088120.3;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	34496	34683	.	-	2	ID=HORVU3Hr1G088120.3
+chr3H	Hv_IBSC_PGSB_r1	exon	34323	34683	.	-	.	ID=HORVU3Hr1G088120.4;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	34496	34683	.	-	2	ID=HORVU3Hr1G088120.4
+chr3H	Hv_IBSC_PGSB_r1	exon	34441	34684	.	-	.	ID=HORVU3Hr1G088120.5;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	34572	34684	.	-	2	ID=HORVU3Hr1G088120.5
+chr3H	Hv_IBSC_PGSB_r1	exon	34460	34683	.	-	.	ID=HORVU3Hr1G088120.6;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	34496	34683	.	-	2	ID=HORVU3Hr1G088120.6
+chr3H	Hv_IBSC_PGSB_r1	exon	34468	34683	.	-	.	ID=HORVU3Hr1G088120.7;confidence_class=HC_G;3UTR_number=1
+chr3H	Hv_IBSC_PGSB_r1	exon	34471	34683	.	-	.	ID=HORVU3Hr1G088120.8;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr3H	Hv_IBSC_PGSB_r1	CDS	34496	34683	.	-	2	ID=HORVU3Hr1G088120.8

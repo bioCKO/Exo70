@@ -1,0 +1,21 @@
+# gffread Hv_IBSC_PGSB_r1_HighConf.gtf -L -o Hv_IBSC_PGSB_r1_HighConf.gff3
+##gff-version 3
+chr2H	Hv_IBSC_PGSB_r1	exon	173	698	.	+	.	ID=HORVU2Hr1G116960.1;confidence_class=HC_G;coding_exon_number=6;3UTR_number=1
+chr2H	Hv_IBSC_PGSB_r1	CDS	173	460	.	+	0	ID=HORVU2Hr1G116960.1
+chr2H	Hv_IBSC_PGSB_r1	mRNA	1000	4192	.	-	.	ID=HORVU2Hr1G116970.1;geneID=HORVU2Hr1G116970;clst_id=TCONS_00082389;confidence_class=HC_G
+chr2H	Hv_IBSC_PGSB_r1	exon	1000	2869	.	-	.	ID=HORVU2Hr1G116970.1;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr2H	Hv_IBSC_PGSB_r1	exon	3941	4192	.	-	.	ID=HORVU2Hr1G116970.1;confidence_class=HC_G;coding_exon_number=2;5UTR_number=1
+chr2H	Hv_IBSC_PGSB_r1	CDS	1306	2869	.	-	1	ID=HORVU2Hr1G116970.1
+chr2H	Hv_IBSC_PGSB_r1	CDS	3941	4191	.	-	0	ID=HORVU2Hr1G116970.1
+chr2H	Hv_IBSC_PGSB_r1	mRNA	1000	4194	.	-	.	ID=HORVU2Hr1G116970.2;geneID=HORVU2Hr1G116970;clst_id=TCONS_00082390;confidence_class=HC_G
+chr2H	Hv_IBSC_PGSB_r1	exon	1000	2868	.	-	.	ID=HORVU2Hr1G116970.2;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr2H	Hv_IBSC_PGSB_r1	exon	3940	4194	.	-	.	ID=HORVU2Hr1G116970.2;confidence_class=HC_G;coding_exon_number=2
+chr2H	Hv_IBSC_PGSB_r1	CDS	1306	2868	.	-	0	ID=HORVU2Hr1G116970.2
+chr2H	Hv_IBSC_PGSB_r1	CDS	3940	4194	.	-	0	ID=HORVU2Hr1G116970.2
+chr2H	Hv_IBSC_PGSB_r1	mRNA	1007	3501	.	-	.	ID=HORVU2Hr1G116970.3;geneID=HORVU2Hr1G116970;clst_id=TCONS_00082391;confidence_class=HC_G
+chr2H	Hv_IBSC_PGSB_r1	exon	1007	2868	.	-	.	ID=HORVU2Hr1G116970.3;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1;5UTR_number=1
+chr2H	Hv_IBSC_PGSB_r1	exon	3402	3501	.	-	.	ID=HORVU2Hr1G116970.3;confidence_class=HC_G;5UTR_number=2
+chr2H	Hv_IBSC_PGSB_r1	CDS	1306	2757	.	-	0	ID=HORVU2Hr1G116970.3
+chr2H	Hv_IBSC_PGSB_r1	mRNA	1028	2871	.	-	.	ID=HORVU2Hr1G116970.4;geneID=HORVU2Hr1G116970;clst_id=TCONS_00082392;confidence_class=HC_G
+chr2H	Hv_IBSC_PGSB_r1	exon	1028	2871	.	-	.	ID=HORVU2Hr1G116970.4;confidence_class=HC_G;3UTR_number=1;coding_exon_number=1
+chr2H	Hv_IBSC_PGSB_r1	CDS	1306	2871	.	-	0	ID=HORVU2Hr1G116970.4

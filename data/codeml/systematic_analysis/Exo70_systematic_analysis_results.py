@@ -9,7 +9,7 @@ import string
 random.seed()
 
 # import clade membership
-clade_membership_file = open('../../Exo70_gene_definitions.txt', 'r')
+clade_membership_file = open('../../Exo70_gene_definitions_reduced.txt', 'r')
 
 gene_curated_name = {}
 family_members = {}
@@ -67,7 +67,9 @@ for family in family_members.keys():
 				outstream += ('\t' + sline[4])
 			elif line[:5] == 'omega':
 				outstream += ('\t' + sline[3])
+			elif line[:5] == 'kappa':
+				outstream += ('\t' + sline[3])
 
 	results_file.close()
 
-	print outstream
+	print outstream + '\t' + str(len(family_members[family]))
