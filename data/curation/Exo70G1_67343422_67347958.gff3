@@ -1,0 +1,5 @@
+# gffread Hv_IBSC_PGSB_r1_HighConf.gtf -L -o Hv_IBSC_PGSB_r1_HighConf.gff3
+##gff-version 3
+chr6H	Hv_IBSC_PGSB_r1	mRNA	1000	3536	.	+	.	ID=HORVU6Hr1G021690.1;geneID=HORVU6Hr1G021690;clst_id=TCONS_00256227;confidence_class=HC_G
+chr6H	Hv_IBSC_PGSB_r1	exon	1000	3536	.	+	.	ID=HORVU6Hr1G021690.1;confidence_class=HC_G;5UTR_number=1;coding_exon_number=1;3UTR_number=1
+chr6H	Hv_IBSC_PGSB_r1	CDS	1002	2726	.	+	0	ID=HORVU6Hr1G021690.1

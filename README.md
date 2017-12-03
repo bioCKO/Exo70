@@ -711,6 +711,235 @@ raxml -f b -z allBootstraps -t RAxML_result.Exo70F1_Si_outgroup -m GTRGAMMA -p S
 
 Bootstraps results can be found [here](data\phylogenetic_analysis_Exo70F1_Si_outgroup_bootstrap.tar.gz).
 
+## Evolution of *RGH1*, *RGH2*, *RGH3*, and *Exo70F1* in the Poales
+Protein sequence for RGH1, RGH2, RGH3, and Exo70F1 was used to BLAST (tBLASTn) the transcriptomes of diverse Poales species. Manual curation was used to identify orthologs of each gene. For sequenced genomes, BLASTp was performed on translated protein sequence and tBLASTn onto *de novo* assembled transcriptomes (if available). 
+
+Curation of several genes was required to reinstate truncated open reading frames (due to recent InDels) or the fusion of fragmented contigs. See table below for details.
+
+|Species              |Accession|Contig          |Modification|Action|
+|:--------------------|:-------:|:--------------:|:-----------|:-----|
+|*Agropyron cristatum*|         |DN41656_c2_g2_i5|Restored ORF with removal of single base pair insertion|Check if RNAseq supports original model|
+|*Hordeum vulgare*    |Bowman   |DN20980_c0_g1_i1|Restored ORF with removal of single base pair insertion|Check if RNAseq supports original model|
+
+Our procedure for aligning genes included the following steps:
+1. Initial alignment
+2. Curation step
+   a. Remove sequences with insuffient coverage
+   b. Remove non-orthologs or too divergent sequences
+   c. Remove sequences that have artificial assembly errors
+3. Second alignment (full-length NLR)
+4. Third alignment (NB domain from initial alignment)
+
+### Phylogenetic analysis of the *RGH1* (*Mla*) gene family
+Our goal is to construct a phylogenetic tree of all *RGH1* orthologs in the Poaceae. *RGH1* was commonly observed in leaf transcriptomes of species in the Pooideae. Orthologs were identified from *Brachypodium distachyon* and *Oryza sativa* based on phylogenetic analysis of all NLRs using the NB domain. CD-HIT was used to remove redundancy of identitical sequences prior to codon-based alignment and phylogenetic analysis.
+
+We first remove identical sequences, then perform an initial alignment using PRANK.
+
+```bash
+cd-hit -i RGH1.fa -c 1.0 -o RGH1_nr.fa
+prank -d=RGH1_nr.fa -o=RGH1_PRANK_paml.phy -f=paml -DNA -codon
+```
+
+We curated the data set into two parts. This included full (or near full) length genes (RGH1_NLR.fa) and the NB domain only (RGH1_NB.fa). `PRANK` was used for multiple sequence alignment and `RAxML` for phylogenetic tree construction.
+
+```bash
+prank -d=RGH1_NLR.fa -o=RGH1_NLR_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=RGH1_NB.fa -o=RGH1_NB_PRANK_paml.phy -f=paml -DNA -codon
+```
+
+For the NB alignment, several sequences were identical. Information related to collapsed NB domains can be found in [RGH1_NB_nr.fa.clstr](data/nucleotide/RGH1/RGH1_NB_nr.fa.clstr). Representative sequences were selected and use for phylogenetic analysis.
+
+```bash
+cd-hit -i RGH1_NB.fa -c 1.0 -o RGH1_NB_nr.fa
+prank -d=RGH1_NB_nr.fa -o=RGH1_NB_nr_PRANK_paml.phy -f=paml -DNA -codon
+raxml -f a -x 845614535364 -p 3457123405473 -# 10000 -m GTRGAMMA -s RGH1_NB_nr_PRANK.phy -n RGH1_NB_nr_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH1_NB_nr_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 67459201659
+```
+
+Next, we performed phylogenetic analysis on the *RGH1* full length NLR alignment.
+
+```bash
+raxml -f a -x 619340257358 -p 5647105474237 -# 1000 -m GTRGAMMA -s RGH1_NLR_PRANK.phy -n RGH1_NLR_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH1_NLR_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 91303463185
+```
+
+dN/dS values were estimated using `codeml`
+
+```bash
+codeml codeml_NLR.ctl
+```
+
+The number of evaluated codons was 744. Kappa and omega were estimated at 2.08 and 0.48, respectively. This suggests purifying selection, although specific sites may be under positive selection.
+
+Rice and several Poaceae *RGH1* are highly divergent from Triticeae *RGH1*. We restricted the NLR phylogenetic tree, using *Brachypodium distachyon* as the outgroup. 
+
+```bash
+prank -d=RGH1_NLR_Bdi.fa -o=RGH1_NLR_Bdi_PRANK_paml.phy -f=paml -DNA -codon
+raxml -f a -x 7482139051255 -p 348215211965288 -# 1000 -m GTRGAMMA -s RGH1_NLR_Bdi_PRANK.phy -n RGH1_NLR_Bdi_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH1_NLR_Bdi_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 91303463185
+```
+
+
+TODO
+* Rerun bootstrapping and phylogenetic tree construction
+* Extract NB domain
+* Run phylogenetic analysis on NB domain
+* dN/dS analysis
+* Sites of positive selection
+
+### Phylogenetic analysis of the *RGH2* gene family
+The *RGH2* gene family has experienced different integration events of diverse domains. We set out to characterize the gene family, identifying integrated domains and phylogenetic analysis of NLRs. Several observations were made with respect to integrated domains while characterizing the *RGH2* gene family.
+
+The *Brachypodium distachyon* ortholog is Bradi4g13987.1. This gene appears to be a recent fusion of an NLR and RLK. The open reading frames appear to be overlapping, with no stop codon identified in the NLR, with an ORF that continues into the RLK. Additional work is required to determine if this transcript is contiguous. Further work may highlight the mechanism underlying ID integration.
+
+The *Oryza sativa* ortholog is LOC_Os12g18360.2. This is the *Pi-ta* locus, which confers resistance to rice blast. For subsequent analyses, the full-length cDNA (AK071926) was used.
+
+We first remove identical sequences, then perform an initial alignment using PRANK.
+
+```bash
+cd-hit -i RGH2.fa -c 1.0 -o RGH2_nr.fa
+
+prank -d=RGH2_nr.fa -o=RGH2_PRANK_paml.phy -f=paml -DNA -codon
+```
+
+The C-terminal integrated domains of *RGH2* do not align due to their different origins. We identified the site where sequence is conserved between NLRs and extracted the alignment. Next, we curated the data set into two parts. This included full (or near full) length genes (RGH2_NLRc.fa) and the NB domain only (RGH2_NB.fa). `PRANK` was used for multiple sequence alignment and `RAxML` for phylogenetic tree construction.
+
+```bash
+prank -d=RGH2_NLRc.fa -o=RGH2_NLRc_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=RGH2_NB.fa -o=RGH2_NB_PRANK_paml.phy -f=paml -DNA -codon
+
+raxml -f a -x 973412054123 -p 379503641210 -# 1000 -m GTRGAMMA -s RGH2_NLRc_PRANK.phy -n RGH2_NLRc_PRANK -T 4
+raxml -f a -x 468792305231 -p 849213451236 -# 1000 -m GTRGAMMA -s RGH2_NB_PRANK.phy.reduced -n RGH2_NB_PRANK -T 4
+
+raxml -z RAxML_bootstrap.RGH2_NLRc_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 347192356123 
+raxml -z RAxML_bootstrap.RGH2_NB_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 497410374652
+```
+
+Identical NB domains were found for the following groups
+
+|Representative|Group                    |
+|:------------:|:-----------------------:|
+|AetAUS18913   |AetAUS18913 and AetKU2075|
+|HvuMorex      |HvuMorex and HvuWBDC109  |
+|HvuDuplex     |HvuDuplex and HvuFinniss |
+
+The rice and *Stipa lagascae* *RGH2* orthologs are highly diverged from other Pooideae orthologs. 
+
+```bash
+prank -d=RGH2_NLRc_Bdi_outgroup.fa -o=RGH2_NLRc_Bdi_outgroup_PRANK_paml.phy -f=paml -DNA -codon
+raxml -f a -x 842535478213 -p 4532782511034 -# 1000 -m GTRGAMMA -s RGH2_NLRc_Bdi_outgroup_PRANK.phy -n RGH2_NLRc_Bdi_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH2_NLRc_Bdi_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 347192356123 
+```
+
+To estimate dN/dS values and sites of positive selection, we use the subtree with *Brachypodium distachyon* as the outgroup. In addition, we removed *RGH2* from *Agd*, *Ags*, and *Pan* due to C-terminal truncations.
+
+```bash
+prank -d=RGH2_NLRc_Bdi_outgroup_FL.fa -o=RGH2_NLRc_Bdi_outgroup_FL_PRANK_paml.phy -f=paml -DNA -codon
+raxml -f a -x 467238142351 -p 5647281543145 -# 1000 -m GTRGAMMA -s RGH2_NLRc_Bdi_outgroup_FL_PRANK.phy -n RGH2_NLRc_Bdi_FL_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH2_NLRc_Bdi_FL_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 49126572811920
+codeml codeml_NLRc_Bdi_FL.ctl
+```
+
+Kappa and omega were estimated at 2.71 and 0.44, respectively. This suggests purifying selection, although specific sites may be under positive selection.
+
+Lastly, we curated the domain structure of RGH2 orthologs using InterProScan, with manual curation based on multiple sources of evidence (i.e. Pfam, Gene3D, etc).
+
+```bash
+python QKdomain_process.py RGH2.fa RGH2_domain_structure.txt domain_abbreviations.txt RGH2_domain_structure_process.txt -p
+```
+
+TODO
+* Identify the origin of integrated sequence (in and out of frame) for all *RGH2* orthologs.
+
+### Phylogenetic analysis of the *RGH3* gene family
+*RGH3* has a conserved structure including CC, NB, and LRR domains.
+
+```bash
+cd-hit -i RGH3.fa -c 1.0 -o RGH3_nr.fa
+
+prank -d=RGH3_nr.fa -o=RGH3_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=RGH3_NLR.fa -o=RGH3_NLR_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=RGH3_NB.fa -o=RGH3_NB_PRANK_paml.phy -f=paml -DNA -codon
+
+raxml -f a -x 720854847521 -p 10975394747 -# 1000 -m GTRGAMMA -s RGH3_NLR_PRANK.phy -n RGH3_NLR_PRANK -T 4
+raxml -f a -x 346237915621 -p 90821963468 -# 10000 -m GTRGAMMA -s RGH3_NB_PRANK.phy -n RGH3_NB_PRANK -T 2
+
+raxml -z RAxML_bootstrap.RGH3_NLR_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 436259843651 
+raxml -z RAxML_bootstrap.RGH3_NB_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 940438561943
+```
+
+```bash
+prank -d=RGH3_NLR_Mnu.fa -o=RGH3_NLR_Mnu_PRANK_paml.phy -f=paml -DNA -codon
+raxml -f a -x 463721756231 -p 903245623675 -# 1000 -m GTRGAMMA -s RGH3_NLR_Mnu_PRANK.phy -n RGH3_NLR_Mnu_PRANK -T 4
+raxml -z RAxML_bootstrap.RGH3_NLR_Mnu_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 436259843651 
+```
+
+The number of evaluated codons was 715, of which 629 were variable. Kappa and omega were estimated at 2.43 and 0.47, respectively. This suggests purifying selection, although specific sites may be under positive selection.
+
+### Phylogenetic analysis of the *Exo70F1* gene family with *RGH2* integrations
+
+#### Generation of Poales *Exo70F1* phylogenetic tree
+*Exo70F1* was identified in a diverse array of Poales species. We first identified non-redundant sequences and performed an initial alignment using PRANK.
+
+```bash
+cd-hit -i Exo70F1.fa -c 1.0 -o Exo70F1_nr.fa
+prank -d=Exo70F1_nr.fa -o=Exo70F1_PRANK_paml.phy -f=paml -DNA -codon
+```
+
+#### Differentiating between orthologs and paralogs in the Poales *Exo70F1* phylogenetic tree
+
+Sequence identity (BLAST) was used to identify *Exo70F1* homologs in diverse Poales species. Poaceae species typically have five *Exo70F* genes. The timing of the expansion and divergence of *Exo70F* is unknown, therefore sequences with strong identity may be paralogs rather than orthologs of *Exo70F1*. To assess this, we performed multiple sequence alignment among all *Exo70F* identified in the genomes and transcriptomes of the Poales. *Arabidopsis thaliana* *Exo70F1* was included as an outgroup for phylogenetic analysis. 
+
+```bash
+muscle -in Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F.fa -out Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F_MUSCLE.aln -clwstrict
+python QKphylogeny_alignment_analysis.py -a Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F_MUSCLE.phy -b 0.4 -d 0.4 -o Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F_MUSCLE_b0.4_d0.4.phy -t protein
+raxml -f a -x 23648912348437 -p 6217895624352 -# 1000 -m PROTGAMMAAUTO -s Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F_MUSCLE_b0.4_d0.4.phy -n Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F -T 4
+python QKphylogeny_rename_nodes.py -l Exo70_gene_definitions.txt -t RAxML_bipartitionsBranchLabels.Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F -o RAxML_bipartitionsBranchLabels.Exo70_AtAcBdHvMaOsOtSbSiZm_Poales_Exo70F_defined
+```
+
+Strong bootstrap was identified for the *Exo70F1* clade (93%), with *Ecdeiocolea monostachya* as an outgroup in the subtree. This is consistent with existing species phylogenetic relationships based on whole transcriptome and genome analysis.
+
+![alt text](figures/Exo70F_AtAcBdHvMaOsOtSbSiZm_Poales.png)
+
+#### *Exo70F1* phylogenetic tree with integrated domains
+Several sequences were highly divergent, particularly in the N-terminal region of *Exo70F1*. We reduced the data set to representative genes within each species, used MUSCLE to perform a translation-based alignment, and generated a phylogenetic tree.
+
+The following species representatives were selected:
+
+|Species|Accession|
+|:-----:|:-------:|
+|  Aet  |KU2087   |
+|  Avs  |Victoria |
+|  Hvu  |Morex    |
+
+```bash
+raxml -f a -x 46792314623 -p 9896532178 -# 1000 -m GTRGAMMA -s Exo70F1_nr_species_FL_MUSCLE.phy -n Exo70F1_nr_species_FL_MUSCLE -T 4
+raxml -z RAxML_bootstrap.Exo70_pfam_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 98621535656 
+```
+
+Next, we generated an initial alignment of the Poaceae *Exo70F1*. 
+
+```bash
+prank -d=Exo70F1_nr_Poaceae.fa -o=Exo70F1_nr_Poaceae_PRANK_paml.phy -f=paml -DNA -codon
+```
+
+We manually curated the sequence spanning non-integrated and integrated *Exo70F1* and selected sequences that had sufficient sequence coverage. In addition, *Oryza sativa* was selected as an outgroup.
+
+```bash
+prank -d=Exo70F1_nr_Poaceae_c.fa -o=Exo70F1_nr_Poaceae_c_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=Exo70F1_nr_Poaceae_c_Os.fa -o=Exo70F1_nr_Poaceae_c_Os_PRANK_paml.phy -f=paml -DNA -codon
+
+raxml -f a -x 647724151689 -p 64872134623 -# 1000 -m GTRGAMMA -s Exo70F1_nr_Poaceae_c_PRANK.phy -n Exo70F1_nr_Poaceae_c_PRANK -T 4
+raxml -f a -x 641923462371 -p 47681273412 -# 1000 -m GTRGAMMA -s Exo70F1_nr_Poaceae_c_Os_PRANK.phy -n Exo70F1_nr_Poaceae_c_Os_PRANK -T 4
+
+raxml -z RAxML_bootstrap.Exo70F1_nr_Poaceae_c_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 17538346483
+raxml -z RAxML_bootstrap.Exo70F1_nr_Poaceae_c_Os_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 98621535656 
+```
+
+The final tree shows that integration of *Exo70F1* occurred after the speciation of *Brachypodium distachyon*, but prior to the radiation of the Pooideae.
+
+![alt text](figures/Exo70F1_nr_Poaceae_c_Os_PRANK.png)
+
 ## Resources for analyzing the integrated Exo70 domain in RGH2
 Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RGH2 in Baronesse. The region selected for synthesis is just after the final Pfam annotation for the LRR region. Modifications to the sequence from the reference include changing the amino acid just after the LRR region to a ATG (Met) and the final stop codon to an in-frame open reading frame for the vector. This domain was introduced into the pDONR221 vector, which is developed for Gateway cloning with C-terminal fusion. Domestication for GoldenGate cloning would require the removal of a *Bpi*I and *Bsa*I site located in the 3' region of the insert.
 
