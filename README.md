@@ -43,6 +43,7 @@ MLOC_45983.4 encodes a truncated Exo70 domain, whereas MLOC_11137.3 is present i
 |HORVU2Hr1G118450.1|
 |HORVU2Hr1G118510.1|
 |HORVU2Hr1G118520.1|
+|HORVU2Hr1G123320.1|
 |HORVU3Hr1G094570.3|
 |HORVU4Hr1G079440.1|
 |HORVU5Hr1G062200.3|
@@ -117,6 +118,8 @@ In total, 18 proteins with Exo70 domains were extracted from the *Spirodela poly
 In total, 47 proteins with Exo70 domains were extracted from the *Zea mays* genome version 284_Ensembl-18_2010-01 from the Department of Energy-Joint Genome Institute. 
 
 Two novel fusions exist with Exo70 proteins in *Zea mays* including GRMZM2G370741_P01 with an aspartic peptidase and GRMZM2G390691_P01 with a hydroxymethylglutaryl-CoA reductase, class I/II protein. Due to the limited contribution of the Exo70 to GRMZM2G370741_P01, this sequence was removed from the analysis. GRMZM2G390691_P01 was reduced to the Exo70 domain alone.
+
+*ZmExo70A1* has an incorrect gene model, spanning two genes GRMZM2G046590_P01 and GRMZM2G074530_P01. A full length cDNA was identified and used (NM_001196530.1).
 
 ### Domain characterization
 InterProScan was used to assess all putative Exo70 domain containing proteins to define the Exo70 domain region and additional domains associated with Exo70 domains. To assess the domain architecture of Exo70 proteins, we used the [QKdomain](https://github.com/matthewmoscou/QKdomain) (v1.0) suite of scripts to identify the diversity of domains. 
@@ -842,7 +845,7 @@ codeml codeml_NLRc_Bdi_FL.ctl
 
 Kappa and omega were estimated at 2.71 and 0.44, respectively. This suggests purifying selection, although specific sites may be under positive selection.
 
-Lastly, we curated the domain structure of RGH2 orthologs using InterProScan, with manual curation based on multiple sources of evidence (i.e. Pfam, Gene3D, etc).
+Lastly, we curated the domain structure of *RGH2* orthologs using InterProScan, with manual curation based on multiple sources of evidence (i.e. Pfam, Gene3D, etc). Independent analysis was performed to add domains to phylogenetic trees for the *RGH2* full length NLR and NB domain.
 
 ```bash
 python QKdomain_process.py RGH2.fa RGH2_domain_structure.txt domain_abbreviations.txt RGH2_domain_structure_process.txt -p
@@ -861,8 +864,8 @@ prank -d=RGH3_nr.fa -o=RGH3_PRANK_paml.phy -f=paml -DNA -codon
 prank -d=RGH3_NLR.fa -o=RGH3_NLR_PRANK_paml.phy -f=paml -DNA -codon
 prank -d=RGH3_NB.fa -o=RGH3_NB_PRANK_paml.phy -f=paml -DNA -codon
 
-raxml -f a -x 720854847521 -p 10975394747 -# 1000 -m GTRGAMMA -s RGH3_NLR_PRANK.phy -n RGH3_NLR_PRANK -T 4
-raxml -f a -x 346237915621 -p 90821963468 -# 10000 -m GTRGAMMA -s RGH3_NB_PRANK.phy -n RGH3_NB_PRANK -T 2
+raxml -f a -x 720854847521 -p 10975394747 -# 3000 -m GTRGAMMA -s RGH3_NLR_PRANK.phy -n RGH3_NLR_PRANK -T 4
+raxml -f a -x 346237915621 -p 90821963468 -# 10000 -m GTRGAMMA -s RGH3_NB_PRANK.phy -n RGH3_NB_PRANK -T 4
 
 raxml -z RAxML_bootstrap.RGH3_NLR_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 436259843651 
 raxml -z RAxML_bootstrap.RGH3_NB_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 940438561943

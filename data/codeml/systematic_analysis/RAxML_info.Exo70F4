@@ -1,6 +1,19 @@
+IMPORTANT WARNING: Alignment column 790 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 791 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 792 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 3 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file Exo70F4.PRANK.phylip.best.phy.reduced
 
 
 Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
 
 
 
@@ -19,9 +32,9 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 855 distinct alignment patterns
+Alignment has 552 distinct alignment patterns
 
-Proportion of gaps and completely undetermined characters in this alignment: 48.21%
+Proportion of gaps and completely undetermined characters in this alignment: 23.18%
 
 RAxML rapid hill-climbing mode
 
@@ -38,7 +51,7 @@ Likelihood of final tree will be evaluated and optimized under GAMMA
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 855
+Alignment Patterns: 552
 Name: No Name Provided
 DataType: DNA
 Substitution Matrix: GTR
@@ -48,27 +61,27 @@ Substitution Matrix: GTR
 
 RAxML was called as follows:
 
-raxml -s Exo70F4.PRANK.phylip.best.phy -m GTRCAT -n Exo70F4 -p 19705836 -T 4 
+raxml -s Exo70F4.PRANK.phylip.best.phy -m GTRCAT -n Exo70F4 -p 9579265 -T 4 
 
 
 Partition: 0 with name: No Name Provided
-Base frequencies: 0.156 0.354 0.341 0.149 
+Base frequencies: 0.151 0.356 0.346 0.147 
 
-Inference[0]: Time 0.191470 CAT-based likelihood -8528.040877, best rearrangement setting 5
-alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.270179 2.541952 1.076345 1.739670 2.244144 1.000000 
+Inference[0]: Time 0.342844 CAT-based likelihood -6974.914649, best rearrangement setting 4
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.681604 3.136309 1.357001 2.517401 2.616733 1.000000 
 
 
 Conducting final model optimizations on all 1 trees under GAMMA-based models ....
 
-Inference[0] final GAMMA-based Likelihood: -9877.669397 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70F4
+Inference[0] final GAMMA-based Likelihood: -8063.454894 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70F4
 
 
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9877.669397 .... 
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -8063.454894 .... 
 
-Final GAMMA-based Score of best tree -9877.201809
+Final GAMMA-based Score of best tree -8063.454894
 
 Program execution info written to /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_info.Exo70F4
 Best-scoring ML tree written to: /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_bestTree.Exo70F4
 
-Overall execution time: 0.296341 secs or 0.000082 hours or 0.000003 days
+Overall execution time: 0.461903 secs or 0.000128 hours or 0.000005 days
 

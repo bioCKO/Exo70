@@ -9,7 +9,7 @@ import string
 random.seed()
 
 # import clade membership
-clade_membership_file = open('../../Exo70_gene_definitions.txt', 'r')
+clade_membership_file = open('../../Exo70_gene_definitions_noFX.txt', 'r')
 
 gene_curated_name = {}
 family_members = {}

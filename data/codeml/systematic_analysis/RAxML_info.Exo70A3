@@ -19,9 +19,9 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 336 distinct alignment patterns
+Alignment has 280 distinct alignment patterns
 
-Proportion of gaps and completely undetermined characters in this alignment: 23.50%
+Proportion of gaps and completely undetermined characters in this alignment: 11.56%
 
 RAxML rapid hill-climbing mode
 
@@ -38,7 +38,7 @@ Likelihood of final tree will be evaluated and optimized under GAMMA
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 336
+Alignment Patterns: 280
 Name: No Name Provided
 DataType: DNA
 Substitution Matrix: GTR
@@ -48,27 +48,27 @@ Substitution Matrix: GTR
 
 RAxML was called as follows:
 
-raxml -s Exo70A3.PRANK.phylip.best.phy -m GTRCAT -n Exo70A3 -p 32069450 -T 4 
+raxml -s Exo70A3.PRANK.phylip.best.phy -m GTRCAT -n Exo70A3 -p 51563491 -T 4 
 
 
 Partition: 0 with name: No Name Provided
-Base frequencies: 0.288 0.214 0.250 0.249 
+Base frequencies: 0.287 0.215 0.251 0.246 
 
-Inference[0]: Time 0.080467 CAT-based likelihood -4957.432772, best rearrangement setting 4
-alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 2.698939 14.800818 3.333925 2.876841 14.553419 1.000000 
+Inference[0]: Time 0.088706 CAT-based likelihood -4661.407814, best rearrangement setting 3
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.669584 21.189646 4.470662 3.897247 20.238285 1.000000 
 
 
 Conducting final model optimizations on all 1 trees under GAMMA-based models ....
 
-Inference[0] final GAMMA-based Likelihood: -5919.080512 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70A3
+Inference[0] final GAMMA-based Likelihood: -5638.065768 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70A3
 
 
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5919.080512 .... 
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5638.065768 .... 
 
-Final GAMMA-based Score of best tree -5919.080512
+Final GAMMA-based Score of best tree -5638.065768
 
 Program execution info written to /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_info.Exo70A3
 Best-scoring ML tree written to: /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_bestTree.Exo70A3
 
-Overall execution time: 0.107692 secs or 0.000030 hours or 0.000001 days
+Overall execution time: 0.114640 secs or 0.000032 hours or 0.000001 days
 

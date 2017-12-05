@@ -1,6 +1,6 @@
-      seqfile = Exo70A2.PRANK.paml.best.phy
-     treefile = RAxML_result.Exo70A2
-      outfile = results.A2.txt
+      seqfile = Exo70G1.PRANK.paml.best.phy
+     treefile = RAxML_result.Exo70G1
+      outfile = results.G1.txt
         noisy = 1      * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1      * 1:detailed output
       runmode = 0      * 0:user defined tree

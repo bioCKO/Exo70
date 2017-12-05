@@ -19,7 +19,7 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 474 distinct alignment patterns
+Alignment has 475 distinct alignment patterns
 
 Proportion of gaps and completely undetermined characters in this alignment: 23.15%
 
@@ -38,7 +38,7 @@ Likelihood of final tree will be evaluated and optimized under GAMMA
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 474
+Alignment Patterns: 475
 Name: No Name Provided
 DataType: DNA
 Substitution Matrix: GTR
@@ -54,21 +54,21 @@ raxml -s Exo70F2.PRANK.phylip.best.phy -m GTRCAT -n Exo70F2 -p 54057718 -T 4
 Partition: 0 with name: No Name Provided
 Base frequencies: 0.202 0.294 0.300 0.204 
 
-Inference[0]: Time 0.125903 CAT-based likelihood -5988.843938, best rearrangement setting 5
-alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.292539 5.467187 1.016737 2.569368 5.032977 1.000000 
+Inference[0]: Time 0.140191 CAT-based likelihood -5967.155195, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.287742 5.861977 1.043633 2.616220 5.339833 1.000000 
 
 
 Conducting final model optimizations on all 1 trees under GAMMA-based models ....
 
-Inference[0] final GAMMA-based Likelihood: -7133.401470 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70F2
+Inference[0] final GAMMA-based Likelihood: -7134.274141 tree written to file /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_result.Exo70F2
 
 
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7133.401470 .... 
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7134.274141 .... 
 
-Final GAMMA-based Score of best tree -7133.401470
+Final GAMMA-based Score of best tree -7134.274141
 
 Program execution info written to /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_info.Exo70F2
 Best-scoring ML tree written to: /Users/moscoum/Research/projects/Exo70/data/codeml/systematic_analysis/RAxML_bestTree.Exo70F2
 
-Overall execution time: 0.194898 secs or 0.000054 hours or 0.000002 days
+Overall execution time: 0.214778 secs or 0.000060 hours or 0.000002 days
 
