@@ -1,7 +1,9 @@
 # Analysis of Exo70 gene family and NLR-Exo70
 
+## Table of contents
+
 ## Introduction
-We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. We later expand this analysis to include a diverse array of grass species. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation in the Exo70 gene family. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR) proteins, focusing on its evolutionary relationship with NLRs, date the integration event, and assess its presence/absence across a range of grass species.
+We describe the annotation of the Exo70 gene family from barley and integrate the identified genes within existing resources from *Brachypodium distachyon*, *Oryza sativa*, and *Arabidopsis thaliana*. We later expand this analysis to include a diverse array of grass species. Using resequencing data from a diverse panel of accessions in *Hordeum vulgare* and *Brachypodium distachyon*, we assess nucleotide diversity and presence/absence variation in the Exo70 gene family. Next, we assess tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene families and associate with existing knowledge in *Arabidopsis thaliana*. Lastly, we analyze the integration of Exo70 into nucleotide binding, leucine-rich repeat (NB-LRR or NLR) proteins, focusing on its evolutionary relationship with NLRs, date the integration event, and assess its presence/absence across a range of grass species.
 
 ## Annotation of Exo70 encoding genes in plants
 Previously, Cvrckova *et al.* (2012) comprehensively described members of the exocyst complex throughout land plants. These species included:
@@ -147,7 +149,7 @@ cat *.tsv > Exo70_species_all.fa.tsv
 python QKdomain_preprocess.py Exo70_species_all.fa.tsv Exo70_species_all_preprocess_summary.txt ../../Exo70_abbreviations.txt
 ```
 
-**Table 2.** Protein domains associated with the Exo70 gene family in all species studied.
+**Table 3.** Protein domains associated with the Exo70 gene family in all species studied.
 
 |Domain identifier|Software       |Domain type                                        |Genes with domain|Total observed domains|Average domain length|Abbreviation|
 |:---------------:|:-------------:|:--------------------------------------------------|:---------------:|:--------------------:|:-------------------:|:----------:|
@@ -214,7 +216,7 @@ Coils and TMHMM predict the presence of coiled coils and transmembrane domains, 
 python QKdomain_process.py -d Exo70 Exo70_v3_all.fa Exo70_v3_all.fa.tsv Exo70_abbreviations.txt Exo70_v3_all_process_summary.txt Exo70_v3_all_Exo70.fa
 ```
 
-**Table 3.** Domain architecture of genes containing a nucleotide binding (NB) domain.
+**Table 4.** Domain architecture of genes containing a nucleotide binding (NB) domain.
 
 |Gene                     |Domain architecture         |
 |:------------------------|:--------------------------:|
@@ -231,7 +233,7 @@ The Ser/Thr kinase domain exhibited in LOC_Os07g10910 (two alternate gene models
 
 ## Phylogenetic analysis of the Exo70 gene family
 ### Annotation of *Brachypodium distachyon* and *Hordeum vulgare* Exo70 proteins based on *Arabidopsis thaliana* and *Oryza sativa*
-To generate a phylogenetic tree of the Exo70 gene family, we aligned the full length Exo70 proteins, except for genes listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [134 Exo70 genes](data/alignments/Exo70_AtBdHvOsSc.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
+To generate a phylogenetic tree of the Exo70 gene family, we aligned the full length Exo70 proteins, except for genes listed in **Table 4**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [134 Exo70 genes](data/alignments/Exo70_AtBdHvOsSc.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
 
 ```bash
 cat Exo70_species_At_curated.fa Exo70_species_Bd_curated.fa Exo70_species_Hv_Met_curated.fa Exo70_species_Hv_RGH2_curated.fa Exo70_species_Os_curated.fa Exo70_species_Sc_curated.fa > Exo70_AtBdHvOsSc.fa
@@ -250,7 +252,7 @@ The phylogenetic tree was visualized using [EMBL iTOL](http://itol.embl.de) as s
 ![alt text](figures/Exo70_AtBdHvOsSc_phylogeny.png "Exo70 phylogenetic tree with At, Bd, Hv, Os, and Sc")
 
 ### Expansion of the phylogenetic tree to include sequenced Poaceae species
-The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 3**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [257 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbScSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
+The inclusion of *Arabidopsis thaliana* in the phylogenetic tree facilitated the classification of Exo70 proteins based on preexisting annotations. Next, we extended the phylogenetic tree of full length Exo70 proteins to include other grass species including *Oropetium thomaeum*, *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, except for proteins listed in **Table 4**, where the Exo70 domain region was extracted from the gene based on the `QKdomain` output. A single gene model was selected at each gene locus for the analysis. Multiple sequence alignment using MUSCLE was performed on the [257 Exo70 genes](data/alignments/Exo70_BdHvOsOtSbScSiZm.fa). The *Saccharomyces cerevisiae* Exo70 gene (YJL085W) was included as an outgroup in phylogenetic analysis.
 
 Gene identifers were converted into human readable format using `QKphylogeny_rename_nodes.py` based on the annotation from [Cvrčková *et al.* (2012) *Frontiers in Plant Science*](https://doi.org/10.3389/fpls.2012.00159). 
 
@@ -304,7 +306,7 @@ raxml -f a -x 78453201957413 -p 9758494154143 -# 1000 -m PROTGAMMAAUTO -s Exo70_
 ```
 
 ## Molecular evolution of *Exo70* gene families
-The identification of orthologous groups facilitated molecular evolutionary analyses of individual gene families, with the main goal of identifying dN/dS values. Our first step was to extract the coding sequence for all Poaceae Exo70 genes.
+The identification of orthologous groups facilitated molecular evolutionary analyses of individual gene families, with the main goal of identifying dN/dS values. Our first step was to extract the coding sequence for all Poaceae Exo70 genes (although excluding the Exo70FX gene family).
 
 ```bash
 python QKutilities_fasta_subset.py -s Exo70_gene_definitions.txt -f ~/Research/sequences/barley_gDNA_2017/160517_Hv_IBSC_PGSB_r1_CDS_AllConf_REPR_annotation.fasta -o HvExo70_CDS.fa
@@ -325,41 +327,6 @@ Next, a Python wrapper script was generated that performs the following operatio
 * Estimates dN/dS values using PAML codeml
 
 The script is [Exo70_systematic_analysis.py](data/codeml/systematic_analysis/Exo70_systematic_analysis.py)
-
-## Expansion and contraction of Exo70 gene families
-The phylogenetic tree was used to:
-* Assess expansion of gene families, and
-* Identify the loss of genes.
-
-Species-specific grouping of orthologous gene families was observed for *Arabidopsis thaliana*, although the majority of gene families were supported. The only exception was AtExo70F1, where bootstrap support was not present for grouping within the Exo70F clade of *Oryza sativa*, *Hordeum vulgare*, and *Brachypodium distachyon*.
-
-Corrections were made to gene symbols based on the phylogenetic tree. This includes two Exo70 encoding genes, OsExo70X2 and Os01g05580.1, that were members of the OsExo70F4 clade and were designated OsExo70F4b and OsExo70F4c, respectively. The clade including the AtExo70E gene family contains one rice (OsExo70X1), one *Brachypodium distachyon* (Bradi2g50730.2.p), and two barley Exo70 proteins (HORVU3Hr1G073850.1 and HORVU3Hr1G073910.1). These genes have been reassigned the identifiers OsExo70E1, BdExo70E1, HvExo70E1a, and HvExo70E1b, respectively.
-
-Expansion/contraction of Exo70 gene families was observed in several cases and is shown below in **Table 5**.
-
-**Table 5.** Expansion/contraction in Exo70 gene family in grass species.
-
-|Gene family|*O. sativa*|*H. vulgare*|*B. distachyon*|
-|:---------:|:---------:|:----------:|:-------------:|
-|Exo70A     |      3    |      4     |        4      |
-|Exo70B     |      3    |      2     |        2      |
-|Exo70E     |      1    |      2     |        1      |
-|Exo70F2    |      1    |      2     |        1      |
-|Exo70H     |      4    |      1     |        1      |
-
-Note: Check original IDs to confirm not alternate gene models.
-
-Using evolutionary relationships of *Oryza sativa*, *Hordeum vulgare*, and *Brachypodium distachyon*, we can hypothesize that the gene families of:
-* Exo70A, expansion in *H. vulgare* and *B. distachyon*
-* Exo70B, expansion in *O. sativa*
-* Exo70E and Exo70F2, expansion in *H. vulgare* or loss in *B. distachyon*
-* Exo70H, expansion in *O. sativa*
-* Exo70F5, loss of gene in *B. distachyon*
-
-Previous observations of extensive expansion within the Exo70FX clade in *Oryza sativa* was supported in *Hordeum vulgare* and *Brachypodium distachyon*. Orthologous relationships are unclear for the majority of this gene family, therefore no attempt was made to associate identifiers between species. 
-
-## Identification of novel motifs within Exo70 genes
-Use the existing pipeline within QKdomain to identify all sequences not associated with Exo70 domains and identify additional conserved motifs.
 
 ## Evolution of *Exo70F1* in the Poaceae
 The following analysis is associated with the manuscript entitled 'An ancient integration at *Mla* is maintained as a *trans*-species polymorphism'. We observed that *RGH2* in the cv. Baronesse has a C-terminal integration of *Exo70F1*. Allelic variants in barley of *RGH2* exist that are either NB-LRR or NB-LRR-Exo70F1. The integration spans approximately 86.9% of Exo70F1 and lacks only the first 86 aa. This prompted several initial questions including:
@@ -403,7 +370,7 @@ Experimental approaches:
 We set out to identify publically available transcriptome data sets that capture the diversity of other grass species. In our initial screen, we found that 10 accessions of *Aegilops tauschii* that have RNAseq and assembled transcriptomes. These assemblies are described in the following manuscript:
 > Nishijima *et al.*, "Genome-wide identification of novel genetic markers from RNA sequencing assembly of diverse *Aegilops tauschii* accessions.", *Mol. Genet. Genomics*, 2016 May 3;291(4):1681-94
 
-**Table.** *Aegilops tauschii* accessions, short-read archive (SRA), and transcriptome (TSA) identifiers.
+**Table 5.** *Aegilops tauschii* accessions, short-read archive (SRA), and transcriptome (TSA) identifiers.
 
 |Accession|   SRA    |      TSA     |
 |:-------:|:--------:|:------------:|
@@ -422,7 +389,7 @@ Using BLAST, we discovered that *Exo70F1* was highly expressed in all 10 accessi
 
 We expanded our search to include a diverse array of Poaceae species, including 14 species. Unfortunately, for the majority of species, only a single accession was sequenced.
 
-**Table.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly of Poaceae species
+**Table 6.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly of Poaceae species
 
 |Species                    |Abbreviation|Accession|Type |Identifiers                                                           |Notes              |
 |:--------------------------|:----------:|:-------:|:---:|:---------------------------------------------------------------------|:------------------|
@@ -450,7 +417,7 @@ Alignment of RGH2 (Morex), RGH2 (Baronesse), and RGH2 (*Aegilops tauschii*) foun
 * RGH2 (Baronesse) at 975 aa
 * RGH2 (*Aegilops tauschii*) at 961 aa
 
-**Table 1.** Pairwise nucleotide/protein identity of RGH2 from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
+**Table 7.** Pairwise nucleotide/protein identity of RGH2 from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
 
 |              |RGH2 Ta|RGH2 Morex|RGH2 Baronesse|
 |:-------------|:-----:|:--------:|:------------:|
@@ -467,7 +434,7 @@ Alignment of HvExo70F1 (HORVU3Hr1G094570.3; Morex), Exo70F-ID (RGH2; Baronesse),
 * Exo70F1 (*Brachypodium distachyon*) at 98 aa
 * Exo70F1 (Os01g69230.1; *Oryza sativa*) at 75 aa
 
-**Table 2.** Pairwise nucleotide/protein identity of Exo70F1 from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa* including the *RGH2* region encoding the Exo70 integrated domains from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
+**Table 8.** Pairwise nucleotide/protein identity of Exo70F1 from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa* including the *RGH2* region encoding the Exo70 integrated domains from *Hordeum vulgare* and *Aegilops tauschii*. Upper right is nucleotide identity, lower left is protein identity.
 
 |              |OsExo70F1|BdExo70F1|HvExo70F1|RGH2 Ta|RGH2 Baronesse|
 |:-------------|:-------:|:-------:|:-------:|:-----:|:------------:|
@@ -482,66 +449,6 @@ Alignment of HvExo70F1 (HORVU3Hr1G094570.3; Morex), Exo70F-ID (RGH2; Baronesse),
 2. The integrated *Exo70F1* in barley and wheat share substantially higher identity at the nucleotide and protein level than with *Exo70F1* from barley, Brachypodium, and rice.
 
 This is a striking result, as it suggests that the integrated Exo70F1 shares the same identity 
-
-**Table 3.** Synonymous, non-synonymous, and Ka/Ks ratio for pairwise analysis of *RGH2* from *Hordeum vulgare* and *Aegilops tauschii*.
-
-|Protein 1      |Protein 2    |dS-yn|dN-yn|dS-ng|dN-ng|dN/dS-yn|
-|:--------------|:------------|:---:|:---:|:---:|:---:|:------:|
-|2312 m.12779   |RGH2 Ta      |0.12 |0.05 |0.15 |0.05 |  0.42  |
-|RGH2 Baronesse |RGH2 Ta      |0.12 |0.05 |0.14 |0.05 |  0.43  |
-|RGH2 Baronesse |2312 m.12779 |0.07 |0.04 |0.09 |0.04 |  0.56  |
-
-**Table 4.** Synonymous, non-synonymous, and Ka/Ks ratio for pairwise analysis of *Exo70F1* from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa* including the *RGH2* region encoding the Exo70 integrated domains from *Hordeum vulgare* and *Aegilops tauschii*.
-
-|Protein 1     |Protein 2            |dS-yn|dN-yn|dS-ng|dN-ng|Ka/Ks-yn|
-|:-------------|:--------------------|:---:|:---:|:---:|:---:|:------:|
-|BdExo70F1     |RGH2-Exo70 Ta        |0.44 |0.13 |0.43 |0.13 |  0.31  |
-|BdExo70F1     |HvExo70F1            |0.37 |0.04 |0.31 |0.04 |  0.10  |
-|BdExo70F1     |OsExo70F1            |0.55 |0.08 |0.46 |0.09 |  0.15  |
-|BdExo70F1     |RGH2-Exo70 Baronesse |0.49 |0.16 |0.48 |0.16 |  0.33  |
-|RGH2-Exo70 Ta |HvExo70F1            |0.55 |0.16 |0.51 |0.16 |  0.30  |
-|RGH2-Exo70 Ta |OsExo70F1            |0.69 |0.18 |0.66 |0.18 |  0.27  |
-|RGH2-Exo70 Ta |RGH2-Exo70 Baronesse |0.17 |0.11 |0.18 |0.11 |  0.68  |
-|HvExo70F1     |OsExo70F1            |0.54 |0.10 |0.47 |0.10 |  0.18  |
-|HvExo70F1     |RGH2-Exo70 Baronesse |0.49 |0.16 |0.51 |0.15 |  0.31  |
-|OsExo70F1     |RGH2-Exo70 Baronesse |0.71 |0.20 |0.70 |0.20 |  0.28  |
-
-Note: In both alignments described above, the protein sequence of RGH2 (*Aegilops tauschii*) is including an extend N-terminal region with 17 amino acids. Based on conservation, it would be expected that this is not the start of translation.
-Note: OsExo70F1 has less conserved sequence with the integrated Exo70 (4 additional acidic amino acids are present in Brachypodium, barley, and wheat Exo70F1).
-
-Comment to self: Need to check whether the residues present in barley and wheat variants are variable among Exo70F proteins... (or Exo70 more generally...)
-Comment to self 2: RGH2 (Baronesse) has an extra 15 amino acids at the end of the protein compared to other sequences
-
-**Question:** Are exposed residues under positive selection and buried residues under purifying selection?
-PAML can be used to separate these two groups of residues and make this analysis (use the alignment to AtExo70A1 to infer structure).
-
-**Todo:** Generate a phylogenetic tree using a larger group of Exo70 from diverse monocot species to have an outgroup for Exo70F1 for phylogenetic analysis.
-
-### Phylogenetic analysis of RGH2 NB domain in *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa*
-A phylogenetic tree was generated using NB domains derived from *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa*. Analysis of the clade containing *RGH2* identified several closely related NB domains in *Hordeum vulgare*, *Brachypodium distachyon*, and *Oryza sativa*. These include:
-*Hordeum vulgare*
-* 2709|m.20568 (NB-LRR-ZF)
-* 2710|m.20583 (NB-LRR-ZF)
-* 2312|m.12779 (*RGH2* in Morex)
-
-*Brachypodium distachyon*
-* Bradi4g13987 (CC-NB-LRR-Lectin-Lectin-Lectin)
-* Bradi4g10450 (CC-NB-LRR-Pkinase)
-
-*Oryza sativa*
-* Os11g38000 (NB)
-* Os12g18360 (CC-NB-LRR-TRX)
-
-Protein sequence for these genes can be found in the file [RGH2_phylogenetic_neighbors.fa](data/RGH2_phylogenetic_neighbors.fa)
-
-Additional work is required to assess the bootstrap support that differentiates these NB domains based on an alignment of NB domains from genes only within this clade and with an appropriate outgroup.
-
-### BLAST analysis of RGH2-Exo70 (Baronesse) on *Aegilops sharonensis*
-BLAST of RGH2-Exo70 (Baronesse) on *Aegilops sharonensis* accession 1644 found that the RGH2 homolog mapped to a different genomic contig (contig_545984) compared to the Exo70 domain (contig_71920).
-
-```bash
-blastall -p tblastn -i RGH2_Baronesse.fa -d ~/Research/sequences/aegilops_sharonensis_WGS/assembly1_1644_IUPAC2189.fasta -o RGH2_Baronesse_assembly1_1644_IUPAC2189_tblastn.txt -a 4 -F F -v 10 -b 10
-```
 
 ### Phylogenetic analysis of the *Exo70F1* gene family
 To understand the relationship of the *Exo70F1* gene family, a multiple sequence alignment using PRANK was used for the development of a phylogenetic tree. OsExo70F3 was included to be used as an outgroup to root the tree.
@@ -565,9 +472,9 @@ The resulting tree is shown below. There are three limitations in this analysis:
 
 ![alt text](figures/Exo70F1_phylogeny_v1.png "Exo70F1 phylogenetic tree using OsExo70F3 as outgroup")
 
-Next, we expanded the analysis to include the PACMAD clade species *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, and distantly related monocots *Musa acuminata* and *Spirodela polyrhiza*. Exo70 proteins were identified using the Pfam identifier PF03081 and used to performed a multiple sequence alignment using MUSCLE. Manually curation was used to correct the alignment of full length Exo70 proteins, either by extracting the Exo70 domain from NB-LRRs or removal of small fragmented Exo70 proteins (**Table X**). ScExo70 was added to the alignment as an outgroup.
+Next, we expanded the analysis to include the PACMAD clade species *Sorghum bicolor*, *Setaria italica*, and *Zea mays*, and distantly related monocots *Musa acuminata* and *Spirodela polyrhiza*. Exo70 proteins were identified using the Pfam identifier PF03081 and used to performed a multiple sequence alignment using MUSCLE. Manually curation was used to correct the alignment of full length Exo70 proteins, either by extracting the Exo70 domain from NB-LRRs or removal of small fragmented Exo70 proteins (**Table 9**). ScExo70 was added to the alignment as an outgroup.
 
-**Table X.** Monocot full length Exo70 domain containing proteins that were manually curated.
+**Table 9.** Monocot full length Exo70 domain containing proteins that were manually curated.
 
 |Identifier        |Curation comments                       |
 |:----------------:|:---------------------------------------|
@@ -613,53 +520,6 @@ rm -R trinity_out_dir/
 ```
 
 Orthologs of *Exo70F1* were identified in all species analyzed. In addition, orthologs of *RGH2* were either (1) not present, (2) present without *Exo70F1* integration, or (3) present with *Exo70F1* integration. These three classes of variation observed within grasses are identical to what is observed within both *Hordeum vulgare* and *Aegilops tauschii*. Two species had *Exo70F1* integrations, including *Avena sativa* and *Poa annua*. In *Avena sativa*, the integration is not in-frame creating two overlapping open reading frames that encode RGH2 and Exo70F1 proteins. In *Poa annua* the integration is in frame.
-
-**Table X.** 
-
-|Species                    |Gene     |Identifier                        |Notes                           |
-|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
-|*Achnatherum splendens*    |*Exo70F1*|DN27349_c2_g1_i3                  |                                |
-|*Agropyron cristatum*      |*Exo70F1*|DN52368_c0_g1_i1                  |                                |
-|*Agropyron desertorum*     |*Exo70F1*|DN73454_c1_g2_i1                  |Fragment, need to extend        |
-|*Agrostis stolonifera*     |*Exo70F1*|DN14026_c1_g1_i3                  |                                |
-|*Avena sativa*             |*Exo70F1*|TR86309_c0_g1_i1                  |Non-integrated                  |
-|*Bromus inermis*           |*Exo70F1*|DN316854_c0_g1_i1                 |                                |
-|*Dactylis glomerata*       |*Exo70F1*|DN30327_c2_g1_i1                  |                                |
-|*Festuca pratensis*        |*Exo70F1*|DN23806_c5_g2_i1                  |                                |
-|*Holcus lanatus*           |*Exo70F1*|DN73170_c0_g7_i1,DN73170_c0_g14_i1|Fragmented                      |
-|*Melica nutans*            |*Exo70F1*|DN25023_c1_g1_i3                  |                                |
-|*Nardus stricta*           |*Exo70F1*|DN28212_c0_g1_i3                  |                                |
-|*Phalaris arundinacea*     |*Exo70F1*|DN52809_c0_g2_i1,DN47937_c1_g1_i4 |Fragmented                      |
-|*Poa annua*                |*Exo70F1*|DN37714_c0_g1_i12,DN29762_c0_g1_i1|Merged contigs                  |
-|*Poa pratensis*            |*Exo70F1*|DN214133_c7_g1_i3                 |                                |
-|*Stipa lagascae*           |*Exo70F1*|DN40527_c0_g3_i2                  |                                |
-
-|Species                    |Gene     |Identifier                        |Notes                           |
-|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
-|*Agropyron cristatum*      |*RGH2*   |DN41656_c2_g2_i5                  |Non-integrated, early stop codon|
-|*Agropyron desertorum*     |*RGH2*   |DN66057_c5_g2_i2                  |Non-integrated                  |
-|*Agrostis stolonifera*     |*RGH2*   |DN10799_c1_g2_i1                  |Non-integrated                  |
-|*Avena sativa*             |*RGH2*   |TR23872_c0_g4_i7                  |Integrated, not in frame        |
-|*Dactylis glomerata*       |*RGH2*   |DN14829_c0_g1_i2                  |Cannot assess integrated status |
-|*Festuca pratensis*        |*RGH2*   |DN30046_c5_g1_i4                  |Non-integrated                  |
-|*Holcus lanatus*           |*RGH2*   |DN82267_c1_g1_i1,DN84363_c3_g1_i5 |Fragmented                      |
-|*Melica nutans*            |*RGH2*   |DN25504_c1_g1_i7                  |Non-integrated                  |
-|*Phalaris arundinacea*     |*RGH2*   |DN57676_c0_g1_i1,DN60508_c1_g1_i5 |Fragmented                      |
-|*Poa annua*                |*RGH2*   |DN36697_c1_g2_i5,DN33459_c0_g1_i2 |Incomplete, sequential extension|
-|*Stipa lagascae*           |*RGH2*   |DN37467_c1_g1_i9                  |Non-integrated                  |
-
-|Species                    |Gene     |Identifier                        |Notes                           |
-|:--------------------------|:-------:|:---------------------------------|:-------------------------------|
-|*Agropyron cristatum*      |*RGH3*   |DN40142_c0_g1_i9                  |N-terminal truncation           |
-|*Agropyron desertorum*     |*RGH3*   |DN64380_c0_g1_i1,DN61022_c0_g1_i1 |Fragmented                      |
-|*Agrostis stolonifera*     |*RGH3*   |DN13830_c2_g2_i6                  |N-terminal truncation           |
-|*Avena sativa*             |*RGH3*   |Obtain from capture data          |                                |
-|*Festuca pratensis*        |*RGH3*   |DN25392_c0_g2_i1                  |                                |
-|*Holcus lanatus*           |*RGH3*   |DN81287_c0_g1_i7                  |N-terminal truncation           |
-|*Melica nutans*            |*RGH3*   |DN26792_c0_g6_i6                  |Almost complete sequence        |
-|*Phalaris arundinacea*     |*RGH3*   |DN56399_c0_g1_i1                  |                                |
-|*Poa annua*                |*RGH3*   |DN36391_c0_g6_i1                  |C-terminal truncation           |
-|*Poa pratensis*            |*RGH3*   |DN208182_c1_g1_i1                 |Lacking small part of C-terminal region|
 
 Our ability to assess the integration of *Exo70F1* was restricted by the quality of the transcriptome assembly. For *RGH2*, when a single contig was not formed, the N- and C-terminal fragments could be identified.
 
@@ -944,33 +804,12 @@ The final tree shows that integration of *Exo70F1* occurred after the speciation
 
 ![alt text](figures/Exo70F1_nr_Poaceae_c_Os_PRANK.png)
 
-## Resources for analyzing the integrated Exo70 domain in RGH2
-Thermo Fisher Scientific GeneArt was used to synthesize the Exo70 domain from RGH2 in Baronesse. The region selected for synthesis is just after the final Pfam annotation for the LRR region. Modifications to the sequence from the reference include changing the amino acid just after the LRR region to a ATG (Met) and the final stop codon to an in-frame open reading frame for the vector. This domain was introduced into the pDONR221 vector, which is developed for Gateway cloning with C-terminal fusion. Domestication for GoldenGate cloning would require the removal of a *Bpi*I and *Bsa*I site located in the 3' region of the insert.
-
-![alt text](figures/pDONR221_Exo70_C_C119.png "pDONR221_Exo70_C_C119")
-
-## Future questions
-### Nucleotide diversity in Exo70 genes
-Are there additional Exo70 that are integrated in NB-LRR that exist as allelic variants?
-Presence/absence variation relative to other sequenced genomes? (Confirm with BLAST)
-Is the toplogy of all phylogenetic trees of orthologous Exo70 gene families identical to the species tree?
-
-### Transcriptional dynamics of Exo70 genes including tissue-dependent gene expression in *Hordeum vulgare* for the Exo70 gene family
-Alignment of RNAseq data from barley tissue data sets onto Exo70 gene families.
-Need to extract the genomic regions encompassing Exo70 genes with GFF files.
-Perform clustering analysis, look for general trends in tissue-specificity within each clade.
-Particular attention to the Exo70F and Exo70FX clades.
-
-### Evolutionary history of NLR/Exo70 association
-An analysis that can occur would look across all plant species for the integration of Exo70 into NLRs. Questions include (1) are there intregrations in other species?, (2) do they all have the same orientation?, and (3) are all Exo70 derived from the same group? (we already know the answer is no, Exo70F and Exo70FX).
-
 ## Versions of genomes/transcriptomes
 
-**Table** Source repositories of genome and transcriptomes
+**Table 10.** Source repositories of genomes
 
 |Species                    |Abbreviation| Accession|Type|Version|Source                     |
 |:--------------------------|:----------:|:--------:|:--:|:-----:|:--------------------------|
-|*Aegilops sharonensis*     |   *Aes*    |     1644 |gDNA|   1   | John Innes Centre (Wulff) |
 |*Annas comosus*            |    *Ac*    |          |gDNA|  321  | DOE-JGI Phytozome         |
 |*Arabidopsis thaliana*     |    *At*    |    Col-0 |gDNA|   10  | TAIR                      |
 |*Brachypodium distachyon*  |    *Bd*    |     Bd21 |gDNA|  3.1  | DOE-JGI Phytozome         |
@@ -985,7 +824,7 @@ An analysis that can occur would look across all plant species for the integrati
 |*Zea mays*                 |    *Zm*    |      B73 |gDNA|2010-01| DOE-JGI Phytozome         |
 
 
-**Table.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly of Poales species
+**Table 11.** Sequence read archive (SRA) data sets used for *de novo* transcriptome assembly of Poales species
 
 |Species                      |Abbreviation|      Family   |Type |Identifiers|Notes              |
 |:----------------------------|:----------:|:-------------:|:---:|:---------:|:------------------|
