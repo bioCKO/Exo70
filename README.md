@@ -890,7 +890,6 @@ prank -d=Exo70F1_nr.fa -o=Exo70F1_PRANK_paml.phy -f=paml -DNA -codon
 ```
 
 #### Differentiating between orthologs and paralogs in the Poales *Exo70F1* phylogenetic tree
-
 Sequence identity (BLAST) was used to identify *Exo70F1* homologs in diverse Poales species. Poaceae species typically have five *Exo70F* genes. The timing of the expansion and divergence of *Exo70F* is unknown, therefore sequences with strong identity may be paralogs rather than orthologs of *Exo70F1*. To assess this, we performed multiple sequence alignment among all *Exo70F* identified in the genomes and transcriptomes of the Poales. *Arabidopsis thaliana* *Exo70F1* was included as an outgroup for phylogenetic analysis. 
 
 ```bash
@@ -931,9 +930,11 @@ We manually curated the sequence spanning non-integrated and integrated *Exo70F1
 ```bash
 prank -d=Exo70F1_nr_Poaceae_c.fa -o=Exo70F1_nr_Poaceae_c_PRANK_paml.phy -f=paml -DNA -codon
 prank -d=Exo70F1_nr_Poaceae_c_Os.fa -o=Exo70F1_nr_Poaceae_c_Os_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=Exo70F1_nr_Poaceae_c_Os_FL.fa -o=Exo70F1_nr_Poaceae_c_Os_FL_PRANK_paml.phy -f=paml -DNA -codon
 
 raxml -f a -x 647724151689 -p 64872134623 -# 1000 -m GTRGAMMA -s Exo70F1_nr_Poaceae_c_PRANK.phy -n Exo70F1_nr_Poaceae_c_PRANK -T 4
 raxml -f a -x 641923462371 -p 47681273412 -# 1000 -m GTRGAMMA -s Exo70F1_nr_Poaceae_c_Os_PRANK.phy -n Exo70F1_nr_Poaceae_c_Os_PRANK -T 4
+raxml -f a -x 856450015223 -p 64923142312 -# 1000 -m GTRGAMMA -s Exo70F1_nr_Poaceae_c_Os_FL_PRANK.phy -n Exo70F1_nr_Poaceae_c_Os_FL_PRANK -T 4
 
 raxml -z RAxML_bootstrap.Exo70F1_nr_Poaceae_c_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 17538346483
 raxml -z RAxML_bootstrap.Exo70F1_nr_Poaceae_c_Os_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 98621535656 

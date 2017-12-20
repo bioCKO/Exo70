@@ -1,6 +1,6 @@
-      seqfile = Exo70F1_grasses_reduced.phy   * sequence data filename
-     treefile = RAxML_bipartitions.Exo70F1_grasses_reduced_H3      * tree structure file name
-      outfile = results.H3.txt   * main result file name
+      seqfile = Exo70F1_nr_Poaceae_c_Os_FL_PRANK.phy   * sequence data filename
+     treefile = RAxML_bestTree.Exo70F1_nr_Poaceae_c_Os_FL_PRANK      * tree structure file name
+      outfile = results.H0.txt   * main result file name
 
         noisy = 1      * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1      * 1:detailed output
@@ -9,7 +9,7 @@
       seqtype = 1      * 1:codons
     CodonFreq = 2      * 0:equal, 1:F1X4, 2:F3X4, 3:F61
 
-        model = 2      * 0:one omega ratio for all branches
+        model = 0      * 0:one omega ratio for all branches
                        * 1:separate omega for each branch
                        * 2:user specified dN/dS ratios for branches
 
