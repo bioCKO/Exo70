@@ -1,5 +1,5 @@
-      seqfile = Exo70F1_nr_Poaceae_c_Os_FL_PRANK.phy   * sequence data filename
-     treefile = RAxML_bestTree.Exo70F1_nr_Poaceae_c_Os_FL_PRANK_H1      * tree structure file name
+      seqfile = Exo70F1_nr_Poaceae_c_Os_FL_codeml_paml.phy   * sequence data filename
+     treefile = RAxML_bestTree.Exo70F1_nr_Poaceae_c_Os_FL_codeml_PRANK_H1      * tree structure file name
       outfile = results.H1.txt   * main result file name
 
         noisy = 1      * 0,1,2,3,9: how much rubbish on the screen

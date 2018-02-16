@@ -1,0 +1,48 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML a posteriori Bootstrap convergence assessment
+
+
+RAxML was called as follows:
+
+raxml -z RAxML_bootstrap.Exo70F1_nr_Poaceae_c_Os_FL_PRANK -m GTRGAMMA -I autoMRE -n TEST -p 98621535656 
+
+
+
+
+Found 1000 trees in File RAxML_bootstrap.Exo70F1_nr_Poaceae_c_Os_FL_PRANK
+
+
+
+Found 1000 trees in File RAxML_bootstrap.Exo70F1_nr_Poaceae_c_Os_FL_PRANK
+
+# Trees 	 Avg WRF in % 	 # Perms: wrf <= 3.00 %
+50 		 4.75 			 3
+100 		 3.70 			 17
+150 		 3.38 			 25
+200 		 2.82 			 60
+250 		 2.59 			 80
+300 		 2.40 			 88
+350 		 2.18 			 96
+400 		 2.16 			 91
+450 		 1.81 			 99
+Converged after 450 replicates

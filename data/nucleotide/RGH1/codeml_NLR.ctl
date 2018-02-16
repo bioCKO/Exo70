@@ -1,5 +1,5 @@
-      seqfile = RGH1_NLR_PRANK_paml_nou.phy
-     treefile = RAxML_bestTree.RGH1_NLR_PRANK_nou
+      seqfile = RGH1_NLR_FL_PRANK_paml.phy.best.phy
+     treefile = RAxML_bestTree.RGH1_NLR_FL_PRANK
       outfile = results_NLR.txt
         noisy = 1      * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1      * 1:detailed output

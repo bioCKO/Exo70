@@ -764,7 +764,7 @@ TODO
 ```bash
 cd-hit -i RGH3.fa -c 1.0 -o RGH3_nr.fa
 
-prank -d=RGH3_nr.fa -o=RGH3_PRANK_paml.phy -f=paml -DNA -codon
+prank -d=RGH3_nr.fa -o=RGH3_nr_PRANK_paml.phy -f=paml -DNA -codon
 prank -d=RGH3_NLR.fa -o=RGH3_NLR_PRANK_paml.phy -f=paml -DNA -codon
 prank -d=RGH3_NB.fa -o=RGH3_NB_PRANK_paml.phy -f=paml -DNA -codon
 
